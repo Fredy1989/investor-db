@@ -1,0 +1,30 @@
+id,name,candidate_source,candidate_source_url,note
+credo,Credo Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+kaya,KAYA VC,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+presto,Presto Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+rockaway,Rockaway Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+miton,Miton,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,vlastní kapitál bez LP – test typu private_investor vs vc
+jtventures,J&T Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,CZ/SK – test země sídla
+orbit,Orbit Capital,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,venture debt – test pravidla E3
+purple,Purple Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+impulse,Impulse Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+lighthouse,Lighthouse Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+reflex,Reflex Capital,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+inven,Inven Capital,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,CVC (ČEZ)
+tilia,Tilia Impact Ventures,Wikipedia,https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic,
+nation1,Nation 1 VC,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+zaka,ZAKA Startups,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+depo,DEPO Ventures,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+tensor,Tensor Ventures,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+longevitytech,Longevitytech.fund,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+springtide,Springtide Ventures,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+palefire,Pale Fire Capital,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,
+ysoft,Y Soft Ventures,AIN.ua top 17 H1 2022,https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022,CVC – test aktivity (E6)
+czechfounders,Czech Founders VC,The Recursive,https://therecursive.com/?p=24901,
+iplab,Czech IP Lab Ventures,The Recursive news,https://therecursive.com/?p=35885,technology transfer fond s EIF
+aspire11,Aspire11,Forbes.cz / funding.tech.eu,https://forbes.cz/investori-jsou-vybiravejsi-pocet-investic-do-startupu-ubyva-jejich-prumerna-vyse-vsak-roste/,fond fondů? – test I3/typu
+nrf,Národní rozvojový fond,znalost trhu,https://www.nrf.cz/,public_vc / fond fondů – test
+startupyard,StartupYard,znalost trhu,https://startupyard.com/,akcelerátor – test E2
+fundlift,Fundlift,znalost trhu,https://www.fundlift.cz/,crowdfunding – test E1
+pointer,Pointer,znalost trhu,https://www.pointer.cz/,crowdfunding – test E1
+genesis,Genesis Capital / Genesis Ventures,znalost trhu,https://www.genesiscapital.cz/,PE s VC větví – test typu
