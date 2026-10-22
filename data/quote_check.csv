@@ -154,7 +154,7 @@ presto,include,funds,0,https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-
 presto,include,funds,1,https://www.prestoventures.com,,200,exact,1.0,"Since 2016, we’ve invested €40M from two funds."
 presto,include,investment_evidence,0,https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518,B,200,exact,1.0,"Bavovna, hybridní AI systém pro autonomní navigaci dronů"
 presto,include,investment_evidence,1,https://cc.cz/tag/presto-ventures/,B,200,exact,1.0,Teď do nich investoval i zdejší Presto Tech Horizons.
-purple,include,registry,0,https://purple-ventures.com/,A,0,fetch_failed,0.0,"© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574, member of Purple Holding"
+purple,include,registry,0,https://purple-ventures.com/,A,200,exact,1.0,"© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574, member of Purple Holding"
 purple,include,sectors,0,https://purple-ventures.com/,A,200,exact,1.0,We invest into early-stage purpose-driven technology startups with initial revenue and global ambitions.
 purple,include,stages,0,https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/,B,200,exact,1.0,"Fond má ambici v příštích čtyřech letech investovat miliardu korun do asi šedesáti startupů v rané fázi vývoje, tedy pre-seed a seed"
 purple,include,ticket,0,https://purple-ventures.com/,A,200,exact,1.0,€250k to €400k
