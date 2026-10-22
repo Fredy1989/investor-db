@@ -14,7 +14,7 @@ Rozlišujeme tyto typy (`investor_type`):
 | `vc` | fond rizikového kapitálu, investuje do startupů (pre-seed až growth) | Credo Ventures |
 | `pe` | private equity, majoritní/minoritní podíly ve zralých firmách, buy-outy | Genesis Capital |
 | `cvc` | korporátní VC — investiční rameno nefinanční firmy | Inven Capital (ČEZ) |
-| `public_vc` | fond se státním / EU kapitálem, který sám investuje equity do firem | NRF, fondy EIF |
+| `public_vc` | fond se státním / EU kapitálem, který sám investuje equity do firem | (v pilotu žádný — NRF se ukázal jako neinvestující, viz §7) |
 | `family_office` | správa majetku jedné / několika rodin, která přímo investuje do firem | |
 | `angel` | fyzická osoba investující vlastní peníze do startupů | |
 | `private_investor` | investiční skupina / holding velkého soukromého investora | Pale Fire Capital |
@@ -35,7 +35,7 @@ Kdybych je vyřadil, chyběli by v databázi skuteční investoři. Kdybych je z
 ### Vyřazení — stačí JEDNO
 | # | důvod | proč |
 |---|---|---|
-| E1 | Crowdfundingová / investiční platforma (Fundlift, Pointer…) | zprostředkovatel, sám neinvestuje |
+| E1 | Crowdfundingová / investiční platforma (např. Fundlift) | zprostředkovatel, sám neinvestuje |
 | E2 | Akcelerátor / inkubátor / soutěž **bez** vlastního investičního vozidla | dává program nebo grant, ne kapitál za podíl |
 | E3 | Jen dluh: banka, leasing, P2P, čistý venture-debt fond | není equity investor (venture-debt jako *doplněk* VC nevadí) |
 | E4 | Poradce, M&A boutique, investiční banka, asociace, agentura, dotační program, nadace | nevkládá vlastní kapitál |
@@ -140,4 +140,21 @@ Výstupy:
 
 ## 7. Úpravy po pilotu
 
-Doplněno po pilotu (viz `RESULTS.md`).
+Pilot (viz [RESULTS.md](RESULTS.md)) ukázal, co v plánu chybělo nebo bylo špatně:
+
+1. **Přepočet měn nesmí dělat LLM.** 8 ze 17 chybných polí byl kurz. Záznam teď nese `original` (částka, měna)
+   a EUR počítá [src/fx.py](src/fx.py) podle kurzu ECB k datu zdroje; nedatovaný zdroj → datum přístupu.
+2. **Vyřazení může mít i důvod „nesplněno I1–I4", ne jen E1–E8.** Subjekt, který neexistuje (I1) nebo nikdy
+   neinvestoval (I4), nespadá pod žádné E-pravidlo. Kódy `I1`–`I4` jsou proto platné hodnoty `exclusion_rule`.
+3. **Sektory a fáze jen z deklarovaného mandátu.** Když je investor neuvádí a jsou odvozené z dealů, pole má
+   `derived_from: investment_evidence` a nemá citaci. Agenti měli sklon zobecňovat ze 2–3 dealů.
+4. **Důkaz I2 jen z agregátoru (tier C) nestačí.** Bez potvrzení z tieru A/B jde subjekt do `inactive` a čeká na
+   lepší zdroj (StartupYard). Agregátory jsou v pilotu dobré na nalezení dealu, ne na jeho doložení.
+5. **Vztah správce × fond je třeba upřesnit u každého záznamu.** U KAYA, Miton a J&T není jisté, která právnická osoba
+   je správce. U J&T je v záznamu fondový vehikl SICAV. Pro škálování: pole `registry` = správce,
+   fondové vehikly zvlášť ve `funds[].registry`.
+6. **Kapitál potřebuje víc typů `basis`:** přibyly `previous_fund_size` (aktuální fond neznámý) a `portfolio_value`
+   (Miton: hodnota portfolia, ne volný kapitál). Bez `basis` by čísla nebyla porovnatelná.
+7. **Měna neuvedená ve zdroji** („0.5-2m", „17M") → `currency_assumed: true`. Údaj se nezahazuje, ale je označený.
+8. **Kandidáty z „vlastní znalosti" (i mojí) nepovažovat za fakta.** Dva ze tří takových tipů byly chybné
+   (Pointer neexistuje, NRF nebyl investor). Pravidla je vyřadila, ale kandidát by měl mít vždy zdroj.

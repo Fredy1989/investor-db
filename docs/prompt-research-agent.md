@@ -2,6 +2,10 @@
 
 Tento text dostal každý rešeršní agent doslova. Lišil se jen seznam kandidátů (dávka 5–6 subjektů).
 
+> **Známá chyba této verze (v1):** bod 3 předepisuje pevný kurz (1 USD = 0,92 EUR), což odporuje PLAN.md
+> („kurzem k datu zdroje"). Způsobilo to 8 ze 17 chyb. Ve v2 agent přepočet nedělá; do pole `original`
+> zapíše částku a měnu a přepočet udělá `src/fx.py`. Další změny pro v2 jsou v PLAN.md §7.
+
 ---
 
 Jsi rešeršér databáze investorů. Pro každého kandidáta níže vytvoř JSON záznam a ulož ho do
