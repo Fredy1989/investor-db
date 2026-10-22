@@ -6,6 +6,7 @@ a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti ofici�
 
 | soubor | obsah |
 |---|---|
+| [ODEVZDANI.md](ODEVZDANI.md) | **začni tady:** odpovědi na všechny body zadání, placené databáze (ceny, proč nepoužité), hlavní rozhodnutí |
 | [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu |
 | [RESULTS.md](RESULTS.md) | výsledky pilotu, změřená přesnost, rozbor chyb, odhad nákladů na celý svět |
 | [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | **výsledek pro čtení: 36 investorů, jen to, co chce zadání** (sektor, do čeho a v jaké výši investuje, kapitál, doklad investice s datem); klik na hodnotu otevře zdroj; list Vyřazení s důvodem |
