@@ -1,0 +1,54 @@
+{
+  "id": "emuntech",
+  "name": "EMUN TECH (EMUN investiční společnost)",
+  "claims": {
+    "decision": {
+      "value": "out_of_scope",
+      "exclusion_rule": "out_of_scope",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://www.emun.cz"
+    },
+    "registry": {
+      "value": "28495349",
+      "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://www.emun.cz/en/investment-funds/"
+    },
+    "stages": {
+      "value": [],
+      "source_url": null
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf",
+      "original": {
+        "currency": "CZK",
+        "amount": 172000000
+      }
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

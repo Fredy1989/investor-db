@@ -1,0 +1,48 @@
+{
+  "id": "doublespeed",
+  "name": "Double Speed rizikový fond",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "E5",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": null,
+      "country": "CZ",
+      "website": "https://doublespeed.cz/"
+    },
+    "registry": {
+      "value": "75164078",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75164078"
+    },
+    "sectors": {
+      "value": [],
+      "source_url": "https://doublespeed.cz/"
+    },
+    "stages": {
+      "value": [],
+      "source_url": null
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fazole",
+  "name": "Fazole Ventures",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://fazole.vc/"
+    },
+    "registry": {
+      "value": "07491492",
+      "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Fazole&jenPlatne=PLATNE"
+    },
+    "sectors": {
+      "value": [
+        "saas_b2b",
+        "energy_climate",
+        "fintech",
+        "mobility"
+      ],
+      "source_url": "https://fazole.vc/"
+    },
+    "stages": {
+      "value": [
+        "seed"
+      ],
+      "source_url": "https://fazole.vc/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://fazole.vc/",
+      "original": {
+        "currency": "CZK",
+        "min": 1000000,
+        "max": 20000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "own_balance_sheet"
+      },
+      "source_url": "https://fazole.vc/"
+    },
+    "investment_evidence": {
+      "company": "Everbot",
+      "date": "2025-09-16",
+      "round": "kolo v nižších desítkách mil. Kč (lead), podíl 12,2 % + opce 2,7 p.b.",
+      "source_url": "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/"
+    }
+  }
+}

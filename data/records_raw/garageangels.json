@@ -1,0 +1,109 @@
+{
+  "id": "garageangels",
+  "name": "Garage Angels",
+  "legal_name": "Garage Angels z.s. (IČO 21814414); správa: Garage Angels Management s.r.o. (IČO 21657505, společník Garage Angels z.s.)",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Brněnský klub 20+ andělských investorů (spolek zapsaný 2024) se společnými, veřejně oznámenými dealy; v únoru 2026 doložené investice do VR Life (seed) a Sendance (tier B, datované). Andělská skupina s doložitelnými dealy = typ angel podle v2 bodu 7.",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://g-angels.cz",
+  "registry": {
+    "value": "21814414",
+    "value_text": "IČO 21814414, Garage Angels z.s., Orlí 483/1, Brno (vznik 2024-07-13); související Garage Angels Management s.r.o., IČO 21657505",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21814414",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"21814414\",\"obchodniJmeno\":\"Garage Angels z.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "široký záběr, bez zaměření na konkrétní typy podnikání (ohlášení 2019); nejnovější dealy jsou v medtechu",
+    "source_url": "https://www.lupa.cz/aktuality/hlavenka-obluk-a-spol-rozjizdi-garage-angels-a-budou-investovat-do-startupu/",
+    "source_date": "2019-03-21",
+    "accessed": "2026-10-22",
+    "quote": "Garage Angels se nebudou soustředit pouze na některé typy podnikání a mají mít široký záběr.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "pre-seed a seed",
+    "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/",
+    "source_date": "2026-02-23",
+    "accessed": "2026-10-22",
+    "quote": "Garage Angels je skupina individuálních investorů zaměřená na pre‑seed a seed",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "průměrná investice kolem 400 000 EUR (cca 9,7 mil. Kč), podílí se 4–12 investorů; min/max neuvedeno",
+    "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+    "source_date": "2026-02-16",
+    "accessed": "2026-10-22",
+    "quote": "Průměrná výše investic se pohybuje kolem čtyř set tisíc eur (přibližně 9,7 milionu korun) a podílí se na nich od čtyř do dvanácti investorů.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "average": 400000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "kapitál klubu neuveden; kumulativně investováno více než 300 mil. Kč (není to velikost fondu ani AUM)",
+    "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+    "source_date": "2026-02-16",
+    "accessed": "2026-10-22",
+    "quote": "napumpoval v přepočtu více než tři sta milionů korun.",
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "amount": 300000000,
+      "kind": "cumulative_invested_more_than"
+    }
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "VR Life (VR Vitalis)",
+      "date": "2026-02-23",
+      "round": "seed (kolo 600 000 EUR; Garage Angels „nižšími stovkami tisíc“ EUR)",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/",
+      "source_date": "2026-02-23",
+      "quote": "Do kola „řádově nižšími stovkami tisíc“ eur vstoupila skupina brněnských investorů Garage Angels",
+      "source_tier": "B"
+    },
+    {
+      "company": "Sendance (Linz, AT)",
+      "date": "2026-02-16",
+      "round": "nezjištěno (částka „v obdobné výši“ jako VR Life)",
+      "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+      "source_date": "2026-02-16",
+      "quote": "Další nová investice Garage Angels v obdobné výši putovala rakouskému startupu Sendance.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Groundcom",
+      "date": null,
+      "round": "největší investice klubu (vyšší stovky tisíc EUR); datum v článku neuvedeno",
+      "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+      "source_date": "2026-02-16",
+      "quote": "Největší investice v historii klubu putovala do vesmírného startupu Groundcom, do něhož andělští investoři nalili společně vyšší stovky tisíc eur.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Web g-angels.cz se nepodařilo otevřít (smyčka přesměrování 301, WP REST API blokované), proto mandát z médií. Datum dealu VR Life = datum článku Lupa (tisková zpráva na kurzy.cz vyšla 2026-02-16); Sendance = datum článku Forbes („nedávno“). Groundcom: datum 06/2025 jen z agregátoru Caplight, proto date=null. Kardi AI (04/2025) jen Dealroom/Caplight, nezařazeno. Nejisté: který subjekt je investiční vozidlo (z.s., Management s.r.o., nebo členové napřímo přes SPV) – zdroje mluví o skupině/klubu; E4 (asociace) neplatí, protože skupina sama investuje. Kapitál nedohledán.",
+  "phase": 2
+}

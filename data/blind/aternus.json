@@ -1,0 +1,50 @@
+{
+  "id": "aternus",
+  "name": "ATERNUS (Aternus Family Office)",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://en.ain.ua/2025/12/16/jutro-medical-raises-eur24m/"
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://www.aternus.cz"
+    },
+    "registry": {
+      "value": "25865056",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25865056"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://www.aternus.cz/en/"
+    },
+    "stages": {
+      "value": [],
+      "source_url": null
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "Jutro Medical (PL)",
+      "date": "2025-12-16",
+      "round": "Series A extension 24 mil. EUR (vedl Warsaw Equity Group)",
+      "source_url": "https://en.ain.ua/2025/12/16/jutro-medical-raises-eur24m/"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "lookai",
+  "name": "Look AI Ventures (LAIV)",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://tech.eu/2026/07/13/sodex-innovations-secures-4m-to-bring-real-time-intelligence-to-construction-sites/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://lookai.vc/"
+    },
+    "registry": {
+      "value": "17604087",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087"
+    },
+    "sectors": {
+      "value": [
+        "ai"
+      ],
+      "source_url": "https://lookai.vc/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://lookai.vc/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": 250000
+      },
+      "source_url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "original": {
+        "currency": "EUR",
+        "amount": 250000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 20000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "original": {
+        "currency": "EUR",
+        "amount": 20000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Sodex Innovations",
+      "date": "2026-07-13",
+      "round": "4 mil. EUR (lead Capmont Technology)",
+      "source_url": "https://tech.eu/2026/07/13/sodex-innovations-secures-4m-to-bring-real-time-intelligence-to-construction-sites/"
+    }
+  }
+}

@@ -25,12 +25,12 @@ def fact_row(rec, field):
         val = rec.get(field)
         if field == "decision" and rec.get("exclusion_rule"):
             val = f"{val} ({rec['exclusion_rule']})"
-        deal = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date", ""))
+        deal = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date") or "")
         # zdůvodnění agenta NENÍ citace ze zdroje → vlastní sloupec, aby si ho kontrolor nespletl se zdrojem
         return {"value": val, "source_url": deal.get("source_url", rec.get("website", "")),
                 "quote": deal.get("quote", ""), "rationale": rec.get("decision_reason", "")}
     if field == "investment_evidence":
-        d = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date", ""))
+        d = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date") or "")
         return {"value": f"{d.get('company')} | {d.get('date')} | {d.get('round')}",
                 "source_url": d.get("source_url", ""), "quote": d.get("quote", "")}
     f = rec.get(field) or {}

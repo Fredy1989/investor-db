@@ -1,0 +1,53 @@
+{
+  "id": "3ts",
+  "name": "3TS Capital Partners",
+  "claims": {
+    "decision": {
+      "value": "out_of_scope",
+      "exclusion_rule": "out_of_scope",
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "AT",
+      "website": "https://www.3tscapital.com"
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html"
+    },
+    "stages": {
+      "value": [
+        "growth"
+      ],
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html"
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": 450000000,
+        "basis": "total_across_funds"
+      },
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+      "original": {
+        "currency": "EUR",
+        "amount": 450000000
+      }
+    },
+    "investment_evidence": {
+      "company": "RR Technologies GmbH (Patronus), Berlín",
+      "date": "2026-05-04",
+      "round": "11 mil. EUR, lead 3TS (TCEE Fund IV)",
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html"
+    }
+  }
+}

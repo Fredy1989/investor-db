@@ -1,0 +1,91 @@
+{
+  "id": "seedstarter",
+  "name": "Seed Starter ČS",
+  "legal_name": "Česká spořitelna, a.s. (program Seed Starter)",
+  "phase": 2,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Corporate venture capital program České spořitelny, který bere minoritní podíly v seed startupech; doložené účasti ve Vestberry (2025-03), Repsense (2025-12) a Definic (2026-06).",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://czechstartups.gov.cz/?investori=seed-starter",
+  "registry": {
+    "value": "45244782",
+    "value_text": "IČO 45244782, Česká spořitelna, a.s., Olbrachtova 1929/62, Praha 4 (Seed Starter nemá v OR vlastní subjekt)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/45244782",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"45244782\",\"obchodniJmeno\":\"Česká spořitelna, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "technologicky orientované startupy, jinak otevřeni všem nápadům v souladu s vizí banky – deklarovaný mandát nemá sektor z taxonomie",
+    "source_url": "https://www.finance.cz/541902-seed-starter-cs",
+    "source_date": "2022-05-17",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": ["seed"],
+    "value_text": "primárně seed",
+    "source_url": "https://www.finance.cz/541902-seed-starter-cs",
+    "source_date": "2022-05-17",
+    "accessed": "2026-10-22",
+    "quote": "Investujeme primárně do projektů ve fázi tzv.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": null},
+    "original": null,
+    "value_text": "nezveřejněno; typicky do 20 % podílu (cc.cz 2023-11-27)",
+    "source_url": "https://cc.cz/investice-do-startupu-po-vzoru-ceske-sporitelny-prebira-dalsi-zeme-banka-jim-zatim-poslala-180-milionu/",
+    "source_date": "2023-11-27",
+    "accessed": "2026-10-22",
+    "quote": "Ve firmách si kupujeme většinou do 20 procent, chceme být minoritní.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {"eur": null, "basis": "own_balance_sheet"},
+    "original": null,
+    "value_text": "rozvaha ČS; k 11/2023 investováno cca 180 mil. Kč do 8 startupů (to je deployed, ne kapitál)",
+    "source_url": "https://cc.cz/investice-do-startupu-po-vzoru-ceske-sporitelny-prebira-dalsi-zeme-banka-jim-zatim-poslala-180-milionu/",
+    "source_date": "2023-11-27",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Definic (dříve Nordics), Košice",
+      "date": "2026-06-12",
+      "round": "seed €2.5M (lead J&T Ventures)",
+      "source_url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/",
+      "source_date": "2026-06-12",
+      "quote": "ke kterému se připojil Seed Starter patřící pod Českou spořitelnu",
+      "source_tier": "B"
+    },
+    {
+      "company": "Repsense",
+      "date": "2025-12-17",
+      "round": "€1.1M (s Tensor Ventures)",
+      "source_url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/",
+      "source_date": "2025-12-17",
+      "quote": "přidaly se Seed Starter České spořitelny a stávající litevští investoři BSV Ventures a Coinvest Capital",
+      "source_tier": "B"
+    },
+    {
+      "company": "Vestberry",
+      "date": "2025-03-17",
+      "round": "€2.2M (Seed Starter ČS a SLSP téměř polovina)",
+      "source_url": "https://cc.cz/ceska-sporitelna-chce-aby-investori-vice-vydelavali-investuje-do-slovenskeho-startupu-ktery-to-resi/",
+      "source_date": "2025-03-17",
+      "quote": "Téměř polovinu z 2,2 milionu eur posílá korporátní venture kapitálový fond Seed Starter České spořitelny.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Investorem je přímo Česká spořitelna, a.s. (cc.cz ji označuje za exkluzivního investora programu); finance.cz (2022) zmiňuje 'dceřinou společnost typu Seed Starter', ale OR žádný subjekt 'Seed Starter' nemá – registry proto = ČS. Typ cvc, i když mateřská firma je banka (PLAN definuje cvc pro nefinanční firmy). Slovenská sporiteľňa má vlastní Seed Starter (5 mil. EUR) – jiný subjekt, sem nezahrnuto. Citace v evidenci jsou výňatky z delších vět. Sektory nevyplněny, protože deklarace 'technologicky orientované' nemá ekvivalent v taxonomii a ze 3 dealů (fintech, defence/AI, B2B SaaS) nezobecňuji. Oficiální web programu jsem nenašel. Instrukce pro AI nenalezeny."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "czegg",
+  "name": "CZEGG Ventures (podfond STARTEEPO SICAV)",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "E5",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "pe",
+      "country": "CZ",
+      "website": "https://www.starteepo.com"
+    },
+    "registry": {
+      "value": "06587194",
+      "source_url": "https://www.starteepo.com/invest"
+    },
+    "sectors": {
+      "value": [
+        "industry"
+      ],
+      "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/"
+    },
+    "stages": {
+      "value": [
+        "growth"
+      ],
+      "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/",
+      "original": {
+        "currency": "CZK",
+        "min": 25000000,
+        "max": 50000000
+      }
+    },
+    "capital": {
+      "value": null,
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

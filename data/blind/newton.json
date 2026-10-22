@@ -1,0 +1,62 @@
+{
+  "id": "newton",
+  "name": "NEWTON University Angels",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": "https://newton.university/en/newton-university-angels/"
+    },
+    "registry": {
+      "value": "10878131",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10878131"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+      "derived_from": "investment_evidence"
+    },
+    "stages": {
+      "value": [
+        "pre_seed"
+      ],
+      "source_url": "https://newton.university/en/newton-university-angels/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": 20000
+      },
+      "source_url": "https://newton.university/en/newton-university-angels/",
+      "original": {
+        "currency": "EUR",
+        "min": null,
+        "max": 20000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+      "original": {
+        "currency": "CZK",
+        "amount": 5000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Basefound, AntsPark, Believer, Bogroti, Take up (5 firem, data jednotlivých investic neuvedena)",
+      "date": "undated",
+      "round": "pre-seed (NUAF, první fond)",
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/"
+    }
+  }
+}

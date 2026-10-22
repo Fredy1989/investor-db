@@ -1,0 +1,62 @@
+{
+  "id": "jic",
+  "name": "JIC Ventures",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://een.gov.cz/novinka/prvni-investice-noveho-fondu-jic-ventures-miri-do-technologickeho-startupu-faceup/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.jic.cz/ventures/"
+    },
+    "registry": {
+      "value": "04156293",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04156293"
+    },
+    "sectors": {
+      "value": [
+        "deeptech",
+        "saas_b2b"
+      ],
+      "source_url": "https://www.jic.cz/ventures/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://www.jic.cz/ventures/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": 1000000
+      },
+      "source_url": "https://www.jic.cz/ventures/",
+      "original": {
+        "currency": "EUR",
+        "max": 1000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://www.jic.cz/cz/o-nas/pro-media/jic-spustil-venture-kapitalovy-fond-pro-startupy-r",
+      "original": {
+        "currency": "CZK",
+        "amount": 400000000
+      }
+    },
+    "investment_evidence": {
+      "company": "FaceUp",
+      "date": "2026-05-21",
+      "round": "Series A, celkem přes 110 mil. Kč (vedl Fil Rouge Capital)",
+      "source_url": "https://een.gov.cz/novinka/prvni-investice-noveho-fondu-jic-ventures-miri-do-technologickeho-startupu-faceup/"
+    }
+  }
+}

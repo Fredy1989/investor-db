@@ -1,0 +1,63 @@
+{
+  "id": "iibio",
+  "name": "i&i Bio",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/t-curx-20-million/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.inibio.eu/"
+    },
+    "registry": {
+      "value": "10885978",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10885978"
+    },
+    "sectors": {
+      "value": [
+        "health",
+        "ai"
+      ],
+      "source_url": "https://www.inibio.eu/"
+    },
+    "stages": {
+      "value": [
+        "seed",
+        "series_a"
+      ],
+      "source_url": "https://www.inibio.eu/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 500000,
+        "max_eur": 2000000
+      },
+      "source_url": "https://www.inibio.eu/",
+      "original": {
+        "currency": "EUR",
+        "min": 500000,
+        "max": 2000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 45000000,
+        "basis": "aum"
+      },
+      "source_url": "https://www.iniprague.com/news/pr-inibiotechfund",
+      "original": {
+        "currency": "EUR",
+        "amount": 45000000
+      }
+    },
+    "investment_evidence": {
+      "company": "T-CURX (DE)",
+      "date": "2025-12-17",
+      "round": "Series A first closing 20 mil. USD (vedl BiomedVC)",
+      "source_url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/t-curx-20-million/"
+    }
+  }
+}

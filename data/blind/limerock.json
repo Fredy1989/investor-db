@@ -1,0 +1,54 @@
+{
+  "id": "limerock",
+  "name": "Limerock Ventures",
+  "claims": {
+    "decision": {
+      "value": "out_of_scope",
+      "exclusion_rule": "out_of_scope",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "SK",
+      "website": "https://www.limerock.sk"
+    },
+    "registry": {
+      "value": "46092897",
+      "source_url": "https://www.limerock.sk/main"
+    },
+    "sectors": {
+      "value": [
+        "industry",
+        "saas_b2b"
+      ],
+      "source_url": "https://www.limerock.sk/main"
+    },
+    "stages": {
+      "value": [
+        "seed",
+        "series_a"
+      ],
+      "source_url": "https://www.limerock.sk/main"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://www.limerock.sk/main"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://www.limerock.sk/main"
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

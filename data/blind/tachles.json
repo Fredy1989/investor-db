@@ -1,0 +1,60 @@
+{
+  "id": "tachles",
+  "name": "Tachles VC",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.tachlesvc.com"
+    },
+    "registry": {
+      "value": "14376032",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032"
+    },
+    "sectors": {
+      "value": [
+        "ai",
+        "saas_b2b",
+        "deeptech"
+      ],
+      "source_url": "https://czechstartups.gov.cz/?investori=tachles-vc"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://czechstartups.gov.cz/?investori=tachles-vc"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+      "original": {
+        "currency": "CZK",
+        "amount": 500000000,
+        "date": "2024-06-13"
+      }
+    },
+    "investment_evidence": {
+      "company": "Boost.space",
+      "date": "2025-10-09",
+      "round": "kolo 3 mil. EUR (lead Jet Investment)",
+      "source_url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/"
+    }
+  }
+}

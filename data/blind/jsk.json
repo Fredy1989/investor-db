@@ -1,0 +1,64 @@
+{
+  "id": "jsk",
+  "name": "JSK Investments (Venture Capital Fund I)",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.newstream.cz/zpravy-z-firem/fond-kijonkovych-jsk-investoval-do-britskeho-vyvojare-cipu-pro-neurotechnologie"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.jskinvestments.ventures/en"
+    },
+    "registry": {
+      "value": "23823445",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445"
+    },
+    "sectors": {
+      "value": [
+        "health",
+        "ai",
+        "deeptech",
+        "energy_climate"
+      ],
+      "source_url": "https://www.jskinvestments.ventures/en"
+    },
+    "stages": {
+      "value": [
+        "seed",
+        "series_a"
+      ],
+      "source_url": "https://www.jskinvestments.ventures/en"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 300000,
+        "max_eur": null
+      },
+      "source_url": "https://www.jskinvestments.ventures/en",
+      "original": {
+        "currency": "EUR",
+        "min": 300000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 20000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://www.jskinvestments.ventures/en",
+      "original": {
+        "currency": "EUR",
+        "amount": 20000000
+      }
+    },
+    "investment_evidence": {
+      "company": "MintNeuro (Londýn)",
+      "date": "2026-10-10",
+      "round": "kolo 5 mil. USD, lead Odyssey Ventures",
+      "source_url": "https://www.newstream.cz/zpravy-z-firem/fond-kijonkovych-jsk-investoval-do-britskeho-vyvojare-cipu-pro-neurotechnologie"
+    }
+  }
+}

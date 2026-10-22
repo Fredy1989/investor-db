@@ -1,0 +1,59 @@
+{
+  "id": "opifer",
+  "name": "Opifer Investments",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "https://www.opifer.ventures/about/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.opifer.ventures"
+    },
+    "registry": {
+      "value": "04285905",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04285905"
+    },
+    "sectors": {
+      "value": [
+        "saas_b2b",
+        "deeptech"
+      ],
+      "source_url": "https://www.opifer.ventures/for-founders/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://www.opifer.ventures/for-founders/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 10000,
+        "max_eur": 1000000
+      },
+      "source_url": "https://www.opifer.ventures/for-founders/",
+      "original": {
+        "currency": "EUR",
+        "min": 10000,
+        "max": 1000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://www.opifer.ventures/about/"
+    },
+    "investment_evidence": {
+      "company": "Runecast, 3Doid, Geo Applications (bez dat)",
+      "date": null,
+      "round": "nezjištěno",
+      "source_url": "https://www.opifer.ventures/about/"
+    }
+  }
+}

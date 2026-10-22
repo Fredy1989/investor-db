@@ -1,0 +1,50 @@
+{
+  "id": "kbsmart",
+  "name": "KB SmartSolutions",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/"
+    },
+    "investor_type": {
+      "value": "cvc",
+      "country": "CZ",
+      "website": "https://www.kbsmart.cz/"
+    },
+    "registry": {
+      "value": "02021161",
+      "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=KB+SmartSolutions&jenPlatne=PLATNE"
+    },
+    "sectors": {
+      "value": [
+        "fintech"
+      ],
+      "source_url": "https://www.kbsmart.cz/"
+    },
+    "stages": {
+      "value": null,
+      "source_url": "https://www.kbsmart.cz/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://www.kbsmart.cz/"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "own_balance_sheet"
+      },
+      "source_url": "https://www.kbsmart.cz/"
+    },
+    "investment_evidence": {
+      "company": "Upvest (odkup zbylého podílu na 100 %, ne nová venture investice)",
+      "date": "2025-08-21",
+      "round": "buyout minority po vestingu (KB držela 96 % od 2022)",
+      "source_url": "https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/"
+    }
+  }
+}

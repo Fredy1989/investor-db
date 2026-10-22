@@ -1,0 +1,62 @@
+{
+  "id": "garageangels",
+  "name": "Garage Angels",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": "https://g-angels.cz"
+    },
+    "registry": {
+      "value": "21814414",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21814414"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://www.lupa.cz/aktuality/hlavenka-obluk-a-spol-rozjizdi-garage-angels-a-budou-investovat-do-startupu/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+      "original": {
+        "currency": "EUR",
+        "average": 400000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://forbes.cz/andele-z-garaze-nakopli-moravu-ted-klub-elitnich-investoru-miri-za-hranice/",
+      "original": {
+        "currency": "CZK",
+        "amount": 300000000,
+        "kind": "cumulative_invested_more_than"
+      }
+    },
+    "investment_evidence": {
+      "company": "VR Life (VR Vitalis)",
+      "date": "2026-02-23",
+      "round": "seed (kolo 600 000 EUR; Garage Angels „nižšími stovkami tisíc“ EUR)",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/"
+    }
+  }
+}

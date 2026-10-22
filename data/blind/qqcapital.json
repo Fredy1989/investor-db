@@ -1,0 +1,56 @@
+{
+  "id": "qqcapital",
+  "name": "QQ Capital",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://pulse2.com/navigara-2-5-million-raised-for-engineering-performance-measurement-platform/amp/"
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://www.qq.capital/"
+    },
+    "registry": {
+      "value": "08676135",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135"
+    },
+    "sectors": {
+      "value": [
+        "saas_b2b",
+        "generalist"
+      ],
+      "source_url": "https://www.qq.capital/"
+    },
+    "stages": {
+      "value": [
+        "seed",
+        "series_a",
+        "series_b_plus",
+        "growth"
+      ],
+      "source_url": "https://www.qq.capital/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://www.qq.capital/"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "own_balance_sheet"
+      },
+      "source_url": "https://www.qq.capital/"
+    },
+    "investment_evidence": {
+      "company": "Navigara",
+      "date": "2026-02-19",
+      "round": "seed 2,5 mil. USD (lead Inovo VC)",
+      "source_url": "https://pulse2.com/navigara-2-5-million-raised-for-engineering-performance-measurement-platform/amp/"
+    }
+  }
+}

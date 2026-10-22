@@ -1,0 +1,58 @@
+{
+  "id": "maccelerator",
+  "name": "mAccelerator.vc",
+  "claims": {
+    "decision": {
+      "value": "out_of_scope",
+      "exclusion_rule": "out_of_scope",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "cvc",
+      "country": "PL",
+      "website": "https://maccelerator.vc"
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": [
+        "fintech"
+      ],
+      "source_url": "https://altss.com/profile/maccelerator-vc"
+    },
+    "stages": {
+      "value": null,
+      "source_url": "https://altss.com/profile/maccelerator-vc"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": 10000000
+      },
+      "source_url": "https://www.e15.cz/rozhovory/jaroslaw-mastalerz-z-mbank-globalni-byznys-z-varsavy-a-prahy-delat-nelze-zmenime-to-1331330",
+      "original": {
+        "currency": "EUR",
+        "max": 10000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 50000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://en.media.mbank.pl/36471-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions",
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      }
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

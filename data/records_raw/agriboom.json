@@ -1,0 +1,98 @@
+{
+  "id": "agriboom",
+  "name": "AgriBoom Ventures",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I2",
+  "decision_reason": "Agritech fond rodinné firmy AGRO CS (60 mil. EUR z vlastních zdrojů, spuštěn 12/2024), ale žádná investice do soukromé firmy není doložena zdrojem tier A/B; jediný zmíněný případ (Plantee) skončil odkupem firmy AGRO CS, ne investicí fondu.",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Říkov (Česká Skalice)",
+  "website": "https://agriboom.com",
+  "registry": {
+    "value": "64829413",
+    "value_text": "IČO 64829413, AGRO CS a.s., Říkov 265 – General Partner fondu (vlastní registrace AgriBoom Ventures v ARES nenalezena)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64829413",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"64829413\",\"obchodniJmeno\":\"AGRO CS a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry",
+      "energy_climate"
+    ],
+    "value_text": "zemědělství, zahradnictví, agbiotech, agrochemie (taxonomie nemá agritech – mapováno přibližně)",
+    "source_url": "https://agriboom.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Our primary focus is agriculture, with secondary verticals in horticulture, agbiotech, agrochemicals",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "value_text": "od nápadu po Series A a dál",
+    "source_url": "https://agriboom.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "From idea through pre-seed and seed all the way to Series A and beyond",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 10000,
+      "max_eur": 4000000
+    },
+    "value_text": "€10K – €4M (VC strategie)",
+    "source_url": "https://agriboom.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "From €10K to €4M with a bit of flexibility",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 10000,
+      "max": 4000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 60000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "€60.000.000",
+    "source_url": "https://agriboom.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "€60.000.000 (all funds raised 01/2025)",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 60000000
+    }
+  },
+  "funds": [
+    {
+      "name": "AgriBoom Ventures",
+      "size_eur": 60000000,
+      "vintage": 2024,
+      "source_url": "https://agriboom.com",
+      "quote": "€60.000.000 (all funds raised 01/2025)",
+      "original": {
+        "currency": "EUR",
+        "amount": 60000000
+      },
+      "domicile": null,
+      "registry": null
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Hledáno: web agriboom.com (portfolio nenalezeno, /portfolio 404, blog jen obecné články 2–3/2025), cc.cz 2. 12. 2024, expats.cz 6. 1. 2025, Forbes.cz (paywall – obsah nenačten; titulek 'Proč není tak snadné investovat 1,5 miliardy?' naznačuje potíže najít projekty), Crunchbase/OpenVC/Superscout (403). Plantee Innovations: cc.cz uvádí 'První vlaštovkou byla investice do mladého startupu Plantee Innovations', ale vzápětí 'Místo investice nám Agro CS nabídlo, že startup odkoupí' – jde o akvizici firmy spoluzaložené manažerem fondu (O. Zbytek), ne o VC investici fondu. Typ cvc: kapitál výhradně od AGRO CS (GP). Právní forma/IČO samotného fondu nenalezeny. Tiket: web uvádí EUR, cc.cz USD ('od deseti tisíc až po čtyři miliony dolarů') – použit web. Web má i PE strategii (€3M–€20M, firmy s obratem €10M–€150M). Alternativa: decision = inactive (čeká na lepší zdroj). Doporučeno znovu prověřit za 6–12 měsíců. Žádné instrukce pro AI nenalezeny.",
+  "phase": 2
+}

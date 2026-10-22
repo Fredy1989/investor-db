@@ -1,0 +1,56 @@
+{
+  "id": "rsj",
+  "name": "RSJ Investments",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://en.ain.ua/2024/01/25/hedepy-closes-3-85m-investment-psychotherapy-platform"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.rsj.com"
+    },
+    "registry": {
+      "value": "05357225",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225"
+    },
+    "sectors": {
+      "value": [
+        "ai",
+        "deeptech",
+        "health"
+      ],
+      "source_url": "https://www.rsj.com/en/investments/investments/angeltech"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed",
+        "series_a"
+      ],
+      "source_url": "https://rsj.com/en/investments/investments/tech"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://rsj.com/en/investments/investments/tech"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://rsj.com/en/investments/investments/tech"
+    },
+    "investment_evidence": {
+      "company": "Hedepy",
+      "date": "2024-01-25",
+      "round": "seed (kolo celkem 3,85 mil. EUR; RSJ spoluvedoucí)",
+      "source_url": "https://en.ain.ua/2024/01/25/hedepy-closes-3-85m-investment-psychotherapy-platform"
+    }
+  }
+}

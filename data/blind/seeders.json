@@ -1,0 +1,56 @@
+{
+  "id": "seeders",
+  "name": "The Seeders",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "I2",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": "https://theseeders.cz"
+    },
+    "registry": {
+      "value": null,
+      "source_url": "https://theseeders.cz/"
+    },
+    "sectors": {
+      "value": null,
+      "source_url": "https://theseeders.cz/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://theseeders.cz/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://theseeders.cz/",
+      "original": {
+        "currency": "CZK",
+        "min": 1000000,
+        "max": 10000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://theseeders.cz/"
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

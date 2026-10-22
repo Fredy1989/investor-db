@@ -1,0 +1,55 @@
+{
+  "id": "up271",
+  "name": "UP271",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "https://up271.com/portfolio/"
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://up271.com"
+    },
+    "registry": {
+      "value": "06816339",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://up271.com/"
+    },
+    "stages": {
+      "value": null,
+      "source_url": "https://up271.com/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://up271.com/"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://up271.com/en/",
+      "original": {
+        "currency": "EUR",
+        "amount": 40000000,
+        "kind": "cumulative_invested_almost"
+      }
+    },
+    "investment_evidence": {
+      "company": "Portfolio bez dat (ABAKU, Edhance, Spaceflow, WHAT News, Ringil, Poetizer, Sens, NutritionPro, CB 21 pharma …)",
+      "date": null,
+      "round": "nezjištěno",
+      "source_url": "https://up271.com/portfolio/"
+    }
+  }
+}

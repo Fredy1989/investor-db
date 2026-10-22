@@ -1,0 +1,53 @@
+{
+  "id": "lumus",
+  "name": "Lumus Investment",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://tech.eu/2025/04/28/czech-medtech-kardi-ai-raises-1-1m-to-expand-heart-monitoring-tech/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": "https://www.lumusinvestment.com/"
+    },
+    "registry": {
+      "value": "10664335",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10664335"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/"
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/"
+    },
+    "investment_evidence": {
+      "company": "Kardi AI",
+      "date": "2025-04-28",
+      "round": "€1.1M (nový investor vedle BrightCap, DEPO Ventures, Garage Angels)",
+      "source_url": "https://tech.eu/2025/04/28/czech-medtech-kardi-ai-raises-1-1m-to-expand-heart-monitoring-tech/"
+    }
+  }
+}

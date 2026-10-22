@@ -1,0 +1,90 @@
+{
+  "id": "emuntech",
+  "name": "EMUN TECH (EMUN investiční společnost)",
+  "legal_name": "EMUN investiční společnost, a.s.",
+  "decision": "out_of_scope",
+  "exclusion_rule": "out_of_scope",
+  "decision_reason": "Multi-family office / investiční společnost s fondy kvalifikovaných investorů; EMUN TECH II Access je fond fondů (investuje do evropských early-stage VC fondů), další fondy jsou PE/private credit/infrastruktura a Global Unicorns (late-stage podíly ve firmách nad 1 mld. USD). Přímé investice do startupů nedoloženy, proto mimo vzorek VC-typů.",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.emun.cz",
+  "registry": {
+    "value": "28495349",
+    "value_text": "IČO 284 95 349, EMUN investiční společnost, a.s. (do 1.6.2022 EMUN PARTNERS investiční společnost, a.s.), Anežská 986/10, Praha 1",
+    "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf",
+    "source_date": "2025",
+    "accessed": "2026-10-22",
+    "quote": "IČO: 284 95 349",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "fond fondů do evropských early-stage VC fondů (EMUN TECH II Access); ostatní fondy PE, growth, infrastruktura",
+    "source_url": "https://www.emun.cz/en/investment-funds/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Fund investing in Europe's leading early-stage venture capital venture capital funds",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "přímé investice do startupů nedoloženy; Global Unicorns cílí na pozdní fáze (firmy nad 1 mld. USD)",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "EMUN Tech II Access OPF: celkový komitment 172 mil. CZK, splaceno 155 mil. CZK, NAV 173 mil. CZK k 31.12.2024",
+    "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf",
+    "source_date": "2025",
+    "accessed": "2026-10-22",
+    "quote": "EMUN Tech II Access OPF 172 155 173",
+    "source_tier": "A",
+    "original": {
+      "currency": "CZK",
+      "amount": 172000000
+    }
+  },
+  "funds": [
+    {
+      "name": "EMUN TECH II ACCESS otevřený podílový fond",
+      "original": {
+        "currency": "CZK",
+        "amount": 172000000
+      },
+      "size_eur": null,
+      "vintage": 2020,
+      "domicile": "CZ",
+      "registry": {
+        "value": "NID 751 62 067",
+        "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf"
+      },
+      "source_url": "https://www.emun.cz/documents/VZ-EIS-2024.pdf",
+      "quote": "EMUN TECH II ACCESS otevřený podílový fond, NID: 751 62 067"
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Fond 'EMUN TECH' (I) jsem nenašel, jen EMUN TECH II ACCESS (zapsán ČNB 1. 10. 2020, veřejná nabídka ukončena). Částka 172 mil. CZK = komitment ke 31.12.2024 (výroční zpráva 2024; datum zveřejnění přesně neznám, uvedeno 2025). Další fondy dle webu: EMUN Global Unicorns ('A fund investing in shares in private companies with a valuation exceeding USD 1 billion', spuštěn ~10/2025, držby typu OpenAI, SpaceX - sekundární/late-stage), EMUN Five Arrows Coinvestment Access (PE koinvestice), Semi-liquid Global Private Equity. Pokud by se rozsah rozšířil i na late-stage nákupy podílů, Global Unicorns by mohl splnit I4, ale ne jako startupový investor. Stránka emun.cz/cz/investicni-fondy/ vracela HTTP 500, použita anglická verze. Pozn.: ATERNUS, a.s. (IČO 25865056) má podle ARES stejné sídlo Anežská 986/10 - viz záznam aternus.",
+  "phase": 2
+}

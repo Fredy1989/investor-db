@@ -1,0 +1,65 @@
+{
+  "id": "agriboom",
+  "name": "AgriBoom Ventures",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "I2",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "cvc",
+      "country": "CZ",
+      "website": "https://agriboom.com"
+    },
+    "registry": {
+      "value": "64829413",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64829413"
+    },
+    "sectors": {
+      "value": [
+        "industry",
+        "energy_climate"
+      ],
+      "source_url": "https://agriboom.com"
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "source_url": "https://agriboom.com"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 10000,
+        "max_eur": 4000000
+      },
+      "source_url": "https://agriboom.com",
+      "original": {
+        "currency": "EUR",
+        "min": 10000,
+        "max": 4000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 60000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://agriboom.com",
+      "original": {
+        "currency": "EUR",
+        "amount": 60000000
+      }
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

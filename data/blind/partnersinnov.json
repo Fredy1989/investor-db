@@ -1,0 +1,50 @@
+{
+  "id": "partnersinnov",
+  "name": "Partners Innovation Fund",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "E7",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "cvc",
+      "country": "CZ",
+      "website": "https://www.partnersholdco.com/en/partners-innovation-fund"
+    },
+    "registry": {
+      "value": "24412716",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24412716"
+    },
+    "sectors": {
+      "value": [
+        "fintech"
+      ],
+      "source_url": "https://www.partnersholdco.com/en/partners-innovation-fund"
+    },
+    "stages": {
+      "value": [],
+      "source_url": null
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

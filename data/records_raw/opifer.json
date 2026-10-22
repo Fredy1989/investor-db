@@ -1,0 +1,88 @@
+{
+  "id": "opifer",
+  "name": "Opifer Investments",
+  "legal_name": "Opifer Services, s.r.o. (Brno; jediný společník Opifer Ltd., UK) – vazba na značku Opifer Investments nepotvrzena přímo",
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "Brněnský early-stage investor/akcelerátor (pre-seed/seed, 10 tis.–1 mil. EUR), ale web je z roku 2018 a žádná investice po 2023-10-22 není doložena; portfolio (Runecast, 3Doid, Geo Applications) je bez dat.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://www.opifer.ventures",
+  "registry": {
+    "value": "04285905",
+    "value_text": "IČO 04285905, Opifer Services, s.r.o., Milady Horákové 1957/13, Brno; společník Opifer Ltd. (podle VR v ARES)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04285905",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"04285905\",\"obchodniJmeno\":\"Opifer Services, s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "deeptech"
+    ],
+    "value_text": "proprietární IT nebo Smart Device řešení (mapování na taxonomii je přibližné)",
+    "source_url": "https://www.opifer.ventures/for-founders/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "You must be solving real and difficult problem by proprietary IT or Smart Device solution.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "idea, pre-seed, seed",
+    "source_url": "https://www.opifer.ventures/for-founders/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We help founders with startups that are either at idea, pre-seed, or seed stage.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 10000,
+      "max_eur": 1000000
+    },
+    "value_text": "€10,000 – €1,000,000",
+    "source_url": "https://www.opifer.ventures/for-founders/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We invest pre-seed and seed capital between €10,000 and €1,000,000.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 10000,
+      "max": 1000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvedeno",
+    "source_url": "https://www.opifer.ventures/about/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Runecast, 3Doid, Geo Applications (bez dat)",
+      "date": null,
+      "round": "nezjištěno",
+      "source_url": "https://www.opifer.ventures/about/",
+      "source_date": "undated",
+      "quote": "Our previous investment strategy was less impact oriented which is reflected in our current portfolio that includes for example",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Web opifer.ventures má patičku 'Copyright OPIFER 2018' a RSS feed jen z 2018. Hledal jsem dealy 2023–2026 (web, ARES, Lupa, CzechCrunch) – nic. Partneři Ladislav Chodák a Ludvík Slavík; Chodák je v 2025 zmiňován u fondu ADAX, ne u Opiferu (osoba ≠ vozidlo, v2 bod 5). V ARES existují i Opifer s.r.o. (Ostrava, IČO 03360458, společník MAGNUM CONSILIUM SE) a Opifer Alfa s.r.o. (08692122, stavby/nemovitosti) – vazba nejasná, zvolen Opifer Services (Brno, vlastník Opifer Ltd. podle článku Lupa 2014 o britské Opifer Limited). Agregátory uvádějí sídlo Londýn; tým je ale brněnský.",
+  "phase": 2
+}

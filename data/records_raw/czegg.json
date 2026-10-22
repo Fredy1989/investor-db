@@ -1,0 +1,101 @@
+{
+  "id": "czegg",
+  "name": "CZEGG Ventures (podfond STARTEEPO SICAV)",
+  "legal_name": "CZEGG VENTURES, podfond STARTEEPO Invest",
+  "decision": "exclude",
+  "exclusion_rule": "E5",
+  "decision_reason": "Nejde o VC do startupů: mandát CZEGG (2020) je financovat emise akcií/dluhopisů zavedených rodinných výrobních firem, které musí vstoupit na trh pražské burzy; skupina STARTEEPO se dnes prezentuje jako IPO poradce a hodnotový investor do kotovaných akcií (Warner Bros, Western Digital, Karo Leather). Žádný startupový deal z posledních 36 měsíců jsem nenašel.",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.starteepo.com",
+  "registry": {
+    "value": "06587194",
+    "value_text": "STARTEEPO SICAV a.s., IČO 065 87 194 (fond, jehož je CZEGG podfondem)",
+    "source_url": "https://www.starteepo.com/invest",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "IČO: 065 87 194",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry"
+    ],
+    "value_text": "tradiční výrobní podniky (mandát z roku 2020)",
+    "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/",
+    "source_date": "2020-05-28",
+    "accessed": "2026-10-22",
+    "quote": "Především tradiční výrobní podniky by měl zajímat jejich další růst a inovace, na které budou potřebovat jednorázový kapitál",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "value_text": "zavedené výrobní firmy s obratem od 100 mil. Kč a historií min. 10 let; pre-IPO/IPO",
+    "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/",
+    "source_date": "2020-05-28",
+    "accessed": "2026-10-22",
+    "quote": "Ideálním cílem má být výrobní firma s obratem od 100 milionů korun a historií alespoň 10 let, kdy v rodině zůstává majorita.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "25–50 mil. Kč na emitenta (2020)",
+    "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/",
+    "source_date": "2020-05-28",
+    "accessed": "2026-10-22",
+    "quote": "Očekáváme, že budeme sami investovat do jednoho emitenta 25 až 50 milionů korun.",
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "min": 25000000,
+      "max": 50000000
+    }
+  },
+  "capital": {
+    "value": null,
+    "value_text": "Cíl 1 mld. Kč (2020) je ambice, ne velikost fondu; skupina uvádí '+700 milionů korun pod správou' za celou skupinu – nezapsáno.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "CZEGG VENTURES, podfond STARTEEPO Invest",
+      "size_eur": null,
+      "original": null,
+      "vintage": 2020,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75161877",
+        "value_text": "IČO 75161877",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75161877",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75161877\",\"obchodniJmeno\":\"CZEGG VENTURES, podfond STARTEEPO Invest\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://www.starteepo.com/invest",
+      "quote": "Dodatek č.2 - CZEGG VENTURES"
+    }
+  ],
+  "investment_evidence": [],
+  "mandate_evidence": {
+    "value": "listed",
+    "value_text": "portfolio firem musí vstoupit na trh BCPP",
+    "source_url": "https://forbes.cz/eticky-investor-bostl-ma-novy-fond-chce-pomoct-rodinnym-firmam-v-koronakrizi/",
+    "source_date": "2020-05-28",
+    "accessed": "2026-10-22",
+    "quote": "Ze spolupráce vyplývá i povinnost firem v portfoliu fondu vstoupit na některou z jejích tržních platforem.",
+    "source_tier": "B"
+  },
+  "notes": "E5 volím proto, že investice CZEGG směřují do emisí, které se kótují na BCPP (START/PRIME), a web fondu ukazuje jen transakce s kotovanými akciemi; alternativně by šlo o I2 (žádná doložená investice do soukromé firmy v okně) nebo out_of_scope (nejde o startupový VC). Web starteepo.cz je parkovaná doména, platný web je starteepo.com. Statut / dodatek č. 2 (CZEGG) je na webu jako PDF, ale stáhl se mi jen SFDR dokument (STARTEEPO Invest, investiční fond s proměnným základním kapitálem, a.s.), ostatní odkazy vrátily prázdný soubor – aktuální investiční strategii podfondu jsem tedy neověřil. Název podfondu v ARES je 'podfond STARTEEPO Invest', web uvádí fond jako 'STARTEEPO SICAV a.s.' (IČO 06587194). Citace z Forbesu: na stránce jsou mezi slovy místy nedělitelné mezery (U+00A0).",
+  "phase": 2
+}

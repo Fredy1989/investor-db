@@ -1,0 +1,150 @@
+{
+  "id": "jetventure",
+  "name": "Jet Ventures (fond Jet Venture 1)",
+  "legal_name": "Jet Investment, a.s. (skupina); fond Jet Venture 1 SICAV, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "VC rameno brněnské skupiny Jet Investment; fond Jet Venture 1 (cíl 50 mil. EUR) investuje do průmyslových B2B tech startupů; v 08–09/2026 oznámil 4 nové investice (GigaScan, Phantasma Labs, Hermetiq, AppNava), portfolio 11 firem.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://www.jetinvestment.cz/venture-capital",
+  "registry": {
+    "value": "03890333",
+    "value_text": "IČO 03890333",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"03890333\",\"obchodniJmeno\":\"Jet Investment, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry"
+    ],
+    "value_text": "startupy v průmyslovém B2B sektoru",
+    "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+    "source_date": "2026-09-17",
+    "accessed": "2026-10-22",
+    "quote": "Venture fond v rámci brněnské skupiny vznikl před dvěma lety a do startupů v průmyslovém B2B sektoru chce vložit až 50 milionů eur, tedy zhruba 1,2 miliardy korun.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "series_a",
+      "series_b_plus"
+    ],
+    "value_text": "firmy v pozdějších fázích s fungujícím produktem a platícími zákazníky (mapování na series_a/b+ je interpretace)",
+    "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+    "source_date": "2026-09-17",
+    "accessed": "2026-10-22",
+    "quote": "Hledá firmy v pozdějších fázích",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Fond tiket neuvádí; jednotlivé dealy 0,75 mil. USD až 2,1 mil. EUR (nedopočítáno).",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 50000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "cílová velikost fondu Jet Venture 1: 50 mil. EUR (cíl, ne upsáno)",
+    "source_url": "https://www.jetinvestment.cz/venture-capital",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "cílová velikost fondu Jet Venture 1",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 50000000
+    }
+  },
+  "funds": [
+    {
+      "name": "Jet Venture 1 SICAV, a.s.",
+      "size_eur": 50000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      },
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "22030417",
+        "value_text": "IČO 22030417",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22030417",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"22030417\",\"obchodniJmeno\":\"Jet Venture 1 SICAV, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://www.jetinvestment.cz/venture-capital",
+      "quote": "cílová částka 50 mil. €"
+    },
+    {
+      "name": "Jet Venture 1 podfond SICAV",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75165121",
+        "value_text": "IČO 75165121",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+      "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\""
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "GigaScan Technologies (Göteborg)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR od Jet Venture 1",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Dobře to ilustruje případ švédského startupu GigaScan, do kterého Jet poslal 2,1 milionu eur, což je v aktuálním přepočtu přes 51 milionů korun.",
+      "source_tier": "B"
+    },
+    {
+      "company": "AppNava (USA)",
+      "date": "2026-09-17",
+      "round": "1,8 mil. USD, lead",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Jet jako hlavní investor vložil 1,8 milionu dolarů (38 milionů korun), zhruba čtyři pětiny kola, které doplnil fond Arya Women.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Hermetiq (San Francisco)",
+      "date": "2026-09-17",
+      "round": "0,75 mil. USD, největší investor kola 2,2 mil. USD",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Celkem 750 tisíc dolarů (16 milionů korun) získal od Jetu také loni založený startup Hermetiq ze San Franciska.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Phantasma Labs (Berlín)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR, kolo celkem 2,6 mil. EUR",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Stejnou částku dostala také berlínská Phantasma Labs, která spolu s investicí od Lighthouse Seed Fund II získala celkem 2,6 milionu eur (přes 63 milionů korun).",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Datum dealů = datum článku CzechCrunch (17. 9. 2026); článek uvádí, že všechny čtyři byly oznámeny 'během posledního měsíce', přesná data jednotlivých oznámení nemám. Registry = Jet Investment, a.s. (IČO 03890333, ARES), protože web VC ramene patří Jet Investment, a.s.; NEOVĚŘIL jsem v ČNB JERRS, zda je Jet Investment, a.s. formálně obhospodařovatelem Jet Venture 1 SICAV (může být samosprávný nebo spravovaný jinou IS). V ARES je i 'Jet Venture 1 fond fondů, otevřený podílový fond' (IČO 75165228, Praha – pravděpodobně feeder přes Conseq) a 'Jet Venture 1 Founders, a.s.' (22558870) – vztah neověřen. Mateřská skupina Jet Investment je jinak PE investor do průmyslu (17 mld. Kč ve 4 FKI dle CzechCrunch); záznam se týká jen VC ramene. Mapování 'pozdějších fázích' na series_a/series_b_plus je moje interpretace. Pozn.: Phantasma Labs má i Lighthouse Seed Fund II (existující záznam lighthouse).",
+  "phase": 2
+}

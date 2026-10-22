@@ -1,0 +1,42 @@
+{
+  "id": "directpro",
+  "name": "Direct PRO Ventures (podfond Direct PRO SICAV)",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "I2",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "cvc",
+      "country": "CZ",
+      "website": null
+    },
+    "registry": {
+      "value": "75166097",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097"
+    },
+    "sectors": {
+      "value": null,
+      "source_url": null
+    },
+    "stages": {
+      "value": null,
+      "source_url": null
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": null,
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

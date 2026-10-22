@@ -1,0 +1,116 @@
+{
+  "id": "iibio",
+  "name": "i&i Bio",
+  "legal_name": "Biotech Investments s.r.o. (investiční poradce); fond i&i Biotech Fund I SCSp (LU)",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Early-stage life-science VC vzešlý z ekosystému ÚOCHB / i&i Prague; fond je lucemburský SCSp, ale investiční tým/poradce Biotech Investments s.r.o. sídlí v Praze. Doložené investice KyDo Therapeutics (seed, 9/2025, vedl) a T-CURX (Series A, 12/2025).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.inibio.eu/",
+  "registry": {
+    "value": "10885978",
+    "value_text": "IČO 10885978, Biotech Investments s.r.o., Pobřežní 394/12, Karlín, Praha 8, vznik 2021-05-25 (web i&i Bio jej uvádí jako Investment Adviser); fond i&i Biotech Fund I SCSp, 42 rue de la Vallée, L-2661 Luxembourg",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10885978",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "10885978",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "ai"
+    ],
+    "value_text": "drug discovery, medtech, diagnostics, and AI verticals",
+    "source_url": "https://www.inibio.eu/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "As a life sciences fund, we are comfortable with drug discovery, medtech, diagnostics, and AI verticals.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "early stage biotech venture capital",
+    "source_url": "https://www.inibio.eu/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "i&i Bio: early stage biotech venture capital",
+    "source_tier": "A",
+    "mapping_note": "'early stage' mapováno na seed + series_a; přesné fáze web neuvádí"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 500000,
+      "max_eur": 2000000
+    },
+    "value_text": "sweet spot €0.5M–€2M (business creation od €150k)",
+    "source_url": "https://www.inibio.eu/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Our sweet spot lies between €0.5M and €2M.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 500000,
+      "max": 2000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 45000000,
+      "basis": "aum"
+    },
+    "value_text": "i&i Bio manages more than 45 million EUR (dolní mez)",
+    "source_url": "https://www.iniprague.com/news/pr-inibiotechfund",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "i&i Bio manages more than 45 million EUR",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 45000000
+    }
+  },
+  "funds": [
+    {
+      "name": "i&i Biotech Fund I SCSp",
+      "original": {
+        "currency": "EUR",
+        "amount": 45000000
+      },
+      "size_eur": 45000000,
+      "vintage": 2021,
+      "domicile": "LU",
+      "registry": null,
+      "source_url": "https://www.iniprague.com/news/pr-inibiotechfund",
+      "quote": "i&i Bio is a Luxembourg-based venture capital firm"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "T-CURX (DE)",
+      "date": "2025-12-17",
+      "round": "Series A first closing 20 mil. USD (vedl BiomedVC)",
+      "source_url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/t-curx-20-million/",
+      "source_date": "2025-12-17",
+      "quote": "Bayern Kapital, HighLight Capital (HLC) and the i&i Biotech Fund",
+      "source_tier": "B"
+    },
+    {
+      "company": "KyDo Therapeutics (DE)",
+      "date": "2025-09-22",
+      "round": "seed 4,45 mil. EUR (vedl I&I Bio s KHAN-II)",
+      "source_url": "https://www.bionity.com/en/news/1187186/a-completely-new-approach-in-cancer-therapy.html",
+      "source_date": "2025-09-22",
+      "quote": "The financing round was successfully spearheaded by I&I Bio together with KHAN-II",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Země: fond i GP domicil Lucembursko (funds[].domicile = LU), ale investiční poradce Biotech Investments s.r.o. je v Praze a fond vznikl z i&i Prague (ÚOCHB) s podporou EIF a České spořitelny -> country CZ. Jméno GP/správce lucemburského fondu web neuvádí; tým (např. Jaromír Zahrádka, Ivan Vohlmuth) jsem z primárního zdroje neověřil. Kapitál 'více než 45 mil. EUR' je z nedatované stránky i&i Prague (start činnosti 9/2021), může být zastaralý; profil třetí strany uvádí 53 mil. EUR - neověřeno. Další dealy z webu (bez dat): Captain T Cell, iQure Pharma, Antiverse, HeartBeat.bio, Delta Life Science, Sophomer, Enzyre, Nanoligent, CasInvent Pharma. Citace Würzburg je fragment delší věty (nástroj neumožnil delší doslovný výňatek).",
+  "phase": 2
+}

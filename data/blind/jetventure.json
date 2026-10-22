@@ -1,0 +1,54 @@
+{
+  "id": "jetventure",
+  "name": "Jet Ventures (fond Jet Venture 1)",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.jetinvestment.cz/venture-capital"
+    },
+    "registry": {
+      "value": "03890333",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333"
+    },
+    "sectors": {
+      "value": [
+        "industry"
+      ],
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/"
+    },
+    "stages": {
+      "value": [
+        "series_a",
+        "series_b_plus"
+      ],
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/"
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": 50000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://www.jetinvestment.cz/venture-capital",
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      }
+    },
+    "investment_evidence": {
+      "company": "GigaScan Technologies (Göteborg)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR od Jet Venture 1",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/"
+    }
+  }
+}

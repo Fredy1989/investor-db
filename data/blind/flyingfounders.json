@@ -1,0 +1,57 @@
+{
+  "id": "flyingfounders",
+  "name": "Flying Founders",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://tinyempires.substack.com/p/a-new-chapter-for-tiny-empires"
+    },
+    "investor_type": {
+      "value": "private_investor",
+      "country": "CZ",
+      "website": "https://www.flyingfounders.com/"
+    },
+    "registry": {
+      "value": "21828377",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21828377"
+    },
+    "sectors": {
+      "value": [
+        "saas_b2b"
+      ],
+      "source_url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/"
+    },
+    "stages": {
+      "value": [
+        "growth"
+      ],
+      "source_url": "https://czechstartups.gov.cz/?investori=flying-founders"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 100000,
+        "max_eur": 500000
+      },
+      "source_url": "https://www.flyingfounders.com/",
+      "original": {
+        "currency": "EUR",
+        "min": 100000,
+        "max": 500000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "own_balance_sheet"
+      },
+      "source_url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/"
+    },
+    "investment_evidence": {
+      "company": "Tiny Empires",
+      "date": "2025-09-17",
+      "round": "akvizice (buyout)",
+      "source_url": "https://tinyempires.substack.com/p/a-new-chapter-for-tiny-empires"
+    }
+  }
+}

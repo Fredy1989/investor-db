@@ -1,0 +1,134 @@
+{
+  "id": "purposetech",
+  "name": "PurposeTech",
+  "legal_name": "PurposeTech s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský pre-seed impact fond (spoluzaložený Impact Hub Czechia) s necelými 60 mil. Kč a 11–13 investicemi; doložená investice do eNOugh (CzechCrunch 9/2024); připravuje druhý fond PT Capital (max. 10 mil. EUR).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.purposetech.vc",
+  "registry": {
+    "value": "19183992",
+    "value_text": "IČO 19183992, PurposeTech s.r.o., Drtinova 557/10, Praha 5 (správcovská s.r.o.)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19183992",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"19183992\",\"obchodniJmeno\":\"PurposeTech s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "energy_climate"
+    ],
+    "value_text": "Health, Climate, Future of Work (druhý fond healthtech)",
+    "source_url": "https://www.purposetech.vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We invest in founders reshaping Health, Climate, and the Future of Work.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "value_text": "pre-seed",
+    "source_url": "https://www.purposetech.vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "PurposeTech is a pre-seed fund.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 500000,
+      "max_eur": 1000000
+    },
+    "value_text": "PT Capital (druhý fond): kolem 0,5–1 mil. EUR na společnost; tiket prvního fondu nezveřejněn",
+    "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+    "source_date": "2026-02-10",
+    "accessed": "2026-10-22",
+    "quote": "Jednu společnost se fond chystá podpořit částkou kolem půl až jednoho milionu eur",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "min": 500000,
+      "max": 1000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "první fond necelých 60 mil. Kč (CZK, přepočet dělá kód)",
+    "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+    "source_date": "2026-02-10",
+    "accessed": "2026-10-22",
+    "quote": "Necelých šedesát milionů korun měl na to, aby vybudoval první portfolio a ověřil svou investiční tezi.",
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "amount": 60000000,
+      "approx": "necelých"
+    }
+  },
+  "funds": [
+    {
+      "name": "PurposeTech F1 (první fond)",
+      "size_eur": null,
+      "vintage": 2023,
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "quote": "Necelých šedesát milionů korun měl na to, aby vybudoval první portfolio a ověřil svou investiční tezi.",
+      "original": {
+        "currency": "CZK",
+        "amount": 60000000,
+        "approx": "necelých"
+      },
+      "domicile": "CZ",
+      "registry": {
+        "value": "19185103",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19185103",
+        "quote": "\"ico\":\"19185103\",\"obchodniJmeno\":\"PurposeTech F1 s.r.o., osoba rizikového kapitálu\""
+      }
+    },
+    {
+      "name": "PT Capital (druhý fond, healthtech)",
+      "size_eur": 10000000,
+      "vintage": null,
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "quote": "Maximální velikost nového fondu PT Capital je deset milionů eur, tedy 240 milionů korun,",
+      "original": {
+        "currency": "EUR",
+        "amount": 10000000
+      },
+      "is_target": true,
+      "domicile": null,
+      "registry": null
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "eNOugh",
+      "date": "2024-09-29",
+      "round": "první kolo, celkem 240 tis. GBP",
+      "source_url": "https://cc.cz/zazila-prepadeni-v-londyne-ted-vyviji-chytrou-broz-na-ochranu-zen-v-ulicich-a-ziskala-prvni-miliony/",
+      "source_date": "2024-09-29",
+      "quote": "jako je například Klára Losert nebo český fond PurposeTech, 240 tisíc britských liber (zhruba 7,2 milionu korun)",
+      "source_tier": "B"
+    },
+    {
+      "company": "eNOugh, Tingit (a další z celkem 11 investic)",
+      "date": "2026-02-10",
+      "round": "souhrn portfolia",
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "source_date": "2026-02-10",
+      "quote": "zainvestovali zatím jedenáct z nich jako například eNOugh nebo Tingit",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Správcovská PurposeTech s.r.o. (společníci ZEFIRIA, s.r.o. a Impact Hub Czechia, a.s.; jednatel Zdeněk Fred Fous dle ARES VR); fondový vehikl PurposeTech F1 s.r.o., osoba rizikového kapitálu (společník PurposeTech s.r.o.). Tiket v záznamu je pro nový fond PT Capital (únor 2026, investovat má od podzimu 2026); tiket prvního fondu nezveřejněn (web má ve FAQ lorem ipsum), akcelerátor Impact Creators nabízel až 100 tis. EUR. Kapitál = první fond (necelých 60 mil. Kč, amount je horní mez); PT Capital max. 10 mil. EUR je cíl. Datum eNOugh = datum článku; Tingit (CzechCrunch 26. 8. 2024) a Mamio (30. 1. 2024) články neotevřeny – nepoužito. Web uvádí 13 portfoliových firem, CzechCrunch 2/2026 jedenáct. 'Future of Work' nemá v taxonomii kategorii. Žádné instrukce pro AI nenalezeny.",
+  "phase": 2
+}

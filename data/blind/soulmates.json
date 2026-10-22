@@ -1,0 +1,64 @@
+{
+  "id": "soulmates",
+  "name": "Soulmates Ventures",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://pulse2.com/rightcharge-raises-growth-funding-to-expand-across-europe-after-20x-arr-growth/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://soulmatesventures.com/"
+    },
+    "registry": {
+      "value": "09789561",
+      "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Soulmates&jenPlatne=PLATNE"
+    },
+    "sectors": {
+      "value": [
+        "energy_climate",
+        "mobility",
+        "health"
+      ],
+      "source_url": "https://soulmatesventures.com/"
+    },
+    "stages": {
+      "value": [
+        "seed",
+        "series_a"
+      ],
+      "source_url": "https://soulmatesventures.com/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": 3000000
+      },
+      "source_url": "https://soulmatesventures.com/",
+      "original": {
+        "currency": "EUR",
+        "min": null,
+        "max": 3000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 50000000,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Rightcharge",
+      "date": "2026-09-03",
+      "round": "growth funding £500 000 (lead)",
+      "source_url": "https://pulse2.com/rightcharge-raises-growth-funding-to-expand-across-europe-after-20x-arr-growth/"
+    }
+  }
+}

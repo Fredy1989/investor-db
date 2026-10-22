@@ -1,0 +1,63 @@
+{
+  "id": "purposetech",
+  "name": "PurposeTech",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/"
+    },
+    "investor_type": {
+      "value": "vc",
+      "country": "CZ",
+      "website": "https://www.purposetech.vc"
+    },
+    "registry": {
+      "value": "19183992",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19183992"
+    },
+    "sectors": {
+      "value": [
+        "health",
+        "energy_climate"
+      ],
+      "source_url": "https://www.purposetech.vc"
+    },
+    "stages": {
+      "value": [
+        "pre_seed"
+      ],
+      "source_url": "https://www.purposetech.vc"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 500000,
+        "max_eur": 1000000
+      },
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "original": {
+        "currency": "EUR",
+        "min": 500000,
+        "max": 1000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": "latest_fund_size"
+      },
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "original": {
+        "currency": "CZK",
+        "amount": 60000000,
+        "approx": "necelých"
+      }
+    },
+    "investment_evidence": {
+      "company": "eNOugh, Tingit (a další z celkem 11 investic)",
+      "date": "2026-02-10",
+      "round": "souhrn portfolia",
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/"
+    }
+  }
+}

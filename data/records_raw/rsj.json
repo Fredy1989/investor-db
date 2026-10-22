@@ -1,0 +1,139 @@
+{
+  "id": "rsj",
+  "name": "RSJ Investments",
+  "legal_name": "RSJ Investments investiční společnost a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Česká investiční společnost spravující VC fondy RSJ Tech (I–IV) a RSJ Angel Tech (I–II); vedle fund-of-funds strategie koinvestuje přímo do startupů – doloženo spoluvedení kola Hedepy (25. 1. 2024, tier B).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.rsj.com",
+  "registry": {
+    "value": "05357225",
+    "value_text": "IČO 05357225, RSJ Investments investiční společnost a.s., Na Florenci 2116/15, Praha 1; fondový vehikl RSJ Investments SICAV a.s. IČO 24704415",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"05357225\",\"obchodniJmeno\":\"RSJ Investments investiční společnost a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai",
+      "deeptech",
+      "health"
+    ],
+    "value_text": "Angel Tech: AI, machine learning, blockchain, biotech (přes VC fondy)",
+    "source_url": "https://www.rsj.com/en/investments/investments/angeltech",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Capital is invested in thematically focused VC funds, primarily in sectors such as artificial intelligence, machine learning, blockchain, and biotech.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "value_text": "Pre-Seed až Series A (přes VC fondy a koinvestice)",
+    "source_url": "https://rsj.com/en/investments/investments/tech",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "RSJ Tech Funds invests in VC funds that support startups from Pre-Seed to Series A.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "neuvedeno",
+    "source_url": "https://rsj.com/en/investments/investments/tech",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "velikost fondů Tech/Angel Tech na webu neuvedena",
+    "source_url": "https://rsj.com/en/investments/investments/tech",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [
+    {
+      "name": "RSJ Tech",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://rsj.com/en/investments/investments/tech",
+      "quote": "RSJ Tech is an open-ended unit fund managed by a management company RSJ Investments investiční společnost a.s."
+    },
+    {
+      "name": "RSJ Tech III",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.rsj.com/en/investments/investments/techiii",
+      "quote": "is a closed-end unit fund managed by the investment company RSJ Investments investment company a.s."
+    },
+    {
+      "name": "RSJ Tech IV",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.rsj.com/en/investments/investments/Tech%20IV",
+      "quote": "is a closed-end unit fund managed by the investment company RSJ Investments investment company a.s."
+    },
+    {
+      "name": "RSJ Angel Tech",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.rsj.com/en/investments/investments/angeltech",
+      "quote": "RSJ Angel Tech is an open-ended unit fund managed by a management company RSJ Investments investiční společnost a.s."
+    },
+    {
+      "name": "RSJ Angel Tech II",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://rsj.com/en/investments/investments/angeltechii",
+      "quote": "RSJ Angel Tech II is an close-ended unit fund managed by a management company RSJ Investments investiční společnost a.s."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Hedepy",
+      "date": "2024-01-25",
+      "round": "seed (kolo celkem 3,85 mil. EUR; RSJ spoluvedoucí)",
+      "source_url": "https://en.ain.ua/2024/01/25/hedepy-closes-3-85m-investment-psychotherapy-platform",
+      "source_date": "2024-01-25",
+      "quote": "€1.75 million and finally closed its investment round totaling €3.85 million from N1, Purple Ventures, RSJ Investments, Impact Ventures, and several business angels.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Hedepy",
+      "date": "2023-05-04",
+      "round": "follow-on 2,15 mil. EUR (mimo 36měsíční okno)",
+      "source_url": "https://forbes.cz/online-lecba-duse-tahne-ceska-platforma-hedepy-bere-dosud-nejvyssi-investici/",
+      "source_date": "2023-05-04",
+      "quote": "Svůj podíl v Hedepy navyšuje většina stávajících investorů: fondy Nation 1, Purple Ventures a investiční skupina RSJ.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Pigment, Moonpay, Manta (přímé koinvestice, bez dat)",
+      "date": null,
+      "round": "koinvestice",
+      "source_url": "https://rsj.com/en/investments/investments/tech",
+      "source_date": "undated",
+      "quote": "Part of our strategy includes the ability to co-invest with our partners, which has led us",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Smíšený investor: skupina RSJ (market making, reality, PE) – záznam pokrývá jen VC aktivitu správce. Hlavní strategie je fund-of-funds (LP v Credo, Blossom, Presto, Lunar aj.); do vzorku zařazeno kvůli přímým koinvesticím (Hedepy 01/2024 co-lead). Nejisté: zda Hedepy šlo z fondu RSJ Tech nebo z jiného podfondu SICAV; jediná přímá investice v okně je Hedepy (CB Insights / funding.tech.eu ji datují 25. 1. 2024 – jen k nalezení). Velikosti a ročníky fondů na webu nejsou. Hraniční: pokud se rozsah vzorku vykládá jako 'investuje přímo do startupů', fund-of-funds by mohl jít mimo.",
+  "phase": 2
+}
