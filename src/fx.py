@@ -12,6 +12,7 @@ O víkendu / svátku platí poslední kurz před tímto dnem.
 Použití: python src/fx.py   (přepočítá a uloží záznamy; kurzy cachuje v data/fx_ecb.csv)
 """
 import csv
+import re
 import json
 
 import requests
@@ -70,7 +71,17 @@ def convert_fact(fact, rates):
         value["max_eur"] = round(orig["max"] / rate) if orig["max"] is not None else None
     fact["value"] = value
     fact["fx"] = {"source": "ECB", "rate_date": rate_date, "eur_rate": rate, "currency": orig["currency"]}
+    if fact.get("value_text"):
+        # agent do textu psal vlastní (chybný) přepočet – ten odstranit, ať text neodporuje hodnotě
+        text = OLD_FX.sub("", fact["value_text"])
+        text = re.sub(r"\(\s*[;,]?\s*\)|\(\s*[;,]\s*", lambda m: "" if m.group().endswith(")") else "(", text)
+        text = re.sub(r"\s+;", ";", re.sub(r"\(\s+", "(", text))
+        text = re.sub(r"\s{2,}", " ", text).strip(" ;,")
+        fact["value_text"] = f"{text} · přepočet ECB k {rate_date}: 1 EUR = {rate} {orig['currency']}"
     return True
+
+
+OLD_FX = re.compile(r"(přepočet |kurz(em)? )?1 (USD|CZK) = 0,\d+ EUR( → [^;)]*)?;?")
 
 
 def main():

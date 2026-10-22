@@ -46,7 +46,7 @@
       "min_eur": 890155,
       "max_eur": 4450774
     },
-    "value_text": "$1M - $5M (přepočet 1 USD = 0,92 EUR)",
+    "value_text": "$1M - $5M · přepočet ECB k 2026-10-21: 1 EUR = 1.1234 USD",
     "source_url": "https://www.credoventures.com",
     "source_date": "undated",
     "accessed": "2026-10-22",
@@ -69,7 +69,7 @@
       "eur": 75888237,
       "basis": "latest_fund_size"
     },
-    "value_text": "Credo Stage 5: 88 mil. USD (přepočet 1 USD = 0,92 EUR)",
+    "value_text": "Credo Stage 5: 88 mil. USD · přepočet ECB k 2026-03-23: 1 EUR = 1.1596 USD",
     "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund",
     "source_date": "2026-03-23",
     "accessed": "2026-10-22",

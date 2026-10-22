@@ -52,7 +52,7 @@
       "min_eur": 89015,
       "max_eur": 890155
     },
-    "value_text": "Typical 1st investment $100K–$1M (přepočet 1 USD = 0,92 EUR)",
+    "value_text": "Typical 1st investment $100K–$1M · přepočet ECB k 2026-10-21: 1 EUR = 1.1234 USD",
     "source_url": "https://n1.rocks/",
     "source_date": "undated",
     "accessed": "2026-10-22",
@@ -75,7 +75,7 @@
       "eur": 53409293,
       "basis": "total_across_funds"
     },
-    "value_text": "$60M across two funds (přepočet 1 USD = 0,92 EUR)",
+    "value_text": "$60M across two funds · přepočet ECB k 2026-10-21: 1 EUR = 1.1234 USD",
     "source_url": "https://n1.rocks/",
     "source_date": "undated",
     "accessed": "2026-10-22",
