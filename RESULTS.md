@@ -7,12 +7,12 @@ Pilot: **VC investoři se sídlem v Česku**, stav k 2026-10-22. Pipeline a prav
 | | počet |
 |---|---|
 | kandidáti (z veřejných seznamů a mých vlastních tipů) | 29 |
-| **zařazeno** ([data/investors_cz_vc.csv](data/investors_cz_vc.csv)) | **22** — 15 `vc`, 3 `cvc`, 3 `private_investor`, 1 `pe` |
-| vyřazeno nebo neaktivní ([data/excluded.csv](data/excluded.csv)) | 7 |
+| **zařazeno** ([data/investors_cz_vc.csv](data/investors_cz_vc.csv)) | **21** — 15 `vc`, 3 `cvc`, 3 `private_investor` |
+| vyřazeno, neaktivní nebo mimo rozsah vzorku ([data/excluded.csv](data/excluded.csv)) | 8 |
 | údajů se zdrojem a citací | 226 |
-| zdroje: tier A (web investora, registr) / B (média) / C (agregátor) | 67 / 59 / 3 |
-| zdroj dokládající nejnovější investici: tier A / B (každý s datem) | 2 / 20 |
-| nejnovější doložená investice: 2026 / 2025 / 2023 | 12 / 9 / 1 |
+| zdroje u zařazených: tier A (web investora, registr) / B (média) / C (agregátor) | 66 / 54 / 3 |
+| zdroj dokládající nejnovější investici: tier A / B (každý s datem) | 2 / 19 |
+| nejnovější doložená investice: 2026 / 2025 / 2023 | 12 / 8 / 1 |
 
 Vyřazení, kde se pravidla otestovala na hraničních případech:
 
@@ -25,6 +25,7 @@ Vyřazení, kde se pravidla otestovala na hraničních případech:
 | IP Lab Ventures | I2 | fond teprve vzniká (závazek EIF 09/2026), zatím bez investice |
 | Longevitytech.fund | I1 | zřejmě aktivní, ale nedohledal jsem právnickou osobu → ruční dohledání |
 | „Pointer" | I1 | **neexistuje** — kandidáta jsem do seznamu chybně přidal já (viz README) |
+| Genesis Capital | mimo rozsah | platný PE investor (pro plnou DB), ale vzorek byl definován jako VC-typy (PLAN §6). Původně zařazen omylem, našel to Mac Claude |
 
 ## 2. Pokrytí polí (zařazení, po opravách)
 
@@ -35,7 +36,23 @@ Vyřazení, kde se pravidla otestovala na hraničních případech:
 | fáze | 95 % | |
 | sektory | 95 % | 1× null: Reflex svůj mandát nikde neuvádí |
 | investiční kapitál | 86 % | `basis` říká, co číslo znamená (poslední fond / AUM / hodnota portfolia / vlastní kapitál) |
-| tiket | 82 % | nikdy se nedopočítává; null = investor ho nezveřejňuje |
+| tiket | 81 % | nikdy se nedopočítává; null = investor ho nezveřejňuje |
+
+### Aktuálnost zdrojů
+
+Aktuálnost se měří od review Mac Clauda, viz PLAN §7.9. Výstup `python src/build.py`, počty polí u zařazených:
+
+| pole | ≤ 24 měsíců | 24–36 m | > 36 m | nedatováno |
+|---|---|---|---|---|
+| sektory | 3 | 1 | 1 | 15 |
+| fáze | 3 | 2 | 2 | 13 |
+| tiket | 3 | 2 | 2 | 13 |
+| kapitál | 6 | 1 | 6 | 8 |
+
+- **Kapitál je nejslabší místo.** U 4 vyplněných hodnot je zdroj starší než 3 roky: Lighthouse 2019, Impulse 2020,
+  Czech Founders 2022, Tilia 2023. Často jde o velikost fondu z doby jeho vzniku. Číslo není chybné, ale nemusí být aktuální.
+- **„Nedatováno" jsou z velké části weby investorů.** Ty platí k datu přístupu (2026-10-22), takže nejde o zastaralost.
+  Při škálování je ale potřeba ukládat snapshot stránky (např. Wayback Machine), aby šlo zpětně doložit, co na ní bylo.
 
 ## 3. Přesnost
 
@@ -70,12 +87,20 @@ Měří se tři různé věci a nemíchám je ([src/measure.py](src/measure.py),
 
 **Bez systémové chyby kurzu je přesnost polí 104/113 = 92 %.** To je realistický odhad pro opravenou pipeline.
 
+**Omezení metriky A** (upozornil Mac Claude):
+- Agent B viděl citace agenta A, takže nebyl slepý. „ok" může znamenat jen, že citace na stránce je, ne že B údaj
+  nezávisle dohledal. Číslo A je proto spíš horní odhad. Ve v2 dostane ověřovatel jen tvrzení + URL (PLAN §7.10).
+- Metrika A počítá i Genesis jako zařazený (23 záznamů). Genesis byl vyřazen až po review jako mimo rozsah vzorku.
+
 ### B) Finální data — ruční kontrola člověkem
 
 List [data/manual_check.csv](data/manual_check.csv) má 58 řádků:
-- náhodný vzorek 6 záznamů (seed 20261022) × 8 polí,
-- 4 sporná rozhodnutí,
-- 6 citací, které stroj nepotvrdil.
+- náhodný vzorek 6 záznamů × 8 polí: losováno předem (seed 20261022) a po vyřazení Genesis zafixováno, aby se vzorek po pohledu do dat neměnil,
+- 5 sporných rozhodnutí (včetně Genesis „mimo rozsah"),
+- 5 citací, které stroj nepotvrdil.
+
+U řádků s rozhodnutím je zdůvodnění agenta ve vlastním sloupci `rationale`, odděleně od citace ze zdroje (`quote`).
+Upozornil na to Mac Claude: kontrolor by jinak mohl zdůvodnění agenta považovat za text zdroje.
 
 > **Stav k 2026-10-22: čeká na vyplnění.** Číslo B doplní `python src/measure.py`, jakmile bude vyplněný sloupec
 > `human_verdict`. Ověřovací agent B tohle číslo měřit nemůže, protože opravy sám navrhl.
@@ -84,6 +109,26 @@ List [data/manual_check.csv](data/manual_check.csv) má 58 řádků:
 
 Počítá se ze stejného listu, z polí, která se po ověření neměnila. Na tomhle čísle stojí škálování: pokud agent B
 souhlasí s člověkem v ≥ 95 % případů, stačí lidsky kontrolovat jen statistický vzorek a sporné body.
+
+### D) Úplnost (recall) — křížově s nezávislým řešením na Macu
+
+Druhá session Claude Code (Mac) řešila stejné zadání na stejném vzorku nezávisle. Výsledky se porovnaly až dodatečně.
+Dva nezávislé „úlovky" stejné populace umožňují odhadnout její velikost (Lincoln–Petersen):
+
+| | počet |
+|---|---|
+| zařazeno zde (VC-typy) | 21 |
+| zařazeno na Macu | 17 |
+| v obou | 15 |
+| **odhad populace aktivních VC-typových investorů v ČR** | **21 · 17 / 15 ≈ 24** |
+| **odhad úplnosti tohoto řešení** | **21 / 24 ≈ 88 %** |
+
+- Chybí tu **JIC Ventures** a **i&i Bio**. Našel je jen Mac.
+- **Ztráta úplnosti vzniká při výběru kandidátů, ne při rešerši:** kdo se nedostane do seznamu kandidátů,
+  v databázi nebude. Pro škálování to znamená brát kandidáty z víc nezávislých zdrojů (registry, portfolia EIF,
+  média) a průnik průběžně měřit.
+- Pozor: obě session čerpaly z podobných veřejných seznamů. Úlovky tedy nejsou úplně nezávislé a populace
+  je spíš podhodnocená.
 
 ### Strojová kontrola citací
 
@@ -109,17 +154,23 @@ Naměřeno ze statistik agentů:
 | ověření (4 agenti) | 580 tis. | 186 | 26 min (paralelně ~7 min) |
 | **na 1 kandidáta** | **~48 tis.** | **~20** | **~2,8 min** |
 
+**Pozor, nejsou to účtované tokeny** (opraveno po review Mac Clauda). Statistika agenta neodpovídá tomu, co se platí:
+agentní smyčka posílá při každém volání nástroje celý dosavadní kontext znovu. Při ~20 voláních a kontextu, který roste
+s 5–6 kandidáty v jednom agentovi, je účtovaný vstup řádově 10× vyšší. Většina z toho jsou ale levné cache reads.
+
 ## 5. Odhad nákladů na celý svět
 
 ### Předpoklady
 - **Kolik subjektů:** podle [PLAN.md §5](PLAN.md) 30–50 tis. investorů, z toho jádro VC/PE/CVC 12–16 tis.
-- **Kolik kandidátů na jednoho zařazeného:** v pilotu prošlo 22 z 29 (76 %). Pilotní seznam byl ale kurátorovaný.
+- **Kolik kandidátů na jednoho zařazeného:** v pilotu prošlo 21 z 29 (72 %). Pilotní seznam byl ale kurátorovaný.
   U celosvětových zdrojů počítám **50 %** a u andělů a FO **30 %**. Kandidátů tak bude: jádro ~30 tis., celek ~100 tis.
-- **Cena LLM na kandidáta:** ~48 tis. tokenů. Při ceně Opus 5.5 ($4 / $20 za 1 M) a poměru vstup/výstup 90/10
-  vychází ≈ **$0,27**. Prompt caching (cache read $0,20 / 1 M) a Sonnet 5.5 pro rešerši ($2 / $10) to sníží na
-  ≈ $0,08–0,15. Vyhledávání: ~8 dotazů na kandidáta. Počítám ~$10 / 1 000 dotazů, **cenu je potřeba ověřit
-  u zvoleného search API**, tj. ≈ $0,08.
-  → plánovací cena **$0,30 na kandidáta** (horní odhad).
+- **Cena LLM na kandidáta (rešerše + ověření), s opakovaným posíláním kontextu:**
+  - Opus 5.5 ≈ **$0,87**, Sonnet 5.5 ≈ **$0,48**.
+  - Model nezávisle spočítal Mac Claude, každý kandidát v samostatném běhu.
+  - Můj původní odhad $0,27 vycházel ze statistiky agentů a byl **2–3× podhodnocený**.
+- **Vyhledávání:** ~8 dotazů na kandidáta × **$10 / 1 000 dotazů** ≈ $0,08. Cena je ověřená v ceníku Anthropic
+  (platform.claude.com/docs/en/about-claude/pricing, 2026-10-22). Web fetch je bez příplatku.
+- → plánovací cena **$0,55–0,95 na kandidáta** (Sonnet / Opus).
 - **Lidská práce** (sazba ~35 EUR/h):
   - stratifikovaný kontrolní vzorek (segment × region),
   - rozhodnutí sporných případů: v pilotu 4 z 23 záznamů (~15 %), ~5 min na případ,
@@ -130,13 +181,18 @@ Naměřeno ze statistik agentů:
 | položka | jádro VC/PE/CVC | celý rozsah |
 |---|---|---|
 | kandidátů | ~30 tis. | ~100 tis. |
-| LLM + vyhledávání ($0,30/kand.) | ~9 tis. USD | ~30 tis. USD |
+| LLM + vyhledávání ($0,55–0,95/kand.) | ~16–29 tis. USD ≈ 15–25 tis. EUR | ~55–95 tis. USD ≈ 49–85 tis. EUR |
 | kontrolní vzorek (900 / 1 800 záznamů × 8 polí) | ~95 h ≈ 3,3 tis. EUR | ~190 h ≈ 6,7 tis. EUR |
 | sporné případy (15 % zařazených × 5 min) | ~175 h ≈ 6 tis. EUR | ~500 h ≈ 17,5 tis. EUR |
 | vývoj (fronta úloh, deduplikace, napojení registrů, monitoring) | 3–4 týdny ≈ 10–15 tis. EUR | stejné |
-| **první naplnění celkem** | **≈ 28–35 tis. EUR** | **≈ 60–70 tis. EUR** |
+| **první naplnění celkem** | **≈ 35–50 tis. EUR** | **≈ 85–125 tis. EUR** |
 | údržba: obnova každých 6 měsíců (pravidlo 36 měsíců, nové fondy) | ≈ 40 % prvního naplnění ročně | |
 | čas běhu (20 paralelních agentů, ~2,8 min/kand.) | ~3 dny | ~10 dní |
+
+Pro srovnání: nezávislý odhad Mac Clauda pro celý rozsah je ≈ 90 tis. EUR (rozpětí 50–150 tis.). Tedy uvnitř mého rozpětí.
+
+**Čas běhu je podmíněný rate limity.** Mac pilot dostal HTTP 429 už při 2 paralelních ověřovatelích. Pro
+20 paralelních agentů je potřeba vyšší úroveň limitů API, jinak se čas běhu násobí.
 
 ### Co náklady nejvíc sníží
 1. **Nejdřív strojově čitelné registry, až potom LLM.** SEC IAPD / Form ADV (američtí „exempt reporting advisers" = VC),

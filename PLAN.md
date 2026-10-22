@@ -99,7 +99,7 @@ Pipeline (každý krok má jiného „autora", aby se chyby nenásobily):
 | VC (správci) | 4–7 tis. firem globálně; USA 3 417 (konec 2023) | **5–7 tis.** | vysoká: existence, typ, sektory; střední: tiket | NVCA Yearbook 2024 [1], odhad Konvoy [2] |
 | PE (správci) | Preqin eviduje 10 300+ aktivních správců PE (včetně VC) | **5–7 tis.** bez VC | vysoká: existence, AUM; nízká: tiket | Preqin přes CBS Library [3] |
 | Evropa PE+VC dohromady | Invest Europe sbírá data od 1 750+ firem | **1,5–2 tis.** | vysoká | Invest Europe Activity Report 2024 [4] |
-| CVC | ~1–2 tis. aktivních | **1–1,5 tis.** | střední (často bez tiketu i kapitálu) | vlastní odhad, nízká jistota |
+| CVC | 2 344 korporací aktivně investujících do startupů (2024) | **1,5–2 tis.** (část investuje jen přímo z rozvahy bez identifikovatelného ramene) | střední (často bez tiketu i kapitálu) | Global Corporate Venturing [7] |
 | Family office | 8 030 single FO globálně, 2 020 v Evropě | **1,5–2,5 tis.** (jen ty s veřejnými dealy) | **nízká**: FO nezveřejňují kapitál ani tikety | Deloitte 2024 [5] |
 | Andělé | jen v sítích: UK 10 000, DE 7 500, FR 5 500 (2022); sítě ≈ 10 % trhu | **15–30 tis.** s ≥ 2 veřejnými investicemi | **nízká** u tiketu a kapitálu; GDPR (fyzické osoby) | EBAN přes Statista [6] |
 | Velcí soukromí investoři / holdingy | | **1–3 tis.** | střední | vlastní odhad |
@@ -122,6 +122,10 @@ Zdroje:
 [4] https://www.seca.ch/en/knowledge-library/newsletters/2025/seca-enewsletter-no-550/private-equity-int-news/investing-in-europe-private-equity-activity-2024/
 [5] https://www.deloitte.com/content/dam/assets-shared/docs/services/deloitte-private/2024/2024-defining-the-family-office-landscape-executive-report.pdf
 [6] https://www.statista.com/statistics/439305/business-angels-numbers-by-country-europe/
+[7] https://globalventuring.com/corporate-investors-trends-2025/ („2,344 corporate investors actively taking part in startup funding rounds in 2024"; doplněno po review Mac Clauda)
+
+Velcí soukromí investoři (holdingy) zůstávají **vlastním odhadem bez přímého zdroje**. Veřejné statistiky počítají
+osoby (UHNW), ne jejich investiční vozidla, a převod mezi nimi neznám.
 
 ## 6. Pilot
 
@@ -158,3 +162,18 @@ Pilot (viz [RESULTS.md](RESULTS.md)) ukázal, co v plánu chybělo nebo bylo šp
 7. **Měna neuvedená ve zdroji** („0.5-2m", „17M") → `currency_assumed: true`. Údaj se nezahazuje, ale je označený.
 8. **Kandidáty z „vlastní znalosti" (i mojí) nepovažovat za fakta.** Dva ze tří takových tipů byly chybné
    (Pointer neexistuje, NRF nebyl investor). Pravidla je vyřadila, ale kandidát by měl mít vždy zdroj.
+
+### Doplněno po nezávislém review (Mac Claude, 2026-10-22)
+
+9. **Datum zdroje je povinné, `undated` jen u webu investora.** Kapitál Lighthouse byl z článku ze 7. 6. 2019,
+   ale v záznamu stál jako `undated`, takže zastaralost nešla poznat. `build.py` teď měří aktuálnost:
+   ≤ 24 měsíců / 24–36 / > 36 = zastaralé / nedatováno.
+10. **Ověřovatel musí být „slepý".** Agent B viděl citace agenta A, takže mohl jen potvrdit, že citace na stránce je.
+    Ve v2 dostane ověřovatel jen tvrzení + URL a citaci si najde sám.
+11. **Pravidlo „agregátor (tier C) nestačí" platí jen pro důkaz investice (I2).** Ostatní pole z tieru C jsou povolená,
+    ale v tabulce jsou označená tierem, aby šla filtrovat.
+12. **Sídlo ≠ domicil fondu.** `country` = sídlo týmu / správcovské firmy. Lucemburské GP a fondy (KAYA, Tensor, N1)
+    patří do `funds[].domicile`, aby různí ověřovatelé nerozhodovali zemi různě.
+13. **Rozsah vzorku se musí dodržet i u zařazení.** Genesis Capital je platný PE investor, ale vzorek byl
+    definován jako VC-typy (§6). Proto `decision = out_of_scope`: do plné DB patří, do počtu ve vzorku ne.
+14. **Citlivost okna aktivity:** při 24 měsících místo 36 by ze vzorku vypadl jen Impulse (poslední doložený deal 12/2023).

@@ -92,6 +92,24 @@ def main():
     ticket = sum(1 for r in inc if r["ticket_min_eur"] != "" or r["ticket_max_eur"] != "") / n if n else 0
     print(f"  pokrytí {'ticket (min/max)':<16} {ticket:.0%}")
 
+    # aktuálnost: věcné údaje se mění (nový fond, jiný tiket) → stáří zdroje je součást spolehlivosti
+    print("  aktuálnost zdroje (≤ 24 m / 24–36 m / > 36 m = zastaralé / nedatováno):")
+    for col in ["sectors", "stages", "ticket", "capital"]:
+        c = {"fresh": 0, "aging": 0, "stale": 0, "undated": 0}
+        for r in inc:
+            if not r[f"{col}_source"]:
+                continue
+            c[freshness(r[f"{col}_source_date"])] += 1
+        print(f"    {col:<8} {c['fresh']:>3} / {c['aging']:>3} / {c['stale']:>3} / {c['undated']:>3}")
+
+
+def freshness(date, today="2026-10-22"):
+    if not date or date == "undated":
+        return "undated"
+    y, m = int(today[:4]) - int(date[:4]), int(today[5:7]) - int(date[5:7] or 1)
+    months = y * 12 + m
+    return "fresh" if months <= 24 else "aging" if months <= 36 else "stale"
+
 
 if __name__ == "__main__":
     main()

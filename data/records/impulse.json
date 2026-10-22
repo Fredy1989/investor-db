@@ -4,7 +4,7 @@
   "legal_name": "Impulse Ventures, a.s.",
   "decision": "include",
   "exclusion_rule": null,
-  "decision_reason": "Investiční vozidlo Ondřeje Tomka investující vlastní kapitál do tech firem ve střední Evropě; doložené equity investice Dataddo (12/2023) a Safetica (01/2025).",
+  "decision_reason": "Investiční vozidlo Ondřeje Tomka investující vlastní kapitál do tech firem ve střední Evropě; doložená equity investice Dataddo (12/2023). Safetica (01/2025) vyřazena – investoval Tomek osobně. Hraniční: při okně 24 měsíců by vypadl.",
   "investor_type": "private_investor",
   "country": "CZ",
   "hq_city": "Praha",
@@ -101,5 +101,5 @@
       "removed_reason": "Safetica 2025: investoval Ondřej Tomek osobně, ne Impulse Ventures (unverifiable)"
     }
   ],
-  "corrections_applied": 3
+  "corrections_applied": 4
 }

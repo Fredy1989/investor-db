@@ -2,8 +2,8 @@
   "id": "genesis",
   "name": "Genesis Capital",
   "legal_name": "Genesis Capital Equity s.r.o.",
-  "decision": "include",
-  "exclusion_rule": null,
+  "decision": "out_of_scope",
+  "exclusion_rule": "mimo rozsah vzorku (PLAN §6)",
   "decision_reason": "Private equity skupina (od 1999) s fondy GPEF IV a GPEF V; doložené majoritní investice GAF (03/2024, GPEF IV) a Slevomat (11/2025, GPEF V). Typ pe – samostatné VC rameno 'Genesis Ventures' se v Praze nepodařilo doložit, existoval jen růstový fond GGEF I (lower mid-market), jehož tým se od Genesis odděluje.",
   "investor_type": "pe",
   "country": "CZ",
@@ -134,5 +134,5 @@
     }
   ],
   "notes": "Web genesiscapital.cz nebyl dostupný (ECONNRESET / timeout), proto chybí tier-A zdroje kromě ARES. Rozhodnutí o typu: 'Genesis Ventures' jako VC rameno pražské Genesis Capital nenalezeno (výsledky pro 'Genesis Ventures' jsou řecký, chilský, španělský a japonský fond – nesouvisí). Jediný ne-buyoutový nástroj je růstový fond GGEF I (EUR 40m, firmy s EV do EUR 10m); AmCham (06/2026) uvádí, že Genesis nebude spolupráci s týmem GGEF I replikovat v nástupnickém fondu a tým bude pokračovat samostatně – případný nový subjekt tohoto týmu je kandidát na samostatný záznam. Vintage GGEF I = rok prvního closingu (10/2019, Unquote GP profile 2020-07-01). Velikost GPEF V se liší dle data: 225 mil. (start 2025), 270 mil. (11/2025), 286 mil. (06/2026) – použita nejnovější. Uzavření transakce Slevomat (schválení ÚOHS) nedohledáno.",
-  "corrections_applied": 1
+  "corrections_applied": 3
 }

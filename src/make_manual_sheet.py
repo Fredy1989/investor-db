@@ -10,14 +10,14 @@ Použití: python src/make_manual_sheet.py
 """
 import csv
 import json
-import random
+
 
 from records import ROOT, load_records
 
 DATA = ROOT / "data"
 FIELDS = ["decision", "investor_type", "registry", "sectors", "stages", "ticket", "capital", "investment_evidence"]
-SEED = 20261022
-SAMPLE = 6
+SEED = 20261022  # random.Random(SEED).sample(22 zařazených, 6) → PINNED_SAMPLE
+PINNED_SAMPLE = ["credo", "impulse", "lighthouse", "nation1", "tensor", "zaka"]
 
 
 def fact_row(rec, field):
@@ -26,8 +26,9 @@ def fact_row(rec, field):
         if field == "decision" and rec.get("exclusion_rule"):
             val = f"{val} ({rec['exclusion_rule']})"
         deal = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date", ""))
+        # zdůvodnění agenta NENÍ citace ze zdroje → vlastní sloupec, aby si ho kontrolor nespletl se zdrojem
         return {"value": val, "source_url": deal.get("source_url", rec.get("website", "")),
-                "quote": rec.get("decision_reason", "")}
+                "quote": deal.get("quote", ""), "rationale": rec.get("decision_reason", "")}
     if field == "investment_evidence":
         d = max(rec.get("investment_evidence") or [{}], key=lambda d: d.get("date", ""))
         return {"value": f"{d.get('company')} | {d.get('date')} | {d.get('round')}",
@@ -55,8 +56,9 @@ def main():
     corrected = {(c["id"], c["path"].split(".")[0]) for c in corr}
     b = agent_b_verdicts()
 
-    included = sorted(rid for rid, r in recs.items() if r["decision"] == "include")
-    sample = sorted(random.Random(SEED).sample(included, SAMPLE))
+    # Vzorek byl vylosován 2026-10-22 ze 22 tehdy zařazených (seed níže). Po vyřazení Genesis (mimo rozsah) by stejný
+    # seed losoval jiné záznamy – vzorek se ale po pohledu do dat měnit nesmí, proto je zafixovaný.
+    sample = PINNED_SAMPLE
 
     items = [(rid, f, "1_random_sample") for rid in sample for f in FIELDS]
     for c in corr:
@@ -77,6 +79,7 @@ def main():
         rows.append({
             "group": why, "id": rid, "name": rec["name"], "field": field,
             "value": fr["value"], "source_url": fr["source_url"], "quote": fr["quote"],
+            "rationale": fr.get("rationale", ""),
             "agent_b_verdict": b.get((rid, field), ""),
             "corrected_after_b": "yes" if (rid, field) in corrected else "",
             "human_verdict": "", "human_comment": "",

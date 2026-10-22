@@ -113,13 +113,13 @@
   ],
   "investment_evidence": [
     {
-      "company": "DYNANIC",
-      "date": "2025-08",
-      "round": "550 tis. EUR (první investice z druhého fondu)",
-      "source_url": "https://app.dealroom.co/news/feed/tensor-ventures-invests-550k-in-dynanic",
-      "source_date": "2025-08",
-      "quote": "Tensor Ventures, a deep-tech fund, has invested €550k in the university startup DYNANIC, alongside angel investors from industry leaders.",
-      "source_tier": "C"
+      "company": "AppFactor",
+      "date": "2026-02-04",
+      "round": "seed $4M, lead (druhý fond)",
+      "source_url": "https://theaiinsider.tech/2026/02/04/tensor-ventures-and-others-invest-4-million-us-in-london-based-appfactor",
+      "source_date": "2026-02-04",
+      "quote": "Tensor Ventures led a USD 4 million seed round in London-based AppFactor alongside Begin Capital and Adara Ventures.",
+      "source_tier": "B"
     },
     {
       "company": "Wultra",
@@ -132,5 +132,5 @@
     }
   ],
   "notes": "Není jasné, zda 'druhý fond' za 1 mld. Kč (Forbes 9/2025) je totožný s Co-investment Fund (cíl 50 mil. EUR, 2024) – proto obojí ve funds, capital = doložený closing 1 mld. Kč. Tiket nenalezen v otevřeném zdroji (agregátory ~1 mil. EUR – neověřeno). Web tensor.ventures uvádí kontakt Pernerova 697/35, ARES Pernerova 635/57. Datum Wultra = datum článku (přesné datum transakce neuvedeno). Další dealy 2026 (AppFactor, HeartBeat.bio, REVEL) jen v agregátorech, neuvedeno.",
-  "corrections_applied": 2
+  "corrections_applied": 3
 }

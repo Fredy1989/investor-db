@@ -1,6 +1,16 @@
 # Kontrola řešení proti zadání
 
 Autor: Claude Code (Windows / Android session, Opus 5.5), 2026-10-22, commit `235113a`.
+
+> **Aktualizace po review Mac Clauda:** Mac nezávisle našel 5 věcí, které tahle kontrola přehlédla nebo hodnotila
+> moc mírně. Všechny jsem ověřil proti zdrojům a opravil (viz [reviews/odpoved-android.md](../reviews/odpoved-android.md)):
+> - Genesis mimo rozsah vzorku → A1 / bod 6 ⚠️,
+> - Lighthouse: zastaralý kapitál bez data → bod 8,
+> - slabý důkaz u Tensoru → bod 7,
+> - odhad nákladů 2–3× nízký → bod 10 byl ✅, správně ⚠️; teď přepočteno,
+> - zdroj odhadu pro CVC doplněn → bod 5 zlepšen.
+>
+> Hodnocení níže je stav **po** opravách. Původní znění je v gitu (`4931ed8`).
 Zadání je doslovně v [ZADANI.md](ZADANI.md). Každý bod jsem ověřoval proti obsahu repa (data, skripty), ne podle paměti.
 
 Legenda: ✅ splněno · ⚠️ splněno s výhradou · ❌ nesplněno
@@ -13,13 +23,13 @@ Legenda: ✅ splněno · ⚠️ splněno s výhradou · ❌ nesplněno
 | 2 | Jak se ověří pravost a správné zařazení | ✅ | PLAN §4 | 5 kroků: kandidát, rešerše, strojová kontrola citací, nezávislý agent B, člověk; metriky přesnosti, pokrytí a recall |
 | 3 | Jaký okruh investorů jde z veřejných zdrojů získat a kolik jich bude | ✅ | PLAN §5 | 30–50 tis. subjektů, jádro VC/PE/CVC 12–16 tis., rozpad po 7 segmentech |
 | 4 | Jaká bude spoľahlivosť dát | ✅ | PLAN §5, RESULTS §3 | hypotéza po polích; pilot ji změřil (A: 86 % polí, 92 % bez chyby kurzu) |
-| 5 | Z čeho odhad vychází | ⚠️ | PLAN §5 | VC (NVCA), PE (Preqin), PE+VC v Evropě (Invest Europe), FO (Deloitte) a andělé (EBAN) mají zdroje. **CVC a velcí soukromí investoři jsou jen vlastní odhad**, označený „nízká jistota". Hodnotitel to může vytknout. Možné zlepšení: dohledat zdroj (např. počty CVC z GCV / CB Insights) |
-| 6 | Ověření plánu na menší vzorce (VC v jedné zemi) | ✅ | RESULTS §1 | Česko: 29 kandidátů → 22 zařazeno, 7 vyřazeno s pravidlem; záměrně i hraniční případy |
-| 7 | U každého záznamu zdroj a datum, které dokládají, že investuje | ✅ | `data/investors_cz_vc.csv` (`last_deal_*`) | 22/22 má datovaný deal po 2023-10-22. Zdroj nejnovějšího dealu je u 2 záznamů tier A a u 20 tier B. Původně byl DEPO doložen jen agregátorem a KAYA stránkou bez data; obojí opraveno (`corrections.json`, poslední 2 položky) |
-| 8 | U každého investora sektor, co a v jaké výši investuje, celkový kapitál, odkud informace jsou | ⚠️ | RESULTS §2, README „Rozhodnutí" | zdroj je u každého vyplněného údaje (URL + datum + citace + tier). **Pokrytí:** sektory 95 %, fáze 95 %, tiket 82 %, kapitál 86 %. Chybí: tiket u 4 (Aspire11, Pale Fire, Tensor, Y Soft), kapitál u 3 (DEPO, Springtide, Y Soft), sektor u 1 (Reflex). Úmyslně `null` místo odhadu; zdůvodněno v README |
-| 9 | **Přesnost na ručně ověřené vzorce** | ❌ | `data/manual_check.csv`, `src/measure.py` | Zatím je změřená jen přesnost **AI ověřovatelem** (agent B: 87 % záznamů, 86 % polí). Ruční list je připravený (58 řádků: náhodný vzorek 6 záznamů × 8 polí + sporné body), **čeká na vyplnění člověkem**. Nejslabší bod řešení. |
-| 10 | Odhad nákladů na rozšíření na celý svět | ✅ | RESULTS §5 | z naměřené spotřeby pilotu (~48 tis. tokenů a ~20 volání nástrojů na kandidáta) + ceník modelů: jádro ≈ 28–35 tis. EUR, celý rozsah ≈ 60–70 tis. EUR. Výhrada: cena vyhledávacího API (~$10 / 1 000 dotazů) je předpoklad, je potřeba ji ověřit |
-| 11 | Jen veřejně dostupná data | ✅ | `data/quote_check.csv` | všech 226 zdrojů se stáhlo bez přihlášení (i Dealroom, CB Insights, Unquote, Caplight) a citace na nich byly nalezeny. Jediný „neveřejný" vstup by byl PitchBook; v datech použit není (jen zmínka v `notes`) |
+| 5 | Z čeho odhad vychází | ⚠️ | PLAN §5 | VC (NVCA), PE (Preqin), PE+VC v Evropě (Invest Europe), CVC (GCV: 2 344 v roce 2024, doplněno po review), FO (Deloitte) a andělé (EBAN) mají zdroje. **Velcí soukromí investoři zůstávají vlastním odhadem**, výslovně označeným |
+| 6 | Ověření plánu na menší vzorce (VC v jedné zemi) | ✅ | RESULTS §1 | Česko: 29 kandidátů → 21 zařazeno, 8 vyřazeno s pravidlem (z toho Genesis „mimo rozsah vzorku", opraveno po review); záměrně i hraniční případy |
+| 7 | U každého záznamu zdroj a datum, které dokládají, že investuje | ✅ | `data/investors_cz_vc.csv` (`last_deal_*`) | 21/21 má datovaný deal po 2023-10-22, zdroj nejnovějšího dealu je tier A (2) nebo B (19). Opraveno: DEPO (byl jen agregátor), KAYA (stránka bez data), Tensor (Dealroom → AppFactor, lead, 2026-02-04), ZAKA (datum dealu) |
+| 8 | U každého investora sektor, co a v jaké výši investuje, celkový kapitál, odkud informace jsou | ⚠️ | RESULTS §2, README „Rozhodnutí" | zdroj je u každého vyplněného údaje (URL + datum + citace + tier). **Pokrytí:** sektory 95 %, fáze 95 %, tiket 81 %, kapitál 86 %. Chybí: tiket u 4, kapitál u 3, sektor u 1; úmyslně `null`. **Aktuálnost:** 4 hodnoty kapitálu jsou ze zdroje staršího než 3 roky, mnoho zdrojů nedatovaných (hlavně weby investorů). Teď se měří (RESULTS §2) |
+| 9 | **Přesnost na ručně ověřené vzorce** | ❌ | `data/manual_check.csv`, `src/measure.py` | Zatím je změřená jen přesnost **AI ověřovatelem** (agent B: 87 % záznamů, 86 % polí; navíc nebyl slepý → horní odhad). Ruční list je připravený (58 řádků), **čeká na vyplnění člověkem**. Nejslabší bod řešení, shoduje se Mac i Android. |
+| 10 | Odhad nákladů na rozšíření na celý svět | ✅ | RESULTS §5 | Po review přepočteno s opakovaným posíláním kontextu: $0,55–0,95 na kandidáta → jádro ≈ 35–50 tis. EUR, celý rozsah ≈ 85–125 tis. EUR (Mac nezávisle ≈ 90 tis.). Cena vyhledávání ($10 / 1 000) ověřena v ceníku. Výhrada: rate limity |
+| 11 | Jen veřejně dostupná data | ✅ | `data/quote_check.csv` | všech 226 zdrojů se stáhlo bez přihlášení a citace na nich byly nalezeny. Mac hlásil Dealroom 403; u mě 200 (2 různé User-Agenty), zřejmě blokace podle IP. Jediný důkaz z Dealroomu byl i tak nahrazen tier B zdrojem. PitchBook v datech použit není |
 
 ## Obecné požadavky
 

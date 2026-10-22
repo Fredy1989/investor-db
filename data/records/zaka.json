@@ -97,7 +97,7 @@
     },
     {
       "company": "Promakhos Therapeutics",
-      "date": "2025-04-28",
+      "date": "2025-04-23",
       "round": "neuvedeno (nová investice)",
       "source_url": "https://zaka.vc/news/",
       "source_date": "2025-04-28",
@@ -106,5 +106,5 @@
     }
   ],
   "notes": "Země ověřena: CZ (ARES; kanceláře i Londýn, Bratislava, Silicon Valley). 'ZAKA Startups' je starší název (LinkedIn zakastartups). Tiket na startup nenalezen ve zdroji, který jsem otevřel (agregátory uvádějí 250–300 tis. EUR – neověřeno). Web uvádí '17M Current fund size' bez měny a 97 investic celkem; do capital dána ověřená velikost Fund I z tech.eu. Na news stránce jsou i novější zprávy (Sensible Biotechnologies $47M 10/2026, Sygaldry $139M 4/2026), ale jde o kola portfoliových firem, ne nové investice ZAKA s datem.",
-  "corrections_applied": 2
+  "corrections_applied": 3
 }

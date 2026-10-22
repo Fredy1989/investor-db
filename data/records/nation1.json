@@ -16,7 +16,12 @@
     "source_date": "undated",
     "accessed": "2026-10-22",
     "quote": "Smart Management VC s.r.o.",
-    "source_tier": "A"
+    "source_tier": "A",
+    "link_evidence": {
+      "source_url": "https://cvca.cz/en/membership/",
+      "quote": "Národni 135/14",
+      "note": "adresa Nation1 v adresáři CVCA = adresa Smart Management VC s.r.o. v ARES; nahrazuje PDF EIF, které agent neotevřel"
+    }
   },
   "sectors": {
     "value": [
@@ -143,5 +148,5 @@
       "removed_reason": "Myriad AI 9/2025: N1 v kole nedoloženo (agent B: unverifiable)"
     }
   ],
-  "corrections_applied": 3
+  "corrections_applied": 4
 }

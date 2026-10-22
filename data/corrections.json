@@ -354,14 +354,14 @@
         "eur": 23000000,
         "basis": "previous_fund_size"
       },
-      "value_text": "Fund I (2019): 23 mil. EUR; velikost Fund II (2024) neveřejná",
+      "value_text": "Fund I: 23 mil. EUR (článek 7. 6. 2019 – zastaralé); velikost Fund II (2024) neveřejná",
       "source_url": "https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/",
-      "source_date": "undated",
+      "source_date": "2019-06-07",
       "accessed": "2026-10-22",
       "quote": "který celkově spravuje kapitál ve výši 23 milionů eur",
       "source_tier": "B"
     },
-    "reason": "null_missed; basis = předchozí fond (aktuální neznámý)",
+    "reason": "null_missed; basis = předchozí fond (aktuální neznámý); datum zdroje doplněno 2019-06-07 (Mac review: bylo undated, zastaralost nešla poznat)",
     "proposed_by": "agent_b"
   },
   {
@@ -534,6 +534,72 @@
     },
     "reason": "oba dealy byly doložené jen agregátorem (tier C), což podle PLAN §7.4 nestačí; StartupCentrum je tier B",
     "proposed_by": "agent_b",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "genesis",
+    "op": "set",
+    "path": "decision",
+    "value": "out_of_scope",
+    "reason": "PE buyout fond mimo rozsah pilotního vzorku (PLAN §6: VC-typy investující do startupů); platný investor pro plnou DB, ve vzorku se nepočítá",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "genesis",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "mimo rozsah vzorku (PLAN §6)",
+    "reason": "viz výše",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "tensor",
+    "op": "set",
+    "path": "investment_evidence.0",
+    "value": {
+      "company": "AppFactor",
+      "date": "2026-02-04",
+      "round": "seed $4M, lead (druhý fond)",
+      "source_url": "https://theaiinsider.tech/2026/02/04/tensor-ventures-and-others-invest-4-million-us-in-london-based-appfactor",
+      "source_date": "2026-02-04",
+      "quote": "Tensor Ventures led a USD 4 million seed round in London-based AppFactor alongside Begin Capital and Adara Ventures.",
+      "source_tier": "B"
+    },
+    "reason": "DYNANIC doložen jen Dealroomem (tier C, z Macu HTTP 403); nahrazeno datovaným tier B dealem, kde Tensor vedl kolo",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "zaka",
+    "op": "set",
+    "path": "investment_evidence.1.date",
+    "value": "2025-04-23",
+    "reason": "zaka.vc/news uvádí 04/23/2025, ne 04/28",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "impulse",
+    "op": "set",
+    "path": "decision_reason",
+    "value": "Investiční vozidlo Ondřeje Tomka investující vlastní kapitál do tech firem ve střední Evropě; doložená equity investice Dataddo (12/2023). Safetica (01/2025) vyřazena – investoval Tomek osobně. Hraniční: při okně 24 měsíců by vypadl.",
+    "reason": "zdůvodnění zmiňovalo odstraněný důkaz Safetica",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "nation1",
+    "op": "set",
+    "path": "registry.link_evidence",
+    "value": {
+      "source_url": "https://cvca.cz/en/membership/",
+      "quote": "Národni 135/14",
+      "note": "adresa Nation1 v adresáři CVCA = adresa Smart Management VC s.r.o. v ARES; nahrazuje PDF EIF, které agent neotevřel"
+    },
+    "reason": "IČO bylo odvozeno z výsledku vyhledávání (neotevřený PDF EIF), což porušuje pravidlo 'jen otevřené zdroje'; výsledek potvrzen adresou v CVCA",
+    "proposed_by": "mac_claude_review",
     "decided_by": "orchestrator"
   }
 ]
