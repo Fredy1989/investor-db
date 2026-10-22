@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+fundlift,decision,ok,,https://cc.cz/v-cr-prave-odstartovala-crowdfunding-platforma-fundlift-ktera-za-investici-nabidne-podil-ve-firme/,"E1 správně: crowdfundingová platforma skupiny Roklen, sama neinvestuje."
+fundlift,investor_type,null_ok,,,"Vyřazený subjekt, typ null."
+fundlift,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03876292,"ARES: Fundlift, s.r.o., vznik 2015-03-10, nezaniklo."
+fundlift,sectors,null_ok,,,"Prázdné; neuplatňuje se (platforma). Citace existuje, ale údaj nedokládá."
+fundlift,stages,null_ok,,,Neuplatňuje se.
+fundlift,ticket,null_ok,,,Neuplatňuje se.
+fundlift,capital,null_ok,,,Neuplatňuje se; vlastní fond Fundliftu nenalezen.
+fundlift,investment_evidence,null_ok,,,"Vlastní investice Fundlift, s.r.o. nenalezeny (2 vyhledávání)."

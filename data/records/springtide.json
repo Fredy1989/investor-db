@@ -19,7 +19,10 @@
     "source_tier": "A"
   },
   "sectors": {
-    "value": ["saas_b2b", "ai"],
+    "value": [
+      "saas_b2b",
+      "ai"
+    ],
     "value_text": "kybernetická bezpečnost, cloudová infrastruktura a management, AI/ML",
     "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
     "source_date": "2022-07-19",
@@ -28,7 +31,12 @@
     "source_tier": "B"
   },
   "stages": {
-    "value": ["pre_seed", "seed", "series_b_plus"],
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
     "value_text": "pre-seed/seed až série C; dle e15 (2021) primárně B-kola",
     "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
     "source_date": "2022-07-19",
@@ -37,16 +45,33 @@
     "source_tier": "B"
   },
   "ticket": {
-    "value": {"min_eur": 2760000, "max_eur": 9200000},
+    "value": {
+      "min_eur": 2585761,
+      "max_eur": 8619204
+    },
     "value_text": "3–10 mil. USD (kurz 1 USD = 0,92 EUR); údaj z roku 2021",
     "source_url": "https://www.e15.cz/byznys/komarkuv-fond-springtide-ventures-investuje-do-izraelskeho-startupu-cognni-1384434",
     "source_date": "2021-10-14",
     "accessed": "2026-10-22",
     "quote": "většinou investuje částky mezi třemi až deseti miliony dolarů",
-    "source_tier": "B"
+    "source_tier": "B",
+    "original": {
+      "currency": "USD",
+      "min": 3000000,
+      "max": 10000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2021-10-14",
+      "eur_rate": 1.1602,
+      "currency": "USD"
+    }
   },
   "capital": {
-    "value": {"eur": null, "basis": "own_balance_sheet"},
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
     "value_text": "investuje jen peníze KKCG; velikost alokace nezveřejněna",
     "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
     "source_date": "2022-07-19",
@@ -66,5 +91,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Web springtide.vc přesměrovává na prodej domény (GoDaddy) – vlastní web nenalezen. Tiket 3–10 mil. USD je z roku 2021 (e15), novější údaj nenalezen. Novější deal než ThreatMark (01/2025) nenalezen; agregátory pod stejným jménem míchají americký zdravotnický fond SpringTide Ventures (Boston) – ten sem nepatří. Typ cvc zvolen, protože jde o 100% dceru investiční skupiny KKCG (lze zvážit i vc/family_office)."
+  "notes": "Web springtide.vc přesměrovává na prodej domény (GoDaddy) – vlastní web nenalezen. Tiket 3–10 mil. USD je z roku 2021 (e15), novější údaj nenalezen. Novější deal než ThreatMark (01/2025) nenalezen; agregátory pod stejným jménem míchají americký zdravotnický fond SpringTide Ventures (Boston) – ten sem nepatří. Typ cvc zvolen, protože jde o 100% dceru investiční skupiny KKCG (lze zvážit i vc/family_office).",
+  "corrections_applied": 2
 }

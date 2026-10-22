@@ -38,14 +38,14 @@
   },
   "ticket": {
     "value": {
-      "min_eur": null,
+      "min_eur": 1000000,
       "max_eur": 2000000
     },
-    "value_text": "kolem 1 mil. EUR, někdy až ke 2 mil. EUR",
+    "value_text": "typická investice 1–2 mil. EUR",
     "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
     "source_date": "2023-12-22",
     "accessed": "2026-10-22",
-    "quote": "Fond obecně investuje částky kolem jednoho milionu eur, někdy ke hranici dvou milionů, tedy přibližně pětadvacet až padesát milionů korun.",
+    "quote": "při naší typické investici mezi jedním až dvěma miliony eur",
     "source_tier": "B"
   },
   "capital": {
@@ -89,5 +89,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Web uvádí jen '€150M invested' (nasazený kapitál, ne velikost fondu) – nepoužito jako capital. Velikosti 1. a 2. fondu nedohledány. cc.cz tag uvádí i Merchantee (02/2024), Apify (04/2024), Product Fruits (05/2024) – necitováno. Registr: Reflex Capital SE může být mateřská/správcovská entita; jednotlivé fondy samostatně nedohledány."
+  "notes": "Web uvádí jen '€150M invested' (nasazený kapitál, ne velikost fondu) – nepoužito jako capital. Velikosti 1. a 2. fondu nedohledány. cc.cz tag uvádí i Merchantee (02/2024), Apify (04/2024), Product Fruits (05/2024) – necitováno. Registr: Reflex Capital SE může být mateřská/správcovská entita; jednotlivé fondy samostatně nedohledány.",
+  "corrections_applied": 1
 }

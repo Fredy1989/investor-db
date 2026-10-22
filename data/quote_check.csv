@@ -1,6 +1,6 @@
 id,decision,field,index,source_url,source_tier,http_status,verdict,score,quote
 aspire11,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23602597,A,200,exact,1.0,"Aspire 11 Capital Partners, s.r.o."
-aspire11,include,sectors,0,https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/,B,200,exact,1.0,"Největší část, celkem 300 milionů eur, má směřovat do přímých investic do pokročilých technologických firem."
+aspire11,include,sectors,0,https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/,B,200,exact,1.0,má směřovat do přímých investic do pokročilých technologických firem
 aspire11,include,stages,0,https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/,B,200,fuzzy,0.93,"Dalších 100 milionů eur (skoro 2,5 miliardy) je připraveno jako alokace do vybraného portfolia 15 až 20 VC správců."
 aspire11,include,ticket,0,https://cc.cz/cesi-dal-investicne-kouzli-po-revolutu-maji-dalsi-velky-zarez-pul-miliardy-posilaji-take-do-vintedu/,B,200,exact,1.0,Jejich investiční platforma Aspire11 vložila dvacet milionů eur (přes 480 milionů korun) do evropského online tržiště
 aspire11,include,capital,0,https://www.mediaguru.cz/clanky/2025/09/borkovec-a-mucha-se-spojuji-zakladaji-investicni-platformu/,B,200,exact,1.0,Platforma Aspire11 startuje s fondem v objemu 500 milionů eur
@@ -18,12 +18,13 @@ credo,include,funds,1,https://thenextweb.com/news/credo-ventures-88m-fund,,200,e
 credo,include,investment_evidence,0,https://www.vestbee.com/insights/articles/delta-green-secures-2-m,B,200,exact,1.0,Prague-based energy tech startup Delta Green has raised €2 million from existing investors
 credo,include,investment_evidence,1,https://www.lupa.cz/n/credo-ventures/,B,200,exact,1.0,účastní se také pražské Credo Ventures
 czechfounders,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835,A,200,exact,1.0,"Czech Founders Ventures s.r.o., osoba rizikového kapitálu"
-czechfounders,include,sectors,0,https://www.czechfounders.vc/,A,200,exact,1.0,Pre-seed tickets. Typically €50-350k.
+czechfounders,include,sectors,0,https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/,B,200,exact,1.0,"Poskládali jsme portfolio lidí, které pokrývá širokou škálu obchodních vertikál."
 czechfounders,include,stages,0,https://www.czechfounders.vc/,A,200,exact,1.0,Pre-seed tickets. Typically €50-350k.
 czechfounders,include,ticket,0,https://www.czechfounders.vc/,A,200,exact,1.0,Pre-seed tickets. Typically €50-350k.
 czechfounders,include,capital,0,https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/,B,200,exact,1.0,"Všichni zde zmínění složili dohromady deset milionů eur, přibližně čtvrt miliardy korun"
 czechfounders,include,funds,0,https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/,,200,exact,1.0,"Všichni zde zmínění složili dohromady deset milionů eur, přibližně čtvrt miliardy korun"
 czechfounders,include,investment_evidence,0,https://www.vestbee.com/insights/articles/edmund-secures-500-k,B,200,exact,1.0,"The round was led by Lighthouse Ventures, with Czech Founders VC, Borovicka Capital, and Tensor Ventures"
+czechfounders,include,investment_evidence,1,https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/,B,200,exact,1.0,Peníze mu posílá fond Czech Founders VC a andělský investor Ory Weihs.
 depo,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101,A,200,exact,1.0,"DEPO VENTURES, s.r.o."
 depo,include,sectors,0,https://depoventures.com/,A,200,exact,1.0,"Industry Defence, Space,FinTech, Industry 4.0, Energy"
 depo,include,stages,0,https://depoventures.com/,A,200,exact,1.0,Stage Inception & Pre-seed
@@ -51,20 +52,20 @@ genesis,include,funds,3,https://www.unquote.com/cee/official-record/3027049/gene
 genesis,include,investment_evidence,0,https://www.e15.cz/byznys/slevomat-po-sedmi-letech-meni-majitele-vetsinu-kupuje-genesis-capital-firma-se-vraci-do-ceskych-rukou-1428906,B,200,exact,1.0,Většinový podíl ve Slevomatu získala společnost Genesis Capital prostřednictvím svého fondu soukromého kapitálu Genesis Private Equity Fund V.
 genesis,include,investment_evidence,1,https://www.lupa.cz/aktuality/zpatky-do-ceskych-rukou-slevomat-ma-noveho-majitele-vetsinu-v-nem-koupil-genesis-capital/,B,200,exact,1.0,Pro Genesis Capital představuje tato transakce první podepsanou investici nejnovějšího fondu Genesis Private Equity Fund V (GPEF V) o aktuální velikosti 270 milionů eur.
 genesis,include,investment_evidence,2,https://www.fxstreet.cz/zpravodajstvi-157334.html,B,200,exact,1.0,"Genesis Private Equity Fund IV, private equity fond ze skupiny Genesis Capital, uzavřel smlouvu o investici do majoritního podílu ve společnosti GAF."
+genesis,include,investment_evidence,3,https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment,B,200,exact,1.0,This is the second investment of the newly established Genesis Private Equity Fund V
 impulse,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08841471,A,200,exact,1.0,"""ico"":""08841471"",""obchodniJmeno"":""Impulse Ventures, a.s."""
 impulse,include,sectors,0,https://www.vestbee.com/vc-list/impulse-ventures,C,200,exact,1.0,Enterprise Software
 impulse,include,stages,0,https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/,B,200,exact,1.0,seedových a Series A investic
 impulse,include,ticket,0,https://www.vestbee.com/vc-list/impulse-ventures,C,200,exact,1.0,€25K to €5M+
 impulse,include,capital,0,https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/,B,200,exact,1.0,až čtyři miliardy korun
-impulse,include,investment_evidence,0,https://en.ain.ua/2025/01/24/safetica-announces-a-4m-investment,B,200,exact,1.0,"Czech entrepreneur Ondrej Tomek, co-founder and CEO at Impulse Ventures, led the investment round."
-impulse,include,investment_evidence,1,https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/,B,200,exact,1.0,"Pražský startup Dataddo teď uzavřel své čtvrté investiční kolo, a to opět od fondu Impulse Ventures."
+impulse,include,investment_evidence,0,https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/,B,200,exact,1.0,"Pražský startup Dataddo teď uzavřel své čtvrté investiční kolo, a to opět od fondu Impulse Ventures."
 inven,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533,A,200,exact,1.0,"""ico"":""02059533"",""obchodniJmeno"":""Inven Capital, SICAV, a.s."""
 inven,include,sectors,0,https://www.invencapital.cz/,A,200,exact,1.0,Climate tech
-inven,include,stages,0,https://www.nrwbank.de/de/info-und-service/presseinformationen/2025/250311_vytal-global.html,A,200,exact,1.0,"Die NRW.BANK hat 3,5 Millionen Euro Wachstumskapital über ihren Venture Capital-Fonds NRW.Venture in Vytal Global investiert."
+inven,include,stages,0,https://www.invencapital.cz/,A,200,no_quote,0.0,
 inven,include,ticket,0,https://www.invencapital.cz/,A,200,exact,1.0,2-30m EUR
 inven,include,capital,0,https://www.invencapital.cz/,A,200,exact,1.0,we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world
 inven,include,funds,0,https://www.invencapital.cz/,,200,exact,1.0,we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world
-inven,include,investment_evidence,0,https://www.deutsche-startups.de/2026/02/12/andercore-sammelt-40-millionen-ein-blockbrain-erhaelt-175-millionen-twentyfour-bekommt-118-millionen/,B,200,exact,1.0,"Der tschechische ClimateTech-Investor Inven Capital, Atomico, Project A und Co. investieren 40 Millionen US-Dollar in"
+inven,include,investment_evidence,0,https://www.deutsche-startups.de/2026/02/12/andercore-sammelt-40-millionen-ein-blockbrain-erhaelt-175-millionen-twentyfour-bekommt-118-millionen/,B,500,fetch_failed,0.0,"Der tschechische ClimateTech-Investor Inven Capital, Atomico, Project A und Co. investieren 40 Millionen US-Dollar in"
 inven,include,investment_evidence,1,https://www.nrwbank.de/de/info-und-service/presseinformationen/2025/250311_vytal-global.html,A,200,exact,1.0,"Angeführt wurde das aktuelle Investment von Inven Capital gemeinsam mit NRW.Venture, die Investoren wie Emerald Technology Ventures, Grazia, Rubio, Chi Impact Capital und Kiko im Gesellschafterkreis komplementieren."
 iplab,exclude,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24876763,A,200,exact,1.0,"IP Lab Advisor, s.r.o."
 iplab,exclude,sectors,0,https://cc.cz/vlada-posila-700-milionu-do-noveho-druhu-fondu-zameri-se-i-na-ai-ridi-ho-byvaly-sef-dame-jidlo/,B,200,exact,1.0,"v oblastech umělé inteligence, autonomních systémů, robotiky, chytré mobility, biotechnologií"
@@ -92,6 +93,7 @@ lighthouse,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/
 lighthouse,include,sectors,0,https://lhv.vc/,A,200,exact,1.0,"B2B Software of various verticals, Fintech, AI"
 lighthouse,include,stages,0,https://lhv.vc/,A,200,exact,1.0,Idea / Seed
 lighthouse,include,ticket,0,https://lhv.vc/,A,200,exact,1.0,From €200k to €1m
+lighthouse,include,capital,0,https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/,B,200,exact,1.0,který celkově spravuje kapitál ve výši 23 milionů eur
 lighthouse,include,funds,0,https://lhv.vc/,,200,exact,1.0,Start year of most recent Fund II
 lighthouse,include,investment_evidence,0,https://www.vestbee.com/insights/articles/ranketta-secures-1-m,B,200,exact,1.0,"The round was led by Lighthouse Ventures, with participation from Gi21 Capital, as Vestbee was informed."
 lighthouse,include,investment_evidence,1,https://cc.cz/od-boje-proti-sikane-k-ochrane-whistlebloweru-cesky-faceup-nabira-70-milionu-i-od-reflexu/,B,200,exact,1.0,Kolo vedl český fond Reflex Capital s přispěním Tilia Impact Ventures a Lighthouse Ventures
@@ -105,7 +107,7 @@ miton,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekono
 miton,include,sectors,0,https://cc.cz/profil/miton/,B,200,exact,1.0,"Investujeme vlastní peníze do AI, web3, psychedelik, e-commerce a gastro techu."
 miton,include,stages,0,https://cc.cz/profil/miton/,B,200,exact,1.0,"Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic."
 miton,include,ticket,0,https://cc.cz/profil/miton/,B,200,exact,1.0,"Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic."
-miton,include,capital,0,https://cc.cz/profil/miton/,B,200,exact,1.0,"Investujeme vlastní peníze do AI, web3, psychedelik, e-commerce a gastro techu."
+miton,include,capital,0,https://www.miton.cz,A,200,exact,1.0,hodnota současného portfolia 450 mil. euro
 miton,include,investment_evidence,0,https://startuprise.co.uk/prague-ai-startup-bandits-raises-e400k-to-transform-business-processes/,B,200,exact,1.0,The investment comes from Czech venture capital firm Miton.
 nation1,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07723172,A,200,exact,1.0,Smart Management VC s.r.o.
 nation1,include,sectors,0,https://n1.rocks/,A,200,exact,1.0,"Today, we manage $60M across two funds focused on AI and healthcare."
@@ -117,12 +119,11 @@ nation1,include,funds,1,https://cc.cz/z-nation-1-je-n1-cesti-startupovi-investor
 nation1,include,funds,2,https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/,,200,exact,1.0,který dostal název N1 Ventures U-Tech
 nation1,include,investment_evidence,0,https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/,B,200,exact,1.0,"Peníze již poslal ukrajinské společnosti Respeecher, která vyvíjí software pro syntézu řeči."
 nation1,include,investment_evidence,1,https://en.ain.ua/2024/07/30/czech-founded-startup-myriad-ai-secures-2m-pre-seed-funding-round,B,200,exact,1.0,"The investment was led by by Nation 1, a Prague-based venture capital firm"
-nation1,include,investment_evidence,2,https://www.vcbacked.co/company/myriad-ai,C,200,exact,1.0,"Myriad AI's investors include Plug and Play, Long Journey Ventures, N1, bd Partners, Caesar Ventures."
-nrf,inactive,registry,0,https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750,B,200,exact,1.0,Sám fond požádal Českou národní banku o odnětí licence a regulátor mu vyhověl.
-nrf,inactive,sectors,0,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,B,200,exact,1.0,"Že by zrušení fondu, který měl podpořit financování projektů zejména v infrastruktuře, například v oblasti školství, zdravotnictví nebo dopravy, souviselo s debatou o sektorové dani"
-nrf,inactive,stages,0,https://ct24.ceskatelevize.cz/tema/narodni-rozvojovy-fond-8502,B,200,exact,1.0,"Národní rozvojový fond končí, nepodpořil žádný projekt"
-nrf,inactive,ticket,0,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,B,200,exact,1.0,"Iniciativa, která měla vzpružit českou ekonomiku a vlít do veřejných projektů miliardy korun, totiž od svého vzniku nepodpořila jedinou akci."
-nrf,inactive,capital,0,https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750,B,200,exact,1.0,"Ještě do předloňského září ale do něj žádné prostředky nevložily, což rozvojová banka, která má fond na starosti, zdůvodňovala nepřipraveností projektů."
+nrf,exclude,registry,0,https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY,A,200,exact,1.0,IČO 098 29 482
+nrf,exclude,sectors,0,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,B,200,exact,1.0,"Že by zrušení fondu, který měl podpořit financování projektů zejména v infrastruktuře, například v oblasti školství, zdravotnictví nebo dopravy, souviselo s debatou o sektorové dani"
+nrf,exclude,stages,0,https://ct24.ceskatelevize.cz/tema/narodni-rozvojovy-fond-8502,B,200,exact,1.0,"Národní rozvojový fond končí, nepodpořil žádný projekt"
+nrf,exclude,ticket,0,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,B,200,exact,1.0,"Iniciativa, která měla vzpružit českou ekonomiku a vlít do veřejných projektů miliardy korun, totiž od svého vzniku nepodpořila jedinou akci."
+nrf,exclude,capital,0,https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750,B,200,exact,1.0,"Ještě do předloňského září ale do něj žádné prostředky nevložily, což rozvojová banka, která má fond na starosti, zdůvodňovala nepřipraveností projektů."
 orbit,exclude,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961,A,200,exact,1.0,"""ico"":""08319961"",""obchodniJmeno"":""ORBIT Capital GP s.r.o."""
 orbit,exclude,sectors,0,https://vestbee.com/insights/articles/vc-of-the-month-orbit-capital,B,200,exact,1.0,The fund is focused on technology & tech-enabled businesses with global expansion aspirations.
 orbit,exclude,stages,0,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,B,200,exact,1.0,"Series A technology companies with proven product-market fit, a scalable business model, a minimum 30% YoY growth, and annual revenue of at least €3 million."
@@ -140,10 +141,10 @@ palefire,include,ticket,0,https://palefirecapital.com/,A,200,exact,1.0,Naše inv
 palefire,include,capital,0,https://palefirecapital.com/en/pale-fire-capital-closes-its-first-decade-with-a-e413-million-portfolio-and-expands-into-family-owned-businesses/,A,200,exact,1.0,The total value of assets under management amounts to EUR 2 billion.
 palefire,include,investment_evidence,0,https://palefirecapital.com/en/pale-fire-capital-becomes-a-significant-shareholder-in-zwift-following-rouvy-transaction/,A,200,exact,1.0,"as the ROUVY's former majority owner, is acquiring a significant stake in Zwift"
 pointer,exclude,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25120263,A,200,exact,1.0,"""ico"":""25120263"",""obchodniJmeno"":""PoInter, s.r.o."""
-pointer,exclude,sectors,0,https://www.pointer.cz/,A,200,not_found,0.0,Komplexní řešení IT
-pointer,exclude,stages,0,https://www.pointer.cz/,A,200,not_found,0.0,Komplexní řešení IT
-pointer,exclude,ticket,0,https://www.pointer.cz/,A,200,not_found,0.0,Komplexní řešení IT
-pointer,exclude,capital,0,https://www.pointer.cz/,A,200,not_found,0.0,Komplexní řešení IT
+pointer,exclude,sectors,0,https://www.pointer.cz/,A,200,exact,1.0,Komplexní řešení IT
+pointer,exclude,stages,0,https://www.pointer.cz/,A,200,exact,1.0,Komplexní řešení IT
+pointer,exclude,ticket,0,https://www.pointer.cz/,A,200,exact,1.0,Komplexní řešení IT
+pointer,exclude,capital,0,https://www.pointer.cz/,A,200,exact,1.0,Komplexní řešení IT
 presto,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704,A,200,exact,1.0,"Presto Ventures II a.s., osoba rizikového kapitálu"
 presto,include,sectors,0,https://www.prestoventures.com,A,200,exact,1.0,"Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use."
 presto,include,stages,0,https://www.prestoventures.com,A,200,exact,1.0,Mostly post-revenue companies raising a €800k to €8M financing round
@@ -153,8 +154,8 @@ presto,include,funds,0,https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-
 presto,include,funds,1,https://www.prestoventures.com,,200,exact,1.0,"Since 2016, we’ve invested €40M from two funds."
 presto,include,investment_evidence,0,https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518,B,200,exact,1.0,"Bavovna, hybridní AI systém pro autonomní navigaci dronů"
 presto,include,investment_evidence,1,https://cc.cz/tag/presto-ventures/,B,200,exact,1.0,Teď do nich investoval i zdejší Presto Tech Horizons.
-purple,include,registry,0,https://purple-ventures.com/,A,200,exact,1.0,"© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574, member of Purple Holding"
-purple,include,sectors,0,https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/,B,200,exact,1.0,"První trojici startupů z oblastí chytré energetiky, cloudového HR systému a řízení hybridních eventů celkem poskytli 48 milionů korun"
+purple,include,registry,0,https://purple-ventures.com/,A,0,fetch_failed,0.0,"© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574, member of Purple Holding"
+purple,include,sectors,0,https://purple-ventures.com/,A,200,exact,1.0,We invest into early-stage purpose-driven technology startups with initial revenue and global ambitions.
 purple,include,stages,0,https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/,B,200,exact,1.0,"Fond má ambici v příštích čtyřech letech investovat miliardu korun do asi šedesáti startupů v rané fázi vývoje, tedy pre-seed a seed"
 purple,include,ticket,0,https://purple-ventures.com/,A,200,exact,1.0,€250k to €400k
 purple,include,capital,0,https://purple-ventures.com/,A,200,exact,1.0,Fund II has raised over CZK 700 million and invested a quarter billion to date.
@@ -162,7 +163,7 @@ purple,include,funds,0,https://purple-ventures.com/,,200,exact,1.0,Fund II has r
 purple,include,investment_evidence,0,https://vestbee.com/insights/articles/rightcharge-raises-500-k,B,200,exact,1.0,with participation from BlackWood Ventures and Purple Ventures
 purple,include,investment_evidence,1,https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/,B,200,exact,1.0,"Vůbec první investice fondu putovala v květnu do českého projektu Delta Green, kam Purple Ventures investovali spolu s Tilia Impact Ventures a Credo Ventures"
 reflex,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158,A,200,exact,1.0,"""ico"":""24269158"",""obchodniJmeno"":""Reflex Capital SE"""
-reflex,include,ticket,0,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,B,200,exact,1.0,"Fond obecně investuje částky kolem jednoho milionu eur, někdy ke hranici dvou milionů, tedy přibližně pětadvacet až padesát milionů korun."
+reflex,include,ticket,0,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,B,200,exact,1.0,při naší typické investici mezi jedním až dvěma miliony eur
 reflex,include,capital,0,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,B,200,exact,1.0,"Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun"
 reflex,include,funds,0,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,,200,exact,1.0,"Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun"
 reflex,include,investment_evidence,0,https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/,B,200,exact,1.0,"Výrazně se zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital spolu se skupinou andělských investorů a zaměstnanců."
@@ -170,6 +171,7 @@ reflex,include,investment_evidence,1,https://cc.cz/od-boje-proti-sikane-k-ochran
 rockaway,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136,A,200,exact,1.0,Rockaway Ventures a.s.
 rockaway,include,sectors,0,https://www.rockawayventures.com,A,200,exact,1.0,"primarily in retail and e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity"
 rockaway,include,stages,0,https://www.rockawayventures.com,A,200,exact,1.0,The goal of the Rockaway Ventures fund is to support startups with proven traction in the late seed or Series A stage
+rockaway,include,ticket,0,https://www.vestbee.com/insights/articles/vc-of-the-month-rockaway-ventures,B,200,exact,1.0,Investment ticket : 0.5-2m
 rockaway,include,capital,0,https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund,B,200,exact,1.0,closed its second fund at nearly €55 million to back late-seed and Series A tech startups
 rockaway,include,funds,0,https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund,,200,exact,1.0,closed its second fund at nearly €55 million to back late-seed and Series A tech startups
 rockaway,include,investment_evidence,0,https://www.rockawayventures.com,A,200,exact,1.0,"Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI, a Czech startup"
@@ -181,14 +183,14 @@ springtide,include,stages,0,https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-iz
 springtide,include,ticket,0,https://www.e15.cz/byznys/komarkuv-fond-springtide-ventures-investuje-do-izraelskeho-startupu-cognni-1384434,B,200,exact,1.0,většinou investuje částky mezi třemi až deseti miliony dolarů
 springtide,include,capital,0,https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/,B,200,exact,1.0,"Říkáme, že máme přístup k neomezenému kapitálu pro pravé příležitosti."
 springtide,include,investment_evidence,0,https://threatmark.com/threatmark-to-advance-the-fight-against-online-fraud,B,200,exact,1.0,The addition of the $8 million demonstrates Springtide Ventures' ongoing commitment to supporting ThreatMark's growth and innovation.
-startupyard,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06002820,A,200,exact,1.0,"""ico"":""06002820"",""obchodniJmeno"":""StartupYard Services s.r.o."""
-startupyard,include,sectors,0,https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/,A,200,exact,1.0,"we’re opening our 15th batch, this time with a sharp focus on AI and hard-to-replicate deep tech solutions."
-startupyard,include,stages,0,https://startupyard.com/faq,A,200,exact,1.0,The convertible note is valid for 24 months.
-startupyard,include,ticket,0,https://startupyard.com/faq,A,200,exact,1.0,"If your startup needs funding, you can receive €25,000 in cash – bringing the total convertible note value to €70,000 = €45,000 (in-kind investment) + €25,000 (in cash)."
-startupyard,include,capital,0,https://startupyard.com/faq,A,200,exact,1.0,"We operate a follow-on fund for startups that perform well during and after the program, with investments of up to €100,000."
-startupyard,include,investment_evidence,0,https://www.caplight.com/investor/startupyard,C,200,exact,1.0,Personeo.ai Apr 2024 Accelerator Co-investor
-startupyard,include,investment_evidence,1,https://startupyard.com/startupyard-launches-its-14th-acceleration-batch/,A,200,exact,1.0,"Today we are excited to announce our 14th Acceleration Batch , your gateway to becoming a part of Central and Eastern Europe’s longest-running startup accelerator."
-startupyard,include,investment_evidence,2,https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/,A,200,exact,1.0,"What’s New in Batch 15 For the first time, founders can access an optional €25,000 cash investment alongside the hands-on acceleration StartupYard is known for."
+startupyard,inactive,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06002820,A,200,exact,1.0,"""ico"":""06002820"",""obchodniJmeno"":""StartupYard Services s.r.o."""
+startupyard,inactive,sectors,0,https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/,A,200,exact,1.0,"we’re opening our 15th batch, this time with a sharp focus on AI and hard-to-replicate deep tech solutions."
+startupyard,inactive,stages,0,https://startupyard.com/faq,A,200,exact,1.0,"StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups."
+startupyard,inactive,ticket,0,https://startupyard.com/faq,A,200,exact,1.0,"If your startup needs funding, you can receive €25,000 in cash – bringing the total convertible note value to €70,000 = €45,000 (in-kind investment) + €25,000 (in cash)."
+startupyard,inactive,capital,0,https://startupyard.com/faq,A,200,exact,1.0,"We operate a follow-on fund for startups that perform well during and after the program, with investments of up to €100,000."
+startupyard,inactive,investment_evidence,0,https://www.caplight.com/investor/startupyard,C,200,exact,1.0,Personeo.ai Apr 2024 Accelerator Co-investor
+startupyard,inactive,investment_evidence,1,https://startupyard.com/startupyard-launches-its-14th-acceleration-batch/,A,200,exact,1.0,"Today we are excited to announce our 14th Acceleration Batch , your gateway to becoming a part of Central and Eastern Europe’s longest-running startup accelerator."
+startupyard,inactive,investment_evidence,2,https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/,A,200,exact,1.0,"What’s New in Batch 15 For the first time, founders can access an optional €25,000 cash investment alongside the hands-on acceleration StartupYard is known for."
 tensor,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544,A,200,exact,1.0,Tensor Advisory s.r.o.
 tensor,include,sectors,0,https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/,B,200,exact,1.0,"který se zaměřuje na oblasti, jako jsou umělá inteligence (AI), kvantové technologie, biotechnologie"
 tensor,include,stages,0,https://tensor.ventures/,A,200,exact,1.0,We participate in Seed and Series A rounds.
@@ -217,7 +219,8 @@ ysoft,include,investment_evidence,0,https://eitjumpstarter.eu/robotwin-secures-1
 zaka,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21053987,A,200,exact,1.0,ZAKA Management s.r.o.
 zaka,include,sectors,0,https://zaka.vc/,A,200,exact,1.0,Especially looking for startups in the Health & Biotech and Industrial Tech verticals.
 zaka,include,stages,0,https://zaka.vc/,A,200,exact,1.0,"We are a seed & pre-seed VC fund, investing mainly in the US and Europe."
-zaka,include,capital,0,https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/,B,200,exact,1.0,ZAKA VC Fund I sized €15M is now starting with a €10.5M first closing in June 2024
+zaka,include,ticket,0,https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund,B,200,exact,1.0,"Ticket sizes will range from €250,000 to €300,000."
+zaka,include,capital,0,https://zaka.vc/,A,200,exact,1.0,17M Current fund size
 zaka,include,funds,0,https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/,,200,exact,1.0,ZAKA VC Fund I sized €15M is now starting with a €10.5M first closing in June 2024
 zaka,include,funds,1,https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/,,200,exact,1.0,ZAKA VC has started as a family office investing purely private money in pre-seed and seed startups.
 zaka,include,investment_evidence,0,https://vestbee.com/blog/articles/zaka-vc-invests-in-yenmo,B,200,exact,1.0,"Yenmo, an Indian-founded fintech startup, has secured $1.1 million in a funding round from ZAKA VC, Team Ignite Ventures, and Y Combinator"

@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+ysoft,decision,ok,,https://eitjumpstarter.eu/robotwin-secures-1-million-eur/,RoboTwin 2025-07-02 v okně 36 měsíců. Žádné instrukce pro AI.
+ysoft,investor_type,ok,,https://www.ysoft.com/ventures,"Investiční rameno Y Soft; fond II má i externí LP (Frolík, Livesport) – cvc stále přiměřené."
+ysoft,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29314445,IČO 29314445 a adresa ověřeny v ARES (aktivní); zdroj mesec.cz je tier C – nahradit ARES (tier A).
+ysoft,sectors,ok,,https://www.ysoft.com/ventures,"IoT, Industry 4.0, Smart Office, Cyber Security, Big Data, B2B AR/VR – odpovídá."
+ysoft,stages,ok,,https://www.ysoft.com/ventures,'early-stage technology startups' potvrzeno; RoboTwin pre-seed.
+ysoft,ticket,null_ok,,https://cc.cz/brnensti-y-soft-ventures-spousti-novy-investicni-fond-do-startupu-nenovision-posilaji-20-milionu-korun/,"Aktuální tiket veřejně nenalezen; 2019 jen jeden deal 20 mil. Kč (NenoVision). Agregátor altss uvádí 'max check 1,5 mil. USD' – neověřitelné."
+ysoft,capital,null_ok,,https://cc.cz/brnensti-y-soft-ventures-spousti-novy-investicni-fond-do-startupu-nenovision-posilaji-20-milionu-korun/,Velikost fondu II nezveřejněna (2019: 'více než zdvojnásobí objem'); Forbes uvádí cíl ~200 mil. Kč v nedatovaném článku – neověřeno.
+ysoft,investment_evidence,ok,,https://eitjumpstarter.eu/robotwin-secures-1-million-eur/,"2025-07-02, pre-seed 1,25 mil. EUR, Y Soft Ventures mezi investory – sedí."

@@ -1,0 +1,115 @@
+{
+  "id": "depo",
+  "name": "DEPO Ventures",
+  "legal_name": "DEPO VENTURES, s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský pre-seed VC (od 2016, z andělských fondů na VC fond), v r. 2026 otevřen čtvrtý fond s cílem 30 mil. EUR; doložený lead seed kola ArcSpace (8/2026) a účast v pre-seed Tapaya (4/2026).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://depoventures.com",
+  "registry": {
+    "value": "04753101",
+    "value_text": "IČO 04753101, DEPO VENTURES, s.r.o., Plynární 1617/10, Holešovice, Praha 7; fondová vozidla DEPO VENTURES AF II. (IČO 11726377) a AF III. (IČO 17765838), osoby rizikového kapitálu",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "DEPO VENTURES, s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "defence",
+      "industry",
+      "fintech",
+      "energy_climate",
+      "deeptech"
+    ],
+    "value_text": "Defence, Space, FinTech, Industry 4.0, Energy",
+    "source_url": "https://depoventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Industry Defence, Space,FinTech, Industry 4.0, Energy",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "value_text": "Inception & Pre-seed",
+    "source_url": "https://depoventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Stage Inception & Pre-seed",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 250000,
+      "max_eur": 500000
+    },
+    "value_text": "Ticket €250K - 500K",
+    "source_url": "https://depoventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Ticket €250K - 500K",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "čtvrtý fond cílí na 30 mil. EUR (4/2026), dosažená výše nezveřejněna; web: 9M€ Capital deployed",
+    "source_url": "https://www.businessinfo.cz/clanky/kvalitnich-startupu-je-dost-musite-je-ale-najit-s-novym-fondem-cilime-na-vesmir-rika-sima-z-depo-ventures/",
+    "source_date": "2026-04-13",
+    "accessed": "2026-10-22",
+    "quote": "Nedávno jste otevřeli váš čtvrtý fond, který cílí na částku 30 milionů eur.",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "DEPO čtvrtý fond (VC fond, cíl 30 mil. EUR)",
+      "size_eur": null,
+      "vintage": 2026,
+      "source_url": "https://www.businessinfo.cz/clanky/kvalitnich-startupu-je-dost-musite-je-ale-najit-s-novym-fondem-cilime-na-vesmir-rika-sima-z-depo-ventures/",
+      "quote": "Nedávno jste otevřeli váš čtvrtý fond, který cílí na částku 30 milionů eur."
+    },
+    {
+      "name": "Depo Angels Fund II (cíl 45 mil. Kč)",
+      "size_eur": null,
+      "vintage": 2022,
+      "source_url": "https://cc.cz/cesti-depo-ventures-oteviraji-druhy-fond-v-desitkach-milionu-prvni-investice-podpori-startup-ktery-ukazuje-data-z-kryptouctu/",
+      "quote": "druhý fond by se měl uzavřít na konci března s celkovým objemem 45 milionů korun"
+    },
+    {
+      "name": "Grouport Ventures / DEPO Angels Fund I (35 mil. Kč)",
+      "size_eur": 1400000,
+      "vintage": null,
+      "source_url": "https://cc.cz/cesti-depo-ventures-oteviraji-druhy-fond-v-desitkach-milionu-prvni-investice-podpori-startup-ktery-ukazuje-data-z-kryptouctu/",
+      "quote": "sesbírali 35 milionů korun a ty postupně pod názvem Grouport Ventures investovali do čtrnácti startupů"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "ArcSpace",
+      "date": "2026-08-31",
+      "round": "seed 2 mil. EUR (lead DEPO Ventures)",
+      "source_url": "https://raising.fi/news/arcspace-seed-august-2026",
+      "source_date": "2026-08-31",
+      "quote": "The round was led by DEPO Ventures, with participation from SCE Freiraum Ventures and IRDI Capital Investissement.",
+      "source_tier": "C"
+    },
+    {
+      "company": "Tapaya",
+      "date": "2026-04-28",
+      "round": "pre-seed 1,0 mil. EUR (s Passion Capital a BADideas.fund)",
+      "source_url": "https://funding.tech.eu/companies/9D8D80E6-5DB5-4CE0-B4C2-8B406416EF1D",
+      "source_date": "undated",
+      "quote": "2026-04-28 Pre-Seed €1.0M BADideas.fund , DEPO Ventures , Passion Capital",
+      "source_tier": "C"
+    }
+  ],
+  "notes": "Oba doložené dealy 2026 jen z agregátorů (raising.fi, funding.tech.eu = C); tiskovou zprávu ani článek B pro ArcSpace/Tapaya jsem nenašel. Datum ArcSpace = datum zprávy raising.fi (Nordic9 uvádí jiný den v 8/2026). Fond I 35 mil. Kč přepočten 1 CZK = 0,040 EUR = 1,4 mil. EUR. Velikost třetího fondu (AF III, cíl ~půl miliardy Kč dle CC) neověřena citací. Capital = null, protože čtvrtý fond má jen cíl 30 mil. EUR, dosažená výše nezveřejněna. Agregátory zmiňují i nový fond pro startupy z Ukrajiny/Moldavska/Gruzie s NRB (10/2026) – neověřeno, neuvedeno."
+}

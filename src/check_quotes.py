@@ -53,6 +53,9 @@ def fetch(url):
         r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
         status = r.status_code
         ctype = r.headers.get("content-type", "")
+        if "charset" not in ctype.lower():
+            # bez charsetu v hlavičce requests předpokládá ISO-8859-1 → české stránky by byly rozbité
+            r.encoding = r.apparent_encoding
         if "pdf" in ctype or url.lower().endswith(".pdf"):
             body = pdf_text(r.content)
         else:
@@ -63,7 +66,7 @@ def fetch(url):
             metas = " ".join(m.get("content", "") for m in soup.find_all("meta") if m.get("content"))
             body = soup.get_text(" ") + " " + metas
     except requests.RequestException as e:
-        status, body = 0, f"ERROR {e.__class__.__name__}"
+        return 0, f"ERROR {e.__class__.__name__}"  # síťová chyba se necachuje, příští běh to zkusí znovu
     key.write_text(f"{status}\n{body}", encoding="utf-8")
     time.sleep(0.5)
     return status, body

@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+jtventures,decision,ok,,https://vestbee.com/insights/articles/definic-raises-2-5-m-to-scale-ai-powered-vendor-intelligence-platform,Aktivní: Definic seed lead 6/2026.
+jtventures,investor_type,ok,,https://www.jtventures.cz,"VC finanční skupiny J&T → vc, ne cvc."
+jtventures,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22175903,"ARES sedí. Pozn.: je to fondové vozidlo (FKI SICAV), ne správce – v rozporu s PLAN ('záznam = správcovská společnost'); obhospodařovatel nezjištěn. Fond I: J&T VENTURES I otevřený podílový fond IČO 71508121 (2014, Praha) – fond I byl tedy český."
+jtventures,sectors,ok,,https://www.jtventures.cz,Sector Agnostic.
+jtventures,stages,ok,,https://www.jtventures.cz,Pre-seed až Series A.
+jtventures,ticket,ok,,https://www.jtventures.cz,€300K – €3M.
+jtventures,capital,ok,,https://www.jtventures.cz,€120M 'Výše aktiv' = AUM.
+jtventures,investment_evidence,ok,,https://vestbee.com/insights/articles/definic-raises-2-5-m-to-scale-ai-powered-vendor-intelligence-platform,"2026-06-12, €2,5M seed, lead J&T Ventures, se Seed Starter ČS a SIH."

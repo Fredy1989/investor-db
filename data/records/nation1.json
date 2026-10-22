@@ -44,19 +44,30 @@
   },
   "ticket": {
     "value": {
-      "min_eur": 92000,
-      "max_eur": 920000
+      "min_eur": 89015,
+      "max_eur": 890155
     },
     "value_text": "Typical 1st investment $100K–$1M (přepočet 1 USD = 0,92 EUR)",
     "source_url": "https://n1.rocks/",
     "source_date": "undated",
     "accessed": "2026-10-22",
     "quote": "Typical 1st investment $100K",
-    "source_tier": "A"
+    "source_tier": "A",
+    "original": {
+      "currency": "USD",
+      "min": 100000,
+      "max": 1000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 1.1234,
+      "currency": "USD"
+    }
   },
   "capital": {
     "value": {
-      "eur": 55200000,
+      "eur": 53409293,
       "basis": "total_across_funds"
     },
     "value_text": "$60M across two funds (přepočet 1 USD = 0,92 EUR)",
@@ -64,7 +75,17 @@
     "source_date": "undated",
     "accessed": "2026-10-22",
     "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
-    "source_tier": "A"
+    "source_tier": "A",
+    "original": {
+      "currency": "USD",
+      "amount": 60000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 1.1234,
+      "currency": "USD"
+    }
   },
   "funds": [
     {
@@ -107,7 +128,10 @@
       "source_date": "2024-07-30",
       "quote": "The investment was led by by Nation 1, a Prague-based venture capital firm",
       "source_tier": "B"
-    },
+    }
+  ],
+  "notes": "Velikost prvního fondu nenalezena v otevřeném zdroji (agregátory uvádějí 35,1 mil. EUR – neověřeno, neuvedeno). Zda byl druhý fond uzavřen a v jaké výši, nedoloženo; web uvádí jen souhrn $60M za dva fondy. Právní entita odvozena: Smart Management VC s.r.o. je podle výsledku vyhledávání (starší EIF tabulka eif-backed-active-funds.pdf, kterou jsem neotevřel) správcem Nation 1 Fund; v ARES má jednatele Moravce a Homolu a sídlí na Národní 135/14 = pražská adresa na n1.rocks. Web uvádí i lucemburskou adresu (Heienhaff, Senningerberg) – druhý fond je zřejmě lucemburské vozidlo, název nezjištěn. U-Tech je samostatný fond spolu s Pale Fire Capital, J. Průšou a L. Winklerem. Kandidát v seznamu je 'Nation 1 VC' – současná značka je N1 / N1 Ventures.",
+  "removed_evidence": [
     {
       "company": "Myriad AI",
       "date": "2025-09",
@@ -115,8 +139,9 @@
       "source_url": "https://www.vcbacked.co/company/myriad-ai",
       "source_date": "2025-09-16",
       "quote": "Myriad AI's investors include Plug and Play, Long Journey Ventures, N1, bd Partners, Caesar Ventures.",
-      "source_tier": "C"
+      "source_tier": "C",
+      "removed_reason": "Myriad AI 9/2025: N1 v kole nedoloženo (agent B: unverifiable)"
     }
   ],
-  "notes": "Velikost prvního fondu nenalezena v otevřeném zdroji (agregátory uvádějí 35,1 mil. EUR – neověřeno, neuvedeno). Zda byl druhý fond uzavřen a v jaké výši, nedoloženo; web uvádí jen souhrn $60M za dva fondy. Právní entita odvozena: Smart Management VC s.r.o. je podle výsledku vyhledávání (starší EIF tabulka eif-backed-active-funds.pdf, kterou jsem neotevřel) správcem Nation 1 Fund; v ARES má jednatele Moravce a Homolu a sídlí na Národní 135/14 = pražská adresa na n1.rocks. Web uvádí i lucemburskou adresu (Heienhaff, Senningerberg) – druhý fond je zřejmě lucemburské vozidlo, název nezjištěn. U-Tech je samostatný fond spolu s Pale Fire Capital, J. Průšou a L. Winklerem. Kandidát v seznamu je 'Nation 1 VC' – současná značka je N1 / N1 Ventures."
+  "corrections_applied": 3
 }

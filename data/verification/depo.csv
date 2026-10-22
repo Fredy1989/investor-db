@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+depo,decision,ok,,https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/,"Aktivní: lead seed ArcSpace 8/2026, potvrzeno i StartupCentrum ('led by DEPO Ventures through its DEPO Ventures One fund'). ARES 04753101 OK."
+depo,investor_type,ok,,https://depoventures.com/,Pre-seed VC; dříve andělské fondy.
+depo,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101,"ARES: Plynární 1617/10, Praha 7; jednatel Petr Šíma."
+depo,sectors,ok,,https://depoventures.com/,"Defence, Space, FinTech, Industry 4.0, Energy -> mapování OK (space -> deeptech)."
+depo,stages,ok,,https://depoventures.com/,'Inception & Pre-seed'; pozn. ArcSpace je seed kolo.
+depo,ticket,ok,,https://depoventures.com/,'Ticket €250K - 500K' ověřeno (web uvádí i 'Valuation Up to €7M').
+depo,capital,null_ok,,https://www.businessinfo.cz/clanky/kvalitnich-startupu-je-dost-musite-je-ale-najit-s-novym-fondem-cilime-na-vesmir-rika-sima-z-depo-ventures/,"Jen cíl 30 mil. EUR; dosažená velikost nenalezena (PitchBook bez velikosti; LinkedIn '€30M Fund I closing March 2026' nespolehlivé). Nový fond pro UA/MD/GE s NRB (NDI 3,8-5,8 mil. EUR, Vestbee 10/2026) je samostatné vozidlo."
+depo,investment_evidence,ok,date 2026-08-25,https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/,ArcSpace seed vedený DEPO potvrzen ('over €2 million'). Record má datum článku raising.fi (31.8.); SpaceNexus uvádí kolo 25.8.2026. Lepší zdroj než C-agregátor: StartupCentrum.

@@ -19,16 +19,21 @@
     "source_tier": "A"
   },
   "sectors": {
-    "value": ["fintech", "ecommerce", "deeptech", "generalist"],
-    "value_text": "pokročilé technologické firmy (bez užšího výčtu); dosavadní dealy fintech (Revolut), e-commerce (Vinted)",
+    "value": [
+      "generalist"
+    ],
+    "value_text": "pokročilé technologické firmy, bez sektorového vymezení",
     "source_url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/",
-    "source_date": "2025-10-24",
+    "source_date": "2025-09-21",
     "accessed": "2026-10-22",
-    "quote": "Největší část, celkem 300 milionů eur, má směřovat do přímých investic do pokročilých technologických firem.",
+    "quote": "má směřovat do přímých investic do pokročilých technologických firem",
     "source_tier": "B"
   },
   "stages": {
-    "value": ["growth", "series_b_plus"],
+    "value": [
+      "growth",
+      "series_b_plus"
+    ],
     "value_text": "přímo: růstová kola globálních scale-upů; nepřímo přes 15–20 VC správců pre-seed/seed",
     "source_url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/",
     "source_date": "2025-10-24",
@@ -37,7 +42,10 @@
     "source_tier": "B"
   },
   "ticket": {
-    "value": {"min_eur": null, "max_eur": null},
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
     "value_text": "nezveřejněno; jediný známý tiket Vinted 20 mil. EUR",
     "source_url": "https://cc.cz/cesi-dal-investicne-kouzli-po-revolutu-maji-dalsi-velky-zarez-pul-miliardy-posilaji-take-do-vintedu/",
     "source_date": "2026-06-24",
@@ -46,7 +54,10 @@
     "source_tier": "B"
   },
   "capital": {
-    "value": {"eur": 500000000, "basis": "latest_fund_size"},
+    "value": {
+      "eur": 500000000,
+      "basis": "latest_fund_size"
+    },
     "value_text": "500 mil. EUR (~12,5 mld. Kč), investuje Rentea a Partners Invest během 5 let",
     "source_url": "https://www.mediaguru.cz/clanky/2025/09/borkovec-a-mucha-se-spojuji-zakladaji-investicni-platformu/",
     "source_date": "2025-09-21",
@@ -90,5 +101,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Typ: vc (growth) – 300 z 500 mil. EUR jde do přímých investic, fond fondů je jen 100 mil. EUR, I3 splněno. Kapitál 500 mil. EUR je deklarovaný objem (z penzijních fondů Rentea / Partners Invest během 5 let), ne nutně už upsaný. Záznam = Aspire 11 Capital Partners, s.r.o.; přesná role (správce vs. poradce – existuje i Aspire 11 Advisers, s.r.o. 23603038) neověřena, fond fondů formálně spravuje Partners investiční společnost, a.s. Vlastní web nenalezen. Zda u Revolut/Vinted šlo o primární nebo sekundární akcie, zdroje neuvádějí (u Revolutu 'kolo', u Vinted 'přímá investice')."
+  "notes": "Typ: vc (growth) – 300 z 500 mil. EUR jde do přímých investic, fond fondů je jen 100 mil. EUR, I3 splněno. Kapitál 500 mil. EUR je deklarovaný objem (z penzijních fondů Rentea / Partners Invest během 5 let), ne nutně už upsaný. Záznam = Aspire 11 Capital Partners, s.r.o.; přesná role (správce vs. poradce – existuje i Aspire 11 Advisers, s.r.o. 23603038) neověřena, fond fondů formálně spravuje Partners investiční společnost, a.s. Vlastní web nenalezen. Zda u Revolut/Vinted šlo o primární nebo sekundární akcie, zdroje neuvádějí (u Revolutu 'kolo', u Vinted 'přímá investice').",
+  "corrections_applied": 1
 }

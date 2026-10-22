@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+nation1,decision,ok,,https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/,"Aktivní: Respeecher (U-Tech, 28.5.2025, B) a Myriad AI pre-seed 7/2024 (B). CC ale výslovně nepíše, že U-Tech spravuje N1 (jen 'kromě fondu N1 jsou jeho součástí...')."
+nation1,investor_type,ok,,https://n1.rocks/,"Early-stage VC, dva fondy."
+nation1,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07723172,"ARES OK, Národní 135/14 = pražská adresa na n1.rocks. V aktuálním zápisu VR je jednatelem jen Marek Moravec (Homola ne). Vazba Smart Management VC -> fond N1 je odvozená, ne doložená primárním zdrojem."
+nation1,sectors,ok,,https://n1.rocks/,'AI · Healthtech · Frontier Tech'; frontier tech by šlo mapovat i na deeptech.
+nation1,stages,ok,,https://n1.rocks/,'invest from day zero' + seed (AIN 2024).
+nation1,ticket,wrong,"min_eur 89000, max_eur 890000",https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=21.10.2026,"Zdroj ($100K-$1M) na n1.rocks ověřen, ale kurz 0,92 neodpovídá datu (nedatovaný zdroj -> accessed 10/2026): ČNB 21.10.2026 USD 21,593 / EUR 24,260 => 1 USD = 0,890 EUR."
+nation1,capital,wrong,eur 53400000 (basis total_across_funds),https://n1.rocks/,"'$60M across two funds' ověřeno; přepočet 0,92 chybný, správně ~0,890 (ČNB 21.10.2026) => ~53,4 mil. EUR."
+nation1,investment_evidence,unverifiable,,https://www.vcbacked.co/company/myriad-ai,"Nejnovější deal (Myriad AI seed 9/2025, C): vcbacked uvádí N1 jen v souhrnném seznamu investorů firmy, ne jako účastníka kola 9/2025; SeedTable/StartupIntros/funding.tech.eu uvádějí Category Ventures (lead) + Long Journey, N1 nezmiňují. Follow-on N1 nedoložen. Respeecher 5/2025 (B) platí."

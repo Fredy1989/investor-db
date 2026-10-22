@@ -9,18 +9,106 @@
   "country": "CZ",
   "hq_city": "Praha",
   "website": "https://www.rockawayventures.com",
-  "registry": {"value": "06387136", "value_text": "IČO 06387136, Rockaway Ventures a.s., Generála Píky 430/26, Praha 6, vznik 2017-08-29", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136", "source_date": "undated", "accessed": "2026-10-22", "quote": "Rockaway Ventures a.s.", "source_tier": "A"},
-  "sectors": {"value": ["ecommerce", "consumer", "mobility", "saas_b2b", "defence", "energy_climate"], "value_text": "retail & e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity, defence, cleantech, proptech", "source_url": "https://www.rockawayventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "primarily in retail and e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity", "source_tier": "A"},
-  "stages": {"value": ["seed", "series_a"], "value_text": "late seed or Series A", "source_url": "https://www.rockawayventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "The goal of the Rockaway Ventures fund is to support startups with proven traction in the late seed or Series A stage", "source_tier": "A"},
-  "ticket": {"value": {"min_eur": null, "max_eur": null}, "value_text": null, "source_url": null, "source_date": null, "accessed": "2026-10-22", "quote": null, "source_tier": null},
-  "capital": {"value": {"eur": 55000000, "basis": "latest_fund_size"}, "value_text": "druhý fond uzavřen na téměř 55 mil. EUR (~25 % od Rockaway Capital)", "source_url": "https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund", "source_date": "2025-05-16", "accessed": "2026-10-22", "quote": "closed its second fund at nearly €55 million to back late-seed and Series A tech startups", "source_tier": "B"},
+  "registry": {
+    "value": "06387136",
+    "value_text": "IČO 06387136, Rockaway Ventures a.s., Generála Píky 430/26, Praha 6, vznik 2017-08-29",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Rockaway Ventures a.s.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ecommerce",
+      "consumer",
+      "mobility",
+      "saas_b2b",
+      "defence",
+      "energy_climate"
+    ],
+    "value_text": "retail & e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity, defence, cleantech, proptech",
+    "source_url": "https://www.rockawayventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "primarily in retail and e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "late seed or Series A",
+    "source_url": "https://www.rockawayventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "The goal of the Rockaway Ventures fund is to support startups with proven traction in the late seed or Series A stage",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 500000,
+      "max_eur": 2000000
+    },
+    "value_text": "Investment ticket: 0.5-2m (měna neuvedena, Vestbee jinak uvádí EUR → předpoklad EUR)",
+    "currency_assumed": true,
+    "source_url": "https://www.vestbee.com/insights/articles/vc-of-the-month-rockaway-ventures",
+    "source_date": "2025-07-08",
+    "accessed": "2026-10-22",
+    "quote": "Investment ticket : 0.5-2m",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 55000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "druhý fond uzavřen na téměř 55 mil. EUR (~25 % od Rockaway Capital)",
+    "source_url": "https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund",
+    "source_date": "2025-05-16",
+    "accessed": "2026-10-22",
+    "quote": "closed its second fund at nearly €55 million to back late-seed and Series A tech startups",
+    "source_tier": "B"
+  },
   "funds": [
-    {"name": "Rockaway Ventures Fund (II)", "size_eur": 55000000, "vintage": 2022, "source_url": "https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund", "quote": "closed its second fund at nearly €55 million to back late-seed and Series A tech startups"}
+    {
+      "name": "Rockaway Ventures Fund (II)",
+      "size_eur": 55000000,
+      "vintage": 2022,
+      "source_url": "https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund",
+      "quote": "closed its second fund at nearly €55 million to back late-seed and Series A tech startups"
+    }
   ],
   "investment_evidence": [
-    {"company": "Filuta AI", "date": "2025-06-24", "round": "seed 4,2 mil. USD (lead)", "source_url": "https://www.rockawayventures.com", "source_date": "2025-06-24", "quote": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI, a Czech startup", "source_tier": "A"},
-    {"company": "Remix (20% podíl)", "date": "2025-12-19", "round": "growth / minoritní podíl", "source_url": "https://www.lupa.cz/n/rockaway-group/", "source_date": "2025-12-19", "quote": "Rockaway investuje do evropského digitálního second-hand giganta, táhne ho umělá inteligence", "source_tier": "B"},
-    {"company": "Apptronik", "date": "2026-02-13", "round": "Series A extension (520 mil. USD celkem)", "source_url": "https://www.lupa.cz/n/rockaway-group/", "source_date": "2026-02-13", "quote": "Čeští investoři z Rockaway investovali do amerických humanoidů", "source_tier": "B"}
+    {
+      "company": "Filuta AI",
+      "date": "2025-06-24",
+      "round": "seed 4,2 mil. USD (lead)",
+      "source_url": "https://www.rockawayventures.com",
+      "source_date": "2025-06-24",
+      "quote": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI, a Czech startup",
+      "source_tier": "A"
+    },
+    {
+      "company": "Remix (20% podíl)",
+      "date": "2025-12-19",
+      "round": "growth / minoritní podíl",
+      "source_url": "https://www.lupa.cz/n/rockaway-group/",
+      "source_date": "2025-12-19",
+      "quote": "Rockaway investuje do evropského digitálního second-hand giganta, táhne ho umělá inteligence",
+      "source_tier": "B"
+    },
+    {
+      "company": "Apptronik",
+      "date": "2026-02-13",
+      "round": "Series A extension (520 mil. USD celkem)",
+      "source_url": "https://www.lupa.cz/n/rockaway-group/",
+      "source_date": "2026-02-13",
+      "quote": "Čeští investoři z Rockaway investovali do amerických humanoidů",
+      "source_tier": "B"
+    }
   ],
-  "notes": "Tiket nikde nezveřejněn (web ani Vestbee). Vintage fondu II = 2022 podle Vestbee ('current fund dates to 2022'), close 5/2025. Skupina Rockaway Capital má i další vozidla (Rockaway Fund, RockawayX – krypto, nový fond 2,5 mld. Kč pro průmysl 6/2026) – záznam pokrývá jen Rockaway Ventures. Sektory namapovány přibližně (travel/logistics → mobility, cleantech → energy_climate, cybersecurity → saas_b2b); proptech a digital media bez kategorie."
+  "notes": "Tiket nikde nezveřejněn (web ani Vestbee). Vintage fondu II = 2022 podle Vestbee ('current fund dates to 2022'), close 5/2025. Skupina Rockaway Capital má i další vozidla (Rockaway Fund, RockawayX – krypto, nový fond 2,5 mld. Kč pro průmysl 6/2026) – záznam pokrývá jen Rockaway Ventures. Sektory namapovány přibližně (travel/logistics → mobility, cleantech → energy_climate, cybersecurity → saas_b2b); proptech a digital media bez kategorie.",
+  "corrections_applied": 1
 }

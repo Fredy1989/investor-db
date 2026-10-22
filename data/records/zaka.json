@@ -46,27 +46,28 @@
   },
   "ticket": {
     "value": {
-      "min_eur": null,
-      "max_eur": null
+      "min_eur": 250000,
+      "max_eur": 300000
     },
-    "value_text": "nenalezeno v otevřeném zdroji (web uvádí jen minimální LP tiket 130K)",
-    "source_url": null,
-    "source_date": "undated",
+    "value_text": "€250,000 to €300,000",
+    "source_url": "https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund",
+    "source_date": "2024-07-19",
     "accessed": "2026-10-22",
-    "quote": "",
-    "source_tier": null
+    "quote": "Ticket sizes will range from €250,000 to €300,000.",
+    "source_tier": "B"
   },
   "capital": {
     "value": {
-      "eur": 15000000,
+      "eur": 17000000,
       "basis": "latest_fund_size"
     },
-    "value_text": "Fund I 15 mil. EUR, first closing 10,5 mil. EUR (6/2024); web nyní uvádí '17M Current fund size' bez měny",
-    "source_url": "https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
-    "source_date": "2024-07-19",
+    "value_text": "17M Current fund size (měna na webu neuvedena → předpoklad EUR; fond 1, 8M investováno)",
+    "currency_assumed": true,
+    "source_url": "https://zaka.vc/",
+    "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "ZAKA VC Fund I sized €15M is now starting with a €10.5M first closing in June 2024",
-    "source_tier": "B"
+    "quote": "17M Current fund size",
+    "source_tier": "A"
   },
   "funds": [
     {
@@ -104,5 +105,6 @@
       "source_tier": "A"
     }
   ],
-  "notes": "Země ověřena: CZ (ARES; kanceláře i Londýn, Bratislava, Silicon Valley). 'ZAKA Startups' je starší název (LinkedIn zakastartups). Tiket na startup nenalezen ve zdroji, který jsem otevřel (agregátory uvádějí 250–300 tis. EUR – neověřeno). Web uvádí '17M Current fund size' bez měny a 97 investic celkem; do capital dána ověřená velikost Fund I z tech.eu. Na news stránce jsou i novější zprávy (Sensible Biotechnologies $47M 10/2026, Sygaldry $139M 4/2026), ale jde o kola portfoliových firem, ne nové investice ZAKA s datem."
+  "notes": "Země ověřena: CZ (ARES; kanceláře i Londýn, Bratislava, Silicon Valley). 'ZAKA Startups' je starší název (LinkedIn zakastartups). Tiket na startup nenalezen ve zdroji, který jsem otevřel (agregátory uvádějí 250–300 tis. EUR – neověřeno). Web uvádí '17M Current fund size' bez měny a 97 investic celkem; do capital dána ověřená velikost Fund I z tech.eu. Na news stránce jsou i novější zprávy (Sensible Biotechnologies $47M 10/2026, Sygaldry $139M 4/2026), ale jde o kola portfoliových firem, ne nové investice ZAKA s datem.",
+  "corrections_applied": 2
 }

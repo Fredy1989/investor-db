@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+orbit,decision,ok,,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,"Exclude obhajitelné: od 10/2023 doložena jen venture-debt aktivita (Fund II, 5 úvěrů). Equity rameno (Booksy, Mews, Preply, Rohlik) bez nové equity investice v okně -> equity část E6, dluh E3. Vyhledávání equity investic 2024-2026 nic nenašlo."
+orbit,investor_type,ok,,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,Pro vyřazený záznam 'vc' přijatelné; přesněji growth equity + venture debt.
+orbit,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961,"ARES: ORBIT Capital GP s.r.o., Thámova 289/13, Praha 8, zapsáno 2019; jednatel/společník Radovan Nesrsta = partner Orbit Capital (CC). Jiná Orbit entita v ARES nenalezena."
+orbit,sectors,ok,,https://vestbee.com/insights/articles/vc-of-the-month-orbit-capital,
+orbit,stages,ok,,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,"Post-Series A, min. 3 mil. EUR tržby -> growth."
+orbit,ticket,ok,,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,3-15 mil. EUR (debt).
+orbit,capital,ok,,https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt,"Second close 107 mil. EUR (7/2026), potvrzeno i tech.eu."
+orbit,investment_evidence,ok,,https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/,"Sloneek, IAG, Talkin Things - venture debt, ne equity. Položka e15 2025-06-16 je fundraising, ne investice (do investment_evidence nepatří)."

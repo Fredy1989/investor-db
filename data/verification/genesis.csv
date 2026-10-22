@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+genesis,decision,ok,,https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment,"Aktivní (Slevomat 11/2025, Fyzioterapie s úsměvem 2026). Žádné instrukce pro AI."
+genesis,investor_type,ok,,https://www.amcham.cz/member-news/genesis-announces-strong-year-investment,"Mid-market buyout, majoritní podíly – pe."
+genesis,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25795856,"IČO 25795856 ověřeno, aktivní od 1999; společník Genesis Partners LLP."
+genesis,sectors,ok,,https://www.amcham.cz/member-news/genesis-announces-strong-year-investment,'wide range of industries' → generalist.
+genesis,stages,ok,,https://www.amcham.cz/member-news/genesis-announces-strong-year-investment,"Nástupnictví, expanze, carve-outy; majoritní i významné menšinové podíly – growth/buyout. Novější zdroj (AmCham 2026) než Unquote 2022."
+genesis,ticket,ok,,https://www.amcham.cz/member-news/genesis-announces-strong-year-investment,EUR 10–45 mil. doslovně (2026-06-10). Starší Startbase (02/2026) uvádí 12–35 mil. – použit novější údaj správně.
+genesis,capital,ok,,https://www.amcham.cz/member-news/genesis-announces-strong-year-investment,"GPEF V 286 mil. EUR (06/2026), nejnovější veřejný údaj."
+genesis,investment_evidence,wrong,"Fyzioterapie s úsměvem, 2026 (podpis 02/2026, schváleno ÚOHS; druhá investice GPEF V)",https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment,"Slevomat (2025-11-19) sedí, ale existuje novější veřejný deal: Chambers 2026-04-08 'second investment of the newly established Genesis Private Equity Fund V'. Velikost podílu tento zdroj neuvádí (jiné zdroje: majoritní)."

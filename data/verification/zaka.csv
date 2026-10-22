@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+zaka,decision,ok,,https://zaka.vc/news/,"Aktivní: Promakhos Therapeutics (zaka.vc news 28.4.2025), Yenmo 3/2025. ARES ZAKA Management 21053987 + ZAKA VC I 21514992 existují."
+zaka,investor_type,ok,,https://zaka.vc/,'seed & pre-seed VC fund'.
+zaka,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21053987,"ARES: Italská 2581/67, Praha 2; jednatelé Samuel Zálešák, Karolína Kasperová."
+zaka,sectors,ok,,https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/,"Web: Health & Biotech, Industrial Tech; tech.eu 2024: B2B software, AI v B2B, biotech/healthtech. Mapování sedí."
+zaka,stages,ok,,https://zaka.vc/,
+zaka,ticket,null_missed,"min_eur 250000, max_eur 300000",https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund,"Vestbee 19.7.2024 (B): 'Ticket sizes will range from €250,000 to €300,000.' (Vestbee VC of the month 2023 uvádí 250 tis. EUR.)"
+zaka,capital,wrong,"eur 17000000 (basis latest_fund_size; měna na webu neuvedena, pravděpodobně EUR)",https://zaka.vc/,"15 mil. EUR je cílová velikost z 7/2024 (first close 10,5). Aktuální web: 'Current fund size 17M', Fund 1 = 17M (8M investováno) - novější veřejný údaj; měnu ověřit."
+zaka,investment_evidence,ok,,https://zaka.vc/news/,"Promakhos Therapeutics 28.4.2025 (A), citace na stránce. Kolo/částka neuvedeny."

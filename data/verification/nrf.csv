@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+nrf,decision,wrong,exclude (I1 + I2 + I4 nesplněny; entita vymazána z OR 2026-01-08),https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY,"E6 (inactive) je pro investora, jehož poslední investice je starší 36 měsíců; NRF nikdy neinvestoval a jako subjekt už neexistuje (likvidace od 2025-08-06, výmaz 2026-01-08). Byl to infrastrukturní FKI, ne investor do soukromých firem → patří do excluded, ne do inactive."
+nrf,investor_type,wrong,žádný typ z taxonomie (infrastrukturní FKI ve skupině NRB),https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY,public_vc = státní fond investující equity do firem; NRF měl financovat veřejnou infrastrukturu a neinvestoval nic. Rešeršér sám píše 'jen orientační'.
+nrf,registry,null_missed,"IČO 09829482, Národní rozvojový fond SICAV a.s. (později Národní rozvojový fond a.s., v likvidaci), B 25987 MS Praha, vznik 2021-02-01, výmaz 2026-01-08",https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY,"ARES REST subjekt už nevrací (vymazán), obchodní rejstřík ano. Poslední sídlo Přemyslovská 2845/43, Praha 3."
+nrf,sectors,ok,,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,"Infrastruktura (školství, zdravotnictví, doprava) – citace strojově ověřena."
+nrf,stages,ok,,https://ct24.ceskatelevize.cz/tema/narodni-rozvojovy-fond-8502,Prázdné – nikdy neinvestoval.
+nrf,ticket,null_ok,,,Žádný tiket nikdy nezveřejněn.
+nrf,capital,null_ok,,https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750,Kapitál nikdy nevložen (dle Novinek do 9/2022).
+nrf,investment_evidence,null_ok,,https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843,Žádná investice neexistuje.

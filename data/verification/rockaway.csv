@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+rockaway,decision,ok,,https://www.lupa.cz/n/rockaway-group/,"Aktivní: Filuta AI 6/2025, Remix 12/2025, Apptronik 2/2026 – Lupa přímo uvádí Rockaway Ventures."
+rockaway,investor_type,ok,,https://www.rockawayventures.com,"VC rameno skupiny (Rockaway Capital ~25 % LP), ne cvc."
+rockaway,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136,"Sedí. Fondové vozidlo je Rockaway Ventures Fund SICAV a.s. (IČO 14235781, 2022) + podfond I (75163225); poradce Rockaway Ventures Advisors a.s. (14125129)."
+rockaway,sectors,ok,,https://www.rockawayventures.com,Výčet ze zdroje sedí; mapování travel/logistics→mobility a cybersecurity→saas_b2b je volné.
+rockaway,stages,ok,,https://www.rockawayventures.com,late seed / Series A. Pozn.: Vestbee 2025-05-16 jinde píše 'pre-seed through growth'.
+rockaway,ticket,null_missed,"min_eur 500000, max_eur 2000000 ('Investment ticket: 0.5-2m', 'Company stage: Seed to Series A')",https://www.vestbee.com/insights/articles/vc-of-the-month-rockaway-ventures,"Vestbee VC of the month 2025-07-08 (tier B); měna v textu neuvedena, na Vestbee standardně EUR."
+rockaway,capital,ok,,https://vestbee.com/insights/articles/rockaway-ventures-closes-55-m-fund,"téměř €55M, fond II, 2025-05-16."
+rockaway,investment_evidence,ok,,https://www.lupa.cz/n/rockaway-group/,"Apptronik 13. 2. 2026: Lupa uvádí investory z Rockaway Ventures; 520 mil. USD je celé rozšíření Series A, ne podíl Rockaway (v záznamu správně jako 'celkem')."

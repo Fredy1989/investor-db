@@ -57,7 +57,7 @@
   },
   "capital": {
     "value": {
-      "eur": 46000000,
+      "eur": 42383657,
       "basis": "aum"
     },
     "value_text": "aktiva pod správou přibližně 50 mil. USD (přepočet 1 USD = 0,92 EUR)",
@@ -65,7 +65,17 @@
     "source_date": "2026-04-18",
     "accessed": "2026-10-22",
     "quote": "pod správou má aktiva v objemu přibližně 50 milionů dolarů, tedy 1,8 miliardy korun",
-    "source_tier": "B"
+    "source_tier": "B",
+    "original": {
+      "currency": "USD",
+      "amount": 50000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-04-17",
+      "eur_rate": 1.1797,
+      "currency": "USD"
+    }
   },
   "funds": [
     {
@@ -87,5 +97,6 @@
       "source_tier": "C"
     }
   ],
-  "notes": "Web longevitytech.fund je mrtvý (jen placeholder 'Hostinger Horizons'). Agetechworld 2022: firmy fondu inkorporované v USA, sídlo Palo Alto; CC 2022: 'Stávající fond je v Česku'; PitchBook (403) podle vyhledávání Boca Raton. Deal Animal Biosciences 9/2026 je nejistý – jiné agregátory (Caplight, VCBacked) uvádějí jiná kola a účast nepotvrzují. Pokud se dohledá IČO / zahraniční registrace a B-zdroj k investici po 2023-10-22, změnit na include (typ vc, sektor health). exclusion_rule není z E1–E8 – vyřazení je kvůli nesplnění I1."
+  "notes": "Web longevitytech.fund je mrtvý (jen placeholder 'Hostinger Horizons'). Agetechworld 2022: firmy fondu inkorporované v USA, sídlo Palo Alto; CC 2022: 'Stávající fond je v Česku'; PitchBook (403) podle vyhledávání Boca Raton. Deal Animal Biosciences 9/2026 je nejistý – jiné agregátory (Caplight, VCBacked) uvádějí jiná kola a účast nepotvrzují. Pokud se dohledá IČO / zahraniční registrace a B-zdroj k investici po 2023-10-22, změnit na include (typ vc, sektor health). exclusion_rule není z E1–E8 – vyřazení je kvůli nesplnění I1.",
+  "corrections_applied": 1
 }

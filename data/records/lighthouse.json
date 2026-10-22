@@ -56,13 +56,16 @@
     "source_tier": "A"
   },
   "capital": {
-    "value": null,
-    "value_text": "Velikost fondů nenalezena (web uvádí jen start Fund II v 2024; EIF-backed Lighthouse Seed Fund bez velikosti).",
-    "source_url": null,
-    "source_date": null,
+    "value": {
+      "eur": 23000000,
+      "basis": "previous_fund_size"
+    },
+    "value_text": "Fund I (2019): 23 mil. EUR; velikost Fund II (2024) neveřejná",
+    "source_url": "https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/",
+    "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": null,
-    "source_tier": null
+    "quote": "který celkově spravuje kapitál ve výši 23 milionů eur",
+    "source_tier": "B"
   },
   "funds": [
     {
@@ -93,5 +96,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Velikost Fund II ani AUM nenalezeny. Agregátory (Seedtable, PitchBook) uvádějí vedení seed kola DecisionRules 2025-05-06 a TRIFFT 07/2025 – neověřeno primárním zdrojem. Profil 'Lighthouse Seed Fund' (EIF-backed, správce Lighthouse Ventures GP s.r.o.) na euacc.ai bez velikosti; stránka obsahovala instrukce pro AI, které jsem ignoroval. ARES: Lighthouse Ventures GP s.r.o. je GP; samotný fond v registru nedohledán."
+  "notes": "Velikost Fund II ani AUM nenalezeny. Agregátory (Seedtable, PitchBook) uvádějí vedení seed kola DecisionRules 2025-05-06 a TRIFFT 07/2025 – neověřeno primárním zdrojem. Profil 'Lighthouse Seed Fund' (EIF-backed, správce Lighthouse Ventures GP s.r.o.) na euacc.ai bez velikosti; stránka obsahovala instrukce pro AI, které jsem ignoroval. ARES: Lighthouse Ventures GP s.r.o. je GP; samotný fond v registru nedohledán.",
+  "corrections_applied": 1
 }

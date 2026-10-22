@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+reflex,decision,ok,,https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/,"Aktivní; FaceUp 05/2026 follow-on, 10/2024 lead. Web uvádí nové portfoliové firmy (Partners banka, Abugo, Artmaster, Ranketta)."
+reflex,investor_type,ok,,https://www.reflexcapital.com/,Fond s kapitálem Fryce + vybraných investorů; 'vc' přijatelné.
+reflex,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158,"ARES: Reflex Capital SE, vznik 2012-09-07."
+reflex,sectors,null_ok,,https://www.reflexcapital.com/,"Web ani článek cc.cz 2023 sektorový mandát neuvádějí ('Rather than business models, personalities of the founders play key role')."
+reflex,stages,null_ok,,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,Deklarovaná fáze nenalezena (jen Series A Keboola jako příklad); 2 vyhledávání bez výsledku.
+reflex,ticket,wrong,"min_eur 1000000, max_eur 2000000",https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,"Týž článek: 'při naší typické investici mezi jedním až dvěma miliony eur' -> min 1 mil. EUR je ve zdroji, záznam má min null."
+reflex,capital,ok,,https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/,Třetí fond 22 mil. EUR (2023-12-22). Novější fond nenalezen.
+reflex,investment_evidence,ok,,https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/,"Reflex jmenován mezi stávajícími investory, kteří se 'výrazně zapojili' (2026-05-19). Caplight uvádí i Merchantee seed lead 06/2026 (agregátor, neověřeno)."

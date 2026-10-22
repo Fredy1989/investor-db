@@ -1,0 +1,122 @@
+{
+  "id": "nation1",
+  "name": "N1 (dříve Nation 1 VC)",
+  "legal_name": "Smart Management VC s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský early-stage VC (přejmenován z Nation 1 na N1, druhý fond + N1 Ventures U-Tech); doložený seed do Respeecher (U-Tech, 2025) a lead pre-seed Myriad AI (7/2024).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://n1.rocks",
+  "registry": {
+    "value": "07723172",
+    "value_text": "IČO 07723172, Smart Management VC s.r.o., Národní 135/14, Praha 1 (v ARES jednatelé mj. Marek Moravec a Ondřej Homola, partneři N1; adresa shodná s pražskou adresou na n1.rocks)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07723172",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Smart Management VC s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai",
+      "health"
+    ],
+    "value_text": "AI · Healthtech · Frontier Tech",
+    "source_url": "https://n1.rocks/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "day zero / seed-stage",
+    "source_url": "https://en.ain.ua/2024/07/30/czech-founded-startup-myriad-ai-secures-2m-pre-seed-funding-round",
+    "source_date": "2024-07-30",
+    "accessed": "2026-10-22",
+    "quote": "a Prague-based venture capital firm focused on investing in seed-stage startups that operate in Czechia",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 92000,
+      "max_eur": 920000
+    },
+    "value_text": "Typical 1st investment $100K–$1M (přepočet 1 USD = 0,92 EUR)",
+    "source_url": "https://n1.rocks/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Typical 1st investment $100K",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 55200000,
+      "basis": "total_across_funds"
+    },
+    "value_text": "$60M across two funds (přepočet 1 USD = 0,92 EUR)",
+    "source_url": "https://n1.rocks/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
+    "source_tier": "A"
+  },
+  "funds": [
+    {
+      "name": "Nation 1 Fund (první fond, hlavní investor EIF)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://cc.cz/z-nation-1-je-n1-cesti-startupovi-investori-chystaji-druhy-fond-chteji-do-nej-ziskat-necelou-miliardu/",
+      "quote": "Zatímco největším investorem v prvním fondu N1 byl Evropský investiční fond (EIF)"
+    },
+    {
+      "name": "N1 druhý fond (cíl 35–40 mil. EUR)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://cc.cz/z-nation-1-je-n1-cesti-startupovi-investori-chystaji-druhy-fond-chteji-do-nej-ziskat-necelou-miliardu/",
+      "quote": "tedy kolem 35 až 40 milionů eur (v přepočtu 850 až 980 milionů korun)"
+    },
+    {
+      "name": "N1 Ventures U-Tech (ukrajinské startupy, cíl ~10 mil. EUR)",
+      "size_eur": null,
+      "vintage": 2025,
+      "source_url": "https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/",
+      "quote": "který dostal název N1 Ventures U-Tech"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Respeecher",
+      "date": "2025-05-28",
+      "round": "seed (fond N1 Ventures U-Tech, částka nezveřejněna)",
+      "source_url": "https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/",
+      "source_date": "2025-05-28",
+      "quote": "Peníze již poslal ukrajinské společnosti Respeecher, která vyvíjí software pro syntézu řeči.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Myriad AI",
+      "date": "2024-07-30",
+      "round": "pre-seed 2 mil. USD (lead Nation 1)",
+      "source_url": "https://en.ain.ua/2024/07/30/czech-founded-startup-myriad-ai-secures-2m-pre-seed-funding-round",
+      "source_date": "2024-07-30",
+      "quote": "The investment was led by by Nation 1, a Prague-based venture capital firm",
+      "source_tier": "B"
+    },
+    {
+      "company": "Myriad AI",
+      "date": "2025-09",
+      "round": "seed 7,8 mil. USD (N1 mezi investory, follow-on)",
+      "source_url": "https://www.vcbacked.co/company/myriad-ai",
+      "source_date": "2025-09-16",
+      "quote": "Myriad AI's investors include Plug and Play, Long Journey Ventures, N1, bd Partners, Caesar Ventures.",
+      "source_tier": "C"
+    }
+  ],
+  "notes": "Velikost prvního fondu nenalezena v otevřeném zdroji (agregátory uvádějí 35,1 mil. EUR – neověřeno, neuvedeno). Zda byl druhý fond uzavřen a v jaké výši, nedoloženo; web uvádí jen souhrn $60M za dva fondy. Právní entita odvozena: Smart Management VC s.r.o. je podle výsledku vyhledávání (starší EIF tabulka eif-backed-active-funds.pdf, kterou jsem neotevřel) správcem Nation 1 Fund; v ARES má jednatele Moravce a Homolu a sídlí na Národní 135/14 = pražská adresa na n1.rocks. Web uvádí i lucemburskou adresu (Heienhaff, Senningerberg) – druhý fond je zřejmě lucemburské vozidlo, název nezjištěn. U-Tech je samostatný fond spolu s Pale Fire Capital, J. Průšou a L. Winklerem. Kandidát v seznamu je 'Nation 1 VC' – současná značka je N1 / N1 Ventures."
+}

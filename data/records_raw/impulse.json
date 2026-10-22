@@ -1,0 +1,91 @@
+{
+  "id": "impulse",
+  "name": "Impulse Ventures",
+  "legal_name": "Impulse Ventures, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Investiční vozidlo Ondřeje Tomka investující vlastní kapitál do tech firem ve střední Evropě; doložené equity investice Dataddo (12/2023) a Safetica (01/2025).",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://impulseventures.com/",
+  "registry": {
+    "value": "08841471",
+    "value_text": "IČO 08841471 (Impulse Ventures, a.s.)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08841471",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"08841471\",\"obchodniJmeno\":\"Impulse Ventures, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "generalist"
+    ],
+    "value_text": "Enterprise Software, Sector-Agnostic, Software",
+    "source_url": "https://www.vestbee.com/vc-list/impulse-ventures",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Enterprise Software",
+    "source_tier": "C"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "seedové a Series A investice",
+    "source_url": "https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/",
+    "source_date": "2020-09-08",
+    "accessed": "2026-10-22",
+    "quote": "seedových a Series A investic",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 25000,
+      "max_eur": null
+    },
+    "value_text": "€25K to €5M+ (Vestbee profil; horní mez otevřená)",
+    "source_url": "https://www.vestbee.com/vc-list/impulse-ventures",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "€25K to €5M+",
+    "source_tier": "C"
+  },
+  "capital": {
+    "value": {
+      "eur": 160000000,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "až 4 mld. Kč vlastních peněz (1 CZK = 0,040 EUR → 160 mil. EUR); deklarace z roku 2020",
+    "source_url": "https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/",
+    "source_date": "2020-09-08",
+    "accessed": "2026-10-22",
+    "quote": "až čtyři miliardy korun",
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Safetica",
+      "date": "2025-01-24",
+      "round": "$4M round (led by Ondřej Tomek)",
+      "source_url": "https://en.ain.ua/2025/01/24/safetica-announces-a-4m-investment",
+      "source_date": "2025-01-24",
+      "quote": "Czech entrepreneur Ondrej Tomek, co-founder and CEO at Impulse Ventures, led the investment round.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Dataddo",
+      "date": "2023-12-20",
+      "round": "4. kolo, $1,4M (31 mil. Kč)",
+      "source_url": "https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/",
+      "source_date": "2023-12-20",
+      "quote": "Pražský startup Dataddo teď uzavřel své čtvrté investiční kolo, a to opět od fondu Impulse Ventures.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Web impulseventures.com / impulse.vc se nepodařilo otevřít (chyba certifikátu / odmítnuté spojení) – sektory a tiket jen z Vestbee (C). Typ family_office: investuje 'výhradně vlastní peníze' Ondřeje Tomka (cc.cz 2020); lze zvážit i 'vc'. Kapitál 4 mld. Kč je deklarace z roku 2020, ne aktuální AUM. Safetica 2025: zdroje uvádějí Tomka osobně / 'Impulse Capital' – investiční vozidlo nejednoznačné. Žádný doložený deal v roce 2026 nenalezen. Existuje i Impulse Ventures DD, s.r.o. (IČO 08866716)."
+}

@@ -1,0 +1,114 @@
+{
+  "id": "tensor",
+  "name": "Tensor Ventures",
+  "legal_name": "Tensor Advisory s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský deep-tech VC (fondy přes lucemburské SCSp + koinvestiční fond z NPO/EIF); closing druhého fondu 1 mld. Kč (9/2025), doložené investice DYNANIC (8/2025) a Wultra (2025).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://tensor.ventures",
+  "registry": {
+    "value": "19987544",
+    "value_text": "IČO 19987544, Tensor Advisory s.r.o., Pernerova 635/57, Karlín, Praha 8 (EIF jej uvádí jako správce Tensor Co-Investment Fund SCSp); dále Tensor Ventures a.s., IČO 06257241; GP prvního fondu je lucemburská Tensor Ventures GP S.à r.l.",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Tensor Advisory s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "deeptech",
+      "ai",
+      "health"
+    ],
+    "value_text": "AI, kvantové technologie, biotechnologie, DLT, software 2.0",
+    "source_url": "https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/",
+    "source_date": "2024-05-14",
+    "accessed": "2026-10-22",
+    "quote": "který se zaměřuje na oblasti, jako jsou umělá inteligence (AI), kvantové technologie, biotechnologie",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "Seed and Series A",
+    "source_url": "https://tensor.ventures/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We participate in Seed and Series A rounds.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nenalezeno v otevřeném zdroji",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "",
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 40000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "closing druhého fondu 1 mld. Kč (přepočet 1 CZK = 0,040 EUR); cíl navýšit na 1,5 mld. Kč",
+    "source_url": "https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/",
+    "source_date": "2025-09-18",
+    "accessed": "2026-10-22",
+    "quote": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun.",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Tensor Ventures Fund I SCSp",
+      "size_eur": 20000000,
+      "vintage": null,
+      "source_url": "https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/",
+      "quote": "krátce poté otevřeli svůj první fond ve výši 20 milionů eur"
+    },
+    {
+      "name": "Tensor Ventures Co-investment Fund (Tensor Co-Investment Fund SCSp, NPO/RRF přes EIF; cíl 50 mil. EUR)",
+      "size_eur": null,
+      "vintage": 2024,
+      "source_url": "https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/",
+      "quote": "Tensor Ventures Co-investment Fund cílí na celkovou velikost 50 milionů eur"
+    },
+    {
+      "name": "Tensor druhý fond (closing 1 mld. Kč)",
+      "size_eur": 40000000,
+      "vintage": 2025,
+      "source_url": "https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/",
+      "quote": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "DYNANIC",
+      "date": "2025-08",
+      "round": "550 tis. EUR (první investice z druhého fondu)",
+      "source_url": "https://app.dealroom.co/news/feed/tensor-ventures-invests-550k-in-dynanic",
+      "source_date": "2025-08",
+      "quote": "Tensor Ventures, a deep-tech fund, has invested €550k in the university startup DYNANIC, alongside angel investors from industry leaders.",
+      "source_tier": "C"
+    },
+    {
+      "company": "Wultra",
+      "date": "2025-09-18",
+      "round": "neuvedeno (jedna ze šesti transakcí před closingem druhého fondu)",
+      "source_url": "https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/",
+      "source_date": "2025-09-18",
+      "quote": "Všechny jsou sexy, ale jmenujme třeba Petra Dvořáka a jeho firmu Wultra",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Není jasné, zda 'druhý fond' za 1 mld. Kč (Forbes 9/2025) je totožný s Co-investment Fund (cíl 50 mil. EUR, 2024) – proto obojí ve funds, capital = doložený closing 1 mld. Kč. Tiket nenalezen v otevřeném zdroji (agregátory ~1 mil. EUR – neověřeno). Web tensor.ventures uvádí kontakt Pernerova 697/35, ARES Pernerova 635/57. Datum Wultra = datum článku (přesné datum transakce neuvedeno). Další dealy 2026 (AppFactor, HeartBeat.bio, REVEL) jen v agregátorech, neuvedeno."
+}

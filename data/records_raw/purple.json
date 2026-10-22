@@ -1,0 +1,99 @@
+{
+  "id": "purple",
+  "name": "Purple Ventures",
+  "legal_name": "Purple Ventures s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Brněnský VC (součást Purple Holding) investující pre-seed/seed equity z Fund II; doložené investice 2024 (Delta Green) i 2026 (Rightcharge).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://purple-ventures.com/",
+  "registry": {
+    "value": "05775574",
+    "value_text": "IČO 05775574 (Purple Ventures s.r.o.)",
+    "source_url": "https://purple-ventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "© 2025 Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574, member of Purple Holding",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "energy_climate",
+      "saas_b2b"
+    ],
+    "value_text": "chytrá energetika, cloudový HR systém, řízení hybridních eventů (první investice Fund II)",
+    "source_url": "https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/",
+    "source_date": "2024-06-27",
+    "accessed": "2026-10-22",
+    "quote": "První trojici startupů z oblastí chytré energetiky, cloudového HR systému a řízení hybridních eventů celkem poskytli 48 milionů korun",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "pre-seed a seed",
+    "source_url": "https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/",
+    "source_date": "2024-06-27",
+    "accessed": "2026-10-22",
+    "quote": "Fond má ambici v příštích čtyřech letech investovat miliardu korun do asi šedesáti startupů v rané fázi vývoje, tedy pre-seed a seed",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 250000,
+      "max_eur": 400000
+    },
+    "value_text": "€250k to €400k (initial ticket, later follow-ons)",
+    "source_url": "https://purple-ventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "€250k to €400k",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 28000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "Fund II: over CZK 700 million (1 CZK = 0,040 EUR → 28 mil. EUR; 'over' = dolní mez)",
+    "source_url": "https://purple-ventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Fund II has raised over CZK 700 million and invested a quarter billion to date.",
+    "source_tier": "A"
+  },
+  "funds": [
+    {
+      "name": "Purple Ventures Fund II",
+      "size_eur": 28000000,
+      "vintage": 2024,
+      "source_url": "https://purple-ventures.com/",
+      "quote": "Fund II has raised over CZK 700 million and invested a quarter billion to date."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Rightcharge",
+      "date": "2026-09-03",
+      "round": "growth round £500k (follow-on)",
+      "source_url": "https://vestbee.com/insights/articles/rightcharge-raises-500-k",
+      "source_date": "2026-09-03",
+      "quote": "with participation from BlackWood Ventures and Purple Ventures",
+      "source_tier": "B"
+    },
+    {
+      "company": "Delta Green",
+      "date": "2024-05",
+      "round": "první investice Fund II",
+      "source_url": "https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/",
+      "source_date": "2024-06-27",
+      "quote": "Vůbec první investice fondu putovala v květnu do českého projektu Delta Green, kam Purple Ventures investovali spolu s Tilia Impact Ventures a Credo Ventures",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Velikost Fund II: web uvádí 'over CZK 700 million', cc.cz 2024 cíl ~1 mld. Kč, Vestbee titulek €40M cíl – použita doložená upsaná částka. Tiket se liší dle zdrojů (Vestbee €250–750k, WaveUp €100k–1,5M) – použit vlastní web. Agregátory (Caplight, PitchBook) uvádějí i Vetstor 12/2025, Fether Labs 12/2025, Choice 03/2026, Kilde 09/2025 – neověřeno primárním zdrojem. Existuje i Purple Ventures Advisory s.r.o. (IČO 19836155) – nezahrnuto."
+}

@@ -20,15 +20,14 @@
   },
   "sectors": {
     "value": [
-      "energy_climate",
-      "saas_b2b"
+      "generalist"
     ],
-    "value_text": "chytrá energetika, cloudový HR systém, řízení hybridních eventů (první investice Fund II)",
-    "source_url": "https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/",
-    "source_date": "2024-06-27",
+    "value_text": "early-stage purpose-driven technology startups (portfolio: energie, health, vet-tech, consumer)",
+    "source_url": "https://purple-ventures.com/",
+    "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "První trojici startupů z oblastí chytré energetiky, cloudového HR systému a řízení hybridních eventů celkem poskytli 48 milionů korun",
-    "source_tier": "B"
+    "quote": "We invest into early-stage purpose-driven technology startups with initial revenue and global ambitions.",
+    "source_tier": "A"
   },
   "stages": {
     "value": [
@@ -56,7 +55,7 @@
   },
   "capital": {
     "value": {
-      "eur": 28000000,
+      "eur": 28851702,
       "basis": "latest_fund_size"
     },
     "value_text": "Fund II: over CZK 700 million (1 CZK = 0,040 EUR → 28 mil. EUR; 'over' = dolní mez)",
@@ -64,15 +63,36 @@
     "source_date": "undated",
     "accessed": "2026-10-22",
     "quote": "Fund II has raised over CZK 700 million and invested a quarter billion to date.",
-    "source_tier": "A"
+    "source_tier": "A",
+    "original": {
+      "currency": "CZK",
+      "amount": 700000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 24.262,
+      "currency": "CZK"
+    }
   },
   "funds": [
     {
       "name": "Purple Ventures Fund II",
-      "size_eur": 28000000,
+      "size_eur": 28851702,
       "vintage": 2024,
       "source_url": "https://purple-ventures.com/",
-      "quote": "Fund II has raised over CZK 700 million and invested a quarter billion to date."
+      "quote": "Fund II has raised over CZK 700 million and invested a quarter billion to date.",
+      "original": {
+        "currency": "CZK",
+        "amount": 700000000,
+        "date": "2026-10-22"
+      },
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2026-10-21",
+        "eur_rate": 24.262,
+        "currency": "CZK"
+      }
     }
   ],
   "investment_evidence": [
@@ -95,5 +115,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Velikost Fund II: web uvádí 'over CZK 700 million', cc.cz 2024 cíl ~1 mld. Kč, Vestbee titulek €40M cíl – použita doložená upsaná částka. Tiket se liší dle zdrojů (Vestbee €250–750k, WaveUp €100k–1,5M) – použit vlastní web. Agregátory (Caplight, PitchBook) uvádějí i Vetstor 12/2025, Fether Labs 12/2025, Choice 03/2026, Kilde 09/2025 – neověřeno primárním zdrojem. Existuje i Purple Ventures Advisory s.r.o. (IČO 19836155) – nezahrnuto."
+  "notes": "Velikost Fund II: web uvádí 'over CZK 700 million', cc.cz 2024 cíl ~1 mld. Kč, Vestbee titulek €40M cíl – použita doložená upsaná částka. Tiket se liší dle zdrojů (Vestbee €250–750k, WaveUp €100k–1,5M) – použit vlastní web. Agregátory (Caplight, PitchBook) uvádějí i Vetstor 12/2025, Fether Labs 12/2025, Choice 03/2026, Kilde 09/2025 – neověřeno primárním zdrojem. Existuje i Purple Ventures Advisory s.r.o. (IČO 19836155) – nezahrnuto.",
+  "corrections_applied": 3
 }

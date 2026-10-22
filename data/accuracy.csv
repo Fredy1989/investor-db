@@ -1,0 +1,9 @@
+measure,field,ok,wrong,unverifiable,null_ok,null_missed,precision
+A_raw_by_agent_b,decision,22,0,1,0,0,100%
+A_raw_by_agent_b,investor_type,21,2,0,0,0,91%
+A_raw_by_agent_b,registry,23,0,0,0,0,100%
+A_raw_by_agent_b,sectors,19,2,0,1,1,90%
+A_raw_by_agent_b,stages,19,3,0,1,0,86%
+A_raw_by_agent_b,ticket,13,4,0,3,3,76%
+A_raw_by_agent_b,capital,12,6,0,3,2,67%
+A_raw_by_agent_b,investment_evidence,18,2,3,0,0,90%

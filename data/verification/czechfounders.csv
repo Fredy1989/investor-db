@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+czechfounders,decision,ok,,https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/,"Aktivní, investice i v 2026. Žádné instrukce pro AI."
+czechfounders,investor_type,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835,"Osoba rizikového kapitálu, pre-seed fond – vc."
+czechfounders,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835,"IČO, adresa, vznik 2022-04-19 ověřeny; nezaměněno se z.ú. 09761187."
+czechfounders,sectors,null_missed,"[""generalist""]",https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/,Taxonomie má hodnotu generalist; zdroj: portfolio přes 'širokou škálu obchodních vertikál'. Citace u sectors (věta o tiketu) údaj nedokládá.
+czechfounders,stages,ok,,https://www.czechfounders.vc/,Pre-seed potvrzeno.
+czechfounders,ticket,ok,,https://www.czechfounders.vc/,"€50–350k doslovně, potvrzeno i cc.cz 2022."
+czechfounders,capital,ok,,https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/,"10 mil. EUR složeno (2022-09-07). Pozn.: navazující fond United Founders (Horký/Havrlant, cíl ~80 mil. EUR, 2025) je jiný subjekt – kandidát na samostatný záznam."
+czechfounders,investment_evidence,wrong,"Maxfusion, 2026-01-14, pre-seed 350 tis. EUR (Czech Founders VC + Ory Weihs)",https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/,"Edmund (2025-02) je správně, ale zastaralé – existuje novější veřejný deal Maxfusion (lupa 2026-01-14). Agregátory uvádějí i AdSpawn 04/2026, Merchantee 06/2026 (neověřeno)."

@@ -1,0 +1,70 @@
+{
+  "id": "palefire",
+  "name": "Pale Fire Capital",
+  "legal_name": "Pale Fire Capital SE",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Investiční skupina investující vlastní dlouhodobý kapitál do soukromých technologických firem (private equity portfolio 10 mld. Kč). V dubnu 2026 získala významný podíl v soukromé firmě Zwift v rámci transakce ROUVY.",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://palefirecapital.com/",
+  "registry": {
+    "value": "04165918",
+    "value_text": "IČO 04165918, Žatecká 55/14, Praha 1",
+    "source_url": "https://rejstrik-firem.kurzy.cz/04165918/pale-fire-capital-se/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "IČO 04165918",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": ["ecommerce", "saas_b2b", "consumer", "industry"],
+    "value_text": "průsečík technologií, AI a tradičních odvětví; portfolio e-commerce, SaaS, digitální služby",
+    "source_url": "https://www.newstream.cz/zpravy-z-firem/pale-fire-capital-posiluje-do-vedeni-miri-jan-cerny-a-planuje-miliardove-investice",
+    "source_date": "2026-04-07",
+    "accessed": "2026-10-22",
+    "quote": "Zajímá nás průsečík technologií a tradičních odvětví.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": ["growth", "buyout"],
+    "value_text": "zavedené firmy se silnou tržní pozicí, většinové i menšinové podíly",
+    "source_url": "https://www.newstream.cz/zpravy-z-firem/pale-fire-capital-posiluje-do-vedeni-miri-jan-cerny-a-planuje-miliardove-investice",
+    "source_date": "2026-04-07",
+    "accessed": "2026-10-22",
+    "quote": "se silnou tržní pozicí",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": null},
+    "value_text": "stovky milionů až přes miliardu Kč (bez přesné hranice, nepřepočítáno)",
+    "source_url": "https://palefirecapital.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Naše investice se typicky pohybují ve stovkách milionů až přes miliardu korun vlastních prostředků.",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {"eur": 2000000000, "basis": "aum"},
+    "value_text": "EUR 2 billion AUM (vč. kotovaných akcií); PE portfolio 10 mld. Kč ke konci 2025",
+    "source_url": "https://palefirecapital.com/en/pale-fire-capital-closes-its-first-decade-with-a-e413-million-portfolio-and-expands-into-family-owned-businesses/",
+    "source_date": "2026-07-02",
+    "accessed": "2026-10-22",
+    "quote": "The total value of assets under management amounts to EUR 2 billion.",
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Zwift",
+      "date": "2026-04-30",
+      "round": "podíl získaný v rámci prodeje ROUVY společnosti Zwift",
+      "source_url": "https://palefirecapital.com/en/pale-fire-capital-becomes-a-significant-shareholder-in-zwift-following-rouvy-transaction/",
+      "source_date": "2026-04-30",
+      "quote": "as the ROUVY's former majority owner, is acquiring a significant stake in Zwift",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Velká část AUM jsou kotované akcie (Groupon, Edenred, Dole, Lightspeed, B2Gold) – přes fond Pale Fire Capital Sicav; PE portfolio podle webu 10 mld. Kč / headline 413 mil. EUR. Čistý nový startup deal 2025–2026 (mimo Zwift share-swap) nenalezen; akvizice UptimeRobot je z roku 2019. Plán investovat až 10 mld. Kč za 5 let (Newstream 2026-04-07). Typ pe (vlastní kapitál partnerů; lze zvážit i family_office). Fond Pale Fire Capital Sicav AS nebyl ověřen v registru."
+}

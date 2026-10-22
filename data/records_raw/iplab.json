@@ -1,0 +1,68 @@
+{
+  "id": "iplab",
+  "name": "Czech IP Lab Ventures",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I2",
+  "decision_reason": "Fond pro transfer technologií IP Lab Ventures Fund I získal závazek EIF ~27 mil. EUR (09/2026), ale zatím není doložena žádná investice fondu do soukromé firmy – I2 nesplněno. Kandidát na pozdější doplnění (watchlist).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "v ARES nalezeny jen IP Lab Services s.r.o. (19110715), IP Lab Holding s.r.o. (24586200), IP Lab Advisor, s.r.o. (24876763) – vazba na fond neověřena",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24876763",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "IP Lab Advisor, s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": ["ai", "deeptech", "health", "mobility", "industry"],
+    "value_text": "AI, autonomní systémy, robotika, chytrá mobilita, biotech, kyberbezpečnost, polovodiče, pokročilá výroba",
+    "source_url": "https://cc.cz/vlada-posila-700-milionu-do-noveho-druhu-fondu-zameri-se-i-na-ai-ridi-ho-byvaly-sef-dame-jidlo/",
+    "source_date": "2026-09-23",
+    "accessed": "2026-10-22",
+    "quote": "v oblastech umělé inteligence, autonomních systémů, robotiky, chytré mobility, biotechnologií",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": ["pre_seed", "seed"],
+    "value_text": "univerzitní spin-offy, mezera mezi patentem a prvním pilotním prodejem",
+    "source_url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+    "source_date": "2026-09-23",
+    "accessed": "2026-10-22",
+    "quote": "zaplnit mezeru mezi patentem a prvním pilotním prodejem",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": 1000000},
+    "value_text": "úvodní investice až 1 mil. EUR",
+    "source_url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+    "source_date": "2026-09-23",
+    "accessed": "2026-10-22",
+    "quote": "investovat na úvod až milion eur do jednotlivých firem",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {"eur": null, "basis": "latest_fund_size"},
+    "value_text": "cíl >50 mil. EUR (The Recursive) / až 40 mil. EUR (Lupa) / 1,2 mld. Kč (CzechCrunch); potvrzeno jen EIF ~27 mil. EUR – konečná velikost nejistá",
+    "source_url": "https://therecursive.com/czech-ip-lab-ventures-secures-eur27m-from-eif-for-new-eur50m-deep-tech-fund",
+    "source_date": "2026-10-13",
+    "accessed": "2026-10-22",
+    "quote": "a new Czech venture capital fund targeting more than €50 million",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "IP Lab Ventures Fund I",
+      "size_eur": null,
+      "vintage": 2026,
+      "source_url": "https://therecursive.com/czech-ip-lab-ventures-secures-eur27m-from-eif-for-new-eur50m-deep-tech-fund",
+      "quote": "investing approximately €27 million in IP Lab Ventures Fund I"
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Hledáno: první portfoliové investice fondu IP Lab Ventures Fund I – žádné nenalezeny; články (09–10/2026) mluví o výběru projektů v budoucnu. Tým od 2023 podpořil komercializaci 7 projektů/spin-offů, ale nejde o doložené kapitálové investice fondu. Právní subjekt fondu/správce nejasný (IP Lab Advisor / Holding / Services v ARES, nikde nepropojeno se zdrojem). Velikost fondu se ve zdrojích liší, proto capital.eur = null. Typ by po zahájení investic byl spíš vc (soukromý správce s veřejným LP), ne public_vc. exclusion_rule 'I2' = nesplněno pravidlo zařazení, ne E-pravidlo."
+}

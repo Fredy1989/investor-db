@@ -9,14 +9,79 @@
   "country": "CZ",
   "hq_city": "Praha",
   "website": "https://www.miton.cz",
-  "registry": {"value": "19324448", "value_text": "IČO 19324448, MITON C a.s., Křižíkova 148/34, Karlín, Praha 8 (adresa shodná s kanceláří na miton.cz), vznik 2023-05-10", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19324448", "source_date": "undated", "accessed": "2026-10-22", "quote": "MITON C a.s.", "source_tier": "A"},
-  "sectors": {"value": ["ai", "fintech", "health", "ecommerce", "consumer"], "value_text": "AI, web3 (→ fintech), psychedelika/duševní zdraví (→ health), e-commerce, gastro tech (→ consumer)", "source_url": "https://cc.cz/profil/miton/", "source_date": "undated", "accessed": "2026-10-22", "quote": "Investujeme vlastní peníze do AI, web3, psychedelik, e-commerce a gastro techu.", "source_tier": "B"},
-  "stages": {"value": ["pre_seed", "seed", "series_a"], "value_text": "od pre-seedu po Series A", "source_url": "https://cc.cz/profil/miton/", "source_date": "undated", "accessed": "2026-10-22", "quote": "Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic.", "source_tier": "B"},
-  "ticket": {"value": {"min_eur": 300000, "max_eur": 2000000}, "value_text": "300k–2M €", "source_url": "https://cc.cz/profil/miton/", "source_date": "undated", "accessed": "2026-10-22", "quote": "Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic.", "source_tier": "B"},
-  "capital": {"value": {"eur": null, "basis": "own_balance_sheet"}, "value_text": "vlastní kapitál, výše nezveřejněna", "source_url": "https://cc.cz/profil/miton/", "source_date": "undated", "accessed": "2026-10-22", "quote": "Investujeme vlastní peníze do AI, web3, psychedelik, e-commerce a gastro techu.", "source_tier": "B"},
+  "registry": {
+    "value": "19324448",
+    "value_text": "IČO 19324448, MITON C a.s., Křižíkova 148/34, Karlín, Praha 8 (adresa shodná s kanceláří na miton.cz), vznik 2023-05-10",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19324448",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "MITON C a.s.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai",
+      "fintech",
+      "health",
+      "ecommerce",
+      "consumer"
+    ],
+    "value_text": "AI, web3 (→ fintech), psychedelika/duševní zdraví (→ health), e-commerce, gastro tech (→ consumer)",
+    "source_url": "https://cc.cz/profil/miton/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Investujeme vlastní peníze do AI, web3, psychedelik, e-commerce a gastro techu.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "value_text": "od pre-seedu po Series A",
+    "source_url": "https://cc.cz/profil/miton/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 300000,
+      "max_eur": 2000000
+    },
+    "value_text": "300k–2M €",
+    "source_url": "https://cc.cz/profil/miton/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Jsme founderům nablízku od pre-seedu po Series A, investujeme 300k–2M € s možností follow-up investic.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 450000000,
+      "basis": "portfolio_value"
+    },
+    "value_text": "hodnota současného portfolia 450 mil. EUR (ne volný kapitál)",
+    "source_url": "https://www.miton.cz",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "hodnota současného portfolia 450 mil. euro",
+    "source_tier": "A"
+  },
   "funds": [],
   "investment_evidence": [
-    {"company": "Bandits", "date": "2025-11-21", "round": "pre-seed 400 tis. EUR", "source_url": "https://startuprise.co.uk/prague-ai-startup-bandits-raises-e400k-to-transform-business-processes/", "source_date": "2025-11-21", "quote": "The investment comes from Czech venture capital firm Miton.", "source_tier": "B"}
+    {
+      "company": "Bandits",
+      "date": "2025-11-21",
+      "round": "pre-seed 400 tis. EUR",
+      "source_url": "https://startuprise.co.uk/prague-ai-startup-bandits-raises-e400k-to-transform-business-processes/",
+      "source_date": "2025-11-21",
+      "quote": "The investment comes from Czech venture capital firm Miton.",
+      "source_tier": "B"
+    }
   ],
-  "notes": "Skupina má mnoho entit MITON (C, Makers, GPcT, Island, Circus…) na Křižíkova 148/34; která je mateřská, nebylo z registru jednoznačně zjištěno – zvolena MITON C a.s. (holdingová činnost dle agregátoru mesec.cz/podnikatel.cz). Profil cc.cz je firmou spravovaný profil (proto B). Další deals 2025 (PangeAI seed 12/2025, Legend Trade 10/2025) jen v CB Insights, neuvedeny. Typ private_investor zvolen, protože investuje vlastní kapitál bez fondu; lze zvážit i vc. Velikost kapitálu nezveřejněna. CEO David Špinar odešel 10/2025 (Lupa.cz)."
+  "notes": "Skupina má mnoho entit MITON (C, Makers, GPcT, Island, Circus…) na Křižíkova 148/34; která je mateřská, nebylo z registru jednoznačně zjištěno – zvolena MITON C a.s. (holdingová činnost dle agregátoru mesec.cz/podnikatel.cz). Profil cc.cz je firmou spravovaný profil (proto B). Další deals 2025 (PangeAI seed 12/2025, Legend Trade 10/2025) jen v CB Insights, neuvedeny. Typ private_investor zvolen, protože investuje vlastní kapitál bez fondu; lze zvážit i vc. Velikost kapitálu nezveřejněna. CEO David Špinar odešel 10/2025 (Lupa.cz).",
+  "corrections_applied": 1
 }

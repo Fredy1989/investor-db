@@ -2,21 +2,21 @@
   "id": "nrf",
   "name": "Národní rozvojový fond",
   "legal_name": "Národní rozvojový fond SICAV, a.s.",
-  "decision": "inactive",
-  "exclusion_rule": "E6",
+  "decision": "exclude",
+  "exclusion_rule": "I4",
   "decision_reason": "NRF (SICAV ve skupině Národní rozvojové banky, určený pro veřejnou infrastrukturu) za celou existenci nepodpořil jediný projekt a ČNB mu na vlastní žádost odňala povolení s právní mocí 3. 5. 2024. Nemá tedy žádnou doloženou investici (I2) a neinvestoval do soukromých firem (I4); nebyl to ani fond fondů, ani přímý VC investor.",
-  "investor_type": "public_vc",
+  "investor_type": null,
   "country": "CZ",
   "hq_city": "Praha",
   "website": null,
   "registry": {
-    "value": null,
-    "value_text": "IČO nenalezeno",
-    "source_url": "https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750",
-    "source_date": "2024-05-07",
+    "value": "09829482",
+    "value_text": "Národní rozvojový fond a.s., v likvidaci; vymazán 2026-01-08",
+    "source_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY",
+    "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "Sám fond požádal Českou národní banku o odnětí licence a regulátor mu vyhověl.",
-    "source_tier": "B"
+    "quote": "IČO 098 29 482",
+    "source_tier": "A"
   },
   "sectors": {
     "value": [],
@@ -62,5 +62,6 @@
   },
   "funds": [],
   "investment_evidence": [],
-  "notes": "Žádná investice nedoložena – zdroje (ČT24, Seznam Zprávy, Novinky) shodně uvádějí, že NRF nepodpořil žádný projekt. Žádost o odnětí povolení ČNB obdržela 27. 3. 2024, rozhodnutí z 17. 4. 2024 nabylo právní moci 3. 5. 2024 (Novinky 2024-05-07). IČO NRF se nepodařilo najít: ARES vyhledávání podle názvu vrátilo chybu, web nrf.cz nebyl dostupný (ECONNRESET), web search IČO neukázal. Pozor na záměnu: státní fond fondů / přímý investor je Národní rozvojová investiční (NRI, dceřiná společnost NRB, IPO fond 2025+) – to je jiná entita a měla by být posouzena jako samostatný kandidát. Typ public_vc je jen orientační (státní/bankovní SICAV)."
+  "notes": "Žádná investice nedoložena – zdroje (ČT24, Seznam Zprávy, Novinky) shodně uvádějí, že NRF nepodpořil žádný projekt. Žádost o odnětí povolení ČNB obdržela 27. 3. 2024, rozhodnutí z 17. 4. 2024 nabylo právní moci 3. 5. 2024 (Novinky 2024-05-07). IČO NRF se nepodařilo najít: ARES vyhledávání podle názvu vrátilo chybu, web nrf.cz nebyl dostupný (ECONNRESET), web search IČO neukázal. Pozor na záměnu: státní fond fondů / přímý investor je Národní rozvojová investiční (NRI, dceřiná společnost NRB, IPO fond 2025+) – to je jiná entita a měla by být posouzena jako samostatný kandidát. Typ public_vc je jen orientační (státní/bankovní SICAV).",
+  "corrections_applied": 4
 }

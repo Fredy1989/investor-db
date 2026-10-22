@@ -31,13 +31,16 @@
   },
   "stages": {
     "value": [
+      "series_a",
+      "series_b_plus",
       "growth"
     ],
-    "value_text": "růstový kapitál (Vytal); Andercore Series B dle agregátorů",
-    "source_url": "https://www.nrwbank.de/de/info-und-service/presseinformationen/2025/250311_vytal-global.html",
-    "source_date": "2025-03-11",
+    "value_text": "odvozeno z doložených dealů (Series A–D); web Inven fáze neuvádí",
+    "source_url": "https://www.invencapital.cz/",
+    "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "Die NRW.BANK hat 3,5 Millionen Euro Wachstumskapital über ihren Venture Capital-Fonds NRW.Venture in Vytal Global investiert.",
+    "quote": null,
+    "derived_from": "investment_evidence",
     "source_tier": "A"
   },
   "ticket": {
@@ -93,5 +96,6 @@
       "source_tier": "A"
     }
   ],
-  "notes": "Vintage 2013 = datum vzniku SICAV v ARES (2013-09-01), ne konkrétního fondu. ARES vede podfondy A (IČO 75160692), B (75160706), C (75162903), D (75163861) – velikosti podfondů nedohledány. €500M zahrnuje navýšení od EIB (dle novinky na webu). Fáze: web neuvádí; tiket 2–30M EUR a deals naznačují Series A–growth. Andercore $40M ≈ 36,8 mil. EUR (kurz 0,92). Tier NRW.BANK = A (tisková zpráva spoluinvestora, veřejná banka); lze přehodnotit na B."
+  "notes": "Vintage 2013 = datum vzniku SICAV v ARES (2013-09-01), ne konkrétního fondu. ARES vede podfondy A (IČO 75160692), B (75160706), C (75162903), D (75163861) – velikosti podfondů nedohledány. €500M zahrnuje navýšení od EIB (dle novinky na webu). Fáze: web neuvádí; tiket 2–30M EUR a deals naznačují Series A–growth. Andercore $40M ≈ 36,8 mil. EUR (kurz 0,92). Tier NRW.BANK = A (tisková zpráva spoluinvestora, veřejná banka); lze přehodnotit na B.",
+  "corrections_applied": 1
 }

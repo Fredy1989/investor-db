@@ -9,18 +9,130 @@
   "country": "CZ",
   "hq_city": "Praha",
   "website": "https://www.credoventures.com",
-  "registry": {"value": "28538137", "value_text": "IČO 28538137, Credo Ventures a.s., Karlovo náměstí 2097/10, Praha 2", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137", "source_date": "undated", "accessed": "2026-10-22", "quote": "Credo Ventures a.s.", "source_tier": "A"},
-  "sectors": {"value": ["generalist"], "value_text": "technologičtí zakladatelé, bez sektorového omezení (portfolio AI, fintech, defence, health)", "source_url": "https://tech.eu/2026/03/23/credo-ventures-raises-88m-fund-5-to-double-down-on-pre-seed-in-cee-and-its-global-diaspora/", "source_date": "2026-03-23", "accessed": "2026-10-22", "quote": "serious technical builders with global ambitions", "source_tier": "B"},
-  "stages": {"value": ["pre_seed", "seed"], "value_text": "Pre-seed onwards, leading pre-seed rounds", "source_url": "https://www.credoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "Leading Pre-Seed rounds", "source_tier": "A"},
-  "ticket": {"value": {"min_eur": 920000, "max_eur": 4600000}, "value_text": "$1M - $5M (přepočet 1 USD = 0,92 EUR)", "source_url": "https://www.credoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "$1M - $5M checks", "source_tier": "A"},
-  "capital": {"value": {"eur": 80960000, "basis": "latest_fund_size"}, "value_text": "Credo Stage 5: 88 mil. USD (přepočet 1 USD = 0,92 EUR)", "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund", "source_date": "2026-03-23", "accessed": "2026-10-22", "quote": "Credo Stage 5, an $88 million fund raised in a single closing", "source_tier": "B"},
+  "registry": {
+    "value": "28538137",
+    "value_text": "IČO 28538137, Credo Ventures a.s., Karlovo náměstí 2097/10, Praha 2",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Credo Ventures a.s.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "technologičtí zakladatelé, bez sektorového omezení (portfolio AI, fintech, defence, health)",
+    "source_url": "https://tech.eu/2026/03/23/credo-ventures-raises-88m-fund-5-to-double-down-on-pre-seed-in-cee-and-its-global-diaspora/",
+    "source_date": "2026-03-23",
+    "accessed": "2026-10-22",
+    "quote": "serious technical builders with global ambitions",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "Pre-seed onwards, leading pre-seed rounds",
+    "source_url": "https://www.credoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Leading Pre-Seed rounds",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 890155,
+      "max_eur": 4450774
+    },
+    "value_text": "$1M - $5M (přepočet 1 USD = 0,92 EUR)",
+    "source_url": "https://www.credoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "$1M - $5M checks",
+    "source_tier": "A",
+    "original": {
+      "currency": "USD",
+      "min": 1000000,
+      "max": 5000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 1.1234,
+      "currency": "USD"
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 75888237,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "Credo Stage 5: 88 mil. USD (přepočet 1 USD = 0,92 EUR)",
+    "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund",
+    "source_date": "2026-03-23",
+    "accessed": "2026-10-22",
+    "quote": "Credo Stage 5, an $88 million fund raised in a single closing",
+    "source_tier": "B",
+    "original": {
+      "currency": "USD",
+      "amount": 88000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-03-23",
+      "eur_rate": 1.1596,
+      "currency": "USD"
+    }
+  },
   "funds": [
-    {"name": "Credo Stage 5", "size_eur": 80960000, "vintage": 2026, "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund", "quote": "Credo Stage 5, an $88 million fund raised in a single closing"},
-    {"name": "Credo Stage 4", "size_eur": 75000000, "vintage": 2022, "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund", "quote": "stepping up from the €75 million fourth fund closed in 2022"}
+    {
+      "name": "Credo Stage 5",
+      "size_eur": 75888237,
+      "vintage": 2026,
+      "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund",
+      "quote": "Credo Stage 5, an $88 million fund raised in a single closing",
+      "original": {
+        "currency": "USD",
+        "amount": 88000000,
+        "date": "2026-03-23"
+      },
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2026-03-23",
+        "eur_rate": 1.1596,
+        "currency": "USD"
+      }
+    },
+    {
+      "name": "Credo Stage 4",
+      "size_eur": 75000000,
+      "vintage": 2022,
+      "source_url": "https://thenextweb.com/news/credo-ventures-88m-fund",
+      "quote": "stepping up from the €75 million fourth fund closed in 2022"
+    }
   ],
   "investment_evidence": [
-    {"company": "Delta Green", "date": "2025-10-15", "round": "seed (2 mil. EUR, s Tilia Impact Ventures a Purple Ventures)", "source_url": "https://www.vestbee.com/insights/articles/delta-green-secures-2-m", "source_date": "2025-10-15", "quote": "Prague-based energy tech startup Delta Green has raised €2 million from existing investors", "source_tier": "B"},
-    {"company": "Modeinspect", "date": "2026-01-15", "round": "seed 3,4 mil. USD (lead Partech, Credo účast)", "source_url": "https://www.lupa.cz/n/credo-ventures/", "source_date": "2026-01-15", "quote": "účastní se také pražské Credo Ventures", "source_tier": "B"}
+    {
+      "company": "Delta Green",
+      "date": "2025-10-15",
+      "round": "seed (2 mil. EUR, s Tilia Impact Ventures a Purple Ventures)",
+      "source_url": "https://www.vestbee.com/insights/articles/delta-green-secures-2-m",
+      "source_date": "2025-10-15",
+      "quote": "Prague-based energy tech startup Delta Green has raised €2 million from existing investors",
+      "source_tier": "B"
+    },
+    {
+      "company": "Modeinspect",
+      "date": "2026-01-15",
+      "round": "seed 3,4 mil. USD (lead Partech, Credo účast)",
+      "source_url": "https://www.lupa.cz/n/credo-ventures/",
+      "source_date": "2026-01-15",
+      "quote": "účastní se také pražské Credo Ventures",
+      "source_tier": "B"
+    }
   ],
-  "notes": "Citace z ARES je jen obchodní jméno (IČO je v URL dotazu). Zdroje se rozcházejí, zda 88M fond byl single close (TNW) nebo first close (The Recursive). Velikost Stage 4 v EUR podle TNW, ostatní fondy (1–3) nezjišťovány. Účast na kole Picogrid (2026) nepotvrzena primárním zdrojem, proto neuvedena. Druhá kancelář Krakov (PL)."
+  "notes": "Citace z ARES je jen obchodní jméno (IČO je v URL dotazu). Zdroje se rozcházejí, zda 88M fond byl single close (TNW) nebo first close (The Recursive). Velikost Stage 4 v EUR podle TNW, ostatní fondy (1–3) nezjišťovány. Účast na kole Picogrid (2026) nepotvrzena primárním zdrojem, proto neuvedena. Druhá kancelář Krakov (PL).",
+  "corrections_applied": 3
 }

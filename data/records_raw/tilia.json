@@ -1,0 +1,106 @@
+{
+  "id": "tilia",
+  "name": "Tilia Impact Ventures",
+  "legal_name": "Tilia Impact Partners s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský impact VC s druhým fondem (Impact Seed Fund, EIF jako hlavní investor); doložené vedení Seed+ kola Flox Intelligence (2026) a účast v Series A FaceUp (5/2026).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://tilia.vc",
+  "registry": {
+    "value": "17621615",
+    "value_text": "IČO 17621615, Tilia Impact Partners s.r.o., Drtinova 557/10, Smíchov, Praha 5 (správce fondu dle EIF; fondové vozidlo Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o., IČO 17848911, stejná adresa jako kontakt na tilia.vc)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17621615",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Tilia Impact Partners s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist",
+      "energy_climate",
+      "health"
+    ],
+    "value_text": "Sector-agnostic, Impact-driven; klima a udržitelnost, vzdělání, zdraví",
+    "source_url": "https://tilia.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Sector-agnostic, Impact-driven",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "value_text": "Early stage; druhý fond se jmenuje Impact Seed Fund",
+    "source_url": "https://tilia.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Equity / Convertible debt Early stage",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 300000,
+      "max_eur": 1200000
+    },
+    "value_text": "0.3 - 1.2m EUR initial ticket",
+    "source_url": "https://tilia.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "0.3 - 1.2m EUR initial ticket",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 26000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "Fund II: potvrzeno 26 mil. EUR (cíl 32 mil. EUR) k 9/2023",
+    "source_url": "https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/",
+    "source_date": "2023-09-21",
+    "accessed": "2026-10-22",
+    "quote": "Prozatím má Tilia potvrzených 26 milionů eur, tedy 634 milionů korun.",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Tilia Impact Ventures Fund II (Impact Seed Fund)",
+      "size_eur": 26000000,
+      "vintage": 2023,
+      "source_url": "https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/",
+      "quote": "teď uzavřela svůj druhý fond Impact Seed Fund, s nímž cílí už na 32 milionů eur"
+    },
+    {
+      "name": "Tilia Impact Ventures Fund II (záznam EIF / InvestEU)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+      "quote": "Tilia Impact Ventures Fund II Tilia Impact Partners Czech Republic"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Flox Intelligence",
+      "date": "2026-08-18",
+      "round": "Seed+ 3 mil. USD (lead Tilia)",
+      "source_url": "https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/",
+      "source_date": "2026-08-18",
+      "quote": "v rámci investičního kola Seed+, a to pod vedením českého fondu Tilia Impact Ventures",
+      "source_tier": "B"
+    },
+    {
+      "company": "FaceUp",
+      "date": "2026-05-19",
+      "round": "Series A ~5 mil. USD (lead Fil Rouge Capital; Tilia jako stávající investor)",
+      "source_url": "https://cc.cz/byl-to-studentsky-projekt-ted-uz-ma-hodnotu-pres-pul-miliardy-nabidky-na-odkup-odmitame-hlasi-cesi/",
+      "source_date": "2026-05-19",
+      "quote": "Do investice se pak zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Datum kola Flox = datum článku (kolo uzavřeno 'letos', přesné datum neuvedeno). Konečná velikost Fund II nenalezena: CC 9/2023 uvádí cíl 32 mil. EUR a potvrzených 26 mil. EUR; web tilia.vc velikost fondu neuvádí (jen '37m+ EUR' mobilizovaného kapitálu, což není velikost fondu). Delta Green (10/2025, ~2 mil. EUR s Credo a Purple) jen v agregátorech, neuvedeno. Web uvádí 21 portfoliových firem k Q4 2025."
+}

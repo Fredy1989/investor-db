@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+presto,decision,ok,,https://cc.cz/tag/presto-ventures/,"Poslední doložená investice 5/2025 (DiffuseDrive) – v rámci 36 měsíců. Deal 2026 Choice Series A (3/2026) jen v agregátorech (Seedtable/WaveUp, lead nejasný)."
+presto,investor_type,ok,,https://www.prestoventures.com,VC.
+presto,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704,"ARES sedí (Revoluční 763/15). Nový fond Presto Tech Horizons má ale zřejmě vlastní vozidlo: ARES 'Presto PTH a.s.' IČO 22147187, Na příkopě 859/22, vznik 2024-10-11 (adresa shodná s tou na webu) – rešeršér psal 'IČO nezjištěno'. Další entity: Presto 2 GP s.r.o. 10803416, Presto Management s.r.o. 19729740."
+presto,sectors,ok,,https://www.prestoventures.com,"security, defense, aerospace, dual-use; mapování defence/deeptech/ai přijatelné."
+presto,stages,ok,,https://www.prestoventures.com,'Seed TO SERIES A'.
+presto,ticket,ok,,https://www.prestoventures.com,€500k–€5M.
+presto,capital,ok,,https://www.prestoventures.com,"€150M sedí se zdrojem, ale je to cílová/plánovaná velikost (e15: 'má v plánu zainvestovat'), close nedoložen; basis latest_fund_size může klamat – doporučuji basis 'target_fund_size'."
+presto,investment_evidence,ok,"DiffuseDrive (US-maďarský startup, seed 3,5 mil. USD, s Outlander VC)",https://cc.cz/tag/presto-ventures/,"Zdroj 15. 5. 2025 potvrzuje investici PTH do maďarského týmu; název firmy dohledatelný: DiffuseDrive (název souboru obrázku CzechCrunch + Bouncewatch, deal 2025-05-01). Doplnit jméno firmy."

@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+miton,decision,ok,,https://cc.cz/profil/miton/,"Aktivní: Bandits 11/2025, Aim 7/2025 (Vestbee), na profilu cc.cz i novější 10/2026 (ACE padel, další investice do AI služby)."
+miton,investor_type,ok,,https://cc.cz/profil/miton/,"Profil: 'nefungujeme jako klasický VC fond', investuje vlastní peníze → private_investor sedí."
+miton,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19324448,"MITON C a.s. existuje, NACE 64210 (holding), adresa Křižíkova 148/34 shodná s webem. Která z ~55 entit MITON je investiční holding, z ARES jednoznačně neplyne (MITON Island a.s., MITON Numero Uno a.s., MITON Circus a.s. na stejné adrese)."
+miton,sectors,ok,,https://cc.cz/profil/miton/,"AI, web3, psychedelika, e-commerce, gastro tech – potvrzeno i na miton.cz."
+miton,stages,ok,,https://cc.cz/profil/miton/,pre-seed až Series A.
+miton,ticket,ok,,https://cc.cz/profil/miton/,300k–2M €.
+miton,capital,null_missed,"eur 450000000, basis portfolio_value (aktuální hodnota portfolia ~450 mil. EUR)",https://www.miton.cz,"Web miton.cz uvádí cca 450 mil. EUR aktuální hodnoty portfolia (61 firem). Není to volný investiční kapitál – pokud se použije, basis musí být jasně 'portfolio_value'/AUM."
+miton,investment_evidence,ok,,https://startuprise.co.uk/prague-ai-startup-bandits-raises-e400k-to-transform-business-processes/,"Bandits €400k, 2025-11-21, investor Miton – sedí (zdroj kolo neoznačuje jako pre-seed). Novější veřejné: ACE (padel, 10/2026) na cc.cz/profil/miton a miton.cz."

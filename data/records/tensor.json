@@ -57,7 +57,7 @@
   },
   "capital": {
     "value": {
-      "eur": 40000000,
+      "eur": 41150570,
       "basis": "latest_fund_size"
     },
     "value_text": "closing druhého fondu 1 mld. Kč (přepočet 1 CZK = 0,040 EUR); cíl navýšit na 1,5 mld. Kč",
@@ -65,7 +65,17 @@
     "source_date": "2025-09-18",
     "accessed": "2026-10-22",
     "quote": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun.",
-    "source_tier": "B"
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "amount": 1000000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2025-09-18",
+      "eur_rate": 24.301,
+      "currency": "CZK"
+    }
   },
   "funds": [
     {
@@ -84,10 +94,21 @@
     },
     {
       "name": "Tensor druhý fond (closing 1 mld. Kč)",
-      "size_eur": 40000000,
+      "size_eur": 41150570,
       "vintage": 2025,
       "source_url": "https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/",
-      "quote": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun."
+      "quote": "Český deep-tech fond Tensor Ventures má za sebou closing fondu v hodnotě jedné miliardy korun.",
+      "original": {
+        "currency": "CZK",
+        "amount": 1000000000,
+        "date": "2025-09-18"
+      },
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2025-09-18",
+        "eur_rate": 24.301,
+        "currency": "CZK"
+      }
     }
   ],
   "investment_evidence": [
@@ -110,5 +131,6 @@
       "source_tier": "B"
     }
   ],
-  "notes": "Není jasné, zda 'druhý fond' za 1 mld. Kč (Forbes 9/2025) je totožný s Co-investment Fund (cíl 50 mil. EUR, 2024) – proto obojí ve funds, capital = doložený closing 1 mld. Kč. Tiket nenalezen v otevřeném zdroji (agregátory ~1 mil. EUR – neověřeno). Web tensor.ventures uvádí kontakt Pernerova 697/35, ARES Pernerova 635/57. Datum Wultra = datum článku (přesné datum transakce neuvedeno). Další dealy 2026 (AppFactor, HeartBeat.bio, REVEL) jen v agregátorech, neuvedeno."
+  "notes": "Není jasné, zda 'druhý fond' za 1 mld. Kč (Forbes 9/2025) je totožný s Co-investment Fund (cíl 50 mil. EUR, 2024) – proto obojí ve funds, capital = doložený closing 1 mld. Kč. Tiket nenalezen v otevřeném zdroji (agregátory ~1 mil. EUR – neověřeno). Web tensor.ventures uvádí kontakt Pernerova 697/35, ARES Pernerova 635/57. Datum Wultra = datum článku (přesné datum transakce neuvedeno). Další dealy 2026 (AppFactor, HeartBeat.bio, REVEL) jen v agregátorech, neuvedeno.",
+  "corrections_applied": 2
 }

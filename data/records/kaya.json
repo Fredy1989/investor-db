@@ -9,17 +9,100 @@
   "country": "CZ",
   "hq_city": "Praha",
   "website": "https://www.kaya.vc",
-  "registry": {"value": "22585737", "value_text": "IČO 22585737, KAYA Advisory s.r.o., Thámova 183/11, Karlín, Praha 8 (adresa shodná s pražskou kanceláří na kaya.vc)", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22585737", "source_date": "undated", "accessed": "2026-10-22", "quote": "KAYA Advisory s.r.o.", "source_tier": "A"},
-  "sectors": {"value": ["generalist"], "value_text": "digitální, fyzická a spotřebitelská ekonomika, CEE zakladatelé", "source_url": "https://www.kaya.vc", "source_date": "undated", "accessed": "2026-10-22", "quote": "building at the frontier of digital, physical, and consumer economies", "source_tier": "A"},
-  "stages": {"value": ["pre_seed", "seed", "series_a"], "value_text": "from pre-seed to Series A", "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m", "source_date": "2025-06-25", "accessed": "2026-10-22", "quote": "from pre-seed to Series A", "source_tier": "B"},
-  "ticket": {"value": {"min_eur": 1000000, "max_eur": 3000000}, "value_text": "počáteční tiket 1–3 mil. EUR (web: $1–3M), až 20 mil. EUR na firmu v čase", "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m", "source_date": "2025-06-25", "accessed": "2026-10-22", "quote": "initial cheques will range from €1 to €3 million", "source_tier": "B"},
-  "capital": {"value": {"eur": 78200000, "basis": "latest_fund_size"}, "value_text": "$85M Current Fund (přepočet 1 USD = 0,92 EUR); web dále uvádí $500M AUM Total", "source_url": "https://www.kaya.vc", "source_date": "undated", "accessed": "2026-10-22", "quote": "$85M", "source_tier": "A"},
+  "registry": {
+    "value": "22585737",
+    "value_text": "IČO 22585737, KAYA Advisory s.r.o., Thámova 183/11, Karlín, Praha 8 (adresa shodná s pražskou kanceláří na kaya.vc)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22585737",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "KAYA Advisory s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "digitální, fyzická a spotřebitelská ekonomika, CEE zakladatelé",
+    "source_url": "https://www.kaya.vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "building at the frontier of digital, physical, and consumer economies",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "value_text": "from pre-seed to Series A",
+    "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m",
+    "source_date": "2025-06-25",
+    "accessed": "2026-10-22",
+    "quote": "from pre-seed to Series A",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 1000000,
+      "max_eur": 3000000
+    },
+    "value_text": "počáteční tiket 1–3 mil. EUR (web: $1–3M), až 20 mil. EUR na firmu v čase",
+    "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m",
+    "source_date": "2025-06-25",
+    "accessed": "2026-10-22",
+    "quote": "initial cheques will range from €1 to €3 million",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 75663165,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "$85M Current Fund (přepočet 1 USD = 0,92 EUR); web dále uvádí $500M AUM Total",
+    "source_url": "https://www.kaya.vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "$85M",
+    "source_tier": "A",
+    "original": {
+      "currency": "USD",
+      "amount": 85000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 1.1234,
+      "currency": "USD"
+    }
+  },
   "funds": [
-    {"name": "KAYA Fund V", "size_eur": 70000000, "vintage": 2025, "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m", "quote": "worth €70 million"},
-    {"name": "ET3 a ET4 subfondy (InnovFin Equity)", "size_eur": null, "vintage": null, "source_url": "https://www.kaya.vc", "quote": "ET3 and ET4 subfunds are supported by InnovFin Equity"}
+    {
+      "name": "KAYA Fund V",
+      "size_eur": 70000000,
+      "vintage": 2025,
+      "source_url": "https://vestbee.com/blog/articles/kaya-secures-70-m",
+      "quote": "worth €70 million"
+    },
+    {
+      "name": "ET3 a ET4 subfondy (InnovFin Equity)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.kaya.vc",
+      "quote": "ET3 and ET4 subfunds are supported by InnovFin Equity"
+    }
   ],
   "investment_evidence": [
-    {"company": "Riptides", "date": "2025-04-23", "round": "pre-seed 3,3 mil. EUR (co-lead s PortfoLion)", "source_url": "https://luma.com/keh2zm55", "source_date": "undated", "quote": "The round, led by PortfoLion and Czech-based KAYA VC,", "source_tier": "B"}
+    {
+      "company": "Riptides",
+      "date": "2025-04-23",
+      "round": "pre-seed 3,3 mil. EUR (co-lead s PortfoLion)",
+      "source_url": "https://luma.com/keh2zm55",
+      "source_date": "undated",
+      "quote": "The round, led by PortfoLion and Czech-based KAYA VC,",
+      "source_tier": "B"
+    }
   ],
-  "notes": "Právní entita správce nejasná: KAYA Advisory s.r.o. (IČO 22585737, vznik 2025-02-12) sídlí na adrese pražské kanceláře; historické fondové vozidlo je ENERN Investments, investiční fond s proměnným základním kapitálem, a.s. (IČO 01790765, ARES), PitchBook uvádí ENERN Investments SICAV jako dřívější název. Licence ČNB neověřena. Datum kola Riptides (23. 4. 2025) jen ze Seedtable (C); stránka události Luma nemá rok. Velikost Fund V: Vestbee 70 mil. EUR first close vs web 85 mil. USD (zřejmě pozdější stav) – do capital dán web. Účast KAYA v Series A Viktor (5/2026, lead Accel) jen v agregátoru, neuvedena."
+  "notes": "Právní entita správce nejasná: KAYA Advisory s.r.o. (IČO 22585737, vznik 2025-02-12) sídlí na adrese pražské kanceláře; historické fondové vozidlo je ENERN Investments, investiční fond s proměnným základním kapitálem, a.s. (IČO 01790765, ARES), PitchBook uvádí ENERN Investments SICAV jako dřívější název. Licence ČNB neověřena. Datum kola Riptides (23. 4. 2025) jen ze Seedtable (C); stránka události Luma nemá rok. Velikost Fund V: Vestbee 70 mil. EUR first close vs web 85 mil. USD (zřejmě pozdější stav) – do capital dán web. Účast KAYA v Series A Viktor (5/2026, lead Accel) jen v agregátoru, neuvedena.",
+  "corrections_applied": 1
 }

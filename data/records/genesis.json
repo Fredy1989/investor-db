@@ -122,7 +122,17 @@
       "source_date": "2024-03-13",
       "quote": "Genesis Private Equity Fund IV, private equity fond ze skupiny Genesis Capital, uzavřel smlouvu o investici do majoritního podílu ve společnosti GAF.",
       "source_tier": "B"
+    },
+    {
+      "company": "Fyzioterapie s úsměvem",
+      "date": "2026-04-08",
+      "round": "buyout (GPEF V, 2. investice)",
+      "source_url": "https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment",
+      "source_date": "2026-04-08",
+      "quote": "This is the second investment of the newly established Genesis Private Equity Fund V",
+      "source_tier": "B"
     }
   ],
-  "notes": "Web genesiscapital.cz nebyl dostupný (ECONNRESET / timeout), proto chybí tier-A zdroje kromě ARES. Rozhodnutí o typu: 'Genesis Ventures' jako VC rameno pražské Genesis Capital nenalezeno (výsledky pro 'Genesis Ventures' jsou řecký, chilský, španělský a japonský fond – nesouvisí). Jediný ne-buyoutový nástroj je růstový fond GGEF I (EUR 40m, firmy s EV do EUR 10m); AmCham (06/2026) uvádí, že Genesis nebude spolupráci s týmem GGEF I replikovat v nástupnickém fondu a tým bude pokračovat samostatně – případný nový subjekt tohoto týmu je kandidát na samostatný záznam. Vintage GGEF I = rok prvního closingu (10/2019, Unquote GP profile 2020-07-01). Velikost GPEF V se liší dle data: 225 mil. (start 2025), 270 mil. (11/2025), 286 mil. (06/2026) – použita nejnovější. Uzavření transakce Slevomat (schválení ÚOHS) nedohledáno."
+  "notes": "Web genesiscapital.cz nebyl dostupný (ECONNRESET / timeout), proto chybí tier-A zdroje kromě ARES. Rozhodnutí o typu: 'Genesis Ventures' jako VC rameno pražské Genesis Capital nenalezeno (výsledky pro 'Genesis Ventures' jsou řecký, chilský, španělský a japonský fond – nesouvisí). Jediný ne-buyoutový nástroj je růstový fond GGEF I (EUR 40m, firmy s EV do EUR 10m); AmCham (06/2026) uvádí, že Genesis nebude spolupráci s týmem GGEF I replikovat v nástupnickém fondu a tým bude pokračovat samostatně – případný nový subjekt tohoto týmu je kandidát na samostatný záznam. Vintage GGEF I = rok prvního closingu (10/2019, Unquote GP profile 2020-07-01). Velikost GPEF V se liší dle data: 225 mil. (start 2025), 270 mil. (11/2025), 286 mil. (06/2026) – použita nejnovější. Uzavření transakce Slevomat (schválení ÚOHS) nedohledáno.",
+  "corrections_applied": 1
 }

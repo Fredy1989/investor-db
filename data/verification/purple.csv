@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+purple,decision,ok,,https://vestbee.com/insights/articles/rightcharge-raises-500-k,"Aktivní VC; Rightcharge 2026-09-03 ověřeno (Vestbee), web uvádí i Fether Labs, ArtMaster, 13 investic v 2025."
+purple,investor_type,ok,,https://purple-ventures.com/,Web: 'We are a venture capital fund investing into CEE+ tech-enabled innovations in pre-seed and seed'.
+purple,registry,ok,,https://purple-ventures.com/,"Patička webu obsahuje ID no 05775574; ARES potvrzuje Purple Ventures s.r.o., vznik 2017-02-03."
+purple,sectors,wrong,generalist,https://purple-ventures.com/,"Citace popisuje jen první 3 dealy Fund II, ne mandát. Web: 'We invest into early-stage purpose-driven technology startups' / 'tech-enabled innovations'; portfolio zahrnuje i health (Kardi AI, Hedepy), vet-tech, consumer, mobilitu. energy_climate+saas_b2b je odvozeno z dealů."
+purple,stages,ok,,https://purple-ventures.com/,Potvrzeno i primárním zdrojem: 'Pre-seed & Seed investment rounds'.
+purple,ticket,ok,,https://purple-ventures.com/,"Web: '€250k to €400k initial ticket size, later follow-ons'."
+purple,capital,ok,,https://purple-ventures.com/,"'over CZK 700 million' -> ~28 mil. EUR (0,040 ok pro 2025/26). Pozn.: cílová velikost Fund II €40M (Tech.eu/Forbes); upsaná částka je správná volba; 'over' = dolní mez."
+purple,investment_evidence,ok,,https://vestbee.com/insights/articles/rightcharge-raises-500-k,"Článek z 2026-09-03: £500k growth round, vede Soulmates Ventures, 'with participation from BlackWood Ventures and Purple Ventures'."

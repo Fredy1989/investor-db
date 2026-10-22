@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+tilia,decision,ok,,https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/,"Aktivní: lead Seed+ Flox Intelligence (CC 18.8.2026). ARES: správce 17621615 i fondové vozidlo 17848911 existují, nezaniklé."
+tilia,investor_type,ok,,https://tilia.vc/,"Early-stage impact VC, equity/convertible."
+tilia,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17621615,"ARES: Tilia Impact Partners s.r.o., Drtinova 557/10, Praha 5; jednatel Pavel Petřek. Vozidlo 17848911 na stejné adrese."
+tilia,sectors,ok,,https://tilia.vc/,"Web říká jen 'Sector-agnostic, Impact-driven'; energy_climate a health jsou odvozené z popisu impact témat, citace je přímo nedokládá. Striktně by stačilo [generalist]."
+tilia,stages,ok,,https://tilia.vc/,'Early stage' -> seed; přijatelné (případně i pre_seed).
+tilia,ticket,ok,,https://tilia.vc/,"'0.3 - 1.2m EUR initial ticket' na webu ověřeno. Agregátor WaveUp uvádí 0,3-1,5 mil. EUR (C, neověřeno)."
+tilia,capital,ok,,https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/,"Citace sedí (26 mil. EUR potvrzeno k 9/2023), ale jde o first close, ne konečnou velikost; basis latest_fund_size je zavádějící. WaveUp (C, nedatováno): 'Tilia II raised EUR 32 million' - nepotvrzeno primárním zdrojem: https://hub.waveup.com/funds/tilia-impact-ventures"
+tilia,investment_evidence,ok,,https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/,"Flox Intelligence, Seed+ 3 mil. USD, vedla Tilia; článek 18.8.2026. Datum kola = datum článku (kolo 'letos')."

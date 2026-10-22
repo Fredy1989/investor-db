@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+pointer,decision,ok,,https://www.pointer.cz/,Vyřazení správné: investor/platforma 'Pointer' v ČR nenalezena (3 vyhledávání); pointer.cz = IT firma PoInter s.r.o. Formálně ale exclusion_rule 'I1' není v seznamu E1-E8 (nesplněno zařazovací pravidlo); schéma by mělo tento případ připustit. PLAN uvádí Pointer jako příklad E1; zdroj kandidáta ověřit ručně (možná jiný název).
+pointer,investor_type,null_ok,,,
+pointer,registry,null_ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25120263,Žádná odpovídající investiční entita; uvedené IČO patří IT firmě.
+pointer,sectors,null_ok,,https://www.pointer.cz/,"Neuplatňuje se. Strojová kontrola citaci nenašla (not_found), WebFetch ale 'Komplexní řešení IT' na stránce vidí (pravděpodobně HTML struktura)."
+pointer,stages,null_ok,,https://www.pointer.cz/,Viz sectors.
+pointer,ticket,null_ok,,https://www.pointer.cz/,Viz sectors.
+pointer,capital,null_ok,,https://www.pointer.cz/,Viz sectors.
+pointer,investment_evidence,null_ok,,,

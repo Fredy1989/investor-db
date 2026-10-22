@@ -85,10 +85,21 @@
     },
     {
       "name": "Grouport Ventures / DEPO Angels Fund I (35 mil. Kč)",
-      "size_eur": 1400000,
+      "size_eur": 1442585,
       "vintage": null,
       "source_url": "https://cc.cz/cesti-depo-ventures-oteviraji-druhy-fond-v-desitkach-milionu-prvni-investice-podpori-startup-ktery-ukazuje-data-z-kryptouctu/",
-      "quote": "sesbírali 35 milionů korun a ty postupně pod názvem Grouport Ventures investovali do čtrnácti startupů"
+      "quote": "sesbírali 35 milionů korun a ty postupně pod názvem Grouport Ventures investovali do čtrnácti startupů",
+      "original": {
+        "currency": "CZK",
+        "amount": 35000000,
+        "date": "2026-10-22"
+      },
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2026-10-21",
+        "eur_rate": 24.262,
+        "currency": "CZK"
+      }
     }
   ],
   "investment_evidence": [
@@ -111,5 +122,6 @@
       "source_tier": "C"
     }
   ],
-  "notes": "Oba doložené dealy 2026 jen z agregátorů (raising.fi, funding.tech.eu = C); tiskovou zprávu ani článek B pro ArcSpace/Tapaya jsem nenašel. Datum ArcSpace = datum zprávy raising.fi (Nordic9 uvádí jiný den v 8/2026). Fond I 35 mil. Kč přepočten 1 CZK = 0,040 EUR = 1,4 mil. EUR. Velikost třetího fondu (AF III, cíl ~půl miliardy Kč dle CC) neověřena citací. Capital = null, protože čtvrtý fond má jen cíl 30 mil. EUR, dosažená výše nezveřejněna. Agregátory zmiňují i nový fond pro startupy z Ukrajiny/Moldavska/Gruzie s NRB (10/2026) – neověřeno, neuvedeno."
+  "notes": "Oba doložené dealy 2026 jen z agregátorů (raising.fi, funding.tech.eu = C); tiskovou zprávu ani článek B pro ArcSpace/Tapaya jsem nenašel. Datum ArcSpace = datum zprávy raising.fi (Nordic9 uvádí jiný den v 8/2026). Fond I 35 mil. Kč přepočten 1 CZK = 0,040 EUR = 1,4 mil. EUR. Velikost třetího fondu (AF III, cíl ~půl miliardy Kč dle CC) neověřena citací. Capital = null, protože čtvrtý fond má jen cíl 30 mil. EUR, dosažená výše nezveřejněna. Agregátory zmiňují i nový fond pro startupy z Ukrajiny/Moldavska/Gruzie s NRB (10/2026) – neověřeno, neuvedeno.",
+  "corrections_applied": 1
 }

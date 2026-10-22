@@ -19,16 +19,20 @@
     "source_tier": "A"
   },
   "sectors": {
-    "value": null,
-    "value_text": "bez sektorového omezení; CEE zakladatelé s globálními ambicemi",
-    "source_url": "https://www.czechfounders.vc/",
+    "value": [
+      "generalist"
+    ],
+    "value_text": "široká škála obchodních vertikál",
+    "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
     "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "Pre-seed tickets. Typically €50-350k.",
-    "source_tier": "A"
+    "quote": "Poskládali jsme portfolio lidí, které pokrývá širokou škálu obchodních vertikál.",
+    "source_tier": "B"
   },
   "stages": {
-    "value": ["pre_seed"],
+    "value": [
+      "pre_seed"
+    ],
     "value_text": "Pre-seed",
     "source_url": "https://www.czechfounders.vc/",
     "source_date": "undated",
@@ -37,7 +41,10 @@
     "source_tier": "A"
   },
   "ticket": {
-    "value": {"min_eur": 50000, "max_eur": 350000},
+    "value": {
+      "min_eur": 50000,
+      "max_eur": 350000
+    },
     "value_text": "€50–350k",
     "source_url": "https://www.czechfounders.vc/",
     "source_date": "undated",
@@ -46,7 +53,10 @@
     "source_tier": "A"
   },
   "capital": {
-    "value": {"eur": 10000000, "basis": "latest_fund_size"},
+    "value": {
+      "eur": 10000000,
+      "basis": "latest_fund_size"
+    },
     "value_text": "10 mil. EUR (cíl zdvojnásoben z 5 mil. EUR), 2022",
     "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
     "source_date": "2022-09-07",
@@ -72,7 +82,17 @@
       "source_date": "2025-02-12",
       "quote": "The round was led by Lighthouse Ventures, with Czech Founders VC, Borovicka Capital, and Tensor Ventures",
       "source_tier": "B"
+    },
+    {
+      "company": "Maxfusion",
+      "date": "2026-01-14",
+      "round": "pre-seed, 350 tis. EUR",
+      "source_url": "https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/",
+      "source_date": "2026-01-14",
+      "quote": "Peníze mu posílá fond Czech Founders VC a andělský investor Ory Weihs.",
+      "source_tier": "B"
     }
   ],
-  "notes": "Sektory web neuvádí (generalista) – value null, aby se neodhadovalo. PitchBook (neotevřen do detailu, jen ve vyhledávání) uvádí novější dealy 2026 (Merchantee, AdSpawn, Carta Genum) – nepřevzato bez vlastního ověření. Vintage 2022 odvozen od data článku a vzniku s.r.o. (2022-04-19). Ambit report zmiňuje navazující fond 'United Founders' – neověřeno."
+  "notes": "Sektory web neuvádí (generalista) – value null, aby se neodhadovalo. PitchBook (neotevřen do detailu, jen ve vyhledávání) uvádí novější dealy 2026 (Merchantee, AdSpawn, Carta Genum) – nepřevzato bez vlastního ověření. Vintage 2022 odvozen od data článku a vzniku s.r.o. (2022-04-19). Ambit report zmiňuje navazující fond 'United Founders' – neověřeno.",
+  "corrections_applied": 2
 }

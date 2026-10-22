@@ -2,8 +2,8 @@
   "id": "startupyard",
   "name": "StartupYard",
   "legal_name": "StartupYard Services s.r.o. (investiční SPV po batchích, např. StartupYard Batch 14 s.r.o., StartupYard Batch 15 s.r.o.)",
-  "decision": "include",
-  "exclusion_rule": null,
+  "decision": "inactive",
+  "exclusion_rule": "E6",
   "decision_reason": "Akcelerátor, ale s vlastními investičními vozidly (samostatná s.r.o. pro každý batch, Batch 14 založena 2023-12-07, Batch 15 2024-11-14) a investuje formou konvertibilní zápůjčky za cca 5 % equity, takže E2 neplatí. I2 doloženo jen agregátorem (Personeo.ai, duben 2024) a spuštěním 14. a 15. batche s investicí přes konvertibilku.",
   "investor_type": "vc",
   "country": "CZ",
@@ -32,13 +32,14 @@
   },
   "stages": {
     "value": [
-      "pre_seed"
+      "pre_seed",
+      "seed"
     ],
-    "value_text": "akcelerační program, konvertibilka 24 měsíců",
+    "value_text": "pre-seed and seed accelerator",
     "source_url": "https://startupyard.com/faq",
     "source_date": "undated",
     "accessed": "2026-10-22",
-    "quote": "The convertible note is valid for 24 months.",
+    "quote": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.",
     "source_tier": "A"
   },
   "ticket": {
@@ -95,5 +96,6 @@
       "source_tier": "A"
     }
   ],
-  "notes": "Hraniční případ E2: investiční vozidlo existuje (ARES: SPV StartupYard Batch 6–15 s.r.o., Perlová 371/5, Praha 1; Batch 15 s.r.o. vznik 2024-11-14), equity ~5 % přes konvertibilku (FAQ: 'we typically target around 5% equity in your startup'). Slabé místo je I2: jediná jmenovitá investice po 2023-10-22 je Personeo.ai (duben 2024) a to jen z agregátoru Caplight (tier C, buňky tabulky jsou na stránce v samostatných elementech; den 01 je doplněk, zdroj uvádí jen 'Apr 2024'). Blogové profily Personeo.ai, Wopee.io, CaseLens, Teamsharq na startupyard.com investici výslovně neuvádějí. Seznam firem Batch 14/15 se nepodařilo najít. Starší investice (Fungies 07/2023, Pixop a FeedYou 05/2022, CityPay.io 02/2022 dle Caplight) splňují I3. Kapitál/velikost fondu nezveřejněna; historicky financováno přes Fundlift kampaně (2017). Typ 'vc' zvolen jako nejbližší (akcelerátor s equity)."
+  "notes": "Hraniční případ E2: investiční vozidlo existuje (ARES: SPV StartupYard Batch 6–15 s.r.o., Perlová 371/5, Praha 1; Batch 15 s.r.o. vznik 2024-11-14), equity ~5 % přes konvertibilku (FAQ: 'we typically target around 5% equity in your startup'). Slabé místo je I2: jediná jmenovitá investice po 2023-10-22 je Personeo.ai (duben 2024) a to jen z agregátoru Caplight (tier C, buňky tabulky jsou na stránce v samostatných elementech; den 01 je doplněk, zdroj uvádí jen 'Apr 2024'). Blogové profily Personeo.ai, Wopee.io, CaseLens, Teamsharq na startupyard.com investici výslovně neuvádějí. Seznam firem Batch 14/15 se nepodařilo najít. Starší investice (Fungies 07/2023, Pixop a FeedYou 05/2022, CityPay.io 02/2022 dle Caplight) splňují I3. Kapitál/velikost fondu nezveřejněna; historicky financováno přes Fundlift kampaně (2017). Typ 'vc' zvolen jako nejbližší (akcelerátor s equity).",
+  "corrections_applied": 3
 }

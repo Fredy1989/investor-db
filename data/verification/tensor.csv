@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+tensor,decision,ok,,https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/,"Aktivní: closing 2. fondu (Forbes 18.9.2025), šest transakcí vč. Wultra; DYNANIC 8/2025."
+tensor,investor_type,ok,,https://tensor.ventures/,
+tensor,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19987544,"ARES: Tensor Advisory s.r.o., Pernerova 635/57; jednatelé Roman Smola a Martin Drdúl (zakladatelé Tensoru). EIF-tvrzení o správě Co-Investment Fund SCSp jsem neověřoval."
+tensor,sectors,ok,,https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/,
+tensor,stages,ok,,https://tensor.ventures/,'We participate in Seed and Series A rounds.'
+tensor,ticket,null_ok,,https://eit.dealroom.co/news/note/investing-in-deeptech-in-cee,"Jen agregátory: Dealroom '~€1 million' initial, WaveUp $0,5-1M seed / $1-3M A, VC Archive $250K-5M - nekonzistentní, investor sám neuvádí."
+tensor,capital,wrong,eur 41150000,https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt?date=18.09.2025,"1 mld. Kč ověřeno (Forbes, datePublished 2025-09-18), ale kurz 0,040 nesedí: ČNB 18.9.2025 EUR = 24,300 Kč => 41,15 mil. EUR. Pozn.: AIN 10/2024 nazývá Co-investment Fund (cíl 50 mil. EUR) 'second fund' - fond 1 mld. Kč a Co-investment Fund jsou zřejmě totéž (duplicita ve funds)."
+tensor,investment_evidence,ok,,https://forbes.cz/tensor-vybral-miliardu-a-miri-dal-cesti-investori-sazi-na-ai-i-kvantove-technologie/,"Wultra: citace na stránce, datum článku 18.9.2025 (datum transakce neuvedeno). Novější 2026 dealy jen v agregátorech (StartupIntros: AppFactor seed $4M 2/2026, lead Tensor)."

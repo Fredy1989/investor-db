@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+startupyard,decision,unverifiable,,https://www.caplight.com/investor/startupyard,"Investiční vozidla existují (ARES: Batch 14 s.r.o. 2023-12-07, Batch 15 s.r.o. 2024-11-14), E2 tedy neplatí. Ale I2: jediná jmenovitá investice po 2023-10-22 je Personeo.ai 'Apr 2024' z agregátoru (tier C); ohlášení batchí 14/15 jsou výzvy k přihláškám, ne doložené investice. Seznam přijatých firem Batch 14/15 nenalezen (2 vyhledávání). Doporučuji ruční ověření / případně E6."
+startupyard,investor_type,ok,,https://startupyard.com/faq,"Akcelerátor s equity (konvertibilka, ~5 %); 'vc' jako nejbližší typ přijatelné."
+startupyard,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06002820,ARES: StartupYard Services s.r.o. (2017-04-07); SPV 19997272 a 22266852 existují.
+startupyard,sectors,ok,,https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/,'sharp focus on AI and hard-to-replicate deep tech'. Pozn.: tatáž stránka uvádí 'We're industry-agnostic'; zvážit i generalist.
+startupyard,stages,wrong,"pre_seed, seed",https://startupyard.com/faq,"Citace o platnosti konvertibilky fázi nedokládá. FAQ: 'pre-seed and seed accelerator', 'early to seed-stage startups' -> chybí seed."
+startupyard,ticket,ok,,https://startupyard.com/faq,"€45k in-kind + volitelně €25k cash = €70k přes konvertibilku. Pozn.: €45k je hodnota programu (služby), hotovost jen 0-25k."
+startupyard,capital,null_ok,,https://startupyard.com/faq,"Velikost kapitálu / follow-on fondu (s DEPO Ventures) nezveřejněna. Pozn.: eur=null, ale basis 'own_balance_sheet' a citace o follow-on fondu jsou bezpředmětné."
+startupyard,investment_evidence,unverifiable,,https://www.caplight.com/investor/startupyard,"Caplight veřejně ukazuje 'Personeo.ai Apr 2024 Accelerator Co-investor' (zbytek za registrací); den 01 je domyšlený. Žádný primární/B zdroj, že StartupYard do Personeo.ai investoval, nenalezen."

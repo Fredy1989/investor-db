@@ -1,0 +1,78 @@
+{
+  "id": "ysoft",
+  "name": "Y Soft Ventures",
+  "legal_name": "Y Soft Ventures, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Korporátní VC firmy Y Soft (Brno) s vlastním investičním vozidlem; aktivní v posledních 36 měsících – spoluinvestice do RoboTwin (oznámeno 2. 7. 2025), E6 tedy neplatí.",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://www.ysoft.com/ventures",
+  "registry": {
+    "value": "29314445",
+    "value_text": "Y Soft Ventures, a.s., IČO 29314445, Technická 2948/13, Brno",
+    "source_url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-a-s-29314445",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Y Soft Ventures, a.s.",
+    "source_tier": "C"
+  },
+  "sectors": {
+    "value": ["industry", "deeptech", "saas_b2b"],
+    "value_text": "IoT, Industry 4.0, Smart Office, Retail 2.0, Smart City, Cyber Security, Big Data, B2B AR/VR",
+    "source_url": "https://www.ysoft.com/ventures",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "The Internet of Things (IoT) represents the focal point of our investment strategy.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": ["pre_seed", "seed"],
+    "value_text": "early-stage technology startups",
+    "source_url": "https://www.ysoft.com/ventures",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "early-stage technology startups",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": null},
+    "value_text": "2014: běžně 2–3 mil. Kč, výjimečně 45 mil. Kč (Be3D) – zastaralé, nepřevzato",
+    "source_url": "https://www.lupa.cz/clanky/milos-sochor-y-soft-ventures-chceme-investovat-pulmiliardu-do-asi-25-firem/",
+    "source_date": "2014-12-10",
+    "accessed": "2026-10-22",
+    "quote": "zbytek by se měl pohybovat kolem dvou tří milionů",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {"eur": null, "basis": "own_balance_sheet"},
+    "value_text": "nezveřejněno; 2014 plán ~500 mil. Kč na 20–25 firem (zastaralé)",
+    "source_url": "https://www.lupa.cz/clanky/milos-sochor-y-soft-ventures-chceme-investovat-pulmiliardu-do-asi-25-firem/",
+    "source_date": "2014-12-10",
+    "accessed": "2026-10-22",
+    "quote": "dohromady bychom na to mohli mít kolem půl miliardy korun.",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Y Soft Ventures II, a.s. (IČO 07890150)",
+      "size_eur": null,
+      "vintage": 2019,
+      "source_url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-ii-a-s-07890150",
+      "quote": "Y Soft Ventures II, a.s."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "RoboTwin",
+      "date": "2025-07-02",
+      "round": "pre-seed 1,25 mil. EUR (co-investor)",
+      "source_url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/",
+      "source_date": "2025-07-02",
+      "quote": "The funding from European Institute of Innovation and Technology, BD Partners, Y Soft Ventures and Jörg Rupp will fuel",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Aktuální tiket ani velikost fondu II nenalezeny (článek Forbes o spuštění fondu II nešel načíst celý). Údaje o tiketu/kapitálu jsou z roku 2014 a proto v číselných polích null. Registr ověřen jen přes agregátor mesec.cz (tier C). Od 07/2025 je managing partnerem Lukáš Konečný; exit Sewio 2024. Stage RoboTwin se liší (pre-seed vs. seed) dle zdroje."
+}

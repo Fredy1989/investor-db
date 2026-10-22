@@ -1,0 +1,108 @@
+{
+  "id": "zaka",
+  "name": "ZAKA VC (dříve ZAKA Startups)",
+  "legal_name": "ZAKA Management s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Česká entita ověřena v ARES (ZAKA Management s.r.o. + fond ZAKA VC I, osoba rizikového kapitálu, a.s., Praha 2); pre-seed/seed VC s Fund I 15 mil. EUR, doložené investice Yenmo (3/2025) a Promakhos Therapeutics (4/2025).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://zaka.vc",
+  "registry": {
+    "value": "21053987",
+    "value_text": "IČO 21053987, ZAKA Management s.r.o., Italská 2581/67, Vinohrady, Praha 2; fond ZAKA VC I, osoba rizikového kapitálu, a.s., IČO 21514992, stejná adresa",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21053987",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "ZAKA Management s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "industry",
+      "saas_b2b",
+      "ai"
+    ],
+    "value_text": "Health & Biotech, Industrial Tech (web); B2B software, AI v B2B, biotech a healthtech (tech.eu 2024)",
+    "source_url": "https://zaka.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "seed & pre-seed",
+    "source_url": "https://zaka.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nenalezeno v otevřeném zdroji (web uvádí jen minimální LP tiket 130K)",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "",
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 15000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "Fund I 15 mil. EUR, first closing 10,5 mil. EUR (6/2024); web nyní uvádí '17M Current fund size' bez měny",
+    "source_url": "https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
+    "source_date": "2024-07-19",
+    "accessed": "2026-10-22",
+    "quote": "ZAKA VC Fund I sized €15M is now starting with a €10.5M first closing in June 2024",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "ZAKA VC Fund I (ZAKA VC I, osoba rizikového kapitálu, a.s.)",
+      "size_eur": 15000000,
+      "vintage": 2024,
+      "source_url": "https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
+      "quote": "ZAKA VC Fund I sized €15M is now starting with a €10.5M first closing in June 2024"
+    },
+    {
+      "name": "Family office (soukromé prostředky zakladatelů)",
+      "size_eur": null,
+      "vintage": 2020,
+      "source_url": "https://tech.eu/2024/07/19/zaka-unveils-its-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
+      "quote": "ZAKA VC has started as a family office investing purely private money in pre-seed and seed startups."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Yenmo",
+      "date": "2025-03-10",
+      "round": "1,1 mil. USD (s Y Combinator a Team Ignite Ventures)",
+      "source_url": "https://vestbee.com/blog/articles/zaka-vc-invests-in-yenmo",
+      "source_date": "2025-03-10",
+      "quote": "Yenmo, an Indian-founded fintech startup, has secured $1.1 million in a funding round from ZAKA VC, Team Ignite Ventures, and Y Combinator",
+      "source_tier": "B"
+    },
+    {
+      "company": "Promakhos Therapeutics",
+      "date": "2025-04-28",
+      "round": "neuvedeno (nová investice)",
+      "source_url": "https://zaka.vc/news/",
+      "source_date": "2025-04-28",
+      "quote": "We would like to introduce you to another recently invested startup in our biotech portfolio: Promakhos Therapeutics",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Země ověřena: CZ (ARES; kanceláře i Londýn, Bratislava, Silicon Valley). 'ZAKA Startups' je starší název (LinkedIn zakastartups). Tiket na startup nenalezen ve zdroji, který jsem otevřel (agregátory uvádějí 250–300 tis. EUR – neověřeno). Web uvádí '17M Current fund size' bez měny a 97 investic celkem; do capital dána ověřená velikost Fund I z tech.eu. Na news stránce jsou i novější zprávy (Sensible Biotechnologies $47M 10/2026, Sygaldry $139M 4/2026), ale jde o kola portfoliových firem, ne nové investice ZAKA s datem."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "pointer",
+  "name": "Pointer",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I1",
+  "decision_reason": "Nepodařilo se identifikovat žádnou českou crowdfundingovou / investiční platformu ani investora jménem Pointer; subjekty tohoto jména v ARES jsou IT/inženýrské firmy. Nesplněno I1 (ani I2–I4); E1 nelze doložit, protože platforma nebyla nalezena.",
+  "investor_type": null,
+  "country": "CZ",
+  "hq_city": null,
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "Kandidáti v ARES: PoInter, s.r.o. (IČO 25120263, IT služby) a POINTER a.s. (IČO 63080681, NACE 46900/62/63/71120/62200) – žádný není investiční platforma",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25120263",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"25120263\",\"obchodniJmeno\":\"PoInter, s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [],
+    "value_text": "neuplatňuje se",
+    "source_url": "https://www.pointer.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Komplexní řešení IT",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "neuplatňuje se",
+    "source_url": "https://www.pointer.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Komplexní řešení IT",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "neuplatňuje se",
+    "source_url": "https://www.pointer.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Komplexní řešení IT",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "neuplatňuje se",
+    "source_url": "https://www.pointer.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Komplexní řešení IT",
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "notes": "Hledáno: 'Pointer investiční platforma crowdfunding Česko', 'Pointer platforma investice startupy', 'Pointer crowdfunding platform Czech Republic OR Slovakia ECSP licence', ARES název 'Pointer' (5 výsledků: void pointer s.r.o., PoInter s.r.o., Pointer Control Systems s.r.o. v likvidaci, Český pointer a setter klub z.s., POINTER a.s.). pointer.cz = IT firma PoInter s.r.o. ('Vaše kreativní IT'). Jediný investor tohoto jména je Pointer.Capital (US rolling fund, Lewes, Delaware, krypto/fintech) – nesouvisí s CZ. exclusion_rule 'I1' je mimo seznam E1–E8: subjekt neidentifikován; doporučuji ručně ověřit, o jakou platformu šlo (možná jiný název). Citace z pointer.cz převzata z WebFetch, bez strojové kontroly přes curl."
+}

@@ -1,0 +1,9 @@
+id,field,verdict,correct_value,evidence_url,comment
+inven,decision,ok,,https://www.invencapital.cz/,"Aktivní; web uvádí Andercore Series B co-lead, Vytal, Ember Series A co-lead, Wint Series D."
+inven,investor_type,ok,,https://www.invencapital.cz/,CVC skupiny ČEZ (vzor v PLAN). Kapitál i od institucí/korporací + EIB; stále cvc.
+inven,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533,"ARES: Inven Capital, SICAV, a.s., vznik 2013-09-01."
+inven,sectors,ok,,https://www.invencapital.cz/,'Climate tech'.
+inven,stages,wrong,"series_a, series_b_plus, growth",https://www.invencapital.cz/,"Citace NRW.BANK popisuje 'Wachstumskapital' NRW.BANK, ne fázový mandát Inven. Web Inven fáze neuvádí, ale jeho dealy jsou Series A (Ember, Hydrogrid), Series B (Andercore), C-D (Wint, Taranis); tiket 2-30M EUR. Jen 'growth' je neúplné a zdroj nesedí."
+inven,ticket,ok,,https://www.invencapital.cz/,'2-30m EUR'.
+inven,capital,ok,,https://www.invencapital.cz/,EUR 500m celkový upsaný kapitál (vč. EUR 50m od EIB). basis 'aum' ~ committed capital; ok.
+inven,investment_evidence,ok,,https://www.deutsche-startups.de/2026/02/12/andercore-sammelt-40-millionen-ein-blockbrain-erhaelt-175-millionen-twentyfour-bekommt-118-millionen/,"Andercore $40M (2026-02-12); web Inven potvrzuje co-lead Series B, 'Series B dle agregátorů' lze nahradit primárním zdrojem invencapital.cz."
