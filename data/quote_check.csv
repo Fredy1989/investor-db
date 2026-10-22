@@ -33,7 +33,7 @@ depo,include,capital,0,https://www.businessinfo.cz/clanky/kvalitnich-startupu-je
 depo,include,funds,0,https://www.businessinfo.cz/clanky/kvalitnich-startupu-je-dost-musite-je-ale-najit-s-novym-fondem-cilime-na-vesmir-rika-sima-z-depo-ventures/,,200,exact,1.0,"Nedávno jste otevřeli váš čtvrtý fond, který cílí na částku 30 milionů eur."
 depo,include,funds,1,https://cc.cz/cesti-depo-ventures-oteviraji-druhy-fond-v-desitkach-milionu-prvni-investice-podpori-startup-ktery-ukazuje-data-z-kryptouctu/,,200,exact,1.0,druhý fond by se měl uzavřít na konci března s celkovým objemem 45 milionů korun
 depo,include,funds,2,https://cc.cz/cesti-depo-ventures-oteviraji-druhy-fond-v-desitkach-milionu-prvni-investice-podpori-startup-ktery-ukazuje-data-z-kryptouctu/,,200,exact,1.0,sesbírali 35 milionů korun a ty postupně pod názvem Grouport Ventures investovali do čtrnácti startupů
-depo,include,investment_evidence,0,https://raising.fi/news/arcspace-seed-august-2026,C,200,exact,1.0,"The round was led by DEPO Ventures, with participation from SCE Freiraum Ventures and IRDI Capital Investissement."
+depo,include,investment_evidence,0,https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/,B,200,exact,1.0,The round was led by DEPO Ventures through its DEPO Ventures One fund.
 depo,include,investment_evidence,1,https://funding.tech.eu/companies/9D8D80E6-5DB5-4CE0-B4C2-8B406416EF1D,C,200,exact,1.0,"2026-04-28 Pre-Seed €1.0M BADideas.fund , DEPO Ventures , Passion Capital"
 fundlift,exclude,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03876292,A,200,exact,1.0,"""ico"":""03876292"",""obchodniJmeno"":""Fundlift, s.r.o."""
 fundlift,exclude,sectors,0,https://cc.cz/v-cr-prave-odstartovala-crowdfunding-platforma-fundlift-ktera-za-investici-nabidne-podil-ve-firme/,B,200,exact,1.0,"Od dnešního dne je ovšem první verze Fundliftu oficiálně k dispozici a nabídne crowdfunding investice do projektů, ve kterých výměnou za ně lze získat přímý podíl."
@@ -88,7 +88,7 @@ kaya,include,ticket,0,https://vestbee.com/blog/articles/kaya-secures-70-m,B,200,
 kaya,include,capital,0,https://www.kaya.vc,A,200,exact,1.0,$85M
 kaya,include,funds,0,https://vestbee.com/blog/articles/kaya-secures-70-m,,200,exact,1.0,worth €70 million
 kaya,include,funds,1,https://www.kaya.vc,,200,exact,1.0,ET3 and ET4 subfunds are supported by InnovFin Equity
-kaya,include,investment_evidence,0,https://luma.com/keh2zm55,B,200,exact,1.0,"The round, led by PortfoLion and Czech-based KAYA VC,"
+kaya,include,investment_evidence,0,https://www.vestbee.com/blog/articles/riptides-secures-3-3-m,B,200,exact,1.0,Czech KAYA VC also joined the round.
 lighthouse,include,registry,0,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912,A,200,exact,1.0,"""ico"":""07500912"",""obchodniJmeno"":""Lighthouse Ventures GP s.r.o."""
 lighthouse,include,sectors,0,https://lhv.vc/,A,200,exact,1.0,"B2B Software of various verticals, Fintech, AI"
 lighthouse,include,stages,0,https://lhv.vc/,A,200,exact,1.0,Idea / Seed

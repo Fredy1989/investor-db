@@ -1,45 +1,539 @@
 [
-  {"id": "credo", "op": "set", "path": "ticket.original", "value": {"currency": "USD", "min": 1000000, "max": 5000000}, "reason": "FX: pevný kurz 0,92 z pokynů → ECB k datu zdroje (nedatovaný → datum přístupu)", "proposed_by": "agent_b"},
-  {"id": "credo", "op": "set", "path": "capital.original", "value": {"currency": "USD", "amount": 88000000}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "credo", "op": "set", "path": "funds.0.original", "value": {"currency": "USD", "amount": 88000000, "date": "2026-03-23"}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "kaya", "op": "set", "path": "capital.original", "value": {"currency": "USD", "amount": 85000000}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "longevitytech", "op": "set", "path": "capital.original", "value": {"currency": "USD", "amount": 50000000}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "nation1", "op": "set", "path": "ticket.original", "value": {"currency": "USD", "min": 100000, "max": 1000000}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "nation1", "op": "set", "path": "capital.original", "value": {"currency": "USD", "amount": 60000000}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "springtide", "op": "set", "path": "ticket.original", "value": {"currency": "USD", "min": 3000000, "max": 10000000}, "reason": "FX (zdroj 2021-10-14)", "proposed_by": "agent_b"},
-  {"id": "impulse", "op": "set", "path": "capital.original", "value": {"currency": "CZK", "amount": 4000000000}, "reason": "FX (zdroj 2020-09-08)", "proposed_by": "agent_b"},
-  {"id": "purple", "op": "set", "path": "capital.original", "value": {"currency": "CZK", "amount": 700000000}, "reason": "FX: CZK nebyly v pokynech kurzem k datu", "proposed_by": "orchestrator"},
-  {"id": "purple", "op": "set", "path": "funds.0.original", "value": {"currency": "CZK", "amount": 700000000, "date": "2026-10-22"}, "reason": "FX", "proposed_by": "orchestrator"},
-  {"id": "tensor", "op": "set", "path": "capital.original", "value": {"currency": "CZK", "amount": 1000000000}, "reason": "FX (zdroj 2025-09-18)", "proposed_by": "agent_b"},
-  {"id": "tensor", "op": "set", "path": "funds.2.original", "value": {"currency": "CZK", "amount": 1000000000, "date": "2025-09-18"}, "reason": "FX", "proposed_by": "agent_b"},
-  {"id": "depo", "op": "set", "path": "funds.2.original", "value": {"currency": "CZK", "amount": 35000000, "date": "2026-10-22"}, "reason": "FX", "proposed_by": "orchestrator"},
-
-  {"id": "aspire11", "op": "set", "path": "sectors", "value": {"value": ["generalist"], "value_text": "pokročilé technologické firmy, bez sektorového vymezení", "source_url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/", "source_date": "2025-09-21", "accessed": "2026-10-22", "quote": "má směřovat do přímých investic do pokročilých technologických firem", "source_tier": "B"}, "reason": "deeptech nebyl ve zdroji podložen", "proposed_by": "agent_b"},
-  {"id": "purple", "op": "set", "path": "sectors", "value": {"value": ["generalist"], "value_text": "early-stage purpose-driven technology startups (portfolio: energie, health, vet-tech, consumer)", "source_url": "https://purple-ventures.com/", "source_date": "undated", "accessed": "2026-10-22", "quote": "We invest into early-stage purpose-driven technology startups with initial revenue and global ambitions.", "source_tier": "A"}, "reason": "sektory byly odvozeny z prvních 3 dealů, ne z mandátu", "proposed_by": "agent_b"},
-  {"id": "czechfounders", "op": "set", "path": "sectors", "value": {"value": ["generalist"], "value_text": "široká škála obchodních vertikál", "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/", "source_date": "undated", "accessed": "2026-10-22", "quote": "Poskládali jsme portfolio lidí, které pokrývá širokou škálu obchodních vertikál.", "source_tier": "B"}, "reason": "null_missed", "proposed_by": "agent_b"},
-  {"id": "inven", "op": "set", "path": "stages", "value": {"value": ["series_a", "series_b_plus", "growth"], "value_text": "odvozeno z doložených dealů (Series A–D); web Inven fáze neuvádí", "source_url": "https://www.invencapital.cz/", "source_date": "undated", "accessed": "2026-10-22", "quote": null, "derived_from": "investment_evidence", "source_tier": "A"}, "reason": "citace NRW.BANK popisovala jiného investora; fáze jsou odvozené, proto bez citace", "proposed_by": "agent_b"},
-  {"id": "springtide", "op": "set", "path": "stages.value", "value": ["pre_seed", "seed", "series_a", "series_b_plus"], "reason": "zdroj říká všechny fáze, chyběla series_a", "proposed_by": "agent_b"},
-  {"id": "startupyard", "op": "set", "path": "stages", "value": {"value": ["pre_seed", "seed"], "value_text": "pre-seed and seed accelerator", "source_url": "https://startupyard.com/faq", "source_date": "undated", "accessed": "2026-10-22", "quote": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.", "source_tier": "A"}, "reason": "citace fázi nedokládala, chyběl seed", "proposed_by": "agent_b"},
-
-  {"id": "reflex", "op": "set", "path": "ticket", "value": {"value": {"min_eur": 1000000, "max_eur": 2000000}, "value_text": "typická investice 1–2 mil. EUR", "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/", "source_date": "2023-12-22", "accessed": "2026-10-22", "quote": "při naší typické investici mezi jedním až dvěma miliony eur", "source_tier": "B"}, "reason": "min byl null, i když ho zdroj uvádí", "proposed_by": "agent_b"},
-  {"id": "rockaway", "op": "set", "path": "ticket", "value": {"value": {"min_eur": 500000, "max_eur": 2000000}, "value_text": "Investment ticket: 0.5-2m (měna neuvedena, Vestbee jinak uvádí EUR → předpoklad EUR)", "currency_assumed": true, "source_url": "https://www.vestbee.com/insights/articles/vc-of-the-month-rockaway-ventures", "source_date": "2025-07-08", "accessed": "2026-10-22", "quote": "Investment ticket : 0.5-2m", "source_tier": "B"}, "reason": "null_missed", "proposed_by": "agent_b"},
-  {"id": "zaka", "op": "set", "path": "ticket", "value": {"value": {"min_eur": 250000, "max_eur": 300000}, "value_text": "€250,000 to €300,000", "source_url": "https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund", "source_date": "2024-07-19", "accessed": "2026-10-22", "quote": "Ticket sizes will range from €250,000 to €300,000.", "source_tier": "B"}, "reason": "null_missed", "proposed_by": "agent_b"},
-  {"id": "zaka", "op": "set", "path": "capital", "value": {"value": {"eur": 17000000, "basis": "latest_fund_size"}, "value_text": "17M Current fund size (měna na webu neuvedena → předpoklad EUR; fond 1, 8M investováno)", "currency_assumed": true, "source_url": "https://zaka.vc/", "source_date": "undated", "accessed": "2026-10-22", "quote": "17M Current fund size", "source_tier": "A"}, "reason": "15M byl cíl z 7/2024; web uvádí aktuální 17M", "proposed_by": "agent_b"},
-  {"id": "lighthouse", "op": "set", "path": "capital", "value": {"value": {"eur": 23000000, "basis": "previous_fund_size"}, "value_text": "Fund I (2019): 23 mil. EUR; velikost Fund II (2024) neveřejná", "source_url": "https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/", "source_date": "undated", "accessed": "2026-10-22", "quote": "který celkově spravuje kapitál ve výši 23 milionů eur", "source_tier": "B"}, "reason": "null_missed; basis = předchozí fond (aktuální neznámý)", "proposed_by": "agent_b"},
-  {"id": "miton", "op": "set", "path": "capital", "value": {"value": {"eur": 450000000, "basis": "portfolio_value"}, "value_text": "hodnota současného portfolia 450 mil. EUR (ne volný kapitál)", "source_url": "https://www.miton.cz", "source_date": "undated", "accessed": "2026-10-22", "quote": "hodnota současného portfolia 450 mil. euro", "source_tier": "A"}, "reason": "null_missed; přidán basis portfolio_value", "proposed_by": "agent_b"},
-
-  {"id": "palefire", "op": "set", "path": "investor_type", "value": "private_investor", "reason": "PLAN.md uvádí Pale Fire jako vzor typu private_investor", "proposed_by": "agent_b"},
-  {"id": "impulse", "op": "set", "path": "investor_type", "value": "private_investor", "reason": "vozidlo jednoho podnikatele s VC strategií, ne správa rodinného majetku (hraniční)", "proposed_by": "agent_b"},
-
-  {"id": "czechfounders", "op": "append", "path": "investment_evidence", "value": {"company": "Maxfusion", "date": "2026-01-14", "round": "pre-seed, 350 tis. EUR", "source_url": "https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/", "source_date": "2026-01-14", "quote": "Peníze mu posílá fond Czech Founders VC a andělský investor Ory Weihs.", "source_tier": "B"}, "reason": "novější deal", "proposed_by": "agent_b"},
-  {"id": "genesis", "op": "append", "path": "investment_evidence", "value": {"company": "Fyzioterapie s úsměvem", "date": "2026-04-08", "round": "buyout (GPEF V, 2. investice)", "source_url": "https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment", "source_date": "2026-04-08", "quote": "This is the second investment of the newly established Genesis Private Equity Fund V", "source_tier": "B"}, "reason": "novější deal; datum = datum článku", "proposed_by": "agent_b"},
-  {"id": "nation1", "op": "remove", "path": "investment_evidence.2", "reason": "Myriad AI 9/2025: N1 v kole nedoloženo (agent B: unverifiable)", "proposed_by": "agent_b"},
-  {"id": "impulse", "op": "remove", "path": "investment_evidence.0", "reason": "Safetica 2025: investoval Ondřej Tomek osobně, ne Impulse Ventures (unverifiable)", "proposed_by": "agent_b"},
-
-  {"id": "startupyard", "op": "set", "path": "decision", "value": "inactive", "reason": "I2 stojí jen na agregátoru (tier C) s domyšleným dnem; ohlášení batchí nejsou důkaz investice. Spolehlivost má přednost → neaktivní do doložení", "proposed_by": "agent_b", "decided_by": "orchestrator"},
-  {"id": "startupyard", "op": "set", "path": "exclusion_rule", "value": "E6", "reason": "viz výše", "proposed_by": "orchestrator"},
-  {"id": "nrf", "op": "set", "path": "decision", "value": "exclude", "reason": "nikdy neinvestoval, infrastrukturní FKI, vymazán z OR", "proposed_by": "agent_b"},
-  {"id": "nrf", "op": "set", "path": "exclusion_rule", "value": "I4", "reason": "nikdy neinvestoval do soukromých firem", "proposed_by": "agent_b"},
-  {"id": "nrf", "op": "set", "path": "investor_type", "value": null, "reason": "žádný typ z taxonomie", "proposed_by": "agent_b"},
-  {"id": "nrf", "op": "set", "path": "registry", "value": {"value": "09829482", "value_text": "Národní rozvojový fond a.s., v likvidaci; vymazán 2026-01-08", "source_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY", "source_date": "undated", "accessed": "2026-10-22", "quote": "IČO 098 29 482", "source_tier": "A"}, "reason": "null_missed", "proposed_by": "agent_b"}
+  {
+    "id": "credo",
+    "op": "set",
+    "path": "ticket.original",
+    "value": {
+      "currency": "USD",
+      "min": 1000000,
+      "max": 5000000
+    },
+    "reason": "FX: pevný kurz 0,92 z pokynů → ECB k datu zdroje (nedatovaný → datum přístupu)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "credo",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "USD",
+      "amount": 88000000
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "credo",
+    "op": "set",
+    "path": "funds.0.original",
+    "value": {
+      "currency": "USD",
+      "amount": 88000000,
+      "date": "2026-03-23"
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "kaya",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "USD",
+      "amount": 85000000
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "longevitytech",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "USD",
+      "amount": 50000000
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nation1",
+    "op": "set",
+    "path": "ticket.original",
+    "value": {
+      "currency": "USD",
+      "min": 100000,
+      "max": 1000000
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nation1",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "USD",
+      "amount": 60000000
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "springtide",
+    "op": "set",
+    "path": "ticket.original",
+    "value": {
+      "currency": "USD",
+      "min": 3000000,
+      "max": 10000000
+    },
+    "reason": "FX (zdroj 2021-10-14)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "impulse",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 4000000000
+    },
+    "reason": "FX (zdroj 2020-09-08)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "purple",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 700000000
+    },
+    "reason": "FX: CZK nebyly v pokynech kurzem k datu",
+    "proposed_by": "orchestrator"
+  },
+  {
+    "id": "purple",
+    "op": "set",
+    "path": "funds.0.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 700000000,
+      "date": "2026-10-22"
+    },
+    "reason": "FX",
+    "proposed_by": "orchestrator"
+  },
+  {
+    "id": "tensor",
+    "op": "set",
+    "path": "capital.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 1000000000
+    },
+    "reason": "FX (zdroj 2025-09-18)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "tensor",
+    "op": "set",
+    "path": "funds.2.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 1000000000,
+      "date": "2025-09-18"
+    },
+    "reason": "FX",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "depo",
+    "op": "set",
+    "path": "funds.2.original",
+    "value": {
+      "currency": "CZK",
+      "amount": 35000000,
+      "date": "2026-10-22"
+    },
+    "reason": "FX",
+    "proposed_by": "orchestrator"
+  },
+  {
+    "id": "aspire11",
+    "op": "set",
+    "path": "sectors",
+    "value": {
+      "value": [
+        "generalist"
+      ],
+      "value_text": "pokročilé technologické firmy, bez sektorového vymezení",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/",
+      "source_date": "2025-09-21",
+      "accessed": "2026-10-22",
+      "quote": "má směřovat do přímých investic do pokročilých technologických firem",
+      "source_tier": "B"
+    },
+    "reason": "deeptech nebyl ve zdroji podložen",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "purple",
+    "op": "set",
+    "path": "sectors",
+    "value": {
+      "value": [
+        "generalist"
+      ],
+      "value_text": "early-stage purpose-driven technology startups (portfolio: energie, health, vet-tech, consumer)",
+      "source_url": "https://purple-ventures.com/",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "We invest into early-stage purpose-driven technology startups with initial revenue and global ambitions.",
+      "source_tier": "A"
+    },
+    "reason": "sektory byly odvozeny z prvních 3 dealů, ne z mandátu",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "czechfounders",
+    "op": "set",
+    "path": "sectors",
+    "value": {
+      "value": [
+        "generalist"
+      ],
+      "value_text": "široká škála obchodních vertikál",
+      "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "Poskládali jsme portfolio lidí, které pokrývá širokou škálu obchodních vertikál.",
+      "source_tier": "B"
+    },
+    "reason": "null_missed",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "inven",
+    "op": "set",
+    "path": "stages",
+    "value": {
+      "value": [
+        "series_a",
+        "series_b_plus",
+        "growth"
+      ],
+      "value_text": "odvozeno z doložených dealů (Series A–D); web Inven fáze neuvádí",
+      "source_url": "https://www.invencapital.cz/",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": null,
+      "derived_from": "investment_evidence",
+      "source_tier": "A"
+    },
+    "reason": "citace NRW.BANK popisovala jiného investora; fáze jsou odvozené, proto bez citace",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "springtide",
+    "op": "set",
+    "path": "stages.value",
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "reason": "zdroj říká všechny fáze, chyběla series_a",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "startupyard",
+    "op": "set",
+    "path": "stages",
+    "value": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "value_text": "pre-seed and seed accelerator",
+      "source_url": "https://startupyard.com/faq",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.",
+      "source_tier": "A"
+    },
+    "reason": "citace fázi nedokládala, chyběl seed",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "reflex",
+    "op": "set",
+    "path": "ticket",
+    "value": {
+      "value": {
+        "min_eur": 1000000,
+        "max_eur": 2000000
+      },
+      "value_text": "typická investice 1–2 mil. EUR",
+      "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+      "source_date": "2023-12-22",
+      "accessed": "2026-10-22",
+      "quote": "při naší typické investici mezi jedním až dvěma miliony eur",
+      "source_tier": "B"
+    },
+    "reason": "min byl null, i když ho zdroj uvádí",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "rockaway",
+    "op": "set",
+    "path": "ticket",
+    "value": {
+      "value": {
+        "min_eur": 500000,
+        "max_eur": 2000000
+      },
+      "value_text": "Investment ticket: 0.5-2m (měna neuvedena, Vestbee jinak uvádí EUR → předpoklad EUR)",
+      "currency_assumed": true,
+      "source_url": "https://www.vestbee.com/insights/articles/vc-of-the-month-rockaway-ventures",
+      "source_date": "2025-07-08",
+      "accessed": "2026-10-22",
+      "quote": "Investment ticket : 0.5-2m",
+      "source_tier": "B"
+    },
+    "reason": "null_missed",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "zaka",
+    "op": "set",
+    "path": "ticket",
+    "value": {
+      "value": {
+        "min_eur": 250000,
+        "max_eur": 300000
+      },
+      "value_text": "€250,000 to €300,000",
+      "source_url": "https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund",
+      "source_date": "2024-07-19",
+      "accessed": "2026-10-22",
+      "quote": "Ticket sizes will range from €250,000 to €300,000.",
+      "source_tier": "B"
+    },
+    "reason": "null_missed",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "zaka",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": 17000000,
+        "basis": "latest_fund_size"
+      },
+      "value_text": "17M Current fund size (měna na webu neuvedena → předpoklad EUR; fond 1, 8M investováno)",
+      "currency_assumed": true,
+      "source_url": "https://zaka.vc/",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "17M Current fund size",
+      "source_tier": "A"
+    },
+    "reason": "15M byl cíl z 7/2024; web uvádí aktuální 17M",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "lighthouse",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": 23000000,
+        "basis": "previous_fund_size"
+      },
+      "value_text": "Fund I (2019): 23 mil. EUR; velikost Fund II (2024) neveřejná",
+      "source_url": "https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "který celkově spravuje kapitál ve výši 23 milionů eur",
+      "source_tier": "B"
+    },
+    "reason": "null_missed; basis = předchozí fond (aktuální neznámý)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "miton",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": 450000000,
+        "basis": "portfolio_value"
+      },
+      "value_text": "hodnota současného portfolia 450 mil. EUR (ne volný kapitál)",
+      "source_url": "https://www.miton.cz",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "hodnota současného portfolia 450 mil. euro",
+      "source_tier": "A"
+    },
+    "reason": "null_missed; přidán basis portfolio_value",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "palefire",
+    "op": "set",
+    "path": "investor_type",
+    "value": "private_investor",
+    "reason": "PLAN.md uvádí Pale Fire jako vzor typu private_investor",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "impulse",
+    "op": "set",
+    "path": "investor_type",
+    "value": "private_investor",
+    "reason": "vozidlo jednoho podnikatele s VC strategií, ne správa rodinného majetku (hraniční)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "czechfounders",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "Maxfusion",
+      "date": "2026-01-14",
+      "round": "pre-seed, 350 tis. EUR",
+      "source_url": "https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/",
+      "source_date": "2026-01-14",
+      "quote": "Peníze mu posílá fond Czech Founders VC a andělský investor Ory Weihs.",
+      "source_tier": "B"
+    },
+    "reason": "novější deal",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "genesis",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "Fyzioterapie s úsměvem",
+      "date": "2026-04-08",
+      "round": "buyout (GPEF V, 2. investice)",
+      "source_url": "https://chambers.com/articles/j%C5%A1k-advises-genesis-capital-on-another-significant-investment",
+      "source_date": "2026-04-08",
+      "quote": "This is the second investment of the newly established Genesis Private Equity Fund V",
+      "source_tier": "B"
+    },
+    "reason": "novější deal; datum = datum článku",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nation1",
+    "op": "remove",
+    "path": "investment_evidence.2",
+    "reason": "Myriad AI 9/2025: N1 v kole nedoloženo (agent B: unverifiable)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "impulse",
+    "op": "remove",
+    "path": "investment_evidence.0",
+    "reason": "Safetica 2025: investoval Ondřej Tomek osobně, ne Impulse Ventures (unverifiable)",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "startupyard",
+    "op": "set",
+    "path": "decision",
+    "value": "inactive",
+    "reason": "I2 stojí jen na agregátoru (tier C) s domyšleným dnem; ohlášení batchí nejsou důkaz investice. Spolehlivost má přednost → neaktivní do doložení",
+    "proposed_by": "agent_b",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "startupyard",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "E6",
+    "reason": "viz výše",
+    "proposed_by": "orchestrator"
+  },
+  {
+    "id": "nrf",
+    "op": "set",
+    "path": "decision",
+    "value": "exclude",
+    "reason": "nikdy neinvestoval, infrastrukturní FKI, vymazán z OR",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nrf",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "I4",
+    "reason": "nikdy neinvestoval do soukromých firem",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nrf",
+    "op": "set",
+    "path": "investor_type",
+    "value": null,
+    "reason": "žádný typ z taxonomie",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "nrf",
+    "op": "set",
+    "path": "registry",
+    "value": {
+      "value": "09829482",
+      "value_text": "Národní rozvojový fond a.s., v likvidaci; vymazán 2026-01-08",
+      "source_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1107001&typ=UPLNY",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "IČO 098 29 482",
+      "source_tier": "A"
+    },
+    "reason": "null_missed",
+    "proposed_by": "agent_b"
+  },
+  {
+    "id": "kaya",
+    "op": "set",
+    "path": "investment_evidence.0",
+    "value": {
+      "company": "Riptides",
+      "date": "2025-04-23",
+      "round": "pre-seed $3,3M (lead PortfoLion, KAYA spoluinvestor)",
+      "source_url": "https://www.vestbee.com/blog/articles/riptides-secures-3-3-m",
+      "source_date": "2025-04-23",
+      "quote": "Czech KAYA VC also joined the round.",
+      "source_tier": "B"
+    },
+    "reason": "původní zdroj (stránka akce Luma) neměl datum a uváděl KAYA jako co-leada a částku v EUR; Vestbee je datovaný a přesnější",
+    "proposed_by": "agent_b",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "depo",
+    "op": "set",
+    "path": "investment_evidence.0",
+    "value": {
+      "company": "ArcSpace",
+      "date": "2026-09-01",
+      "round": "seed přes 2 mil. EUR, lead",
+      "source_url": "https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/",
+      "source_date": "2026-09-01",
+      "quote": "The round was led by DEPO Ventures through its DEPO Ventures One fund.",
+      "source_tier": "B"
+    },
+    "reason": "oba dealy byly doložené jen agregátorem (tier C), což podle PLAN §7.4 nestačí; StartupCentrum je tier B",
+    "proposed_by": "agent_b",
+    "decided_by": "orchestrator"
+  }
 ]

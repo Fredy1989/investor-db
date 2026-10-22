@@ -11,7 +11,7 @@ Pilot: VC investoři v Česku. Každý údaj má zdroj, datum a doslovnou citaci
 | [data/excluded.csv](data/excluded.csv) | 7 vyřazených / neaktivních s pravidlem a důvodem |
 | [data/records/](data/records/) | plné záznamy (JSON) po opravách — citace, fondy, všechny doložené dealy |
 | [data/records_raw/](data/records_raw/) | totéž **beze změny tak, jak to vrátili rešeršní agenti** |
-| [data/corrections.json](data/corrections.json) | 38 oprav: co se změnilo, proč a kdo to navrhl |
+| [data/corrections.json](data/corrections.json) | 40 oprav: co se změnilo, proč a kdo to navrhl |
 | [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 226 citací |
 | [data/verification/](data/verification/) | verdikty nezávislého ověřovacího agenta, pole po poli |
 | [data/manual_check.csv](data/manual_check.csv) | list pro ruční kontrolu (náhodný vzorek + sporné body) |
@@ -68,7 +68,7 @@ python src/measure.py             # → přesnost (A: agent B, B: člověk, C: s
 ### Jak jsem výstup AI kontroloval (4 vrstvy)
 
 1. **Strojová kontrola citací.** Skript stáhne každý zdroj a hledá v něm citaci. Vymyšlená URL nebo citace
-   neprojde. Výsledek: 218 z 226 citací doslova, žádná vymyšlená.
+   neprojde. Výsledek: 219 z 226 citací doslova, žádná vymyšlená.
 2. **Nezávislý agent B.** Znovu otevřel zdroje a ke každému poli dal verdikt `ok / wrong / unverifiable / null_ok / null_missed`.
    Našel 17 chybných polí ze 121 a 6 zmeškaných údajů.
 3. **Auditovatelné opravy.** Opravy se nedělají ručně v datech. Každá je zapsaná v [corrections.json](data/corrections.json)
@@ -107,6 +107,14 @@ produkční běh by to mělo být i v pokynech pro agenta A.
 - **„V akej výške" = typický tiket**, „celkový investičný kapitál" = poslední fond / AUM s uvedeným `basis`, protože
   investoři čísla zveřejňují různě a bez označení by nebyla porovnatelná.
 - **Chybějící údaj = `null`, nikdy odhad.** U databáze, kde jde o spolehlivost, je díra lepší než vymyšlené číslo.
+  Zadání sice říká, že u každého investora „musí byť uvedené" sektor, tiket a kapitál, ale ne všichni investoři
+  tyto údaje zveřejňují. Výsledek u 22 zařazených:
+  - tiket chybí u 4 (Aspire11, Pale Fire, Tensor, Y Soft),
+  - kapitál chybí u 3 (DEPO, Springtide, Y Soft),
+  - sektor chybí u 1 (Reflex).
+
+  U každého `null` je v `notes` záznamu, co se hledalo. Vymýšlet čísla, aby tabulka byla plná, by šlo proti hlavnímu
+  požadavku na spolehlivost. Plnost polí je proto měřená zvlášť jako pokrytí (RESULTS §2), aby bylo vidět, kolik chybí.
 - **Zdroj = URL + datum zdroje + datum přístupu + doslovná citace + tier.** Samotná URL nestačí: stránky se mění
   a bez citace se nedá zpětně ověřit, co na nich bylo.
 

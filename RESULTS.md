@@ -10,7 +10,8 @@ Pilot: **VC investoři se sídlem v Česku**, stav k 2026-10-22. Pipeline a prav
 | **zařazeno** ([data/investors_cz_vc.csv](data/investors_cz_vc.csv)) | **22** — 15 `vc`, 3 `cvc`, 3 `private_investor`, 1 `pe` |
 | vyřazeno nebo neaktivní ([data/excluded.csv](data/excluded.csv)) | 7 |
 | údajů se zdrojem a citací | 226 |
-| zdroje: tier A (web investora, registr) / B (média) / C (agregátor) | 67 / 58 / 4 |
+| zdroje: tier A (web investora, registr) / B (média) / C (agregátor) | 67 / 59 / 3 |
+| zdroj dokládající nejnovější investici: tier A / B (každý s datem) | 2 / 20 |
 | nejnovější doložená investice: 2026 / 2025 / 2023 | 12 / 9 / 1 |
 
 Vyřazení, kde se pravidla otestovala na hraničních případech:
@@ -88,10 +89,10 @@ souhlasí s člověkem v ≥ 95 % případů, stačí lidsky kontrolovat jen sta
 
 | výsledek | počet |
 |---|---|
-| citace na stránce doslova | 218 (96 %) |
+| citace na stránce doslova | 219 (97 %) |
 | drobná odchylka (fuzzy) | 2 |
 | částečná shoda (citace mírně upravená) | 1 |
-| web blokuje stahování / chyba serveru | 4 → ruční kontrola |
+| web blokuje stahování / chyba serveru | 3 → ruční kontrola |
 | bez citace (odvozený údaj) | 1 |
 
 Žádná vymyšlená URL a žádná vymyšlená citace. Pro spolehlivost je to podstatné: halucinace

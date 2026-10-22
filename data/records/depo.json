@@ -105,12 +105,12 @@
   "investment_evidence": [
     {
       "company": "ArcSpace",
-      "date": "2026-08-31",
-      "round": "seed 2 mil. EUR (lead DEPO Ventures)",
-      "source_url": "https://raising.fi/news/arcspace-seed-august-2026",
-      "source_date": "2026-08-31",
-      "quote": "The round was led by DEPO Ventures, with participation from SCE Freiraum Ventures and IRDI Capital Investissement.",
-      "source_tier": "C"
+      "date": "2026-09-01",
+      "round": "seed přes 2 mil. EUR, lead",
+      "source_url": "https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/",
+      "source_date": "2026-09-01",
+      "quote": "The round was led by DEPO Ventures through its DEPO Ventures One fund.",
+      "source_tier": "B"
     },
     {
       "company": "Tapaya",
@@ -123,5 +123,5 @@
     }
   ],
   "notes": "Oba doložené dealy 2026 jen z agregátorů (raising.fi, funding.tech.eu = C); tiskovou zprávu ani článek B pro ArcSpace/Tapaya jsem nenašel. Datum ArcSpace = datum zprávy raising.fi (Nordic9 uvádí jiný den v 8/2026). Fond I 35 mil. Kč přepočten 1 CZK = 0,040 EUR = 1,4 mil. EUR. Velikost třetího fondu (AF III, cíl ~půl miliardy Kč dle CC) neověřena citací. Capital = null, protože čtvrtý fond má jen cíl 30 mil. EUR, dosažená výše nezveřejněna. Agregátory zmiňují i nový fond pro startupy z Ukrajiny/Moldavska/Gruzie s NRB (10/2026) – neověřeno, neuvedeno.",
-  "corrections_applied": 1
+  "corrections_applied": 2
 }
