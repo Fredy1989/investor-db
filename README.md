@@ -8,7 +8,8 @@ a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti ofici�
 |---|---|
 | [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu |
 | [RESULTS.md](RESULTS.md) | výsledky pilotu, změřená přesnost, rozbor chyb, odhad nákladů na celý svět |
-| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | **36 zařazených investorů**, u každého údaje zdroj, datum a tier |
+| [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | **výsledek pro čtení: 36 investorů, jen to, co chce zadání** (sektor, do čeho a v jaké výši investuje, kapitál, doklad investice s datem); klik na hodnotu otevře zdroj; list Vyřazení s důvodem |
+| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | totéž strojově: u každého údaje URL zdroje, datum a tier |
 | [data/excluded.csv](data/excluded.csv) | 23 vyřazených / neaktivních / mimo rozsah, s pravidlem a důvodem |
 | [data/records/](data/records/) | plné záznamy (JSON) po opravách — citace, fondy, všechny doložené dealy |
 | [data/records_raw/](data/records_raw/) | totéž **beze změny tak, jak to vrátili rešeršní agenti** |
@@ -32,8 +33,9 @@ python src/check_quotes.py        # stáhne zdroje a ověří citace → data/qu
 python src/build.py               # → investors_cz_vc.csv, excluded.csv, pokrytí polí
 python src/measure.py             # → přesnost (A: agent B, B: člověk, C: shoda B × člověk, E: fáze 2 slepě)
 python src/recall.py              # → úplnost vůči katalogu CzechStartups
-python src/manual_xlsx.py export  # list pro ruční kontrolu jako Excel (rozbalovací verdikty, odkazy)
-python src/manual_xlsx.py import  # vyplněné verdikty z Excelu zpět do data/manual_check.csv
+python src/simple_xlsx.py databaze  # → „Databáze investorů.xlsx“ (jeden řádek = investor, klik na hodnotu = zdroj)
+python src/simple_xlsx.py kontrola  # → „Ruční kontrola.xlsx“ (6 vylosovaných investorů, políčko u každého údaje)
+python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.csv → src/measure.py
 ```
 
 ## Jak jsem pracoval s AI

@@ -900,5 +900,14 @@
     "reason": "null_missed",
     "proposed_by": "blind_verifier_v2",
     "decided_by": "orchestrator"
+  },
+  {
+    "id": "presto",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "target_fund_size",
+    "reason": "Presto Tech Horizons 150 mil. EUR je cíl fondu, uzavření nedoloženo (Mac review + kontrola zjednodušené tabulky)",
+    "proposed_by": "mac_claude_review",
+    "decided_by": "orchestrator"
   }
 ]

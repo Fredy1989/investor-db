@@ -9,18 +9,100 @@
   "country": "CZ",
   "hq_city": "Praha",
   "website": "https://www.prestoventures.com",
-  "registry": {"value": "11678704", "value_text": "IČO 11678704, Presto Ventures II a.s., osoba rizikového kapitálu, Revoluční 763/15, Praha 1 (ARES); web uvádí IČO 116 78 704", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704", "source_date": "undated", "accessed": "2026-10-22", "quote": "Presto Ventures II a.s., osoba rizikového kapitálu", "source_tier": "A"},
-  "sectors": {"value": ["defence", "deeptech", "ai"], "value_text": "security, defense, aerospace, dual-use (dříve B2B software a marketplaces)", "source_url": "https://www.prestoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use.", "source_tier": "A"},
-  "stages": {"value": ["seed", "series_a"], "value_text": "Mostly post-revenue companies raising a €800k to €8M financing round", "source_url": "https://www.prestoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "Mostly post-revenue companies raising a €800k to €8M financing round", "source_tier": "A"},
-  "ticket": {"value": {"min_eur": 500000, "max_eur": 5000000}, "value_text": "€500k to €5M", "source_url": "https://www.prestoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "Tickets ranging from €500k to €5M.", "source_tier": "A"},
-  "capital": {"value": {"eur": 150000000, "basis": "latest_fund_size"}, "value_text": "€150M – Presto Tech Horizons, cílová velikost (plán zainvestovat 150 mil. EUR)", "source_url": "https://www.prestoventures.com", "source_date": "undated", "accessed": "2026-10-22", "quote": "Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use.", "source_tier": "A"},
+  "registry": {
+    "value": "11678704",
+    "value_text": "IČO 11678704, Presto Ventures II a.s., osoba rizikového kapitálu, Revoluční 763/15, Praha 1 (ARES); web uvádí IČO 116 78 704",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Presto Ventures II a.s., osoba rizikového kapitálu",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "defence",
+      "deeptech",
+      "ai"
+    ],
+    "value_text": "security, defense, aerospace, dual-use (dříve B2B software a marketplaces)",
+    "source_url": "https://www.prestoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "Mostly post-revenue companies raising a €800k to €8M financing round",
+    "source_url": "https://www.prestoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Mostly post-revenue companies raising a €800k to €8M financing round",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 500000,
+      "max_eur": 5000000
+    },
+    "value_text": "€500k to €5M",
+    "source_url": "https://www.prestoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Tickets ranging from €500k to €5M.",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 150000000,
+      "basis": "target_fund_size"
+    },
+    "value_text": "€150M – Presto Tech Horizons, cílová velikost (plán zainvestovat 150 mil. EUR)",
+    "source_url": "https://www.prestoventures.com",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use.",
+    "source_tier": "A"
+  },
   "funds": [
-    {"name": "Presto Tech Horizons (s CSG)", "size_eur": 150000000, "vintage": 2024, "source_url": "https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518", "quote": "Fond má v plánu zainvestovat 150 milionů euro (3,7 miliardy korun)."},
-    {"name": "Dva starší fondy (od 2016, celkem €40M investováno)", "size_eur": null, "vintage": null, "source_url": "https://www.prestoventures.com", "quote": "Since 2016, we’ve invested €40M from two funds."}
+    {
+      "name": "Presto Tech Horizons (s CSG)",
+      "size_eur": 150000000,
+      "vintage": 2024,
+      "source_url": "https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518",
+      "quote": "Fond má v plánu zainvestovat 150 milionů euro (3,7 miliardy korun)."
+    },
+    {
+      "name": "Dva starší fondy (od 2016, celkem €40M investováno)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://www.prestoventures.com",
+      "quote": "Since 2016, we’ve invested €40M from two funds."
+    }
   ],
   "investment_evidence": [
-    {"company": "Vidar Systems, Bavovna, Tur.ai (první investice Presto Tech Horizons)", "date": "2024-10-23", "round": "seed (částky nezveřejněny v článku)", "source_url": "https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518", "source_date": "2024-10-23", "quote": "Bavovna, hybridní AI systém pro autonomní navigaci dronů", "source_tier": "B"},
-    {"company": "nejmenovaný maďarský startup (tréninková data pro drony a roboty)", "date": "2025-05-15", "round": "neuvedeno", "source_url": "https://cc.cz/tag/presto-ventures/", "source_date": "2025-05-15", "quote": "Teď do nich investoval i zdejší Presto Tech Horizons.", "source_tier": "B"}
+    {
+      "company": "Vidar Systems, Bavovna, Tur.ai (první investice Presto Tech Horizons)",
+      "date": "2024-10-23",
+      "round": "seed (částky nezveřejněny v článku)",
+      "source_url": "https://www.e15.cz/byznys/novy-fond-z-dilny-csg-a-presto-ventures-oznamil-tri-investice-vsechny-jsou-do-ai-1419518",
+      "source_date": "2024-10-23",
+      "quote": "Bavovna, hybridní AI systém pro autonomní navigaci dronů",
+      "source_tier": "B"
+    },
+    {
+      "company": "nejmenovaný maďarský startup (tréninková data pro drony a roboty)",
+      "date": "2025-05-15",
+      "round": "neuvedeno",
+      "source_url": "https://cc.cz/tag/presto-ventures/",
+      "source_date": "2025-05-15",
+      "quote": "Teď do nich investoval i zdejší Presto Tech Horizons.",
+      "source_tier": "B"
+    }
   ],
-  "notes": "Fond 150 mil. EUR je cílová velikost, doložený close jsem nenašel. Presto Tech Horizons může mít vlastní právní vozidlo (IČO nezjištěno); registry = Presto Ventures II a.s. (ARES sídlo Revoluční 763/15, web uvádí Na příkopě 859/22 – rozdíl neověřen). Doména presto.vc je zaparkovaná, aktivní web je prestoventures.com (poslední novinka 25/5/26: pozvánka na valnou hromadu). Zakladatel Přemysl Rubeš byl 3/2026 zadržen policií (osobní/zdravotní důvody); firma s ním ukončila spolupráci 9/2025 (Lupa.cz, CzechCrunch) – riziko pro aktivitu fondu. Název maďarského startupu z 5/2025 nezjištěn. Čerstvější deal z 2026 nenalezen."
+  "notes": "Fond 150 mil. EUR je cílová velikost, doložený close jsem nenašel. Presto Tech Horizons může mít vlastní právní vozidlo (IČO nezjištěno); registry = Presto Ventures II a.s. (ARES sídlo Revoluční 763/15, web uvádí Na příkopě 859/22 – rozdíl neověřen). Doména presto.vc je zaparkovaná, aktivní web je prestoventures.com (poslední novinka 25/5/26: pozvánka na valnou hromadu). Zakladatel Přemysl Rubeš byl 3/2026 zadržen policií (osobní/zdravotní důvody); firma s ním ukončila spolupráci 9/2025 (Lupa.cz, CzechCrunch) – riziko pro aktivitu fondu. Název maďarského startupu z 5/2025 nezjištěn. Čerstvější deal z 2026 nenalezen.",
+  "corrections_applied": 1
 }
