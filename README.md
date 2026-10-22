@@ -138,7 +138,10 @@ produkční běh by to mělo být i v pokynech pro agenta A.
 - Longevitytech.fund: dohledat právnickou osobu (pravděpodobně česká a.s.). Jinak by byl zařazen.
 - U KAYA, Miton a J&T Ventures upřesnit, která právnická osoba je správce (PLAN §7.5).
 - Pokyny v2 pro agenta A a slepého ověřovatele (PLAN §7) jsou sepsané, ale pilot jsem s nimi znovu nepouštěl.
-- Úplnost je odhadnutá jen křížově s Mac řešením (≈ 88 %, RESULTS §3D). Chybí **JIC Ventures** a **i&i Bio**,
-  které našel Mac. Další kandidáti, kteří se objevili až při ověřování: NRI, United Founders.
+- **Úplnost vzorku je realisticky 55–75 %** (RESULTS §3D).
+  - Proti oficiálnímu katalogu CzechStartups a registru fondů ČNB chybí ~17 + ~10 neověřených českých VC-like subjektů.
+    Seznam je v [docs/dalsi-zdroje-analyza.md](docs/dalsi-zdroje-analyza.md).
+  - Mac navíc našel **JIC Ventures** a **i&i Bio**.
+  - Původní odhad 88 % z porovnání s Mac řešením byl příliš optimistický, protože obě session braly kandidáty ze stejných přehledů.
 - Ve vzorku jsou nedatované zdroje (hlavně weby investorů) bez snapshotu stránky. Zpětně tedy nejde doložit,
   co na stránce v den přístupu bylo (RESULTS §2).

@@ -129,6 +129,9 @@ Dva nezávislé „úlovky" stejné populace umožňují odhadnout její velikos
   média) a průnik průběžně měřit.
 - Pozor: obě session čerpaly z podobných veřejných seznamů. Úlovky tedy nejsou úplně nezávislé a populace
   je spíš podhodnocená.
+- **Potvrzeno oficiálním katalogem CzechStartups** ([docs/dalsi-zdroje-analyza.md](docs/dalsi-zdroje-analyza.md)).
+  Katalog obsahuje 19 investorů z mého vzorku a ~17 dalších českých VC-like subjektů, které ve vzorku nejsou
+  (zatím neověřené). Realistická úplnost je tak **55–75 %**, ne 88 %. Přesné číslo dá ověření těchto kandidátů.
 
 ### Strojová kontrola citací
 
