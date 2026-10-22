@@ -121,7 +121,7 @@ Dva nezávislé „úlovky" stejné populace umožňují odhadnout její velikos
 | zařazeno na Macu | 17 |
 | v obou | 15 |
 | **odhad populace aktivních VC-typových investorů v ČR** | **21 · 17 / 15 ≈ 24** |
-| **odhad úplnosti tohoto řešení** | **21 / 24 ≈ 88 %** |
+| odhad úplnosti tohoto řešení (původní, **vyvráceno v §3b**) | 21 / 24 ≈ 88 % → změřeno 66 % |
 
 - Chybí tu **JIC Ventures** a **i&i Bio**. Našel je jen Mac.
 - **Ztráta úplnosti vzniká při výběru kandidátů, ne při rešerši:** kdo se nedostane do seznamu kandidátů,

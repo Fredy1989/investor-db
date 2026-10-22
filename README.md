@@ -73,7 +73,7 @@ python src/recall.py              # → úplnost vůči katalogu CzechStartups
 ### Jak jsem výstup AI kontroloval (5 vrstev)
 
 1. **Strojová kontrola citací.** Skript stáhne každý zdroj a hledá v něm citaci. Vymyšlená URL nebo citace
-   neprojde. Výsledek: 219 z 226 citací doslova, žádná vymyšlená.
+   neprojde. Výsledek: 392 z 425 citací doslova (zbytek hlavně prázdná pole a weby blokující stahování), žádná vymyšlená.
 2. **Nezávislý agent B.** Znovu otevřel zdroje a ke každému poli dal verdikt `ok / wrong / unverifiable / null_ok / null_missed`.
    Ve fázi 1 našel 17 chybných polí ze 121 a 6 zmeškaných údajů. Ve fázi 2 byl **slepý**: dostal jen tvrzení + URL
    ([data/blind/](data/blind/)) a citaci si musel najít sám. Našel 10 chybných polí ze 77.
