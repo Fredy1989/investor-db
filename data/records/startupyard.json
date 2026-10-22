@@ -1,0 +1,99 @@
+{
+  "id": "startupyard",
+  "name": "StartupYard",
+  "legal_name": "StartupYard Services s.r.o. (investiční SPV po batchích, např. StartupYard Batch 14 s.r.o., StartupYard Batch 15 s.r.o.)",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Akcelerátor, ale s vlastními investičními vozidly (samostatná s.r.o. pro každý batch, Batch 14 založena 2023-12-07, Batch 15 2024-11-14) a investuje formou konvertibilní zápůjčky za cca 5 % equity, takže E2 neplatí. I2 doloženo jen agregátorem (Personeo.ai, duben 2024) a spuštěním 14. a 15. batche s investicí přes konvertibilku.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://startupyard.com",
+  "registry": {
+    "value": "06002820",
+    "value_text": "IČO 06002820 (StartupYard Services s.r.o.); SPV: 19997272 StartupYard Batch 14 s.r.o., 22266852 StartupYard Batch 15 s.r.o.",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06002820",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"06002820\",\"obchodniJmeno\":\"StartupYard Services s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai",
+      "deeptech"
+    ],
+    "value_text": "AI a deep tech",
+    "source_url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/",
+    "source_date": "2025-09-11",
+    "accessed": "2026-10-22",
+    "quote": "we’re opening our 15th batch, this time with a sharp focus on AI and hard-to-replicate deep tech solutions.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "value_text": "akcelerační program, konvertibilka 24 měsíců",
+    "source_url": "https://startupyard.com/faq",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "The convertible note is valid for 24 months.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 45000,
+      "max_eur": 70000
+    },
+    "value_text": "€45 000 in-kind (program) přes konvertibilku, volitelně + €25 000 cash = €70 000; follow-on fond s DEPO Ventures až €100 000 (nezahrnuto)",
+    "source_url": "https://startupyard.com/faq",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "If your startup needs funding, you can receive €25,000 in cash – bringing the total convertible note value to €70,000 = €45,000 (in-kind investment) + €25,000 (in cash).",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "nezjištěno",
+    "source_url": "https://startupyard.com/faq",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We operate a follow-on fund for startups that perform well during and after the program, with investments of up to €100,000.",
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Personeo.ai",
+      "date": "2024-04-01",
+      "round": "accelerator (co-investor)",
+      "source_url": "https://www.caplight.com/investor/startupyard",
+      "source_date": "undated",
+      "quote": "Personeo.ai Apr 2024 Accelerator Co-investor",
+      "source_tier": "C"
+    },
+    {
+      "company": "14. akcelerační batch (firmy nejmenovány)",
+      "date": "2024-04-25",
+      "round": "accelerator batch 14",
+      "source_url": "https://startupyard.com/startupyard-launches-its-14th-acceleration-batch/",
+      "source_date": "2024-04-25",
+      "quote": "Today we are excited to announce our 14th Acceleration Batch , your gateway to becoming a part of Central and Eastern Europe’s longest-running startup accelerator.",
+      "source_tier": "A"
+    },
+    {
+      "company": "15. akcelerační batch (firmy nejmenovány)",
+      "date": "2025-09-11",
+      "round": "accelerator batch 15",
+      "source_url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/",
+      "source_date": "2025-09-11",
+      "quote": "What’s New in Batch 15 For the first time, founders can access an optional €25,000 cash investment alongside the hands-on acceleration StartupYard is known for.",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Hraniční případ E2: investiční vozidlo existuje (ARES: SPV StartupYard Batch 6–15 s.r.o., Perlová 371/5, Praha 1; Batch 15 s.r.o. vznik 2024-11-14), equity ~5 % přes konvertibilku (FAQ: 'we typically target around 5% equity in your startup'). Slabé místo je I2: jediná jmenovitá investice po 2023-10-22 je Personeo.ai (duben 2024) a to jen z agregátoru Caplight (tier C, buňky tabulky jsou na stránce v samostatných elementech; den 01 je doplněk, zdroj uvádí jen 'Apr 2024'). Blogové profily Personeo.ai, Wopee.io, CaseLens, Teamsharq na startupyard.com investici výslovně neuvádějí. Seznam firem Batch 14/15 se nepodařilo najít. Starší investice (Fungies 07/2023, Pixop a FeedYou 05/2022, CityPay.io 02/2022 dle Caplight) splňují I3. Kapitál/velikost fondu nezveřejněna; historicky financováno přes Fundlift kampaně (2017). Typ 'vc' zvolen jako nejbližší (akcelerátor s equity)."
+}

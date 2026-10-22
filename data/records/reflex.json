@@ -1,0 +1,93 @@
+{
+  "id": "reflex",
+  "name": "Reflex Capital",
+  "legal_name": "Reflex Capital SE",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "VC Ondřeje Fryce (třetí fond €22M, uzavřen 12/2023); doložené vedení kola FaceUp (10/2024) a účast v kole FaceUp (05/2026).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.reflexcapital.com/",
+  "registry": {
+    "value": "24269158",
+    "value_text": "IČO 24269158 (Reflex Capital SE)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"24269158\",\"obchodniJmeno\":\"Reflex Capital SE\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "Web ani články nedefinují sektorový mandát; portfolio je převážně software/SaaS a consumer (Productboard, Apify, Keboola, Fitify, Fruitisimo).",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": null,
+    "value_text": "Fáze na webu neuvedena; doložené deals: late-seed (FaceUp 2024), Series A (Keboola 2023, FaceUp 2026).",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": 2000000
+    },
+    "value_text": "kolem 1 mil. EUR, někdy až ke 2 mil. EUR",
+    "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+    "source_date": "2023-12-22",
+    "accessed": "2026-10-22",
+    "quote": "Fond obecně investuje částky kolem jednoho milionu eur, někdy ke hranici dvou milionů, tedy přibližně pětadvacet až padesát milionů korun.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 22000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "třetí fond 22 mil. EUR",
+    "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+    "source_date": "2023-12-22",
+    "accessed": "2026-10-22",
+    "quote": "Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Reflex Capital – třetí fond",
+      "size_eur": 22000000,
+      "vintage": 2023,
+      "source_url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/",
+      "quote": "Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "FaceUp",
+      "date": "2026-05-19",
+      "round": "Series A 110+ mil. Kč (lead Fil Rouge Capital; Reflex stávající investor)",
+      "source_url": "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/",
+      "source_date": "2026-05-19",
+      "quote": "Výrazně se zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital spolu se skupinou andělských investorů a zaměstnanců.",
+      "source_tier": "B"
+    },
+    {
+      "company": "FaceUp",
+      "date": "2024-10-10",
+      "round": "late-seed 70 mil. Kč (lead)",
+      "source_url": "https://cc.cz/od-boje-proti-sikane-k-ochrane-whistlebloweru-cesky-faceup-nabira-70-milionu-i-od-reflexu/",
+      "source_date": "2024-10-10",
+      "quote": "Kolo vedl český fond Reflex Capital s přispěním Tilia Impact Ventures a Lighthouse Ventures",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Web uvádí jen '€150M invested' (nasazený kapitál, ne velikost fondu) – nepoužito jako capital. Velikosti 1. a 2. fondu nedohledány. cc.cz tag uvádí i Merchantee (02/2024), Apify (04/2024), Product Fruits (05/2024) – necitováno. Registr: Reflex Capital SE může být mateřská/správcovská entita; jednotlivé fondy samostatně nedohledány."
+}

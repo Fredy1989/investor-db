@@ -1,0 +1,66 @@
+{
+  "id": "nrf",
+  "name": "Národní rozvojový fond",
+  "legal_name": "Národní rozvojový fond SICAV, a.s.",
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "NRF (SICAV ve skupině Národní rozvojové banky, určený pro veřejnou infrastrukturu) za celou existenci nepodpořil jediný projekt a ČNB mu na vlastní žádost odňala povolení s právní mocí 3. 5. 2024. Nemá tedy žádnou doloženou investici (I2) a neinvestoval do soukromých firem (I4); nebyl to ani fond fondů, ani přímý VC investor.",
+  "investor_type": "public_vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "IČO nenalezeno",
+    "source_url": "https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750",
+    "source_date": "2024-05-07",
+    "accessed": "2026-10-22",
+    "quote": "Sám fond požádal Českou národní banku o odnětí licence a regulátor mu vyhověl.",
+    "source_tier": "B"
+  },
+  "sectors": {
+    "value": [],
+    "value_text": "veřejná infrastruktura (školství, zdravotnictví, doprava) – mimo taxonomii",
+    "source_url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843",
+    "source_date": "2024-05-17",
+    "accessed": "2026-10-22",
+    "quote": "Že by zrušení fondu, který měl podpořit financování projektů zejména v infrastruktuře, například v oblasti školství, zdravotnictví nebo dopravy, souviselo s debatou o sektorové dani",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "neuplatňuje se – fond nikdy neinvestoval",
+    "source_url": "https://ct24.ceskatelevize.cz/tema/narodni-rozvojovy-fond-8502",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Národní rozvojový fond končí, nepodpořil žádný projekt",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "neuvedeno",
+    "source_url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-rozvojovy-fond-konci-nepodporil-jediny-projekt-banky-pry-pomohou-jinak-251843",
+    "source_date": "2024-05-17",
+    "accessed": "2026-10-22",
+    "quote": "Iniciativa, která měla vzpružit českou ekonomiku a vlít do veřejných projektů miliardy korun, totiž od svého vzniku nepodpořila jedinou akci.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "aum"
+    },
+    "value_text": "Banky slíbily až 7 mld. Kč, ale podle Novinek do září 2022 nevložily žádné prostředky; skutečná výše kapitálu nezjištěna, proto null (nepřepočítáno).",
+    "source_url": "https://www.novinky.cz/clanek/ekonomika-babisuv-rozvojovy-fond-skoncil-40470750",
+    "source_date": "2024-05-07",
+    "accessed": "2026-10-22",
+    "quote": "Ještě do předloňského září ale do něj žádné prostředky nevložily, což rozvojová banka, která má fond na starosti, zdůvodňovala nepřipraveností projektů.",
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "notes": "Žádná investice nedoložena – zdroje (ČT24, Seznam Zprávy, Novinky) shodně uvádějí, že NRF nepodpořil žádný projekt. Žádost o odnětí povolení ČNB obdržela 27. 3. 2024, rozhodnutí z 17. 4. 2024 nabylo právní moci 3. 5. 2024 (Novinky 2024-05-07). IČO NRF se nepodařilo najít: ARES vyhledávání podle názvu vrátilo chybu, web nrf.cz nebyl dostupný (ECONNRESET), web search IČO neukázal. Pozor na záměnu: státní fond fondů / přímý investor je Národní rozvojová investiční (NRI, dceřiná společnost NRB, IPO fond 2025+) – to je jiná entita a měla by být posouzena jako samostatný kandidát. Typ public_vc je jen orientační (státní/bankovní SICAV)."
+}

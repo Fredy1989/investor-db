@@ -1,0 +1,70 @@
+{
+  "id": "springtide",
+  "name": "Springtide Ventures",
+  "legal_name": "Springtide Ventures s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "VC rameno skupiny KKCG (100% vlastník KKCG Technologies s.r.o.), investuje výhradně kapitál KKCG. V lednu 2025 vložilo 8 mil. USD konvertibilkou do soukromé firmy ThreatMark.",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": "01726587",
+    "value_text": "IČO 01726587; společník KKCG Technologies s.r.o. (100 %)",
+    "source_url": "https://rejstrik-firem.kurzy.cz/01726587/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "IČO 01726587",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": ["saas_b2b", "ai"],
+    "value_text": "kybernetická bezpečnost, cloudová infrastruktura a management, AI/ML",
+    "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
+    "source_date": "2022-07-19",
+    "accessed": "2026-10-22",
+    "quote": "Rozhodli jsme se zaměřit na tři klíčové oblasti – kybernetickou bezpečnost, cloudovou infrastrukturu a management",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": ["pre_seed", "seed", "series_b_plus"],
+    "value_text": "pre-seed/seed až série C; dle e15 (2021) primárně B-kola",
+    "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
+    "source_date": "2022-07-19",
+    "accessed": "2026-10-22",
+    "quote": "dokážeme financovat pre-seed nebo seed, stejně tak sérii C",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {"min_eur": 2760000, "max_eur": 9200000},
+    "value_text": "3–10 mil. USD (kurz 1 USD = 0,92 EUR); údaj z roku 2021",
+    "source_url": "https://www.e15.cz/byznys/komarkuv-fond-springtide-ventures-investuje-do-izraelskeho-startupu-cognni-1384434",
+    "source_date": "2021-10-14",
+    "accessed": "2026-10-22",
+    "quote": "většinou investuje částky mezi třemi až deseti miliony dolarů",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {"eur": null, "basis": "own_balance_sheet"},
+    "value_text": "investuje jen peníze KKCG; velikost alokace nezveřejněna",
+    "source_url": "https://cc.cz/pribeh-druheho-nejbohatsiho-cecha-v-izraeli-rezonuje-komarka-tu-chteji-napodobit-hlasi-fond-springtide/",
+    "source_date": "2022-07-19",
+    "accessed": "2026-10-22",
+    "quote": "Říkáme, že máme přístup k neomezenému kapitálu pro pravé příležitosti.",
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "ThreatMark",
+      "date": "2025-01-07",
+      "round": "convertible note 8 mil. USD (v rámci kola 23 mil. USD)",
+      "source_url": "https://threatmark.com/threatmark-to-advance-the-fight-against-online-fraud",
+      "source_date": "2025-01-07",
+      "quote": "The addition of the $8 million demonstrates Springtide Ventures' ongoing commitment to supporting ThreatMark's growth and innovation.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Web springtide.vc přesměrovává na prodej domény (GoDaddy) – vlastní web nenalezen. Tiket 3–10 mil. USD je z roku 2021 (e15), novější údaj nenalezen. Novější deal než ThreatMark (01/2025) nenalezen; agregátory pod stejným jménem míchají americký zdravotnický fond SpringTide Ventures (Boston) – ten sem nepatří. Typ cvc zvolen, protože jde o 100% dceru investiční skupiny KKCG (lze zvážit i vc/family_office)."
+}

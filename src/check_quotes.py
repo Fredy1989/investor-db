@@ -37,6 +37,8 @@ def normalize(text):
     text = re.sub(r"[“”„‟«»]", '"', text)
     text = re.sub(r"[‐-―−]", "-", text)
     text = re.sub(r"\s+", " ", text)
+    # HTML často vloží mezeru před interpunkci kvůli odkazům a <strong> („Delta Green ,")
+    text = re.sub(r" ([,.;:!?\"'])", r"\1", text)
     return text.strip().lower()
 
 

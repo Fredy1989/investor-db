@@ -1,0 +1,78 @@
+{
+  "id": "czechfounders",
+  "name": "Czech Founders VC",
+  "legal_name": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pre-seed VC fond (osoba rizikového kapitálu) složený z 40+ českých a slovenských zakladatelů; investice do Edmund (únor 2025) a 31 firem v portfoliu. Nezaměňovat s neziskovým Czech Founders z.ú.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.czechfounders.vc/",
+  "registry": {
+    "value": "17051835",
+    "value_text": "IČO 17051835, Salvátorská 931/8, Praha 1, vznik 2022-04-19",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "bez sektorového omezení; CEE zakladatelé s globálními ambicemi",
+    "source_url": "https://www.czechfounders.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Pre-seed tickets. Typically €50-350k.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": ["pre_seed"],
+    "value_text": "Pre-seed",
+    "source_url": "https://www.czechfounders.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Pre-seed tickets. Typically €50-350k.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {"min_eur": 50000, "max_eur": 350000},
+    "value_text": "€50–350k",
+    "source_url": "https://www.czechfounders.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Pre-seed tickets. Typically €50-350k.",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {"eur": 10000000, "basis": "latest_fund_size"},
+    "value_text": "10 mil. EUR (cíl zdvojnásoben z 5 mil. EUR), 2022",
+    "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+    "source_date": "2022-09-07",
+    "accessed": "2026-10-22",
+    "quote": "Všichni zde zmínění složili dohromady deset milionů eur, přibližně čtvrt miliardy korun",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Czech Founders VC (fond I)",
+      "size_eur": 10000000,
+      "vintage": 2022,
+      "source_url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "quote": "Všichni zde zmínění složili dohromady deset milionů eur, přibližně čtvrt miliardy korun"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Edmund",
+      "date": "2025-02-12",
+      "round": "pre-seed 500 tis. EUR (lead Lighthouse Ventures)",
+      "source_url": "https://www.vestbee.com/insights/articles/edmund-secures-500-k",
+      "source_date": "2025-02-12",
+      "quote": "The round was led by Lighthouse Ventures, with Czech Founders VC, Borovicka Capital, and Tensor Ventures",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Sektory web neuvádí (generalista) – value null, aby se neodhadovalo. PitchBook (neotevřen do detailu, jen ve vyhledávání) uvádí novější dealy 2026 (Merchantee, AdSpawn, Carta Genum) – nepřevzato bez vlastního ověření. Vintage 2022 odvozen od data článku a vzniku s.r.o. (2022-04-19). Ambit report zmiňuje navazující fond 'United Founders' – neověřeno."
+}

@@ -1,0 +1,91 @@
+{
+  "id": "longevitytech",
+  "name": "Longevitytech.fund",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I1 nesplněno (+ I2 jen z agregátoru)",
+  "decision_reason": "Fond Petra Šrámka je zřejmě aktivní (e15 4/2026: ~40 firem, ~50 mil. USD aktiv), ale nepodařilo se dohledat právnickou osobu v registru (ARES, SEC EDGAR) a jediný doklad investice po 2023-10-22 je agregátor CB Insights.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://longevitytech.fund",
+  "registry": {
+    "value": null,
+    "value_text": "nenalezeno: ARES (Longevity*, LongevityTech*) bez shody se Šrámkem; SEC EDGAR full-text 'LongevityTech' 0 výsledků; CB Insights uvádí 'Městský soud v Praze B' bez IČO",
+    "source_url": "https://www.cbinsights.com/investor/longevitytechfund",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Headquarters Location Městský soud v Praze B Prague, 25049, Czech Republic",
+    "source_tier": "C"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "deeptech",
+      "ai"
+    ],
+    "value_text": "longevity: biotech, diagnostika, AI",
+    "source_url": "https://www.e15.cz/byznys/zlepsil-seniorum-ukazatele-zdravi-az-o-ctyri-roky-dokazeme-vic-rika-investor-pred-soutezi-v-dlouhovekosti-1431808",
+    "source_date": "2026-04-18",
+    "accessed": "2026-10-22",
+    "quote": "Petr Šrámek řídí LongevityTech.fund, fond, který mění pravidla hry v oblasti dlouhověkosti a spravuje startupy za 50 milionů dolarů.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "pre-seed a seed",
+    "source_url": "https://www.cbinsights.com/investor/longevitytechfund",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Longevitytech.fund makes pre-seed and seed-stage investments in early-stage startups and spinoffs.",
+    "source_tier": "C"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nenalezeno (CC 2022: 'v řádech několika milionů korun' – nečíselné, neuvedeno)",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "",
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 46000000,
+      "basis": "aum"
+    },
+    "value_text": "aktiva pod správou přibližně 50 mil. USD (přepočet 1 USD = 0,92 EUR)",
+    "source_url": "https://www.e15.cz/byznys/zlepsil-seniorum-ukazatele-zdravi-az-o-ctyri-roky-dokazeme-vic-rika-investor-pred-soutezi-v-dlouhovekosti-1431808",
+    "source_date": "2026-04-18",
+    "accessed": "2026-10-22",
+    "quote": "pod správou má aktiva v objemu přibližně 50 milionů dolarů, tedy 1,8 miliardy korun",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "LongevityTech.Fund (druhý fond, max. 100 mil. USD, otevřen 2022)",
+      "size_eur": null,
+      "vintage": 2022,
+      "source_url": "https://agetechworld.co.uk/market/second-longevitytech-fund-now-accepting-new-investors/",
+      "quote": "LongevityTech.Fund is now accepting new investors with a maximum fund size of US$100m."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Animal Biosciences",
+      "date": "2026-09-08",
+      "round": "Series B (dle CB Insights)",
+      "source_url": "https://www.cbinsights.com/investor/longevitytechfund",
+      "source_date": "undated",
+      "quote": "Their latest investment was in Animal Biosciences as part of their Series B on September 08, 2026",
+      "source_tier": "C"
+    }
+  ],
+  "notes": "Web longevitytech.fund je mrtvý (jen placeholder 'Hostinger Horizons'). Agetechworld 2022: firmy fondu inkorporované v USA, sídlo Palo Alto; CC 2022: 'Stávající fond je v Česku'; PitchBook (403) podle vyhledávání Boca Raton. Deal Animal Biosciences 9/2026 je nejistý – jiné agregátory (Caplight, VCBacked) uvádějí jiná kola a účast nepotvrzují. Pokud se dohledá IČO / zahraniční registrace a B-zdroj k investici po 2023-10-22, změnit na include (typ vc, sektor health). exclusion_rule není z E1–E8 – vyřazení je kvůli nesplnění I1."
+}

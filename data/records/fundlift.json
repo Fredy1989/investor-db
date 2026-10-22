@@ -1,0 +1,66 @@
+{
+  "id": "fundlift",
+  "name": "Fundlift",
+  "legal_name": "Fundlift, s.r.o.",
+  "decision": "exclude",
+  "exclusion_rule": "E1",
+  "decision_reason": "Fundlift je investiční crowdfundingová platforma skupiny Roklen, přes kterou investují drobní investoři do kampaní firem; sám jako investor nevystupuje.",
+  "investor_type": null,
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.fundlift.cz",
+  "registry": {
+    "value": "03876292",
+    "value_text": "IČO 03876292",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03876292",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"03876292\",\"obchodniJmeno\":\"Fundlift, s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [],
+    "value_text": "neuplatňuje se – platforma",
+    "source_url": "https://cc.cz/v-cr-prave-odstartovala-crowdfunding-platforma-fundlift-ktera-za-investici-nabidne-podil-ve-firme/",
+    "source_date": "2016-05-31",
+    "accessed": "2026-10-22",
+    "quote": "Od dnešního dne je ovšem první verze Fundliftu oficiálně k dispozici a nabídne crowdfunding investice do projektů, ve kterých výměnou za ně lze získat přímý podíl.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "neuplatňuje se",
+    "source_url": "https://cc.cz/ceska-investicni-platforma-fundlift-prekrocila-250-milionu-korun-v-zafinancovanych-kampanich/",
+    "source_date": "2018-11-14",
+    "accessed": "2026-10-22",
+    "quote": "To vše pomohlo Fundliftu překonat v minulém týdnu hranici 250 milionů korun ve 43 zafinancovaných kampaních s průměrnou investicí ve výši 33 tisíc korun.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "neuplatňuje se",
+    "source_url": "https://cc.cz/ceska-investicni-platforma-fundlift-prekrocila-250-milionu-korun-v-zafinancovanych-kampanich/",
+    "source_date": "2018-11-14",
+    "accessed": "2026-10-22",
+    "quote": "Zásadním rozdílem mezi Fundliftem a konkurencí je také přímé propojení s finanční skupinou Roklen, která se svou licencí na obchodování s cennými papíry spravuje veškeré finance, cenné papíry i proces realizace investic.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "neuplatňuje se",
+    "source_url": "https://cc.cz/v-cr-prave-odstartovala-crowdfunding-platforma-fundlift-ktera-za-investici-nabidne-podil-ve-firme/",
+    "source_date": "2016-05-31",
+    "accessed": "2026-10-22",
+    "quote": "Roklen bude mít zároveň na starosti kompletní proces plateb, které budou regulovány na základě licence vydané ČNB.",
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "notes": "E1 doloženo CzechCrunch (2016, 2018). V roce 2018 Fundlift zvažoval 'spuštění sekundárního trhu či vlastního investičního fondu' – vlastní fond se nepodařilo dohledat. Aktivita platformy v letech 2025–2026 nedoložena (web fundlift.cz se načetl jen jako šablona bez obsahu). Vlastní investice Fundlift, s.r.o. do firem nenalezeny."
+}

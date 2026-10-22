@@ -1,0 +1,113 @@
+{
+  "id": "orbit",
+  "name": "Orbit Capital",
+  "legal_name": "ORBIT Capital GP s.r.o.",
+  "decision": "exclude",
+  "exclusion_rule": "E3",
+  "decision_reason": "Veškerá doložená aktivita od 2023-10-22 je venture debt (Venture Debt Fund II, €107M, 5 úvěrových investic). Growth-equity rameno má poslední doloženou equity investici v roce 2022 (Preply), takže aktivní činnost je jen dluh.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": "08319961",
+    "value_text": "IČO 08319961 (ORBIT Capital GP s.r.o.)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"08319961\",\"obchodniJmeno\":\"ORBIT Capital GP s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "technology & tech-enabled businesses",
+    "source_url": "https://vestbee.com/insights/articles/vc-of-the-month-orbit-capital",
+    "source_date": "2023-09-28",
+    "accessed": "2026-10-22",
+    "quote": "The fund is focused on technology & tech-enabled businesses with global expansion aspirations.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "value_text": "Series A+ scale-upy (venture debt)",
+    "source_url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+    "source_date": "2026-07-02",
+    "accessed": "2026-10-22",
+    "quote": "Series A technology companies with proven product-market fit, a scalable business model, a minimum 30% YoY growth, and annual revenue of at least €3 million.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 3000000,
+      "max_eur": 15000000
+    },
+    "value_text": "€3–15M (venture debt)",
+    "source_url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+    "source_date": "2026-07-02",
+    "accessed": "2026-10-22",
+    "quote": "Typical ticket sizes range from €3 to €15 million.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 107000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "€107M second close, Venture Debt Fund II",
+    "source_url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+    "source_date": "2026-07-02",
+    "accessed": "2026-10-22",
+    "quote": "Czech-Polish investment firm Orbit Capital has completed the second closing of its Venture Debt Fund II at €107 million,",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Venture Debt Fund II (Growth Debt II)",
+      "size_eur": 107000000,
+      "vintage": 2025,
+      "source_url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "quote": "Czech-Polish investment firm Orbit Capital has completed the second closing of its Venture Debt Fund II at €107 million,"
+    },
+    {
+      "name": "Growth Equity Fund (cíl €200M, finální velikost neznámá)",
+      "size_eur": null,
+      "vintage": null,
+      "source_url": "https://vestbee.com/insights/articles/vc-of-the-month-orbit-capital",
+      "quote": "With the target capitalization of €200 million, it invests in emerging stars from the region, at the scale-up stage."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Sloneek, IAG, Talkin' Things (venture debt)",
+      "date": "2026-07-02",
+      "round": "venture debt (Fund II)",
+      "source_url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "source_date": "2026-07-02",
+      "quote": "Orbit has already made 5 investments from Venture Debt Fund II, including Czech startups",
+      "source_tier": "B"
+    },
+    {
+      "company": "Preply",
+      "date": "2022-07-28",
+      "round": "growth equity ($50M kolo, Orbit $8M)",
+      "source_url": "https://cc.cz/jazyky-jako-zajimavy-byznys-startup-na-online-vyuku-ziskal-i-diky-ceskym-investorum-pres-miliardu/",
+      "source_date": "2022-07-28",
+      "quote": "Na investičním kole se podílí český Orbit Capital s částkou osm milionů dolarů.",
+      "source_tier": "B"
+    },
+    {
+      "company": "(druhý úvěrový fond)",
+      "date": "2025-06-16",
+      "round": "fundraising dluhového fondu",
+      "source_url": "https://www.e15.cz/byznys/burzy-a-trhy/orbit-capital-navazuje-na-dluhove-financovani-rohliku-a-manifesta-zaklada-novy-fond-s-borkovcem-v-zadech-1425288",
+      "source_date": "2025-06-16",
+      "quote": "Česko-polská investiční skupina Orbit Capital připravuje spuštění svého druhého úvěrového fondu, v němž více než zdvojnásobí svou palebnou sílu",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Oficiální web nenalezen (orbitcapital.cz nemá DNS, orbit.capital je parkovaná doména). Vestbee 2026 uvádí, že Orbit 'manages both growth equity and venture debt funds', ale žádnou equity investici po 2023-10-22 jsem nedoložil (Booksy/Mews/Preply/Rohlik jsou z let 2021–2022). Equity část by spadala pod E6. Registr: ORBIT Capital GP s.r.o. je pravděpodobně GP equity fondu; správce dluhového fondu jsem v ARES samostatně neověřoval. Pokud se objeví equity investice ≥ 2023-10-22, přehodnotit na include."
+}

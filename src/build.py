@@ -87,8 +87,10 @@ def main():
     def cov(col):
         return sum(1 for r in inc if r[col] not in ("", None)) / n if n else 0
     print(f"zařazeno {n}, vyřazeno/neaktivní {len(exc)}")
-    for col in ["registry_id", "sectors", "stages", "ticket_min_eur", "capital_eur", "last_deal_date"]:
+    for col in ["registry_id", "sectors", "stages", "capital_eur", "last_deal_date"]:
         print(f"  pokrytí {col:<16} {cov(col):.0%}")
+    ticket = sum(1 for r in inc if r["ticket_min_eur"] != "" or r["ticket_max_eur"] != "") / n if n else 0
+    print(f"  pokrytí {'ticket (min/max)':<16} {ticket:.0%}")
 
 
 if __name__ == "__main__":

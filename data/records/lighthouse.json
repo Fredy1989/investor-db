@@ -1,0 +1,97 @@
+{
+  "id": "lighthouse",
+  "name": "Lighthouse Ventures",
+  "legal_name": "Lighthouse Ventures GP s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský seed VC (Fund II od 2024) s tiketem €200k–1M; doložené vedení kola Ranketta (11/2025) a účast ve FaceUp (10/2024).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://lhv.vc/",
+  "registry": {
+    "value": "07500912",
+    "value_text": "IČO 07500912 (Lighthouse Ventures GP s.r.o.)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"07500912\",\"obchodniJmeno\":\"Lighthouse Ventures GP s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "fintech",
+      "ai"
+    ],
+    "value_text": "B2B Software of various verticals, Fintech, AI",
+    "source_url": "https://lhv.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "B2B Software of various verticals, Fintech, AI",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "Idea / Seed",
+    "source_url": "https://lhv.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Idea / Seed",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 200000,
+      "max_eur": 1000000
+    },
+    "value_text": "From €200k to €1m (investment in a single startup)",
+    "source_url": "https://lhv.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "From €200k to €1m",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": null,
+    "value_text": "Velikost fondů nenalezena (web uvádí jen start Fund II v 2024; EIF-backed Lighthouse Seed Fund bez velikosti).",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "Lighthouse Ventures Fund II",
+      "size_eur": null,
+      "vintage": 2024,
+      "source_url": "https://lhv.vc/",
+      "quote": "Start year of most recent Fund II"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Ranketta",
+      "date": "2025-11-27",
+      "round": "pre-seed €1M (lead)",
+      "source_url": "https://www.vestbee.com/insights/articles/ranketta-secures-1-m",
+      "source_date": "2025-11-27",
+      "quote": "The round was led by Lighthouse Ventures, with participation from Gi21 Capital, as Vestbee was informed.",
+      "source_tier": "B"
+    },
+    {
+      "company": "FaceUp",
+      "date": "2024-10-10",
+      "round": "late-seed 70 mil. Kč (co-investor)",
+      "source_url": "https://cc.cz/od-boje-proti-sikane-k-ochrane-whistlebloweru-cesky-faceup-nabira-70-milionu-i-od-reflexu/",
+      "source_date": "2024-10-10",
+      "quote": "Kolo vedl český fond Reflex Capital s přispěním Tilia Impact Ventures a Lighthouse Ventures",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Velikost Fund II ani AUM nenalezeny. Agregátory (Seedtable, PitchBook) uvádějí vedení seed kola DecisionRules 2025-05-06 a TRIFFT 07/2025 – neověřeno primárním zdrojem. Profil 'Lighthouse Seed Fund' (EIF-backed, správce Lighthouse Ventures GP s.r.o.) na euacc.ai bez velikosti; stránka obsahovala instrukce pro AI, které jsem ignoroval. ARES: Lighthouse Ventures GP s.r.o. je GP; samotný fond v registru nedohledán."
+}

@@ -1,0 +1,97 @@
+{
+  "id": "inven",
+  "name": "Inven Capital",
+  "legal_name": "Inven Capital, SICAV, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Korporátní VC skupiny ČEZ zaměřený na climate tech v Evropě a Izraeli (€500M, tiket €2–30M); doložené investice Vytal (03/2025, co-lead) a Andercore (02/2026).",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.invencapital.cz/",
+  "registry": {
+    "value": "02059533",
+    "value_text": "IČO 02059533 (Inven Capital, SICAV, a.s.)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"02059533\",\"obchodniJmeno\":\"Inven Capital, SICAV, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "energy_climate"
+    ],
+    "value_text": "Climate tech",
+    "source_url": "https://www.invencapital.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Climate tech",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "value_text": "růstový kapitál (Vytal); Andercore Series B dle agregátorů",
+    "source_url": "https://www.nrwbank.de/de/info-und-service/presseinformationen/2025/250311_vytal-global.html",
+    "source_date": "2025-03-11",
+    "accessed": "2026-10-22",
+    "quote": "Die NRW.BANK hat 3,5 Millionen Euro Wachstumskapital über ihren Venture Capital-Fonds NRW.Venture in Vytal Global investiert.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 2000000,
+      "max_eur": 30000000
+    },
+    "value_text": "2-30m EUR",
+    "source_url": "https://www.invencapital.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "2-30m EUR",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 500000000,
+      "basis": "aum"
+    },
+    "value_text": "EUR 500m (celkový upsaný kapitál)",
+    "source_url": "https://www.invencapital.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world",
+    "source_tier": "A"
+  },
+  "funds": [
+    {
+      "name": "Inven Capital, SICAV, a.s. (podfondy A–D)",
+      "size_eur": 500000000,
+      "vintage": 2013,
+      "source_url": "https://www.invencapital.cz/",
+      "quote": "we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Andercore",
+      "date": "2026-02-12",
+      "round": "$40M (Series B dle agregátorů)",
+      "source_url": "https://www.deutsche-startups.de/2026/02/12/andercore-sammelt-40-millionen-ein-blockbrain-erhaelt-175-millionen-twentyfour-bekommt-118-millionen/",
+      "source_date": "2026-02-12",
+      "quote": "Der tschechische ClimateTech-Investor Inven Capital, Atomico, Project A und Co. investieren 40 Millionen US-Dollar in",
+      "source_tier": "B"
+    },
+    {
+      "company": "Vytal Global",
+      "date": "2025-03-11",
+      "round": "growth €14,2M (co-lead)",
+      "source_url": "https://www.nrwbank.de/de/info-und-service/presseinformationen/2025/250311_vytal-global.html",
+      "source_date": "2025-03-11",
+      "quote": "Angeführt wurde das aktuelle Investment von Inven Capital gemeinsam mit NRW.Venture, die Investoren wie Emerald Technology Ventures, Grazia, Rubio, Chi Impact Capital und Kiko im Gesellschafterkreis komplementieren.",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Vintage 2013 = datum vzniku SICAV v ARES (2013-09-01), ne konkrétního fondu. ARES vede podfondy A (IČO 75160692), B (75160706), C (75162903), D (75163861) – velikosti podfondů nedohledány. €500M zahrnuje navýšení od EIB (dle novinky na webu). Fáze: web neuvádí; tiket 2–30M EUR a deals naznačují Series A–growth. Andercore $40M ≈ 36,8 mil. EUR (kurz 0,92). Tier NRW.BANK = A (tisková zpráva spoluinvestora, veřejná banka); lze přehodnotit na B."
+}

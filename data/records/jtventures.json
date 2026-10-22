@@ -1,0 +1,25 @@
+{
+  "id": "jtventures",
+  "name": "J&T Ventures",
+  "legal_name": "J&T Ventures III SICAV a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "VC skupiny J&T se sídlem v Praze (Sokolovská 700/113a, budova J&T Banky), fondy jako české SICAV; aktiva 120 mil. EUR; doložené vedení seed kola Definic (6/2026).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.jtventures.cz",
+  "registry": {"value": "22175903", "value_text": "IČO 22175903, J&T Ventures III SICAV a.s., Sokolovská 700/113a, Karlín, Praha 8, vznik 2024-10-21", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22175903", "source_date": "undated", "accessed": "2026-10-22", "quote": "J&T Ventures III SICAV a.s.", "source_tier": "A"},
+  "sectors": {"value": ["generalist"], "value_text": "B2B, B2C, Marketplaces, Sector Agnostic", "source_url": "https://www.jtventures.cz", "source_date": "undated", "accessed": "2026-10-22", "quote": "Sector Agnostic", "source_tier": "A"},
+  "stages": {"value": ["pre_seed", "seed", "series_a"], "value_text": "Pre-seed až Series A", "source_url": "https://www.jtventures.cz", "source_date": "undated", "accessed": "2026-10-22", "quote": "Pre-seed až Series A", "source_tier": "A"},
+  "ticket": {"value": {"min_eur": 300000, "max_eur": 3000000}, "value_text": "€300K – €3M", "source_url": "https://www.jtventures.cz", "source_date": "undated", "accessed": "2026-10-22", "quote": "€300K – €3M", "source_tier": "A"},
+  "capital": {"value": {"eur": 120000000, "basis": "aum"}, "value_text": "€120M (Výše aktiv)", "source_url": "https://www.jtventures.cz", "source_date": "undated", "accessed": "2026-10-22", "quote": "€120M", "source_tier": "A"},
+  "funds": [
+    {"name": "J&T Ventures III SICAV a.s.", "size_eur": null, "vintage": 2024, "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22175903", "quote": "J&T Ventures III SICAV a.s."},
+    {"name": "J&T Ventures CG SICAV a.s. (J&T Ventures II)", "size_eur": null, "vintage": 2019, "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867", "quote": "J&T Ventures CG SICAV a.s."}
+  ],
+  "investment_evidence": [
+    {"company": "Definic (dříve Nordics), Košice", "date": "2026-06-12", "round": "seed 2,5 mil. EUR (lead)", "source_url": "https://vestbee.com/insights/articles/definic-raises-2-5-m-to-scale-ai-powered-vendor-intelligence-platform", "source_date": "2026-06-12", "quote": "closed a €2.5 million seed round led by J&T Ventures", "source_tier": "B"}
+  ],
+  "notes": "HQ: web jtventures.cz uvádí jedinou kancelář v Praze (Sokolovská 700/113a, Praha 8) a fondy jsou české SICAV v ARES se stejnou adresou → country CZ. Seedtable (C) navíc uvádí Definic jako první investici J&T Ventures na Slovensku. Doména jtventures.sk v době rešerše neodpovídala (DNS chyba); případná dřívější slovenská historie fondu I neověřena. Velikosti jednotlivých fondů nezjištěny (marketingový deck J&T Ventures II s cílem 50 mil. EUR jsem neotevřel). Záznam = fondové SICAV; samostatnou správcovskou společnost (např. J&T investiční společnost) jsem neověřil. Další deals 2025–2026 (Wultra, XUND, ValkaAI, Choice) jen v agregátorech."
+}
