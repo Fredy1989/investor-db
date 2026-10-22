@@ -32,6 +32,8 @@ python src/check_quotes.py        # stáhne zdroje a ověří citace → data/qu
 python src/build.py               # → investors_cz_vc.csv, excluded.csv, pokrytí polí
 python src/measure.py             # → přesnost (A: agent B, B: člověk, C: shoda B × člověk, E: fáze 2 slepě)
 python src/recall.py              # → úplnost vůči katalogu CzechStartups
+python src/manual_xlsx.py export  # list pro ruční kontrolu jako Excel (rozbalovací verdikty, odkazy)
+python src/manual_xlsx.py import  # vyplněné verdikty z Excelu zpět do data/manual_check.csv
 ```
 
 ## Jak jsem pracoval s AI
