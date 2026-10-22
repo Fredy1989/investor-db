@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+aternus,decision,ok,,https://en.ain.ua/2025/12/16/jutro-medical-raises-eur24m/,"led by Warsaw Equity Group, with participation from Vinci, naturalX Health Ventures, Fluent Ventures, Aternus",Deal 16.12.2025 tier B; investoval subjekt Aternus; tým v Třinci. Pozn.: převážně LP ve fondech + ko-investice.
+aternus,investor_type,ok,,https://www.aternus.cz/en/,Aternus is a multi-family office.,family_office sedí; CZ (Třinec) sedí.
+aternus,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25865056,"ATERNUS, a.s.","IČO sedí (Anežská 986/10, Praha 1). Existuje i Aternus Family Office s.r.o. (Třinec) – není jasné, která entita investuje; upřesnit."
+aternus,sectors,wrong,"saas_b2b, fintech, deeptech, ecommerce (marketplaces); + real estate mimo taxonomii",https://www.aternus.cz/en/,,"Web jmenuje konkrétní zaměření: technology, marketplaces, SaaS, fintech, deep tech (+ real estate). 'generalist' neodpovídá deklarovanému mandátu."
+aternus,stages,null_ok,,https://www.aternus.cz/en/,,Fáze nedeklarovány (jen ko-investice s PE/VC fondy).
+aternus,ticket,null_ok,,,,Nenalezeno.
+aternus,capital,null_ok,,https://altss.com/profile/aternus-family-office,,AUM undisclosed.
+aternus,investment_evidence,ok,,https://en.ain.ua/2025/12/16/jutro-medical-raises-eur24m/,"The funding extends the company's Series A, bringing the total to €36 million.","24 mil. EUR, lead Warsaw Equity Group, 16. 12. 2025 – sedí (kolo obsahuje i dluhovou složku mBank/Orbit)."

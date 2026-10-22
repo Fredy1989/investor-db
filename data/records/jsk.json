@@ -1,0 +1,135 @@
+{
+  "id": "jsk",
+  "name": "JSK Investments (Venture Capital Fund I)",
+  "legal_name": "JSK Investments SICAV a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Samosprávný SICAV manželů Kijonkových s vyčleněným VC podfondem (JSK Investments Venture Capital Fund I, cíl 20 mil. EUR, vlastní investiční tým); v 09–10/2026 investice fondu do Andromeda Surgical (Series A) a MintNeuro.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.jskinvestments.ventures/en",
+  "registry": {
+    "value": "23823445",
+    "value_text": "IČO 23823445",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"23823445\",\"obchodniJmeno\":\"JSK Investments SICAV a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "ai",
+      "deeptech",
+      "energy_climate"
+    ],
+    "value_text": "Health & Applied Frontier Technology: healthtech/medtech/femtech…, applied AI, deep tech, robotics, quantum, climate tech",
+    "source_url": "https://www.jskinvestments.ventures/en",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Applied AI, deep tech, robotics, quantum applications, climate technologies solving high-value real-world problems.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "Early stage to Series B (Series B only for follow on)",
+    "source_url": "https://www.jskinvestments.ventures/en",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "JSK Venture Capital invests in early-stage companies at the intersection of health, AI and applied frontier technology, backing founders with the ambition to build globally scalable category leaders.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 300000,
+      "max_eur": null
+    },
+    "value_text": "Initial investment from €300K",
+    "source_url": "https://www.jskinvestments.ventures/en",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "From €300K",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 300000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 20000000,
+      "basis": "target_fund_size"
+    },
+    "value_text": "Target fund size €20M, z toho €10M internal capital (cíl, VC podfond)",
+    "source_url": "https://www.jskinvestments.ventures/en",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "€10M internal capital",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 20000000
+    }
+  },
+  "funds": [
+    {
+      "name": "JSK Investments Venture Capital Fund I, podfond",
+      "size_eur": 20000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 20000000
+      },
+      "vintage": 2026,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75166372",
+        "value_text": "IČO 75166372",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166372",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75166372\",\"obchodniJmeno\":\"JSK Investments Venture Capital Fund I, podfond\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://www.jskinvestments.ventures/en",
+      "quote": "The Venture Capital Fund is a dedicated early-stage investment strategy within JSK Investments SICAV a.s."
+    },
+    {
+      "name": "JSK Investments Private and Growth Equity Fund I, podfond",
+      "size_eur": null,
+      "original": null,
+      "vintage": 2026,
+      "domicile": "CZ",
+      "registry": null,
+      "source_url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "quote": "Podfond Private & Growth Equity se soustředí na majoritní podíly ve středně velkých firmách s investičním horizontem pět až osm let"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "MintNeuro (Londýn)",
+      "date": "2026-10-10",
+      "round": "kolo 5 mil. USD, lead Odyssey Ventures",
+      "source_url": "https://www.newstream.cz/zpravy-z-firem/fond-kijonkovych-jsk-investoval-do-britskeho-vyvojare-cipu-pro-neurotechnologie",
+      "source_date": "2026-10-10",
+      "quote": "Investiční fond JSK Investments SICAV Simony a Jaromíra Kijonkových se zapojil do investičního kola britské společnosti MintNeuro, v němž firma získala pět milionů dolarů (asi 109 milionů korun)",
+      "source_tier": "B"
+    },
+    {
+      "company": "Andromeda Surgical (San Francisco)",
+      "date": "2026-09-15",
+      "round": "Series A 15 mil. USD, lead Standard Capital",
+      "source_url": "https://cc.cz/simona-kijonkova-investuje-desitky-milionu-do-roboticke-chirurgie-cilem-je-zkratit-fronty-na-operace/",
+      "source_date": "2026-09-15",
+      "quote": "Fond JSK Investments se zapojil do investice do amerického startupu Andromeda Surgical, který chce zkrátit učební křivku náročných zákroků.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Typ: dal jsem 'vc' (samostatný VC podfond s vlastním týmem – Investment Director Petra Cihlářová – a s externími kvalifikovanými investory); původ je ale rodinný vehikl Kijonkových ('rodinného vehiklu', CzechCrunch 30. 9. 2025), takže obhajitelné je i 'family_office'. Investice jdou přes fond (JSK Investments SICAV), ne od Simony Kijonkové osobně – zdroje to výslovně uvádějí. Kapitál 20 mil. EUR je CÍLOVÁ velikost VC podfondu (z toho 10 mil. EUR vlastní kapitál); na webu jsou 'TARGET FUND SIZE', '€20M' a '€10M internal capital' na samostatných řádcích, citace proto obsahuje jen řádek '€10M internal capital' a hodnota 20M je z řádku nad ním. Celý SICAV: Kijonkovi vkládají ~2 mld. Kč (CzechCrunch 30. 9. 2025) – nezapsáno do capital, protože jde o všechny podfondy včetně PE. Datum MintNeuro: web JSK uvádí oznámení October 9, 2026, Newstream článek 10. 10. 2026. Sektor energy_climate odvozen z 'climate technologies' v deklarovaném mandátu.",
+  "phase": 2,
+  "corrections_applied": 1
+}

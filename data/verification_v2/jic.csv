@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+jic,decision,ok,,https://een.gov.cz/novinka/prvni-investice-noveho-fondu-jic-ventures-miri-do-technologickeho-startupu-faceup/,JIC Ventures je investiční fond zaměřený na technologické startupy,"Deal FaceUp 21. 5. 2026 (een.gov.cz), v okně; investuje fond, brněnský tým. Include sedí."
+jic,investor_type,ok,,https://www.jic.cz/ventures/,JIC Ventures is a Brno-born VC fund backing technology founders from pre-seed to exit.,"vc ok: kapitál převážně soukromý (CTP, ČS, Barta…), veřejný podíl (JMK) cca 10–15 % dle médií, takže ne public_vc. Country CZ ok."
+jic,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04156293,"JIC Ventures, s.r.o., IČO 04156293, Purkyňova 649/127, Medlánky, 61200 Brno","Zdroj neuvádí, zda s.r.o. je správce nového fondu, nebo jen dřívější vehikl; jméno sedí."
+jic,sectors,ok,,https://www.jic.cz/ventures/,"Deep tech, SaaS, and other.",
+jic,stages,ok,,https://www.jic.cz/ventures/,Pre-seed / Seed stage.,
+jic,ticket,ok,,https://www.jic.cz/ventures/,Tickets up to €1M.,
+jic,capital,ok,,https://www.jic.cz/cz/o-nas/pro-media/jic-spustil-venture-kapitalovy-fond-pro-startupy-r,Fond o objemu 400 milionů korun hodlá přispět k transformaci české ekonomiky.,Tisková zpráva 7. 4. 2026. Pozor: 400 mil. Kč je cílová velikost; média uvádějí 320 mil. Kč již alokováno a fond není finálně uzavřen.
+jic,investment_evidence,ok,,https://een.gov.cz/novinka/prvni-investice-noveho-fondu-jic-ventures-miri-do-technologickeho-startupu-faceup/,"investičnímu kolu Series A o celkové hodnotě přesahující 110 milionů korun, které vedl chorvatský fond Fil Rouge Capital",21. 5. 2026; FaceUp i na portfoliu jic.cz/ventures.

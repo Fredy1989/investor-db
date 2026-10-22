@@ -17,6 +17,7 @@ Rozlišujeme tyto typy (`investor_type`):
 | `public_vc` | fond se státním / EU kapitálem, který sám investuje equity do firem | (v pilotu žádný — NRF se ukázal jako neinvestující, viz §7) |
 | `family_office` | správa majetku jedné / několika rodin, která přímo investuje do firem | |
 | `angel` | fyzická osoba investující vlastní peníze do startupů | |
+| `angel_syndicate` | syndikát andělů investující přes vlastní vozidlo (s.r.o./SPV); doplněno po fázi 2, §7.15 | Lumus Investment |
 | `private_investor` | investiční skupina / holding velkého soukromého investora | Pale Fire Capital |
 
 `cvc` a `public_vc` v zadání nejsou. Přidal jsem je, protože v Česku i jinde dělají velkou část dealů.
@@ -177,3 +178,21 @@ Pilot (viz [RESULTS.md](RESULTS.md)) ukázal, co v plánu chybělo nebo bylo šp
 13. **Rozsah vzorku se musí dodržet i u zařazení.** Genesis Capital je platný PE investor, ale vzorek byl
     definován jako VC-typy (§6). Proto `decision = out_of_scope`: do plné DB patří, do počtu ve vzorku ne.
 14. **Citlivost okna aktivity:** při 24 měsících místo 36 by ze vzorku vypadl jen Impulse (poslední doložený deal 12/2023).
+
+### Doplněno po fázi 2 (slepý ověřovatel, 2026-10-22)
+
+15. **Andělé: osoba × syndikát × síť.**
+    - `angel` = fyzická osoba (§1 beze změny).
+    - Nový typ **`angel_syndicate`**: syndikát, který investuje přes **vlastní vozidlo** (s.r.o. / SPV), např. Lumus.
+    - **Síť nebo spolek, jehož členové investují osobně** (Garage Angels z.s.), sám neinvestuje, takže E4, stejně jako CBAA.
+    - Pokyny v2 (bod 7) tohle zaměnily a dovolily „skupiny jako `angel`". Byla to **moje chyba v pokynech**, kterou slepý ověřovatel odhalil.
+16. **`cvc` zahrnuje i investiční ramena bank a pojišťoven** (Seed Starter ČS, KB SmartSolutions).
+    Rozhodující je, že mateřská firma není investiční fond, ne že je nefinanční. Definice v §1 byla zbytečně úzká.
+17. **Kapitál: nový `basis` `target_fund_size`.** Agenti cíl fundraisingu správně psali do textu („cíl, ne upsáno"),
+    ale schéma pro něj nemělo hodnotu, takže skončil jako `latest_fund_size`. Ve fázi 2 to byla nejčastější chyba (4 ze 7).
+18. **Fond fondů není přímý investor (I4)**, např. EMUN TECH II. U smíšených (RSJ: hlavně fondy fondů + přímé co-leady)
+    rozhoduje, jestli existuje doložená **přímá** investice v okně 36 měsíců.
+19. **„Rizikový fond" v názvu ≠ venture capital.** Double Speed je retailový akciový fond s pákou (E5). Klíčová slova
+    v registru fondů ČNB jsou jen zdroj kandidátů, ne důkaz.
+20. **Agenti sdílejí pracovní adresář** (scratchpad). Dva ověřovatelé si navzájem přepsali skript se stejným názvem.
+    Výsledky se nepoškodily (zkontrolováno), ale v produkci má každý agent dostat vlastní adresář.

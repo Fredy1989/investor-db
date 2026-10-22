@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+doublespeed,decision,ok,,https://doublespeed.cz/,Fond investuje skrze široce diverzifikovaný světový akciový index,"E5 sedí: retailový speciální fond do ETF/indexů/futures (89 % akcie, 11 % dluhopisy), ne do soukromých firem. Nejde o nemovitosti, ale o kotovaná aktiva."
+doublespeed,investor_type,null_ok,,,,Vyřazený subjekt bez typu - v pořádku.
+doublespeed,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75164078,"Double Speed rizikový fond, otevřený podílový fond, Partners investiční společnost, a.s.; ico 75164078","IČO patří fondovému vehiklu (podílový fond), ne správci; podle §7.5 má být registry = Partners investiční společnost, a.s., fond do funds[]."
+doublespeed,sectors,ok,,https://doublespeed.cz/,,Prázdné - pro vyřazený fond v pořádku.
+doublespeed,stages,ok,,,,Prázdné - v pořádku.
+doublespeed,ticket,null_ok,,,,
+doublespeed,capital,null_ok,,https://doublespeed.cz/,"5,81 mld Kč","Pro vyřazený subjekt null v pořádku; existuje objem fondu 5,81 mld Kč (13. 10. 2026), ale v kotovaných aktivech."
+doublespeed,investment_evidence,null_ok,,,,Fond nedrží přímo žádné soukromé firmy.

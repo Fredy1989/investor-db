@@ -1,0 +1,82 @@
+{
+  "id": "kbsmart",
+  "name": "KB SmartSolutions",
+  "legal_name": "KB SmartSolutions, s.r.o.",
+  "phase": 2,
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "CVC dcera Komerční banky investující do fintechů (Roger, Upvest, Lemonero). Poslední doložená minoritní investice je navýšení v Lemoneru (cc.cz 2023-07-03), tedy před 2023-10-22; v 2025 jen odkup zbylých 4 % v už ovládaném Upvestu a prodej podílu v Rogeru.",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.kbsmart.cz/",
+  "registry": {
+    "value": "02021161",
+    "value_text": "IČO 02021161, KB SmartSolutions, s.r.o., Václavské náměstí 796/42, Praha 1, C 306446 MS Praha; ovládající osoba Komerční banka, a.s. IČ 45317054",
+    "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=KB+SmartSolutions&jenPlatne=PLATNE",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "KB SmartSolutions, s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": ["fintech"],
+    "value_text": "fintechy / start-upy poskytující finanční služby",
+    "source_url": "https://www.kbsmart.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Fintechům poskytujeme funding",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": null,
+    "value_text": "web: start-upy po raném vývoji produktu s prvními zákazníky, hledající růst; ranější fáze individuálně – nelze spolehlivě namapovat",
+    "source_url": "https://www.kbsmart.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": null},
+    "original": null,
+    "value_text": "nezveřejněno",
+    "source_url": "https://www.kbsmart.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {"eur": null, "basis": "own_balance_sheet"},
+    "original": null,
+    "value_text": "rozvaha Komerční banky; částka nezveřejněna",
+    "source_url": "https://www.kbsmart.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "KB SmartSolutions je dcera Komerční banky.",
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Lemonero",
+      "date": "2023-07-03",
+      "round": "navýšení podílu na 29 % (vyšší desítky mil. Kč dle zdrojů cc.cz)",
+      "source_url": "https://cc.cz/komercni-banka-za-desitky-milionu-navysuje-podil-v-ceskem-lemoneru-uchytilo-se-i-v-belgii-a-nizozemi/",
+      "source_date": "2023-07-03",
+      "quote": "Právě ta v Lemoneru navyšuje svůj podíl na aktuálních devětadvacet procent.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Upvest (odkup zbylého podílu na 100 %, ne nová venture investice)",
+      "date": "2025-08-21",
+      "round": "buyout minority po vestingu (KB držela 96 % od 2022)",
+      "source_url": "https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/",
+      "source_date": "2025-08-21",
+      "quote": "přes svou dceřinou společnost KB SmartSolutions",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Hraniční: Upvest 2025 je dokončení akvizice dceřiné firmy (z 96 % na 100 % po vypršení vestingu zakladatelů), hodnotím jako M&A/konsolidaci, ne jako I2 investici; kdo ji uzná, změní decision na include. 28. 1. 2025 KB oznámila prodej 24,83% podílu KB SmartSolutions v Platební instituce Roger a.s. firmě Orbian (exit). Web kbsmart.cz uvádí partnery UPVEST, Lemonero, Finbricks, KB ENVIROS – Finbricks je interní startup KB, ENVIROS koupila KB 2022 (strategická akvizice). Žádnou novou minoritní investici po 2023-10-22 jsem nenašel (hledáno cc.cz, kb.cz, forbes.cz). Typ cvc i když mateřská firma je banka (PLAN definuje cvc pro nefinanční firmy; bližší typ není). Instrukce pro AI nenalezeny."
+}

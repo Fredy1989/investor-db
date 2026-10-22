@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+emuntech,decision,ok,,https://www.emun.cz/en/investment-funds/,Fund investing in Europe's leading early-stage venture capital venture capital funds,"Out of sample OK, but a stronger reason exists: EMUN Tech II Access is a fund-of-funds (invests in VC funds, not directly in companies) -> exclusion I4 rather than generic out_of_scope."
+emuntech,investor_type,wrong,"not family_office; licensed investiční společnost (asset/wealth manager with family-office services, feeder/fund-of-funds vehicles)",https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28495349,"EMUN investiční společnost, a.s. | Anežská 986/10, Staré Město, 11000 Praha 1","emun.cz: firm 'MANAGE[S] AND INVEST family AND philanthropic ASSETS'; 'Family Office' is one of its services. Annual report 2024: manages 15 funds for clients, >11 mld CZK. Not a family investment vehicle in PLAN §1 sense."
+emuntech,registry,ok,,https://www.emun.cz/documents/VZ-EIS-2024.pdf,IČO: 284 95 349,"Matches ARES: EMUN investiční společnost, a.s., Praha 1."
+emuntech,sectors,ok,,https://www.emun.cz/en/investment-funds/,Fund investing in Europe's leading early-stage venture capital venture capital funds,generalist plausible for EMUN overall; Tech II itself is a tech VC fund-of-funds.
+emuntech,stages,null_ok,,,,
+emuntech,ticket,null_ok,,,,
+emuntech,capital,ok,,https://www.emun.cz/documents/VZ-EIS-2024.pdf,EMUN Tech II Access OPF 172 155 173,"Table 'Údaje k 31.12.2024 (v milionech CZK)': total commitment 172, paid 155, NAV 173. This is the commitment of EMUN Tech II Access OPF (fund-of-funds), not EMUN overall (FKI celkem 6 398 M CZK)."
+emuntech,investment_evidence,null_ok,,https://www.emun.cz/en/investment-funds/,,No direct company deal by EMUN Tech II (it invests in funds). Site mentions EMUN EFAC1 Access 'invests in shares of a U.S. healthcare company' (undated) - not a startup VC deal.

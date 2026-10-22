@@ -1,0 +1,96 @@
+{
+  "id": "flyingfounders",
+  "name": "Flying Founders",
+  "legal_name": "Flying Founders s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Investiční vozidlo Michala Trubana a Zdenka Zvady (česká s.r.o., jednatel Z. Zvada) pro ziskové SaaS firmy; první investice Tolgee doložena CzechCrunch 9/2024, akvizice Tiny Empires 9/2025.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.flyingfounders.com/",
+  "registry": {
+    "value": "21828377",
+    "value_text": "IČO 21828377, Flying Founders s.r.o., Na sypkém 2520/6, Praha 8 (vznik 2024-07-17)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21828377",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"21828377\",\"obchodniJmeno\":\"Flying Founders s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b"
+    ],
+    "value_text": "SaaS s ARR 100 tis.–2 mil. EUR",
+    "source_url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/",
+    "source_date": "2024-09-03",
+    "accessed": "2026-10-22",
+    "quote": "na zmiňované SaaS byznysy, které již generují roční opakující se tržby (ARR)",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "value_text": "růstový kapitál / odkup podílů ve firmách s trakcí (ARR €100k–€2m); konkrétní fáze nedeklarována",
+    "source_url": "https://czechstartups.gov.cz/?investori=flying-founders",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Investují €100k až €600k do SaaS společností sARR mezi €100k a €2m, a to formou růstového kapitálu nebo odkupu podílů.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 100000,
+      "max_eur": 500000
+    },
+    "value_text": "€100k–€500k (web); CzechStartups a CzechCrunch uvádějí €100k–€600k",
+    "source_url": "https://www.flyingfounders.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We invest €100k–€500k once.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 100000,
+      "max": 500000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "nezveřejněno",
+    "source_url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/",
+    "source_date": "2024-09-03",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Tolgee",
+      "date": "2024-09-03",
+      "round": "menšinový podíl (první investice)",
+      "source_url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/",
+      "source_date": "2024-09-03",
+      "quote": "již za sebou mají i první investici – brněnský nástroj Tolgee",
+      "source_tier": "B"
+    },
+    {
+      "company": "Tiny Empires",
+      "date": "2025-09-17",
+      "round": "akvizice (buyout)",
+      "source_url": "https://tinyempires.substack.com/p/a-new-chapter-for-tiny-empires",
+      "source_date": "2025-09-17",
+      "quote": "Tiny Empires has been acquired by Flying Founders and will join their growing portfolio of SaaS businesses!",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Typ: CzechStartups ho nazývá 'investiční fond', ale jde o s.r.o. dvou podnikatelů (společníci Trantor, s.r.o. – SK a Onsight Partners s.r.o. – CZ dle ARES VR) investující vlastní kapitál bez externích LP – zvoleno private_investor; alternativně vc. country = CZ podle české s.r.o. a jednatele; zakladatelé jsou Slováci (Truban je slovenský poslanec) – skutečné sídlo týmu nejisté. Datum Tolgee = datum článku (Caplight uvádí 8/2024). Tiny Empires je newsletter/mediální byznys, zdroj je vlastní příspěvek prodávané firmy (tier B s výhradou). Web uvádí ve 'portfoliu' i dřívější firmy zakladatelů (Websupport, Billdu, ROI Hunter, Nicereply, Outfindo) – ty nejsou investicemi vozidla. Kapitál nezveřejněn. Žádné instrukce pro AI nenalezeny.",
+  "phase": 2,
+  "corrections_applied": 1
+}

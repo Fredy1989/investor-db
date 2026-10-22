@@ -601,5 +601,304 @@
     "reason": "IČO bylo odvozeno z výsledku vyhledávání (neotevřený PDF EIF), což porušuje pravidlo 'jen otevřené zdroje'; výsledek potvrzen adresou v CVCA",
     "proposed_by": "mac_claude_review",
     "decided_by": "orchestrator"
+  },
+  {
+    "id": "agriboom",
+    "op": "set",
+    "path": "sectors.value",
+    "value": [
+      "industry"
+    ],
+    "reason": "mandát = zemědělství/agritech; energy_climate odporuje (fond nechce klimatické startupy)",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "aternus",
+    "op": "set",
+    "path": "sectors.value",
+    "value": [
+      "saas_b2b",
+      "fintech",
+      "deeptech",
+      "ecommerce"
+    ],
+    "reason": "web jmenuje SaaS, fintech, deep tech, marketplaces; generalist neodpovídá deklarovanému mandátu",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "czegg",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": null,
+        "basis": "portfolio_value"
+      },
+      "original": {
+        "currency": "CZK",
+        "amount": 500000000
+      },
+      "value_text": "hodnota portfolia bezmála 0,5 mld. Kč",
+      "source_url": "https://cc.cz/je-mu-teprve-32-a-na-prazskou-burzu-privedl-miliardove-firmy-ted-bude-nejakou-dobu-suc",
+      "source_date": "2024-05-27",
+      "accessed": "2026-10-22",
+      "quote": "Hodnota portfolia, které ve fondu nyní mám, je bezmála půl miliardy korun",
+      "source_tier": "B"
+    },
+    "reason": "null_missed",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "emuntech",
+    "op": "set",
+    "path": "investor_type",
+    "value": null,
+    "reason": "licencovaná investiční společnost (správce aktiv), ne family office",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "emuntech",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "I4",
+    "reason": "EMUN TECH II je fond fondů – sám neinvestuje do firem",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "emuntech",
+    "op": "set",
+    "path": "decision",
+    "value": "exclude",
+    "reason": "viz výše (přesnější než out_of_scope)",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "flyingfounders",
+    "op": "set",
+    "path": "investor_type",
+    "value": "vc",
+    "reason": "zdroje: investiční fond na pomezí VC/PE; vlastní kapitál zakladatelů nedoložen",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "garageangels",
+    "op": "set",
+    "path": "decision",
+    "value": "exclude",
+    "reason": "Garage Angels z.s. je spolek; investují jednotliví členové osobně (zdroje jmenují osoby) → síť, ne investor",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "garageangels",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "E4",
+    "reason": "síť/asociace andělů, sama neinvestuje (stejně jako CBAA)",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "iibio",
+    "op": "set",
+    "path": "stages.value",
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "reason": "web: 'We can start at €150k to support business creation' → i pre-seed",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetventure",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "target_fund_size",
+    "reason": "50 mil. EUR je cílová částka, ne upsaný fond",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jsk",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "target_fund_size",
+    "reason": "web: TARGET FUND SIZE €20M",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "lookai",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "target_fund_size",
+    "reason": "20 mil. EUR je cíl fundraisingu (2023), close nedoložen",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "lookai",
+    "op": "set",
+    "path": "ticket",
+    "value": {
+      "value": {
+        "min_eur": 250000,
+        "max_eur": 1000000
+      },
+      "value_text": "start 250 tis. EUR, s reinvesticemi až 1 mil. EUR",
+      "source_url": "https://en.ain.ua/2023/04/12/czech-ai-startup-incubator-announces-a-new-e20m-fund-look-ai-ventures",
+      "source_date": "2023-04-12",
+      "accessed": "2026-10-22",
+      "quote": "The ticket sizes start from €250,000 and can reach up to €1 million of reinvestment capital.",
+      "source_tier": "B"
+    },
+    "reason": "250 tis. je počáteční tiket, ne maximum",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "lumus",
+    "op": "set",
+    "path": "investor_type",
+    "value": "angel_syndicate",
+    "reason": "syndikát investující přes vlastní SPV (s.r.o.), ne fyzická osoba; nový typ PLAN §7.15",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "newton",
+    "op": "set",
+    "path": "investor_type",
+    "value": "vc",
+    "reason": "investuje právnická osoba (osoba rizikového kapitálu), ne fyzická osoba",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "newton",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": null,
+        "basis": "previous_fund_size"
+      },
+      "original": {
+        "currency": "CZK",
+        "amount": 2500000
+      },
+      "value_text": "první fond NUAF cca 2,5 mil. Kč; druhý fond cíl 5 mil. Kč",
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-",
+      "source_date": "2024-02-06",
+      "accessed": "2026-10-22",
+      "quote": "S druhým fondem, který by se měl otevírat letos, pak cílí na částku pět milionů korun.",
+      "source_tier": "B"
+    },
+    "reason": "5 mil. Kč je jen cíl druhého fondu",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "partnersinnov",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "I2",
+    "reason": "fond (SICAV) s finančním cílem, ne strategický kupec; žádná doložená investice (založen 2026)",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "purposetech",
+    "op": "set",
+    "path": "capital",
+    "value": {
+      "value": {
+        "eur": 10000000,
+        "basis": "target_fund_size"
+      },
+      "value_text": "PT Capital: max. 10 mil. EUR (240 mil. Kč); první fond necelých 60 mil. Kč",
+      "source_url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "source_date": "2026-02-10",
+      "accessed": "2026-10-22",
+      "quote": "Maximální velikost nového fondu PT Capital je deset milionů eur, tedy 240 milionů korun",
+      "source_tier": "B"
+    },
+    "reason": "nejnovější fond je PT Capital; 60 mil. Kč je první fond",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "qqcapital",
+    "op": "set",
+    "path": "investment_evidence.0.date",
+    "value": "2026-03-06",
+    "reason": "datum článku pulse2; 2026-02-19 jen z CB Insights (tier C)",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "seedstarter",
+    "op": "set",
+    "path": "registry",
+    "value": {
+      "value": "61058769",
+      "value_text": "ČS Seed Starter, a.s. (dceřiná společnost České spořitelny)",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "ČS Seed Starter",
+      "source_tier": "A"
+    },
+    "reason": "45244782 je IČO mateřské banky; investuje dceřiná ČS Seed Starter, a.s.",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "seedstarter",
+    "op": "set",
+    "path": "sectors",
+    "value": {
+      "value": [
+        "fintech"
+      ],
+      "value_text": "technologie pro bankovnictví",
+      "source_url": "https://www.seedstarter.cz/cs/uvod",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "Since 2020 we have been investing in technologies that help banking thrive or bring innovation to our clients.",
+      "source_tier": "A"
+    },
+    "reason": "null_missed",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "seedstarter",
+    "op": "set",
+    "path": "ticket",
+    "value": {
+      "value": {
+        "min_eur": 200000,
+        "max_eur": 1000000
+      },
+      "value_text": "200k – 1M EUR",
+      "source_url": "https://www.seedstarter.cz/cs/uvod",
+      "source_date": "undated",
+      "accessed": "2026-10-22",
+      "quote": "200k – 1M EUR",
+      "source_tier": "A"
+    },
+    "reason": "null_missed",
+    "proposed_by": "blind_verifier_v2",
+    "decided_by": "orchestrator"
   }
 ]

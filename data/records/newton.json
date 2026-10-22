@@ -1,0 +1,117 @@
+{
+  "id": "newton",
+  "name": "NEWTON University Angels",
+  "legal_name": "NEWTON University Angels s.r.o., osoba rizikového kapitálu (pooly NUAF Pool1/2/3 s.r.o.)",
+  "phase": 2,
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "Univerzitní andělský fond (NUAF) s vlastním vozidlem (osoba rizikového kapitálu) a 5–8 malými investicemi, ale žádná investice není doložena s datem po 2023-10-22. Články z 2024 vyjmenovávají portfolio bez dat investic, takže I2 nelze potvrdit.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://newton.university/en/newton-university-angels/",
+  "registry": {
+    "value": "10878131",
+    "value_text": "IČO 10878131, NEWTON University Angels s.r.o., osoba rizikového kapitálu, vznik 2021-05-21; investorské pooly: NUAF Pool2 s.r.o. IČO 21399638 (vznik 2024-04-03), NUAF Pool3 s.r.o. IČO 21853452 (vznik 2024-07-24)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10878131",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"10878131\",\"obchodniJmeno\":\"NEWTON University Angels s.r.o., osoba rizikového kapitálu\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "bez sektorového omezení, „smysluplný byznys“ včetně lokálních firem (deklarace Michala Tesaře v článku)",
+    "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+    "source_date": "2024-02-06",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "B",
+    "derived_from": "investment_evidence"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "value_text": "nejranější fáze, typicky před založením firmy",
+    "source_url": "https://newton.university/en/newton-university-angels/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "we focus on the earliest stages of business where success is rare",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": 20000
+    },
+    "original": {
+      "currency": "EUR",
+      "min": null,
+      "max": 20000
+    },
+    "value_text": "až 20 000 EUR na projekt (jiná verze stránky: až 500 000 Kč; průměr 300 000 Kč dle cc.cz 2024-02-06)",
+    "source_url": "https://newton.university/en/newton-university-angels/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Get up to 20 000 EUR for your project.",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 100301,
+      "basis": "previous_fund_size"
+    },
+    "original": {
+      "currency": "CZK",
+      "amount": 2500000
+    },
+    "value_text": "první fond NUAF cca 2,5 mil. Kč; druhý fond cíl 5 mil. Kč · přepočet ECB k 2024-02-06: 1 EUR = 24.925 CZK",
+    "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-",
+    "source_date": "2024-02-06",
+    "accessed": "2026-10-22",
+    "quote": "S druhým fondem, který by se měl otevírat letos, pak cílí na částku pět milionů korun.",
+    "source_tier": "B",
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2024-02-06",
+      "eur_rate": 24.925,
+      "currency": "CZK"
+    }
+  },
+  "funds": [
+    {
+      "name": "NUAF (první fond)",
+      "size_eur": 103042,
+      "original": {
+        "currency": "CZK",
+        "amount": 2500000
+      },
+      "vintage": null,
+      "domicile": "CZ",
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+      "quote": "první fond NUAF má velikost přibližně 2,5 milionu korun",
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2026-10-21",
+        "eur_rate": 24.262,
+        "currency": "CZK"
+      }
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Basefound, AntsPark, Believer, Bogroti, Take up (5 firem, data jednotlivých investic neuvedena)",
+      "date": "undated",
+      "round": "pre-seed (NUAF, první fond)",
+      "source_url": "https://cc.cz/dalsi-vlastovka-mezi-ceskymi-vysokymi-skolami-soukroma-newton-university-investuje-do-mladych-startupu/",
+      "source_date": "2024-02-06",
+      "quote": "NUAF vznikl před rokem a půl a podpořil pět firem – kancelářský nábytek a doplňky Basefound,",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "I2 nedoloženo s datem: cc.cz (2024-02-06) uvádí 5 investic za ~1,5 roku od vzniku fondu (tj. cca 2022–2024), ale bez dat jednotlivých dealů; rozhovor na czechstartups.gov.cz (bez data) uvádí 8 projektů (navíc LoveGuard, Take Up); newton.today (2024-05-31) uvádí portfolio a získání ~5 mil. Kč od investorů v dalším kole, opět bez dat. Vznik NUAF Pool2 (04/2024) a Pool3 (07/2024) naznačuje aktivitu v 2024, ale to není důkaz investice. Hledal jsem tiskové zprávy k LoveGuard/Take Up – nenašel. Pro zařazení by stačilo ověřit ve sbírce listin / u společníků portfoliových firem, že NUA či NUAF Pool vstoupil po 2023-10-22. Typ 'angel' (andělská skupina/syndikát při univerzitě s poolovými s.r.o.); alternativně 'vc'. Sektory: deklarace 'smysluplný byznys' bez taxonomie, proto generalist s derived_from. Instrukce pro AI na stránkách nenalezeny.",
+  "corrections_applied": 2
+}

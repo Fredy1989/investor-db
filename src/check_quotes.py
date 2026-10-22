@@ -81,6 +81,14 @@ def pdf_text(content):
     return " ".join((p.extract_text() or "") for p in reader.pages)
 
 
+def is_empty(value) -> bool:
+    if value in (None, "", []):
+        return True
+    if isinstance(value, dict):
+        return all(is_empty(v) for k, v in value.items() if k != "basis")
+    return False
+
+
 def ngram_score(quote, page, n=5):
     words = quote.split()
     if len(words) < n:
@@ -113,6 +121,12 @@ def main():
     for rec in load_records():
         for field, idx, fact in iter_facts(rec):
             url = fact["source_url"]
+            if is_empty(fact.get("value")) and not fact.get("quote") and field != "funds":
+                # prázdné pole: URL jen říká, kde agent hledal – není co ověřovat
+                rows.append({"id": rec["id"], "decision": rec.get("decision"), "field": field, "index": idx,
+                             "source_url": url, "source_tier": fact.get("source_tier", ""), "http_status": "",
+                             "verdict": "null_field", "score": "", "quote": ""})
+                continue
             status, page = fetch(url)
             verdict, score = check(fact.get("quote", ""), status, page)
             rows.append({

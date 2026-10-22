@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+jsk,decision,ok,,https://www.newstream.cz/zpravy-z-firem/fond-kijonkovych-jsk-investoval-do-britskeho-vyvojare-cipu-pro-neurotechnologie,Investiční fond JSK Investments SICAV Simony a Jaromíra Kijonkových,"Investoval fond (ne Kijonkovi osobně), 10.10.2026, tier B; pražské sídlo. Jen 1 doložený deal, fond vznikl 10/2025 – I3 splněno jako fond s hlavní činností."
+jsk,investor_type,ok,,https://www.jskinvestments.ventures/en,JSK Investments SICAV a.s. is a self-managed investment fund,"vc sedí; country CZ (Klimentská 1216/46, Praha 1); web sedí."
+jsk,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445,JSK Investments SICAV a.s.,"Samosprávný SICAV, takže správce = SICAV. Vznik 2025-10-09."
+jsk,sectors,ok,,https://www.jskinvestments.ventures/en,"Applied AI, deep tech, robotics, quantum applications, climate technologies solving high-value real-world problems.","Health: 'Healthtech, medtech, femtech, mental health, agetech and animal health.'"
+jsk,stages,ok,,https://www.jskinvestments.ventures/en,Early stage ... to Series B (Series B only for follow on),Seed + series_a odpovídá; Series B jen follow-on.
+jsk,ticket,ok,,https://www.jskinvestments.ventures/en,From €300K,
+jsk,capital,wrong,"20 000 000 EUR, basis = target_fund_size (z toho 10 mil. EUR interní kapitál)",https://www.jskinvestments.ventures/en,TARGET FUND SIZE ... €20M,"Web uvádí cílovou velikost, ne uzavřený fond; basis latest_fund_size nesedí. Doložitelný je '€10M internal capital'."
+jsk,investment_evidence,ok,,https://www.newstream.cz/zpravy-z-firem/fond-kijonkovych-jsk-investoval-do-britskeho-vyvojare-cipu-pro-neurotechnologie,Kolo vedl fond Odyssey Ventures.,'pět milionů dolarů (asi 109 milionů korun)'; Londýnský spin-off Imperial College London; článek 10. 10. 2026.

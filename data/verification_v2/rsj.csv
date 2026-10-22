@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+rsj,decision,ok,,https://en.ain.ua/2024/01/25/hedepy-closes-3-85m-investment-psychotherapy-platform,"The investment was co-led by Czechia's investment firm N1, private VC fund Purple Ventures, and RSJ Investments.","Deal 25.1.2024 (tier B) v okně; český správce. Pozn.: RSJ Tech/Angel Tech jsou hlavně fondy fondů (LP), přímé ko-investice doplňkově."
+rsj,investor_type,ok,,https://rsj.com/en/investments/investments/tech,RSJ Tech invests in VC funds that support startups from Pre-Seed to Series A.,"vc přijatelné, ale jde převážně o fund-of-funds; zvážit poznámku. CZ a web sedí."
+rsj,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225,RSJ Investments investiční společnost a.s.,Správce fondů RSJ Tech / Angel Tech.
+rsj,sectors,ok,,https://www.rsj.com/en/investments/investments/angeltech,"primarily in sectors such as artificial intelligence, machine learning, blockchain, and biotech","ai a health (biotech) doloženy mandátem Angel Tech; 'deeptech' plyne jen z popisu podkladového fondu Lunar Ventures, ne z mandátu RSJ."
+rsj,stages,ok,,https://rsj.com/en/investments/investments/tech,RSJ Tech invests in VC funds that support startups from Pre-Seed to Series A.,Fáze cílových startupů přes VC fondy.
+rsj,ticket,null_ok,,https://rsj.com/en/investments/investments/tech,,"Tiket neuveden; limit '<40 mil. EUR' je velikost cílových fondů, ne tiket."
+rsj,capital,null_ok,,https://rsj.com/en/investments/investments/tech,,"Velikost fondů nenalezena (jen starý záměr skupiny 6 mld Kč z 2015, finance.cz)."
+rsj,investment_evidence,ok,,https://en.ain.ua/2024/01/25/hedepy-closes-3-85m-investment-psychotherapy-platform,"closed its investment round totaling €3.85 million from N1, Purple Ventures, RSJ Investments, Impact Ventures, and several business angels.",Fáze 'seed' ve zdroji neuvedena (jen 'investment round'); jinak sedí.

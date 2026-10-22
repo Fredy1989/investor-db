@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+kbsmart,decision,ok,,https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/,Komerční banka přes svou dceřinou společnost KB SmartSolutions v Upvestu držela podíl na úrovni 96 procent,"Inactive/E6 obhajitelné: odkup zbylých 4 % (2025) je konsolidace dceřiné firmy, ne nová venture investice; poslední nová investice (navýšení Upvest na 96 %) 8/2022, mimo okno od 2023-10-22. Článek nepíše, že 4 % kupovala přímo KBSS (píše 'banka'). Hraniční – zvážit i E7."
+kbsmart,investor_type,wrong,cvc jen s výhradou – PLAN §1 definuje cvc jako rameno NEfinanční firmy; KB je banka,https://www.kbsmart.cz/,"Fintechům poskytujeme funding, pomáháme v rozvoji a masivním růstu.","Podle doslovné definice v PLAN §1 nesedí (mateřská firma je banka). Buď upřesnit definici cvc o banky, nebo typ změnit. country CZ a web sedí."
+kbsmart,registry,ok,,https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=KB+SmartSolutions&jenPlatne=PLATNE,"KB SmartSolutions, s.r.o. IČO: 02021161","Sídlo Václavské náměstí 796/42, Praha 1."
+kbsmart,sectors,ok,,https://www.kbsmart.cz/,"Fintechům poskytujeme funding, pomáháme v rozvoji a masivním růstu.",
+kbsmart,stages,null_ok,,https://www.kbsmart.cz/,,"Web fáze nedeklaruje (jen 'úvodní fáze vývoje produktu za sebou', 'první spokojené klienty')."
+kbsmart,ticket,null_ok,,https://www.kbsmart.cz/,,Částky nikde neuvedeny.
+kbsmart,capital,null_ok,,https://www.kbsmart.cz/,,"Kapitál neuveden; basis own_balance_sheet je odvození, ne citace."
+kbsmart,investment_evidence,ok,,https://cc.cz/pred-lety-komercni-banku-zaujal-ztratovy-startup-dostala-jej-do-zisku-a-ted-ho-cely-ovladla/,Komerční banka přes svou dceřinou společnost KB SmartSolutions v Upvestu držela podíl na úrovni 96 procent,"Článek 21. 8. 2025; zbylá 4 % držely čtyři menšinoví podílníci (Musil, Volný, Holásek, Malík). Popis v záznamu sedí."

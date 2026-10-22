@@ -1,0 +1,85 @@
+{
+  "id": "lumus",
+  "name": "Lumus Investment",
+  "legal_name": "Lumus Investment Collective s.r.o. (SPV pro dealy: Lumus II, III, V, VI s.r.o.)",
+  "phase": 2,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Syndikát andělských investorek se sídlem v Praze, který investuje přes SPV (s.r.o.), takže nejde o crowdfundingovou platformu (E1). Doložená účast v kole Kardi AI (tech.eu 2025-04-28).",
+  "investor_type": "angel_syndicate",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.lumusinvestment.com/",
+  "registry": {
+    "value": "10664335",
+    "value_text": "IČO 10664335, Lumus Investment Collective s.r.o., vznik 2021-03-11, Kurzova 2222/16, Praha 5; SPV Lumus II s.r.o. 10900055, Lumus III s.r.o. 10937196, Lumus V s.r.o. 14358336, Lumus VI s.r.o. 17231167",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10664335",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"10664335\",\"obchodniJmeno\":\"Lumus Investment Collective s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "bez sektorového zaměření",
+    "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/",
+    "source_date": "2021-11-04",
+    "accessed": "2026-10-22",
+    "quote": "a nezaměřuje se na žádnou konkrétní oblast, v níž startupy působí.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "early-stage startupy v investiční fázi 50–200 tis. EUR (velikost kola startupu, ne tiket Lumusu)",
+    "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/",
+    "source_date": "2021-11-04",
+    "accessed": "2026-10-22",
+    "quote": "v investiční fázi mezi 50 tisíci až 200 tisíci eur, tedy přibližně mezi jedním a pěti miliony korun.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "original": null,
+    "value_text": "tiket syndikátu nezveřejněn; minimum na členku 5 000 EUR (to není tiket do firmy)",
+    "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/",
+    "source_date": "2021-11-04",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "original": null,
+    "value_text": "syndikát bez fondu, kapitál se skládá per deal",
+    "source_url": "https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/",
+    "source_date": "2021-11-04",
+    "accessed": "2026-10-22",
+    "quote": "Samotná investice probíhá pomocí tzv. SPV (special purpose vehicle), což je obdoba české s. r. o.",
+    "source_tier": "B"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Kardi AI",
+      "date": "2025-04-28",
+      "round": "€1.1M (nový investor vedle BrightCap, DEPO Ventures, Garage Angels)",
+      "source_url": "https://tech.eu/2025/04/28/czech-medtech-kardi-ai-raises-1-1m-to-expand-heart-monitoring-tech/",
+      "source_date": "2025-04-28",
+      "quote": "with new support from Lumus Investment Collective and a Czech angel investor.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Lumus investuje přes SPV, které spoluvlastní zúčastněné členky; zdroj jmenuje 'Lumus Investment Collective', ne jednotlivé osoby, takže pravidlo 5 v2 je splněné, ale není jasné, které SPV v Kardi AI drží podíl. HTG Medical (03/2025) a MultiplexDX (06/2023) jsou jen v agregátoru Caplight – nepoužito jako důkaz. I3: pro syndikát je investování hlavní deklarovaná činnost; starší dealy BikeFair, Houston, Zenoo (2021), Roleshare (2022). Zakladatelky jsou Slovenky a komunita se schází v Londýně, Praze a Bratislavě; sídlo s.r.o. i CB Insights = Praha, proto CZ. Instrukce pro AI nenalezeny.",
+  "corrections_applied": 1
+}

@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+seeders,decision,ok,,https://theseeders.cz/,"The Seeders je skupina andělských investorů, utvořená v roce 2024 kolem zakladatelů značky Niceboy®.","Exclude obhajitelné: na webu jsou portfoliové firmy (Niceboy, Furiosa, Dype, Cecelice, Solarity) bez dat; 2 vyhledávání nenašla datovaný deal z tieru A/B. Navíc chybí právnická osoba (I1) a investují patrně zakladatelé osobně (syndikát andělů)."
+seeders,investor_type,ok,,https://theseeders.cz/,"The Seeders je skupina andělských investorů, utvořená v roce 2024 kolem zakladatelů značky Niceboy®.","Skupina/syndikát andělů. Country CZ: na webu sídlo neuvedeno, zakladatelé Niceboy jsou čeští (cc.cz 5. 11. 2024)."
+seeders,registry,null_ok,,https://theseeders.cz/,,Web neuvádí IČO ani právnickou osobu; vyhledáváním nenalezena.
+seeders,sectors,null_ok,,https://theseeders.cz/,,Sektor na webu neuveden; cc.cz zmiňuje i 'méně novátorské projekty'.
+seeders,stages,ok,,https://theseeders.cz/,Seedujeme primárně menší firmy a podnikatele v počátečních fázích.,
+seeders,ticket,ok,,https://theseeders.cz/,"Do jednoho projektu investujeme od 1-10 mil. CZK, jsme ale otevřeni jednat i o investicích ve vyšších řádech.",1–10 mil. CZK sedí.
+seeders,capital,null_ok,,https://theseeders.cz/,,Neuvedeno.
+seeders,investment_evidence,null_ok,,https://theseeders.cz/,,"Web uvádí portfolio (Furiosa, Dype, Cecelice, Solarity) bez dat; cc.cz (5. 11. 2024) jen plány. Datovaný deal z tieru A/B nenalezen."

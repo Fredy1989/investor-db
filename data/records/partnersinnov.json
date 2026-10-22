@@ -1,0 +1,85 @@
+{
+  "id": "partnersinnov",
+  "name": "Partners Innovation Fund",
+  "legal_name": "Partners Innovation Fund SICAV, a.s.",
+  "decision": "exclude",
+  "exclusion_rule": "I2",
+  "decision_reason": "Fond kvalifikovaných investorů skupiny Partners (vznik 1/2026, první closing 7/2026), jehož mandát je investovat do finančních a distribučních společností vlastní skupiny Partners; fintech/insurtech jen okrajově. Není to VC do startupů a žádná investice do externí firmy není doložena.",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.partnersholdco.com/en/partners-innovation-fund",
+  "registry": {
+    "value": "24412716",
+    "value_text": "IČO 24412716, Partners Innovation Fund SICAV, a.s., Türkova 2319/5b, Chodov, Praha 4, vznik 2026-01-26",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24412716",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "24412716",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "fintech"
+    ],
+    "value_text": "financial and distribution companies of the Partners Group; fintech/insurtech v menším rozsahu",
+    "source_url": "https://www.partnersholdco.com/en/partners-innovation-fund",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "long-term capital appreciation through investments in the financial and distribution companies of the Partners Group",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "nenalezeno; mandát je skupinový (vlastní firmy skupiny), ne fázový",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "investor tiket neuvádí (stránka uvádí jen minimální vklad investora do fondu 1 000 000 CZK, což není tiket)",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "velikost fondu neuvedena",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "Partners Innovation Fund SICAV, a.s. (+ podfond Partners Innovation podfond)",
+      "original": null,
+      "size_eur": null,
+      "vintage": 2026,
+      "domicile": "CZ",
+      "registry": {
+        "value": "24412716",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24412716"
+      },
+      "manager": "QI investiční společnost, a.s. (skupina Conseq) dle webu Partners HoldCo",
+      "source_url": "https://www.partnersholdco.com/en/partners-innovation-fund",
+      "quote": "long-term capital appreciation through investments in the financial and distribution companies of the Partners Group"
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Kandidát uváděl správce Partners investiční společnost; podle webu Partners HoldCo fond obhospodařuje a administruje QI investiční společnost, a.s. (Conseq), Partners investiční společnost (IČO 24716006) jen ve skupině. Fond vznikl 19. 1. 2026 (zápis ČNB), podfond 6. 2. 2026, první closing 10. 7. 2026. Žádné konkrétní portfoliové investice ani tým stránka neuvádí. E7 zvoleno jako nejbližší pravidlo (vozidlo kupuje podíly ve vlastní skupině, ne finanční investice do cizích startupů); alternativně I2 (nedoložena investice). Pozor na záměnu s americkým Partners Innovation Fund (Partners HealthCare/Mass General Brigham, Boston) - jiný subjekt. Pokusy hledat tiskové zprávy o dealech fondu bez výsledku.",
+  "phase": 2,
+  "corrections_applied": 1
+}

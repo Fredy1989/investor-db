@@ -57,11 +57,12 @@ def main():
     rows = []
 
     # A) surový výstup agenta A podle agenta B
-    decisions = raw_decisions()
     b = {}
     for p in sorted((DATA / "verification").glob("*.csv")):
         for row in read_csv(p):
             b[(row["id"].strip(), norm_field(row["field"]))] = row["verdict"].strip().lower()
+    # jen záznamy fáze 1 (ty, které ověřoval agent B v1)
+    decisions = {rid: d for rid, d in raw_decisions().items() if any(k[0] == rid for k in b)}
     print("A) Surový výstup rešeršního agenta, ověřeno agentem B (všech 29 záznamů)")
     print(f"   {'pole':<20} {'ok':>3} {'chyba':>5} {'neov.':>5} {'null_ok':>7} {'null_miss':>9} {'přesnost':>9}")
     for field in FIELDS:
@@ -82,6 +83,8 @@ def main():
           f" = {pct(precision(fields))}")
     print(f"   zmeškané údaje (null, ale veřejně existují):  {fields['null_missed']}"
           f"/{fields['null_ok'] + fields['null_missed']}")
+
+    rows += phase2(decisions_all=raw_decisions())
 
     # B) + C) ruční kontrola
     manual = [r for r in read_csv(DATA / "manual_check.csv") if (r.get("human_verdict") or "").strip()]
@@ -121,6 +124,35 @@ def main():
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
         w.writerows(rows)
+
+
+def phase2(decisions_all: dict) -> list[dict]:
+    """E) Fáze 2: pokyny v2, ověřeno SLEPÝM ověřovatelem (viděl jen tvrzení + URL)."""
+    v = {}
+    for p in sorted((DATA / "verification_v2").glob("*.csv")):
+        for row in read_csv(p):
+            v[(row["id"].strip(), norm_field(row["claim"]))] = row["verdict"].strip().lower()
+    if not v:
+        return []
+    ids = {rid for rid, _ in v}
+    inc = [rid for rid in ids if decisions_all.get(rid) == "include"]
+    print(f"\nE) Fáze 2 (pokyny v2), slepý ověřovatel ({len(ids)} záznamů, zařazeno {len(inc)})")
+    rows = []
+    for field in FIELDS:
+        c = Counter(val for (rid, f), val in v.items() if f == field and rid in inc)
+        rows.append({"measure": "E_phase2_raw_by_blind_verifier", "field": field, **{k: c[k] for k in
+                     ("ok", "wrong", "unverifiable", "null_ok", "null_missed")}, "precision": pct(precision(c))})
+        print(f"   {field:<20} {c['ok']:>3} {c['wrong']:>5} {c['unverifiable']:>5} {c['null_ok']:>7} "
+              f"{c['null_missed']:>9} {pct(precision(c)):>9}")
+    good = [rid for rid in inc if v.get((rid, "decision")) == "ok" and v.get((rid, "investor_type")) == "ok"]
+    fields = Counter(val for (rid, f), val in v.items() if rid in inc and f not in ("decision", "investor_type"))
+    excl = [rid for rid in ids if decisions_all.get(rid) != "include"]
+    excl_ok = [rid for rid in excl if v.get((rid, "decision")) == "ok"]
+    print(f"   přesnost záznamu: {len(good)}/{len(inc)} = {len(good) / len(inc):.0%}")
+    print(f"   správně vyřazené / neaktivní / mimo rozsah: {len(excl_ok)}/{len(excl)}")
+    print(f"   přesnost vyplněných polí: {fields['ok']}/{fields['ok'] + fields['wrong']} = {pct(precision(fields))}")
+    print(f"   zmeškané údaje: {fields['null_missed']}/{fields['null_ok'] + fields['null_missed']}")
+    return rows
 
 
 if __name__ == "__main__":

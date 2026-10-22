@@ -1,0 +1,82 @@
+{
+  "id": "limerock",
+  "name": "Limerock Ventures",
+  "legal_name": "Limerock Advisory, s.r.o. (SK, IČO 46 092 897); správce AIF Limerock Investment Holding, s.r.o. (SK, IČO 44 777 028)",
+  "decision": "out_of_scope",
+  "exclusion_rule": "out_of_scope",
+  "decision_reason": "Slovenská (Bratislava) poradenská firma s VC ramenem; tým ani správce nejsou v Česku → mimo vzorek (v2 bod 6). E4 by samo neplatilo, protože firma má vlastní investiční vozidlo (registrovaný správce AIF).",
+  "investor_type": "vc",
+  "country": "SK",
+  "hq_city": "Bratislava",
+  "website": "https://www.limerock.sk",
+  "registry": {
+    "value": "46092897",
+    "value_text": "Business registration ID 46 092 897, Limerock Advisory, s.r.o., Obchodný register Bratislava III, Sro 71624/B; AIFM Limerock Investment Holding, s.r.o., IČO 44 777 028, reg. NBS č. 004",
+    "source_url": "https://www.limerock.sk/main",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Business registration ID: 46 092 897",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry",
+      "saas_b2b"
+    ],
+    "value_text": "Industrial Tech a další B2B",
+    "source_url": "https://www.limerock.sk/main",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Currently, we are looking for investment opportunities in Late Seed & Series A rounds in revenue-generating firms primarily emerging from the Czech and Slovak region, with a focus on Industrial Tech and other B2B businesses.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "value_text": "Late Seed & Series A",
+    "source_url": "https://www.limerock.sk/main",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Currently, we are looking for investment opportunities in Late Seed & Series A rounds in revenue-generating firms primarily emerging from the Czech and Slovak region, with a focus on Industrial Tech and other B2B businesses.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "na webu neuvedeno",
+    "source_url": "https://www.limerock.sk/main",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "na webu neuvedeno",
+    "source_url": "https://www.limerock.sk/main",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [
+    {
+      "name": "JEREMIE Co-Investment Fund, s.r.o.",
+      "size_eur": null,
+      "vintage": null,
+      "domicile": "SK",
+      "source_url": "https://www.limerock.sk/sfdr",
+      "quote": "The AIFM has not taken any new investment decisions since 1 November 2016."
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Test E4: Limerock kombinuje transakční poradenství a VC rameno ('Limerock combines a transaction advisory business for clients and a venture capital arm that specializes in early growth-stage investments.'), takže čisté E4 neplatí. Rozhoduje sídlo: Bratislava, slovenský registr, žádná česká pobočka nenalezena; CzechStartups katalog jej sám popisuje jako investora 'based in Slovakia'. Navíc jediný doložený fond JCIF nečiní nová investiční rozhodnutí od 1. 11. 2016 (z hlediska aktivity by šlo o E6). Web zmiňuje 'Limerock Fund Portfolio' a Zero Gravity Capital, ale aktuální fond ani dealy po 2023-10-22 jsem nedohledal (stránka SIH blokovala přístup WAF). Agregátor superscout uvádí 12 mil. EUR a tiket 0,5–2 mil. EUR – neověřeno, nepoužito.",
+  "phase": 2
+}

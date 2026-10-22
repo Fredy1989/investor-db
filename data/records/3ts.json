@@ -1,0 +1,119 @@
+{
+  "id": "3ts",
+  "name": "3TS Capital Partners",
+  "legal_name": "3TS Capital Partners k.s. (dle profilu na Profesia.sk; neověřeno v registru)",
+  "decision": "out_of_scope",
+  "exclusion_rule": "out_of_scope",
+  "decision_reason": "Aktivní evropský technologický growth investor (TCEE Fund IV, Patronus 05/2026), ale tým sedí ve Vídni, Varšavě, Bukurešti, Budapešti, Bratislavě a USA – bez českého týmu/správce, takže dle v2 bodu 6 mimo vzorek Česko.",
+  "investor_type": "vc",
+  "country": "AT",
+  "hq_city": "Vienna",
+  "website": "https://www.3tscapital.com",
+  "registry": {
+    "value": null,
+    "value_text": "Nenalezeno – registr správce (rakouský Firmenbuch / lucemburský RCS) jsem neotevřel; 3tscapital.com nemá impresum s IČ.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "technologie, média, technology-enabled services (popis v tiskové zprávě advokátní kanceláře)",
+    "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+    "source_date": "2026-05-04",
+    "accessed": "2026-10-22",
+    "quote": "3TS Capital Partners is a technology-focused growth equity firm that invests across Europe in sectors such as technology, media, and technology-enabled services.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "value_text": "technology growth equity",
+    "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+    "source_date": "2026-05-04",
+    "accessed": "2026-10-22",
+    "quote": "3TS Capital Partners is a technology-focused growth equity firm that invests across Europe in sectors such as technology, media, and technology-enabled services.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Neuvedeno na webu ani v otevřených zdrojích.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 450000000,
+      "basis": "total_across_funds"
+    },
+    "value_text": "přes 450 mil. EUR získaných od investorů (napříč fondy)",
+    "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+    "source_date": "2026-05-04",
+    "accessed": "2026-10-22",
+    "quote": "With over 450 million Euro raised from investors including EIF, Tesi, Cisco, EBRD and Erste, 3TS combines a strong financial foundation, strategic support, and extensive networks across Europe and the United States.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "amount": 450000000
+    }
+  },
+  "funds": [
+    {
+      "name": "TCEE Fund IV",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": null,
+      "registry": null,
+      "source_url": "https://www.profesia.sk/praca/3ts-capital-partners-k-s/C253667",
+      "quote": "The latest fund generations which 3TS advises include TCEE Fund IV, a pan-regional technology growth funds investing primarily in companies with operations in Central Europe and Eastern Europe, and Catalyst Romania Fund II"
+    },
+    {
+      "name": "Catalyst Romania Fund II",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": null,
+      "registry": null,
+      "source_url": "https://www.profesia.sk/praca/3ts-capital-partners-k-s/C253667",
+      "quote": "Catalyst Romania Fund II, which is an earlier-stage technology fund investing mainly in Romania and neighbouring countries."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "RR Technologies GmbH (Patronus), Berlín",
+      "date": "2026-05-04",
+      "round": "11 mil. EUR, lead 3TS (TCEE Fund IV)",
+      "source_url": "https://www.heuking.de/en/career/latest-news/detail/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+      "source_date": "2026-05-04",
+      "quote": "The financing round led by 3TS Capital totals 11 million Euro.",
+      "source_tier": "B"
+    }
+  ],
+  "country_evidence": {
+    "value": [
+      "Vienna",
+      "Warsaw",
+      "Bucharest",
+      "Budapest",
+      "Bratislava",
+      "US"
+    ],
+    "value_text": "kanceláře týmu (bez Prahy)",
+    "source_url": "https://www.profesia.sk/praca/3ts-capital-partners-k-s/C253667",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "3TS comprises of an international team of 15 people with eight different nationalities and offices in Vienna, Warsaw, Bucharest, Budapest, Bratislava, and the US.",
+    "source_tier": "C"
+  },
+  "notes": "Rozhodující je sídlo týmu: profil na Profesia.sk (pracovní portál, nedatovaný, tier C) uvádí kanceláře Vídeň, Varšava, Bukurešť, Budapešť, Bratislava, USA – Praha chybí. Starší zdroje (jen ve výsledcích vyhledávání, neotevřené) zmiňovaly i pražskou kancelář, ta podle všeho už neexistuje. Stránka týmu na 3tscapital.com vrací 404, kontakt nemá adresy. country=AT je odhad podle prvního místa v seznamu (Vídeň); formálně HQ nepotvrzeno. Datum Heuking zprávy '05-04-2026' je ve formátu MM-DD-YYYY (německá verze URL nese 04.05.2026) → 2026-05-04. Registr správce neověřen.",
+  "phase": 2
+}

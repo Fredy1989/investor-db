@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+maccelerator,decision,ok,,https://altss.com/profile/maccelerator-vc,"Warsaw, Poland","out_of_scope obhajitelné (sídlo PL, vzorek = CZ). Navíc žádný deal od 2023-10 nenalezen (portfolio 2019: Digital Teammates, CyberRescue...), takže by byl i E6/inactive. exclusion_rule 'out_of_scope' není kód E1-E8/I1-I4."
+maccelerator,investor_type,ok,,https://en.media.mbank.pl/36471-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions,mBank will invest EUR 50 million (or ca. PLN 200 million) in new technologies,cvc (rameno mBank) / PL sedí.
+maccelerator,registry,null_ok,,,,"Polský KRS nedohledán ve 2 vyhledáváních; pro out_of_scope nepodstatné, ale I1 není doložen."
+maccelerator,sectors,wrong,fintech (zdroj e15 18. 4. 2017),https://www.e15.cz/rozhovory/jaroslaw-mastalerz-z-mbank-globalni-byznys-z-varsavy-a-prahy-delat-nelze-zmenime-to-1331330,odešel řídit fintechový fond mAccelerator,"Hodnota fintech je správná, ale uvedený zdroj altss.com fintech neuvádí (Sectors: 'Venture Capital', 'Poland') - chybná source_url."
+maccelerator,stages,null_missed,"stage-agnostic (altss, tier C); CB Insights: seed a early-stage",https://altss.com/profile/maccelerator-vc,stage-agnostic,Uvedený zdroj fázi obsahuje.
+maccelerator,ticket,ok,,https://www.e15.cz/rozhovory/jaroslaw-mastalerz-z-mbank-globalni-byznys-z-varsavy-a-prahy-delat-nelze-zmenime-to-1331330,Máme limit deset milionů eur na projekt.,Zdroj z 18. 4. 2017 - zastaralé (>36 měs.).
+maccelerator,capital,ok,,https://en.media.mbank.pl/36471-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions,mBank will invest EUR 50 million (or ca. PLN 200 million) in new technologies,"Zdroj 16. 2. 2017 - zastaralé; jde o závazek banky, ne nutně uzavřený fond."
+maccelerator,investment_evidence,null_ok,,,,Žádná investice od 2023-10-22 nenalezena (2 vyhledávání).

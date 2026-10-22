@@ -1,0 +1,84 @@
+{
+  "id": "up271",
+  "name": "UP271",
+  "legal_name": "UP 271 s.r.o.",
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "Prague investiční společnost Karla Janečka (navazuje na UP21) s portfoliem ~21 projektů, ale žádná investice UP271 po 2023-10-22 není doložena zdrojem tier A/B; portfolio na webu je bez dat.",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://up271.com",
+  "registry": {
+    "value": "06816339",
+    "value_text": "IČO 06816339, UP 271 s.r.o., Zapova 1559/18, Praha 5 (vznik 2018-01-30); totéž IČ v kontaktech webu",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"06816339\",\"obchodniJmeno\":\"UP 271 s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "společnosti a start-upy z různých odvětví s dopadem (impact)",
+    "source_url": "https://up271.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Investujeme do společností a start-upů z různých odvětví, které spojuje touha měnit svět k lepšímu.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": null,
+    "value_text": "fáze na webu neuvedena",
+    "source_url": "https://up271.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "neuvedeno",
+    "source_url": "https://up271.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "kumulativně investováno téměř 40 mil. EUR do 21+ projektů (není to volný kapitál ani velikost fondu)",
+    "source_url": "https://up271.com/en/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We manage a portfolio of more than 21 projects in which we have invested almost EUR 40 million.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 40000000,
+      "kind": "cumulative_invested_almost"
+    }
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Portfolio bez dat (ABAKU, Edhance, Spaceflow, WHAT News, Ringil, Poetizer, Sens, NutritionPro, CB 21 pharma …)",
+      "date": null,
+      "round": "nezjištěno",
+      "source_url": "https://up271.com/portfolio/",
+      "source_date": "undated",
+      "quote": "Modulární logistická platforma v cloudu.",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Hledal jsem dealy UP271 2023–2026 (web, ARES, CzechCrunch/Forbes/BusinessInfo) – nic datovaného. Poetizer (70+ mil. Kč) investoval Karel Janeček jako soukromá osoba → podle v2 bodu 5 to není důkaz pro UP271. NutritionPro (2021) šel přes Janečka a UP21, ne UP271, a je mimo okno. Agregátory (Caplight, PitchBook – „UP21 (Czech Republic)“, ConnectSafely) se rozcházejí, poslední deal v Caplight 11/2020. Typ family_office je odhad (jediný společník Karel Janeček podle VR v ARES; web sám typ neuvádí). Vztah k UP21 / STAR*21 nejasný – web uvádí jen 'UP271 navazuje na historii společností UP21 a Byznys 21.' Pokud UP21 v DB bude, zvážit E8.",
+  "phase": 2
+}

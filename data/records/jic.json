@@ -1,0 +1,126 @@
+{
+  "id": "jic",
+  "name": "JIC Ventures",
+  "legal_name": "JIC Ventures, s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Brněnský VC fond inovační agentury JIC (pre-seed/seed, CEE); nový fond 400 mil. Kč spuštěn 4/2026, první investice FaceUp Series A (5/2026); předchozí vozidlo investovalo v roce 2025 (Customerscore.io, CasInvent Pharma, Eterny, Groundcom).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://www.jic.cz/ventures/",
+  "registry": {
+    "value": "04156293",
+    "value_text": "IČO 04156293, JIC Ventures, s.r.o., Purkyňova 649/127, Medlánky, Brno, vznik 2015-06-15",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04156293",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "04156293",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "deeptech",
+      "saas_b2b"
+    ],
+    "value_text": "Deep tech, SaaS, and other",
+    "source_url": "https://www.jic.cz/ventures/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Deep tech, SaaS, and other",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "Pre-seed / Seed stage",
+    "source_url": "https://www.jic.cz/ventures/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Pre-seed / Seed stage",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": 1000000
+    },
+    "value_text": "Tickets up to €1M",
+    "source_url": "https://www.jic.cz/ventures/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Tickets up to €1M",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "max": 1000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 16305899,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "fond o objemu 400 mil. Kč (cílová velikost; k 7.4.2026 nebyl finálně uzavřen) · přepočet ECB k 2026-04-07: 1 EUR = 24.531 CZK",
+    "source_url": "https://www.jic.cz/cz/o-nas/pro-media/jic-spustil-venture-kapitalovy-fond-pro-startupy-r",
+    "source_date": "2026-04-07",
+    "accessed": "2026-10-22",
+    "quote": "Fond o objemu 400 milionů korun",
+    "source_tier": "A",
+    "original": {
+      "currency": "CZK",
+      "amount": 400000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-04-07",
+      "eur_rate": 24.531,
+      "currency": "CZK"
+    }
+  },
+  "funds": [
+    {
+      "name": "JIC Ventures (nový fond, 2026)",
+      "original": {
+        "currency": "CZK",
+        "amount": 400000000
+      },
+      "size_eur": 16486687,
+      "vintage": 2026,
+      "domicile": "CZ",
+      "registry": null,
+      "source_url": "https://www.jic.cz/cz/o-nas/pro-media/jic-spustil-venture-kapitalovy-fond-pro-startupy-r",
+      "quote": "Fond o objemu 400 milionů korun",
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2026-10-21",
+        "eur_rate": 24.262,
+        "currency": "CZK"
+      }
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "FaceUp",
+      "date": "2026-05-21",
+      "round": "Series A, celkem přes 110 mil. Kč (vedl Fil Rouge Capital)",
+      "source_url": "https://een.gov.cz/novinka/prvni-investice-noveho-fondu-jic-ventures-miri-do-technologickeho-startupu-faceup/",
+      "source_date": "2026-05-21",
+      "quote": "Fond se připojil k investičnímu kolu Series A o celkové hodnotě přesahující 110 milionů korun",
+      "source_tier": "B"
+    },
+    {
+      "company": "Customerscore.io",
+      "date": "2025",
+      "round": "neuvedeno",
+      "source_url": "https://www.estate.cz/byznys-reality/jic-ventures-investor-ktery-pomaha-startupum-v-regionu-rust-miri-k-novemu-fondu/",
+      "source_date": "2025-10-28",
+      "quote": "prostřednictvím svého fondu v roce 2025 investovala",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Typ: zvoleno 'vc', protože podle e15 (7.4.2026) tvoří soukromý kapitál 85 % ('Poměr soukromých investic každopádně dominuje, momentálně činí 85 procent'; Jihomoravský kraj vložil 40 mil. Kč); správce je ale dceřiná firma JIC (agentura kraje, města a univerzit), tedy hraniční s 'public_vc'. Právní forma nového fondu (SICAV / FKI) a jeho IČO nenalezeny; registry = JIC Ventures, s.r.o. (dle webu JIC dceřiná společnost). Velikost 400 mil. Kč je cílová (e15: 'Fond ještě není finálně uzavřený'). Mandát v tiskové zprávě: pre-seed a seed, 'deep tech, SaaS a dalších vyspělých technologií', CEE s prioritou CZ a SK, cca 20 firem za 4 roky, tikety až 1 mil. EUR. Další dealy 2025 podle estate.cz: CasInvent Pharma, Eterny (s Purple Ventures), Groundcom (seed 1,5 mil. EUR, koinvestor), Symfio (210 tis. EUR, rok neuveden). Customerscore.io: datum = jen rok 2025.",
+  "phase": 2
+}

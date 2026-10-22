@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+up271,decision,ok,,https://up271.com/portfolio/,"ABAKU, Edhance, Spaceflow, WHAT News, Ringil, Cafedu, Poetizer","Portfolio bez dat; 3 vyhledávání nenašla deal UP271 od 2023-10-22 z tieru A/B -> inactive/E6 obhajitelné. (PitchBook uvádí exit Spaceflow 3/2026 - exit, ne investice.)"
+up271,investor_type,unverifiable,,https://up271.com/en/,We invest in companies and start-ups from various industries.,"Web 'family office' neuvádí; říkají to jen agregátory (altss, incubatorlist). Vazba na Karla Janečka (UP21) jen v agregátoru Caplight. Může jít i o private_investor; NACE v ARES 68200 (pronájem nemovitostí)."
+up271,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06816339,"obchodniJmeno: UP 271 s.r.o.; ico 06816339; Zapova 1559/18, Praha 5; datumVzniku 2018-01-30",
+up271,sectors,ok,,https://up271.com/,Investujeme do společností a start-upů z různých odvětví,generalist sedí.
+up271,stages,null_ok,,https://up271.com/,,Fáze na webu ani ve vyhledávání nenalezeny.
+up271,ticket,null_ok,,https://up271.com/,,Tiket neuveden.
+up271,capital,null_ok,,https://up271.com/en/,almost EUR 40 million,"Správně null: 'almost EUR 40 million' je kumulativně proinvestovaná částka, ne kapitál fondu."
+up271,investment_evidence,ok,,https://up271.com/portfolio/,NutritionPro,"Výčet portfolia sedí (navíc Cafedu, Inspireli, Czech Social Awards, V bezovém údolí, Racing 21, Disraptors Summit); bez dat investic - jako I2 nestačí, v souladu s inactive."

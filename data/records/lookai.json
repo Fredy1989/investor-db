@@ -1,0 +1,107 @@
+{
+  "id": "lookai",
+  "name": "Look AI Ventures (LAIV)",
+  "legal_name": "Look AI Ventures SICAV, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský pre-Series A fond zaměřený výhradně na AI startupy (SICAV, obhospodařovatel FTP Dimension IS); doložená účast v kole Sodex Innovations 7/2026 (tech.eu).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://lookai.vc/",
+  "registry": {
+    "value": "17604087",
+    "value_text": "IČO 17604087, Look AI Ventures SICAV, a.s., Radlická 180/50, Praha 5",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"17604087\",\"obchodniJmeno\":\"Look AI Ventures SICAV, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai"
+    ],
+    "value_text": "výhradně AI startupy",
+    "source_url": "https://lookai.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "the first investment fund in the Czech Republic that focuses exclusively on AI startups worldwide",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "pre-Series A",
+    "source_url": "https://lookai.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Look AI Ventures is a pre-Series A venture capital fund based in Prague, Czech Republic",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 250000,
+      "max_eur": 1000000
+    },
+    "value_text": "start 250 tis. EUR, s reinvesticemi až 1 mil. EUR",
+    "source_url": "https://en.ain.ua/2023/04/12/czech-ai-startup-incubator-announces-a-new-e20m-fund-look-ai-ventures",
+    "source_date": "2023-04-12",
+    "accessed": "2026-10-22",
+    "quote": "The ticket sizes start from €250,000 and can reach up to €1 million of reinvestment capital.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 20000000,
+      "basis": "target_fund_size"
+    },
+    "value_text": "cílová velikost 20 mil. EUR (target při spuštění, ne doložený close)",
+    "source_url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+    "source_date": "2023-04-13",
+    "accessed": "2026-10-22",
+    "quote": "It aims to raise €20 million which will be invested in early stage AI-driven companies.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "amount": 20000000
+    },
+    "is_target": true
+  },
+  "funds": [
+    {
+      "name": "Podfond Look AI Ventures I",
+      "size_eur": 20000000,
+      "vintage": 2022,
+      "source_url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "quote": "It aims to raise €20 million which will be invested in early stage AI-driven companies.",
+      "original": {
+        "currency": "EUR",
+        "amount": 20000000
+      },
+      "is_target": true,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75163705",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75163705",
+        "quote": "\"ico\":\"75163705\",\"obchodniJmeno\":\"Podfond Look AI Ventures I\""
+      }
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Sodex Innovations",
+      "date": "2026-07-13",
+      "round": "4 mil. EUR (lead Capmont Technology)",
+      "source_url": "https://tech.eu/2026/07/13/sodex-innovations-secures-4m-to-bring-real-time-intelligence-to-construction-sites/",
+      "source_date": "2026-07-13",
+      "quote": "The round also welcomed new investors Bloomhaus, Look AI Ventures and the German business angel group Superangels",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Správce vs. fond: registry = fondová SICAV (17604087), kterou uvádí CzechStartups i registr ČNB. Obhospodařovatel je FTP Dimension investiční společnost, a.s. (IČO 29659302, Brno, white-label IS – web: 'The Fund is managed by FTP Dimension investiční společnost, a.s.'); provozní tým je Look AI Investments, a.s. (IČO 06385745, dříve AI Startup Incubator, dceřiná společnost fondu). Který subjekt brát jako 'správce' podle PLAN §7.5, je k rozhodnutí. Kapitál 20 mil. EUR je cíl z 4/2023, skutečný objem nenalezen. Web má i novinky 9/2026 (Embodied AI) a 7/2026 (Sodex). Digicust 12/2025 jen v CB Insights – nepoužito. Žádné instrukce pro AI nenalezeny.",
+  "phase": 2,
+  "corrections_applied": 2
+}

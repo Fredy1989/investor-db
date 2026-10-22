@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+partnersinnov,decision,wrong,"exclude, ale pravidlo I2 (žádná doložená investice; fond založen 2026), případně I4 — ne E7",https://www.partnersholdco.com/en/partners-innovation-fund,long-term capital appreciation through investments in the financial and distribution companies of the Partners Group,"Vyřazení je správné, ale E7 (strategický kupec bez investičního ramene) nesedí — jde o fond (SICAV) s finančním cílem, který investuje hlavně do firem vlastní skupiny a menší částí do fintech/insurtech. Žádné portfolio ani deal nezveřejněn."
+partnersinnov,investor_type,ok,,https://www.partnersholdco.com/en/partners-innovation-fund,"Partners Innovation Fund SICAV, a.s",cvc (fond skupiny Partners) a CZ plausibilní; web sedí.
+partnersinnov,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24412716,"Partners Innovation Fund SICAV, a.s.; ico 24412716; Türkova 2319/5b, Chodov, 14900 Praha 4","Sedí (datumVzniku v ARES 2026-01-26, web uvádí založení 19. 1. 2026)."
+partnersinnov,sectors,ok,,https://www.partnersholdco.com/en/partners-innovation-fund,supplemented by a smaller portion of investments in the fintech/insurtech segment,Sedí; hlavní alokace je do finančních a distribučních firem skupiny Partners.
+partnersinnov,stages,null_ok,,,,Neuvedeno.
+partnersinnov,ticket,null_ok,,,,"Web uvádí jen minimální vklad investorů (1 000 000 CZK), ne tiket do firem."
+partnersinnov,capital,null_ok,,,,Velikost fondu neuvedena; first closing 10. 7. 2026 bez částky.
+partnersinnov,investment_evidence,null_ok,,,,Žádný deal nenalezen.

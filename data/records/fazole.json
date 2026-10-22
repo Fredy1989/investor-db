@@ -1,0 +1,96 @@
+{
+  "id": "fazole",
+  "name": "Fazole Ventures",
+  "legal_name": "Fazole Ventures s.r.o.",
+  "phase": 2,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský „rodinný“ VC fond (Pavel Bouška, Luboš Černý, Pavel Příkryl) investující do B2B startupů po pilotu; doložené vedení kola v Everbot (cc.cz 2025-09-16, 10. investice fondu).",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://fazole.vc/",
+  "registry": {
+    "value": "07491492",
+    "value_text": "IČO 07491492, Fazole Ventures s.r.o., zápis 25. 9. 2018, Salvátorská 931/8, Praha 1",
+    "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Fazole&jenPlatne=PLATNE",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Fazole Ventures s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "energy_climate",
+      "fintech",
+      "mobility"
+    ],
+    "value_text": "B2B segment, preference energetika, bankovnictví, doprava, retail, smart city, telco",
+    "source_url": "https://fazole.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "B2B segment.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "value_text": "firmy po pilotních zákaznících před první expanzí",
+    "source_url": "https://fazole.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 41217,
+      "max_eur": 824334
+    },
+    "original": {
+      "currency": "CZK",
+      "min": 1000000,
+      "max": 20000000
+    },
+    "value_text": "sweet spot 1–20 mil. CZK, zváží i větší · přepočet ECB k 2026-10-21: 1 EUR = 24.262 CZK",
+    "source_url": "https://fazole.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "sweet spot\" se pohybuje mezi 1-20 mil. CZK",
+    "source_tier": "A",
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 24.262,
+      "currency": "CZK"
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "original": null,
+    "value_text": "nezveřejněno; podle titulku Forbes (datum nezjištěno, proto nepoužit jako zdroj) dává většinu peněz Pavel Bouška",
+    "source_url": "https://fazole.vc/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Everbot",
+      "date": "2025-09-16",
+      "round": "kolo v nižších desítkách mil. Kč (lead), podíl 12,2 % + opce 2,7 p.b.",
+      "source_url": "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/",
+      "source_date": "2025-09-16",
+      "quote": "Lídrem investičního kola se stal fond Fazole Ventures",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Jen jeden doložený deal v okně 36 měsíců (Everbot); I3 splněno deklarací (fond) a 10 investicemi ('Everbot je nyní v pořadí desátou investicí Fazole Ventures.'). Předchozí dealy podle cc.cz: GoodAccess 2023-02-03, Whalebone 2021/2022, SentiSquare 2021, Skladon 2020. Typ: CzechStartups ho popisuje jako 'rodinný investiční fond', ale strukturou je to malý VC fond s managing partnerem; volím vc, alternativně family_office nebo private_investor. Forbes článek se přes WebFetch nenačetl celý (jen titulek), datum zdroje proto nezjištěno a citace je z titulku. Velikost fondu nezveřejněna (PitchBook uvádí fond v EUR, neověřeno). Stránka fazole.vc má rozbité kódování diakritiky, citace jsou proto zvolené bez diakritiky. Mapování sektorů: banking→fintech, energy→energy_climate, transport→mobility; retail, smart city, telco bez ekvivalentu. Instrukce pro AI nenalezeny."
+}

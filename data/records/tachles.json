@@ -1,0 +1,125 @@
+{
+  "id": "tachles",
+  "name": "Tachles VC",
+  "legal_name": "Tachles VC Management s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Venture fond s českým týmem (Karel Tušek, David Marek) a českou správcovskou s.r.o.; doložené investice 2024 a 10/2025 (Boost.space) v médiu tier B.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.tachlesvc.com",
+  "registry": {
+    "value": "14376032",
+    "value_text": "IČO 14376032, Tachles VC Management s.r.o., Chudenická 1059/30, Praha 10",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"14376032\",\"obchodniJmeno\":\"Tachles VC Management s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "ai",
+      "saas_b2b",
+      "deeptech"
+    ],
+    "value_text": "kyberbezpečnost, cloud computing, AI infrastruktura (B2B); taxonomie nemá 'cybersecurity' – mapováno na ai + saas_b2b + deeptech",
+    "source_url": "https://czechstartups.gov.cz/?investori=tachles-vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "která investuje do izraelských a českých start-upů zaměřených na kyberbezpečnost, cloud computing a AI infrastrukturu",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "pre-seed a seed",
+    "source_url": "https://czechstartups.gov.cz/?investori=tachles-vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "v oblasti B2B v pre-seed a seed fázích,",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nezveřejněno",
+    "source_url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+    "source_date": "2025-02-12",
+    "accessed": "2026-10-22",
+    "quote": "Konkrétní částky, kolik v rámci investičního kola vložil samotný Tachles VC, fond nekomentuje.",
+    "source_tier": "B"
+  },
+  "capital": {
+    "value": {
+      "eur": 20243735,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "první fáze fondu cca půl miliardy Kč (CZK, přepočet dělá kód) · přepočet ECB k 2024-06-13: 1 EUR = 24.699 CZK",
+    "source_url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+    "source_date": "2024-06-13",
+    "accessed": "2026-10-22",
+    "quote": "prostředky na úrovni půl miliardy korun",
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "amount": 500000000,
+      "date": "2024-06-13"
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2024-06-13",
+      "eur_rate": 24.699,
+      "currency": "CZK"
+    }
+  },
+  "funds": [
+    {
+      "name": "Tachles VC (první fond, první fáze)",
+      "size_eur": 20243735,
+      "vintage": 2024,
+      "source_url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+      "quote": "prostředky na úrovni půl miliardy korun",
+      "original": {
+        "currency": "CZK",
+        "amount": 500000000,
+        "date": "2024-06-13"
+      },
+      "domicile": null,
+      "registry": null,
+      "fx": {
+        "source": "ECB",
+        "rate_date": "2024-06-13",
+        "eur_rate": 24.699,
+        "currency": "CZK"
+      }
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Boost.space",
+      "date": "2025-10-09",
+      "round": "kolo 3 mil. EUR (lead Jet Investment)",
+      "source_url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
+      "source_date": "2025-10-09",
+      "quote": "Hlavním investorem je skupina Jet Investment miliardáře Igora Faita s přispěním českého fond Tachles VC",
+      "source_tier": "B"
+    },
+    {
+      "company": "Hirundo, Brinker, Chronom, Acsense, Langware, Cyngular, Illustria (7 startupů v roce 2024)",
+      "date": "2024",
+      "round": "pre-seed/seed, souhrnně 30 mil. Kč",
+      "source_url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+      "source_date": "2025-02-12",
+      "quote": "Jen během minulého roku podpořili sedm startupů dohromady částkou třicet milionů korun.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Kanceláře Praha / Tel Aviv / Atlanta. Česká správcovská s.r.o. (jednatelé K. Tušek a D. Marek dle ARES VR) je vlastněna Tachles VC Management, LLC (Delaware); web uvádí '© 2024 Tachles VC Management, LLC' a adresu Peachtree Corners, GA. country = CZ podle českého týmu a české s.r.o.; domicil fondu nenalezen (funds[].domicile = null). Velikost fondu 'půl miliardy korun' je k 13. 6. 2024 (první fáze), aktuální velikost neznámá. Tiket nezveřejněn (Altss uvádí 100–500 tis. EUR, ale tier C s rozpornými údaji – nepoužito). Deals 2025–2026 (Hirundo 6/2025, Papr, Deskree) jen v PitchBook/Caplight – nepoužito jako důkaz. Sektor 'kyberbezpečnost' nemá v taxonomii vlastní kategorii. Citace z cc.cz a CzechStartups pocházejí z výtahu WebFetch (limit 125 znaků) – doporučeno strojově ověřit. Žádné instrukce pro AI na stránkách nenalezeny.",
+  "phase": 2
+}

@@ -1,0 +1,98 @@
+{
+  "id": "directpro",
+  "name": "Direct PRO Ventures (podfond Direct PRO SICAV)",
+  "legal_name": "Direct PRO Ventures, podfond",
+  "decision": "exclude",
+  "exclusion_rule": "I2",
+  "decision_reason": "Podfond Direct PRO Ventures existuje v ARES od 11. 11. 2025, ale nenašel jsem žádnou veřejnou informaci o jeho strategii ani žádnou doloženou investici do startupu. Mateřský fond Direct PRO investuje do prioritních akcií firem skupiny Direct (pojišťovna, auto, Fidoo).",
+  "investor_type": "cvc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": "75166097",
+    "value_text": "IČO 75166097",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"75166097\",\"obchodniJmeno\":\"Direct PRO Ventures, podfond\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "Mandát podfondu Ventures nenalezen.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": null,
+    "value_text": "Mandát podfondu Ventures nenalezen.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Nenalezeno.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": null,
+    "value_text": "Nenalezeno pro podfond Ventures; mateřský Direct PRO chtěl získat ~1 mld. Kč (2024) – jiný podfond.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "Direct PRO Ventures, podfond",
+      "size_eur": null,
+      "original": null,
+      "vintage": 2025,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75166097",
+        "value_text": "IČO 75166097",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75166097\",\"obchodniJmeno\":\"Direct PRO Ventures, podfond\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097",
+      "quote": "\"ico\":\"75166097\",\"obchodniJmeno\":\"Direct PRO Ventures, podfond\""
+    },
+    {
+      "name": "Direct PRO, podfond (Direct PRO SICAV investiční fond, a.s., IČO 22051147)",
+      "size_eur": null,
+      "original": null,
+      "vintage": 2024,
+      "domicile": "CZ",
+      "registry": {
+        "value": "22051147",
+        "value_text": "IČO 22051147",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22051147",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"22051147\",\"obchodniJmeno\":\"Direct PRO SICAV investiční fond, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://cc.cz/chci-zit-do-120-ale-i-to-je-omezeny-cas-pavel-rehak-otevira-direct-investorum-aby-skupinu-zrychlil/",
+      "quote": "říká Pavel Řehák o novém fondu nazvaném Direct Pro, který by měl postupně nabývat prioritní akcie všech firem ze skupiny Direct."
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Hledal jsem 'Direct PRO Ventures' (CZ i EN), Vigo Investments + startup, Řehák + venture; nic o podfondu Ventures. Weby directpro.cz / .eu neodpovídají (DNS), direct.cz/direct-pro vrací 404. Články (CzechCrunch 25. 9. 2024, Newstream 24. 9. 2024, CzechCrunch 11. 4. 2025) popisují jen mateřský Direct Pro jako vehikl pro financování skupiny Direct (70 % stávající byznys, zbytek akvizice) – to by odpovídalo spíš E7. Akvizice Fondee (100 %, 2024) je strategická M&A, ne VC investice. Doporučení: zkusit statut podfondu v ČNB JERRS nebo znovu za 6–12 měsíců; typ 'cvc' je odhad (vehikl korporátní skupiny Direct/Vigo).",
+  "phase": 2
+}

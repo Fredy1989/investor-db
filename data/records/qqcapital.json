@@ -1,0 +1,86 @@
+{
+  "id": "qqcapital",
+  "name": "QQ Capital",
+  "legal_name": "QQ Capital SE",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský venture family office (Michal Štencl, ex-Sygic) investující vlastní prostředky do softwarových firem; doložená účast v seed kole Navigara (02/2026) v médiu tier B.",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.qq.capital/",
+  "registry": {
+    "value": "08676135",
+    "value_text": "IČO 08676135, QQ Capital SE, Hvězdova 1716/2b, Praha 4",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "\"ico\":\"08676135\",\"obchodniJmeno\":\"QQ Capital SE\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "generalist"
+    ],
+    "value_text": "softwarové produkty napříč obory",
+    "source_url": "https://www.qq.capital/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We primarily invest in companies with software products across a wide range of industries.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a",
+      "series_b_plus",
+      "growth"
+    ],
+    "value_text": "early-stage až growth-stage (přesné rozdělení fází web neuvádí)",
+    "source_url": "https://www.qq.capital/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "from early-stage to growth-stage",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nezveřejněno",
+    "source_url": "https://www.qq.capital/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": "own_balance_sheet"
+    },
+    "value_text": "nezveřejněno; investuje vlastní prostředky rodiny, bez LP",
+    "source_url": "https://www.qq.capital/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Navigara",
+      "date": "2026-03-06",
+      "round": "seed 2,5 mil. USD (lead Inovo VC)",
+      "source_url": "https://pulse2.com/navigara-2-5-million-raised-for-engineering-performance-measurement-platform/amp/",
+      "source_date": "2026-03-06",
+      "quote": "The funding round was led by Inovo VC with participation from Rockaway Ventures and QQ Capital.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Datum kola 2026-02-19 je z agregátorů (CB Insights, funding.tech.eu); článek Pulse2 vyšel 2026-03-06. Pre-seed Navigara 11/2024 (lead QQ Capital) jen v agregátorech (VCBacked, Caplight). Portfolio na webu: Staffino, Boataround, Dedoles, Eseye, Groundcom, Wiselli, Navigara, Kegg (bez dat). Tiket ani objem kapitálu nezveřejněny. Fáze: web říká 'early-stage to growth-stage', Dealroom 'seed to series A' – použit deklarovaný mandát z webu, rozpad na konkrétní fáze je interpretace. Citace z webu pocházejí z výtahu WebFetch – ověřit strojově. IČO na webu není, vzato z ARES. Statutáři dle ARES VR: Petr Neškrábal, Michal Štencl. Žádné instrukce pro AI nenalezeny.",
+  "phase": 2,
+  "corrections_applied": 1
+}

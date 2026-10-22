@@ -130,8 +130,8 @@ Dva nezávislé „úlovky" stejné populace umožňují odhadnout její velikos
 - Pozor: obě session čerpaly z podobných veřejných seznamů. Úlovky tedy nejsou úplně nezávislé a populace
   je spíš podhodnocená.
 - **Potvrzeno oficiálním katalogem CzechStartups** ([docs/dalsi-zdroje-analyza.md](docs/dalsi-zdroje-analyza.md)).
-  Katalog obsahuje 19 investorů z mého vzorku a ~17 dalších českých VC-like subjektů, které ve vzorku nejsou
-  (zatím neověřené). Realistická úplnost je tak **55–75 %**, ne 88 %. Přesné číslo dá ověření těchto kandidátů.
+  Katalog obsahuje 19 investorů z mého vzorku a ~17 dalších českých VC-like subjektů, které ve vzorku nejsou.
+  **Změřeno ve fázi 2 (§3b): úplnost fáze 1 vůči katalogu je 19/29 = 66 %.**
 
 ### Strojová kontrola citací
 
@@ -146,6 +146,80 @@ Dva nezávislé „úlovky" stejné populace umožňují odhadnout její velikos
 Žádná vymyšlená URL a žádná vymyšlená citace. Pro spolehlivost je to podstatné: halucinace
 by se projevily jako `not_found`. Kontrola zároveň našla 3 chyby ve mně psaném checkeru
 (kódování stránek bez charsetu, mezera před čárkou v HTML, cachování síťových chyb), viz historie commitů.
+
+## 3b. Fáze 2: nové kandidáty z katalogu a registru, pokyny v2, slepý ověřovatel
+
+Po analýze dalších zdrojů ([docs/dalsi-zdroje-analyza.md](docs/dalsi-zdroje-analyza.md)) jsem pilot rozšířil o 30 kandidátů:
+- 20 z katalogu CzechStartups,
+- 8 z registru fondů ČNB,
+- JIC Ventures a i&i Bio z Mac řešení.
+
+Rešerše běžela podle [pokynů v2](docs/prompt-research-agent-v2.md). Ověřoval **slepý** ověřovatel ([v2](docs/prompt-verifier-agent-v2.md)),
+který viděl jen tvrzení + URL ([data/blind/](data/blind/)) a citaci si musel ve zdroji najít sám.
+
+### Výsledek
+
+| | počet |
+|---|---|
+| kandidáti | 30 |
+| **zařazeno (po opravách)** | **15**: 11 `vc`, 2 `family_office`, 1 `cvc`, 1 `angel_syndicate` |
+| neaktivní (E6) | 4: NEWTON, KB SmartSolutions, UP271, Opifer |
+| vyřazeno | 8: I2 ×4 (AgriBoom, Partners Innovation, Direct PRO, The Seeders), E5 ×2 (Double Speed, CZEGG), E4 (Garage Angels), I4 (EMUN TECH) |
+| mimo rozsah (bez českého týmu) | 3: 3TS (AT), mAccelerator (PL), Limerock (SK) |
+
+**Celkem v databázi: 36 zařazených investorů** (21 z fáze 1 + 15 z fáze 2).
+
+### Přesnost surového výstupu v2 (slepý ověřovatel, `python src/measure.py`, část E)
+
+| pole | ok | chyba | neověřitelné | null, ale existuje | přesnost |
+|---|---|---|---|---|---|
+| rozhodnutí | 15 | 1 | 0 | – | 94 % |
+| typ investora | 14 | 2 | 0 | – | 88 % |
+| registrace | 15 | 1 | 0 | 0 | 94 % |
+| sektory | 14 | 1 | 0 | 1 | 93 % |
+| fáze | 13 | 2 | 0 | 0 | 87 % |
+| tiket | 7 | 1 | 1 | 1 | 88 % |
+| kapitál | 3 | 4 | 3 | 1 | 43 % |
+| nejnovější investice | 15 | 1 | 0 | 0 | 94 % |
+
+- **Přesnost záznamu 13/16 = 81 %, přesnost polí 67/77 = 87 %**, správně vyřazené 11/14.
+- **v1 × v2:**
+  - Celková přesnost polí je podobná (86 % × 87 %), ale v2 měřil **přísnější, slepý** ověřovatel. Proti v1 (horní odhad) je to tedy zlepšení.
+  - **Chyby přepočtu měn zmizely úplně** (v1: 8 ze 17 chyb, v2: 0), protože přepočet dělá kód.
+  - Chyby v sektorech a fázích klesly z 5 na 3.
+- **Nová slabina = kapitál (43 %).** 4 ze 7 chyb jsou cílová velikost fondu označená jako skutečná. Schéma pro cíl nemělo
+  hodnotu `basis`, doplněno `target_fund_size` (PLAN §7.17). Agenti cíl správně uváděli v textu, chyba byla v mém schématu.
+- **Chyby v mých pokynech v2, které odhalil slepý ověřovatel:**
+  - andělské skupiny jako `angel` (Garage Angels je spolek, kde investují členové osobně, tedy E4; PLAN §7.15),
+  - `cvc` příliš úzké pro banky (PLAN §7.16).
+- 1 nález „null_missed" (Tachles, kapitál) je artefakt: slepé podklady vznikají před přepočtem měn. Hodnota v datech je.
+
+### Úplnost změřená proti oficiálnímu katalogu (`python src/recall.py`)
+
+| | |
+|---|---|
+| položky katalogu CzechStartups | 52 (10 bez rešerše: asociace, crowdfunding, zahraniční fondy podle popisu v katalogu) |
+| z katalogu prošlo pravidly (referenční množina) | **29** |
+| **úplnost fáze 1** (původní výběr kandidátů) | **19/29 = 66 %** |
+| chyběly | Fazole, Flying Founders, Look AI, Lumus, PurposeTech, QQ Capital, RSJ, Seed Starter ČS, Soulmates, Tachles |
+| úplnost **katalogu** vůči všem 36 zařazeným | 29/36 = 81 %; v katalogu chybí ZAKA, Aspire11, Aternus, i&i Bio, Jet Venture, JIC, JSK |
+
+- **Původní odhad 88 %** z porovnání s Mac řešením byl o 22 bodů optimistický. Odhad 55–75 % z analýzy zdrojů (před fází 2) se potvrdil.
+- **Ani oficiální katalog není úplný (81 %).** Úplnost dá teprve kombinace víc nezávislých zdrojů kandidátů:
+  média + katalog + registr ČNB + druhé nezávislé řešení. Každý z nich přidal investory, které ostatní neměly.
+- Lincoln–Petersen (fáze 1 × katalog) odhaduje ~32 aktivních investorů, ale nalezeno je jich 36. Zdroje nejsou nezávislé,
+  takže odhad podhodnocuje. Skutečná populace aktivních VC-like investorů v ČR je **≥ 36**, realisticky 40–45.
+
+### Náklady fáze 2
+
+| | tokeny | volání nástrojů | čas agentů |
+|---|---|---|---|
+| rešerše (5 agentů, 30 kandidátů) | 922 tis. | 394 | 56 min |
+| slepé ověření (5 agentů) | 658 tis. | 191 | 28 min |
+| **na kandidáta** | **~53 tis.** | **~20** | **~2,8 min** |
+
+- Spotřeba na kandidáta je podobná jako ve fázi 1 (~48 tis.). Odhad nákladů v §5 platí.
+- **Podíl zařazených z nekurátorovaného vstupu je 15/30 = 50 %.** To přesně odpovídá předpokladu 50 % v odhadu nákladů (§5).
 
 ## 4. Kolik stál pilot
 

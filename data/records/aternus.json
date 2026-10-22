@@ -1,0 +1,111 @@
+{
+  "id": "aternus",
+  "name": "ATERNUS (Aternus Family Office)",
+  "legal_name": "ATERNUS, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Family office rodiny Wałachů (Walmark) z Třince, který spravuje a investuje majetek zakladatelů a přímo vstupuje do startupů; doložená účast v Series A extension Jutro Medical (12/2025), dříve Woltair Series A. Vozidlo ATERNUS SICAV, podfond TECH I.",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Třinec",
+  "website": "https://www.aternus.cz",
+  "registry": {
+    "value": "25865056",
+    "value_text": "ATERNUS, a.s., IČO 25865056 (ARES sídlo Anežská 986/10, Praha 1; web uvádí nám. Svobody 527, Třinec); dále Aternus Family Office s.r.o., IČO 26795043, nám. Svobody 527, Třinec; ATERNUS SICAV, a.s., IČO 10894357; ATERNUS podfond TECH I, NID 75162466",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25865056",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "25865056",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "saas_b2b",
+      "fintech",
+      "deeptech",
+      "ecommerce"
+    ],
+    "value_text": "technology, marketplaces, SaaS, fintech, deep tech (portfolio hlavně PE, reality a VC fondy)",
+    "source_url": "https://www.aternus.cz/en/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "focusing on technology, marketplaces, SaaS, fintech, and deep tech.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "mandát fáze neuvádí; dealy Series A (Jutro Medical, Woltair) - nezobecněno",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "FO kapitál neuvádí",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "ATERNUS SICAV, a.s., ATERNUS podfond TECH I",
+      "original": {
+        "currency": "EUR",
+        "amount": 5000000
+      },
+      "size_eur": null,
+      "vintage": 2021,
+      "domicile": "CZ",
+      "registry": {
+        "value": "ATERNUS SICAV, a.s. IČO 10894357; podfond NID 75162466",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10894357"
+      },
+      "manager": "AVANT investiční společnost, a.s. (statutární orgán / administrátor)",
+      "source_url": "https://www.avantfunds.cz/cs/vyzvy/verejna-vyzva-k-upisu-investicnich-akcii-a2-fondu-aternus-podfond-tech-i/",
+      "quote": "ATERNUS SICAV, a.s., ATERNUS podfond TECH I",
+      "note": "5 000 000 EUR = cílová upisovaná částka emise investičních akcií A2 (výzva 19.11.2021), ne velikost fondu; proto size_eur null"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Jutro Medical (PL)",
+      "date": "2025-12-16",
+      "round": "Series A extension 24 mil. EUR (vedl Warsaw Equity Group)",
+      "source_url": "https://en.ain.ua/2025/12/16/jutro-medical-raises-eur24m/",
+      "source_date": "2025-12-16",
+      "quote": "The round was also backed by Vinci, naturalX Health Ventures, Fluent Ventures, Aternus, KAYA VC, and Inovo VC.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Woltair (CZ)",
+      "date": "2022",
+      "round": "Series A (podíl Aternus 3,0 %); mimo okno 36 měsíců, jen jako druhý deal pro I3",
+      "source_url": "https://cc.cz/investici-jsme-odepsali-uz-pred-rokem-aneb-jak-se-zrodil-boom-a-pad-ceskeho-startupu-woltair/",
+      "source_date": "2025-08-27",
+      "quote": "Aternus – 3,0 %",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Sektory: web uvádí širokou technologickou orientaci (tech, marketplaces, SaaS, fintech, deep tech), proto 'generalist'; alternativně saas_b2b+fintech+deeptech+ecommerce. Web jmenuje portfolio Docplanner, Booksy, Rohlik.cz, Inovo (bez dat). Není jisté, kterým vozidlem šla investice do Jutro Medical (zdroj uvádí jen 'Aternus') - ATERNUS, a.s., Aternus Family Office s.r.o., nebo podfond TECH I. ARES sídlo ATERNUS, a.s. (Anežská 986/10, Praha 1) se liší od webu (Třinec); totožná adresa jako EMUN investiční společnost - možná správa/administrace přes EMUN, neověřeno. Investiční politiku podfondu TECH I jsem nenašel. Agregátory (Caplight, CB Insights, PitchBook - Better Stack) jen pro nalezení, ne jako důkaz. Datum dealu Woltair (2022) z textu článku cc.cz neověřeno přesně.",
+  "phase": 2,
+  "corrections_applied": 1
+}

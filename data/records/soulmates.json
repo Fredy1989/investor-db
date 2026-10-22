@@ -1,0 +1,93 @@
+{
+  "id": "soulmates",
+  "name": "Soulmates Ventures",
+  "legal_name": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+  "phase": 2,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský VC (původně akcelerátor) s vlastním investičním vozidlem a fondem 50 mil. EUR (Article 9 SFDR); doložené vedení kol v Rightcharge (10/2025 a 09/2026). E2 neplatí, protože investuje vlastní kapitál za podíl.",
+  "investor_type": "vc",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://soulmatesventures.com/",
+  "registry": {
+    "value": "09789561",
+    "value_text": "IČO 09789561, Soulmates Ventures, osoba rizikového kapitálu, s.r.o., zápis 4. 1. 2021, Rohanské nábřeží 693/10, Praha 8; fondový vehikl Soulmates Ventures Fund SICAV, a.s. IČO 23302054",
+    "source_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Soulmates&jenPlatne=PLATNE",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": ["energy_climate", "mobility", "health"],
+    "value_text": "udržitelnost: air, water, energy, mobility, education, healthcare, food and agriculture, circular economy (education, food/agri a circular economy nemají v taxonomii ekvivalent)",
+    "source_url": "https://soulmatesventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "focusing on key areas such as air, water, energy, mobility",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": ["seed", "series_a"],
+    "value_text": "Target stage Seed/SA",
+    "source_url": "https://soulmatesventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Target stage Seed/SA",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {"min_eur": null, "max_eur": 3000000},
+    "original": {"currency": "EUR", "min": null, "max": 3000000},
+    "value_text": "počáteční investice až 3 000 000 EUR; follow-on až 5 mil. EUR (ain.ua 2025-03-18)",
+    "source_url": "https://soulmatesventures.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "We fund each company with an initial investment of up to €3,000,000 to improve systems and products",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {"eur": 50000000, "basis": "latest_fund_size"},
+    "original": {"currency": "EUR", "amount": 50000000},
+    "value_text": "fond 50 mil. EUR (Article 9 SFDR); web uvádí AUM 62 mil. EUR",
+    "source_url": "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+    "source_date": "2025-03-18",
+    "accessed": "2026-10-22",
+    "quote": "its €50 million fund",
+    "source_tier": "B"
+  },
+  "funds": [
+    {
+      "name": "Soulmates Ventures Fund SICAV, a.s. (fond 50 mil. EUR, Article 9 SFDR)",
+      "size_eur": 50000000,
+      "original": {"currency": "EUR", "amount": 50000000},
+      "vintage": 2025,
+      "domicile": "CZ",
+      "registry": {"value": "23302054", "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23302054", "quote": "\"obchodniJmeno\":\"Soulmates Ventures Fund SICAV, a.s.\""},
+      "source_url": "https://soulmatesventures.com/",
+      "quote": "Soulmates Ventures has launched a €50 million Article 9 SFDR-aligned fund"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Rightcharge",
+      "date": "2026-09-03",
+      "round": "growth funding £500 000 (lead)",
+      "source_url": "https://pulse2.com/rightcharge-raises-growth-funding-to-expand-across-europe-after-20x-arr-growth/",
+      "source_date": "2026-09-03",
+      "quote": "The round was led by Soulmates Ventures, with participation from BlackWood Ventures and Purple Ventures.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Rightcharge",
+      "date": "2025-10-23",
+      "round": "seed £1.6M (lead)",
+      "source_url": "https://startuprise.co.uk/rightcharge-secures-1-6m-to-streamline-ev-charging-payments-for-european-fleets/",
+      "source_date": "2025-10-23",
+      "quote": "The round was led by Soulmates Ventures, with participation from Blackwood Ventures, Unruly Capital, and Purple Ventures.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Spojení fondu 50 mil. EUR se SICAV IČO 23302054 (vznik 2025-05-21) je odvozené ze jména a data vzniku, ne výslovně ze zdroje; vintage 2025 podle tiskových zpráv z 03/2025. ČNB registr jsem neotevíral. Dealroom uvádí IČO 27828506, ARES ho nezná (404) – nepoužito. Další 2025 dealy dle webu (FluoSphera CHF 1.15M, Better Medicine €1M pre-seed 2025-08-14) jsem doložil jen webem investora/agregátory, proto nejsou v evidenci. Starší historie: plánovaný první fond 240–300 mil. Kč (2020) se zpozdil po pádu WCA (cc.cz). Instrukce pro AI na webu nenalezeny."
+}

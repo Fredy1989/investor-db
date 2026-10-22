@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+directpro,decision,ok,,https://cc.cz/chci-zit-do-120-ale-i-to-je-omezeny-cas-pavel-rehak-otevira-direct-investorum-aby-skupinu-zrychlil/,,"Exclude I2 sedí: podfond vznikl 11. 11. 2025, žádnou doloženou investici do cizí soukromé firmy jsem nenašel. Skupina Direct PRO investuje hlavně do vlastních firem skupiny (Direct pojišťovna, Fidoo) — zvážit i E7."
+directpro,investor_type,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097,"Direct PRO Ventures, podfond; sidlo Pod dráhou 1636/1, Holešovice, 17000 Praha 7",cvc (rameno skupiny Direct/Vigo) a CZ plausibilní; web null — vlastní web podfondu jsem nenašel.
+directpro,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75166097,"Direct PRO Ventures, podfond; ico 75166097; datumVzniku 2025-11-11",Sedí.
+directpro,sectors,null_ok,,,,Nic nenalezeno.
+directpro,stages,null_ok,,,,Nic nenalezeno.
+directpro,ticket,null_ok,,,,Nic nenalezeno.
+directpro,capital,null_ok,,,,"Pro podfond Ventures nic; zastřešující Direct PRO cílí ~1 mld. Kč, ale to není kapitál tohoto podfondu."
+directpro,investment_evidence,null_ok,,,,2 vyhledávání bez výsledku.

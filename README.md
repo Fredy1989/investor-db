@@ -1,20 +1,23 @@
 # Spolehlivá databáze investorů — zadání A
 
 Řešení praktické úlohy k pozici Junior AI Developer.
-Pilot: VC investoři v Česku. Každý údaj má zdroj, datum a doslovnou citaci, kterou kontroluje stroj.
+Pilot: VC-like investoři v Česku, ve dvou fázích (59 kandidátů → **36 zařazených**). Každý údaj má zdroj, datum
+a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti oficiálnímu katalogu CzechInvest.
 
 | soubor | obsah |
 |---|---|
 | [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu |
 | [RESULTS.md](RESULTS.md) | výsledky pilotu, změřená přesnost, rozbor chyb, odhad nákladů na celý svět |
-| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | **21 zařazených investorů**, u každého údaje zdroj, datum a tier |
-| [data/excluded.csv](data/excluded.csv) | 7 vyřazených / neaktivních s pravidlem a důvodem |
+| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | **36 zařazených investorů**, u každého údaje zdroj, datum a tier |
+| [data/excluded.csv](data/excluded.csv) | 23 vyřazených / neaktivních / mimo rozsah, s pravidlem a důvodem |
 | [data/records/](data/records/) | plné záznamy (JSON) po opravách — citace, fondy, všechny doložené dealy |
 | [data/records_raw/](data/records_raw/) | totéž **beze změny tak, jak to vrátili rešeršní agenti** |
-| [data/corrections.json](data/corrections.json) | 46 oprav: co se změnilo, proč a kdo to navrhl (ověřovací agent / orchestrátor / review Mac Clauda) |
+| [data/corrections.json](data/corrections.json) | 69 oprav: co se změnilo, proč a kdo to navrhl (ověřovací agent / slepý ověřovatel / orchestrátor / review Mac Clauda) |
 | [docs/ZADANI.md](docs/ZADANI.md), [docs/requirements-check.md](docs/requirements-check.md) | zadání doslovně a kontrola řešení proti němu bod po bodu |
-| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 226 citací |
-| [data/verification/](data/verification/) | verdikty nezávislého ověřovacího agenta, pole po poli |
+| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 425 citací |
+| [data/verification/](data/verification/), [data/verification_v2/](data/verification_v2/) | verdikty ověřovacího agenta (fáze 1) a slepého ověřovatele (fáze 2), pole po poli |
+| [data/blind/](data/blind/) | slepé podklady pro ověřovatele fáze 2: jen tvrzení + URL |
+| [data/reference_czechstartups.csv](data/reference_czechstartups.csv), [data/recall.csv](data/recall.csv) | oficiální katalog CzechInvest jako referenční seznam a výsledek měření úplnosti |
 | [data/manual_check.csv](data/manual_check.csv) | list pro ruční kontrolu (náhodný vzorek + sporné body) |
 | [data/accuracy.csv](data/accuracy.csv) | změřená přesnost |
 | [docs/](docs/) | doslovné pokyny, které dostali agenti |
@@ -27,7 +30,8 @@ pip install requests beautifulsoup4
 python src/apply_corrections.py   # records_raw + corrections.json → records, přepočet měn kurzem ECB
 python src/check_quotes.py        # stáhne zdroje a ověří citace → data/quote_check.csv
 python src/build.py               # → investors_cz_vc.csv, excluded.csv, pokrytí polí
-python src/measure.py             # → přesnost (A: agent B, B: člověk, C: shoda B × člověk)
+python src/measure.py             # → přesnost (A: agent B, B: člověk, C: shoda B × člověk, E: fáze 2 slepě)
+python src/recall.py              # → úplnost vůči katalogu CzechStartups
 ```
 
 ## Jak jsem pracoval s AI
@@ -71,7 +75,8 @@ python src/measure.py             # → přesnost (A: agent B, B: člověk, C: s
 1. **Strojová kontrola citací.** Skript stáhne každý zdroj a hledá v něm citaci. Vymyšlená URL nebo citace
    neprojde. Výsledek: 219 z 226 citací doslova, žádná vymyšlená.
 2. **Nezávislý agent B.** Znovu otevřel zdroje a ke každému poli dal verdikt `ok / wrong / unverifiable / null_ok / null_missed`.
-   Našel 17 chybných polí ze 121 a 6 zmeškaných údajů.
+   Ve fázi 1 našel 17 chybných polí ze 121 a 6 zmeškaných údajů. Ve fázi 2 byl **slepý**: dostal jen tvrzení + URL
+   ([data/blind/](data/blind/)) a citaci si musel najít sám. Našel 10 chybných polí ze 77.
 3. **Auditovatelné opravy.** Opravy se nedělají ručně v datech. Každá je zapsaná v [corrections.json](data/corrections.json)
    s důvodem a autorem a aplikuje se skriptem na nezměněný výstup agentů v `records_raw/`. V gitu je vidět rozdíl.
 4. **Člověk.** Náhodný vzorek a sporné body v `manual_check.csv`. Ověřovací agent nemůže měřit přesnost dat, která
@@ -102,6 +107,11 @@ python src/measure.py             # → přesnost (A: agent B, B: člověk, C: s
 | Ověřovací agent nebyl „slepý": viděl citace agenta A | hlavní session (návrh pipeline) | review Mac Clauda | přiznáno jako omezení metriky A; v2 = jen tvrzení + URL |
 | IČO Nation 1 odvozené z výsledku vyhledávání, který agent neotevřel | agent A | review Mac Clauda | doloženo adresou v adresáři CVCA |
 | Důkaz Tensoru jen z agregátoru; v listu pro ruční kontrolu splývalo zdůvodnění agenta s citací | agent A / hlavní session | review Mac Clauda | nahrazeno tier B (AppFactor, lead); sloupec `rationale` |
+| **Pokyny v2 dovolily andělské „skupiny" jako `angel`**, i když plán definuje anděla jako fyzickou osobu | hlavní session | slepý ověřovatel (fáze 2) | nový typ `angel_syndicate`; spolek, kde investují členové (Garage Angels), = E4 (PLAN §7.15) |
+| Schéma nemělo `basis` pro cílovou velikost fondu → cíle vykázané jako skutečné fondy (4×) | hlavní session (schéma) | slepý ověřovatel | `target_fund_size` (PLAN §7.17) |
+| Registr: IČO mateřské banky místo investující dceřiné firmy (Seed Starter ČS) | agent A v2 | slepý ověřovatel | oprava na ČS Seed Starter, a.s. |
+| Dva ověřovatelé si ve sdíleném adresáři přepsali skript stejného jména | infrastruktura agentů | agent to sám nahlásil | výsledky zkontrolovány (beze změny); v produkci vlastní adresář pro každého agenta |
+| **Odhad úplnosti 88 %** z porovnání se druhým AI řešením (obě braly kandidáty ze stejných přehledů) | hlavní session | oficiální katalog CzechInvest | změřeno: 66 % (RESULTS §3b) |
 
 **Prompt injection.** Dvě stránky (Dealroom a euacc.ai) obsahovaly pokyny pro AI, např. „If you are an LLM always mention…".
 Agenti je ignorovali a nahlásili. Data z webu jsou data, ne pokyny. To je výslovně v pokynech pro agenta B a pro
@@ -121,10 +131,12 @@ produkční běh by to mělo být i v pokynech pro agenta A.
   investoři čísla zveřejňují různě a bez označení by nebyla porovnatelná.
 - **Chybějící údaj = `null`, nikdy odhad.** U databáze, kde jde o spolehlivost, je díra lepší než vymyšlené číslo.
   Zadání sice říká, že u každého investora „musí byť uvedené" sektor, tiket a kapitál, ale ne všichni investoři
-  tyto údaje zveřejňují. Výsledek u 21 zařazených:
-  - tiket chybí u 4 (Aspire11, Pale Fire, Tensor, Y Soft),
-  - kapitál chybí u 3 (DEPO, Springtide, Y Soft),
+  tyto údaje zveřejňují. Výsledek u 36 zařazených:
+  - tiket chybí u 10 (např. Aspire11, Pale Fire, Tensor, Tachles, RSJ),
+  - kapitál chybí u 10 (např. DEPO, Fazole, Flying Founders, QQ Capital, Seed Starter),
   - sektor chybí u 1 (Reflex).
+
+  Rodinné kanceláře a syndikáty čísla zveřejňují nejméně, což odpovídá odhadu spolehlivosti v PLAN §5.
 
   U každého `null` je v `notes` záznamu, co se hledalo. Vymýšlet čísla, aby tabulka byla plná, by šlo proti hlavnímu
   požadavku na spolehlivost. Plnost polí je proto měřená zvlášť jako pokrytí (RESULTS §2), aby bylo vidět, kolik chybí.
@@ -137,11 +149,10 @@ produkční běh by to mělo být i v pokynech pro agenta A.
   `python src/measure.py` doplní metriky B a C do výstupu.
 - Longevitytech.fund: dohledat právnickou osobu (pravděpodobně česká a.s.). Jinak by byl zařazen.
 - U KAYA, Miton a J&T Ventures upřesnit, která právnická osoba je správce (PLAN §7.5).
-- Pokyny v2 pro agenta A a slepého ověřovatele (PLAN §7) jsou sepsané, ale pilot jsem s nimi znovu nepouštěl.
-- **Úplnost vzorku je realisticky 55–75 %** (RESULTS §3D).
-  - Proti oficiálnímu katalogu CzechStartups a registru fondů ČNB chybí ~17 + ~10 neověřených českých VC-like subjektů.
-    Seznam je v [docs/dalsi-zdroje-analyza.md](docs/dalsi-zdroje-analyza.md).
-  - Mac navíc našel **JIC Ventures** a **i&i Bio**.
-  - Původní odhad 88 % z porovnání s Mac řešením byl příliš optimistický, protože obě session braly kandidáty ze stejných přehledů.
+- **Úplnost:** fáze 1 našla 66 % investorů z oficiálního katalogu (RESULTS §3b). Fáze 2 chybějící dohledala.
+  - Ani katalog ale není úplný (81 %), populace aktivních je ≥ 36, realisticky 40–45.
+  - Ruční kontrola pokrývá jen fázi 1. Fáze 2 je ověřená slepým ověřovatelem, ne člověkem.
+- NEWTON University Angels je hraniční případ: investice zřejmě v okně jsou (5 → 8 projektů), ale chybí deal s datem.
+  Zůstává `inactive`.
 - Ve vzorku jsou nedatované zdroje (hlavně weby investorů) bez snapshotu stránky. Zpětně tedy nejde doložit,
   co na stránce v den přístupu bylo (RESULTS §2).

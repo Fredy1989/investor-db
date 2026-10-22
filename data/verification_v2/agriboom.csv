@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+agriboom,decision,ok,,https://cc.cz/prodal-firmu-ktera-delala-i-pro-cern-pred-tricitkou-dostal-na-starost-miliardovy-fond/,První vlaštovkou byla investice do mladého startupu Plantee Innovations,"I2 obhajitelné: jediný známý 'deal' Plantee (2024) byl odkup mateřskou AGRO CS, ne investice fondu; 3 vyhledávání bez doložené investice AgriBoom. Forbes: fond měl problém najít projekty."
+agriboom,investor_type,ok,,https://agriboom.com,AgriBoom Ventures was established by AGRO CS,"cvc sedí (rameno výrobce substrátů a hnojiv AGRO CS, ten je i GP). CZ sedí (Hradec Králové/Říkov)."
+agriboom,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64829413,"obchodniJmeno: AGRO CS a.s.; ico 64829413; č.p. 265, 55203 Říkov",IČO je mateřská korporace AGRO CS (GP); samostatná entita AgriBoom nedohledána - pro cvc přijatelné.
+agriboom,sectors,wrong,industry (agri/agritech primárně); bez energy_climate,https://agriboom.com,Our primary focus is agriculture,"energy_climate je v rozporu: ředitel AGRO CS Jan Harant uvedl, že fond nechce investovat do startupů řešících klimatickou změnu (expats.cz, Forbes). Taxonomie nemá agri."
+agriboom,stages,ok,,https://agriboom.com,From idea through pre-seed and seed all the way to Series A and beyond,
+agriboom,ticket,ok,,https://agriboom.com,From €10K to €4M with a bit of flexibility,VC tiket; PE větev má €3M-€20M.
+agriboom,capital,ok,,https://agriboom.com,all funds raised 01/2025,"€60,000,000 (1,5 mld Kč od AGRO CS na 5 let)."
+agriboom,investment_evidence,null_ok,,,,Žádná investice fondu nenalezena (viz decision).

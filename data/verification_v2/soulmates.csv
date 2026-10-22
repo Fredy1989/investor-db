@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+soulmates,decision,ok,,https://pulse2.com/rightcharge-raises-growth-funding-to-expand-across-europe-after-20x-arr-growth/,"£500,000 in growth funding","Rightcharge 3. 9. 2026, lead Soulmates Ventures (tier B, v okně). Investuje subjekt; tým v Praze (Prague HQ, Karlín)."
+soulmates,investor_type,ok,,https://soulmatesventures.com/,a small and young VC from Prague,vc / CZ sedí.
+soulmates,registry,ok,,https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Soulmates&jenPlatne=PLATNE,"Soulmates Ventures, osoba rizikového kapitálu, s.r.o., IČO 09789561, Rohanské nábřeží 693/10, Praha 8","Správce. Doplnit do funds[]: Soulmates Ventures Fund SICAV, a.s., IČO 23302054 (zapsán 21. 5. 2025)."
+soulmates,sectors,ok,,https://soulmatesventures.com/,"focusing on key areas such as air, water, energy, mobility, education, healthcare","Mandát je širší (udržitelnost: i voda, vzdělání, potraviny, cirkulární ekonomika); energy_climate/mobility/health je zúžení, ne chyba."
+soulmates,stages,ok,,https://soulmatesventures.com/,Seed/SA,'SA' na webu není rozepsáno; AIN/Vestbee (3/2025) potvrzují rozšíření směrem k Series A.
+soulmates,ticket,ok,,https://soulmatesventures.com/,"We fund each company with an initial investment of up to €3,000,000",Follow-on až 5 mil. EUR (AIN 18. 3. 2025) - max 3M je počáteční tiket.
+soulmates,capital,ok,,https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups,the expansion of its €50 million fund,Web zároveň uvádí AUM €62M (jiný basis); latest_fund_size 50M sedí.
+soulmates,investment_evidence,ok,,https://pulse2.com/rightcharge-raises-growth-funding-to-expand-across-europe-after-20x-arr-growth/,"£500,000 in growth funding","Lead Soulmates Ventures, spolu s BlackWood Ventures a Purple Ventures; datum 3. 9. 2026."

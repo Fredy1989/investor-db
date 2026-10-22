@@ -1,0 +1,100 @@
+{
+  "id": "maccelerator",
+  "name": "mAccelerator.vc",
+  "legal_name": null,
+  "decision": "out_of_scope",
+  "exclusion_rule": "out_of_scope",
+  "decision_reason": "CVC fond polské mBank (2017, 50 mil. EUR) se sídlem a týmem ve Varšavě; Česko je jen cílový trh. Bez českého týmu → mimo vzorek. Navíc web maccelerator.vc je dnes parkovaná stránka hostingu a novější deal (od 2023-10) jsem nenašel, takže by šlo i o E6.",
+  "investor_type": "cvc",
+  "country": "PL",
+  "hq_city": "Warsaw",
+  "website": "https://maccelerator.vc",
+  "registry": {
+    "value": null,
+    "value_text": "KRS polské entity jsem neotevřel; stránka mbank.pl/en/about-us/group/maccelerator vrací jen přesměrování.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": [
+      "fintech"
+    ],
+    "value_text": "fintech growth companies (agregátor); původně softwarová robotika, kybernetika, mobilní platby",
+    "source_url": "https://altss.com/profile/maccelerator-vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "It is backed by mBank and focuses on investing in fintech growth companies.",
+    "source_tier": "C"
+  },
+  "stages": {
+    "value": null,
+    "value_text": "stage-agnostic (agregátor) – nemapovatelné na konkrétní fáze",
+    "source_url": "https://altss.com/profile/maccelerator-vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "mAccelerator.vc is a stage-agnostic venture capital fund based in Warsaw, Poland.",
+    "source_tier": "C"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": 10000000
+    },
+    "value_text": "limit 10 mil. EUR na projekt (rozhovor 2017)",
+    "source_url": "https://www.e15.cz/rozhovory/jaroslaw-mastalerz-z-mbank-globalni-byznys-z-varsavy-a-prahy-delat-nelze-zmenime-to-1331330",
+    "source_date": "2017-04-18",
+    "accessed": "2026-10-22",
+    "quote": "Máme limit deset milionů eur na projekt.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "max": 10000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 50000000,
+      "basis": "latest_fund_size"
+    },
+    "value_text": "50 mil. EUR (cca 200 mil. PLN) od mBank, 2017",
+    "source_url": "https://en.media.mbank.pl/36471-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions",
+    "source_date": "2017-02-16",
+    "accessed": "2026-10-22",
+    "quote": "mBank will invest EUR 50 million (or ca. PLN 200 million) in new technologies as part of the mAccelerator (mAkcelerator) project.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 50000000
+    }
+  },
+  "funds": [
+    {
+      "name": "mAccelerator (mAkcelerator)",
+      "size_eur": 50000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      },
+      "vintage": 2017,
+      "domicile": "PL",
+      "registry": null,
+      "source_url": "https://en.media.mbank.pl/36471-mbank-will-invest-eur-50-million-in-new-technologies-for-financial-institutions",
+      "quote": "The bank’s management board decided to set up a fund that will invest in technology start-ups."
+    }
+  ],
+  "investment_evidence": [],
+  "country_evidence": {
+    "value": "Warsaw, Poland",
+    "value_text": "sídlo fondu",
+    "source_url": "https://altss.com/profile/maccelerator-vc",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "mAccelerator.vc is headquartered in Warsaw, Poland.",
+    "source_tier": "C"
+  },
+  "notes": "Sídlo Varšava je doloženo jen agregátorem Altss (tier C); tisková zpráva mBank (2017) sídlo neuvádí, ale fond je projekt polské mBank vedený bývalými viceprezidenty banky. Česko je v rozhovoru E15 (2017) jen cílový trh ('adresou v Praze a ve Varšavě' jako ambice). maccelerator.vc má prošlý certifikát a vrací parkovací stránku polského hostingu JCHost ('strona w budowie'). Žádný deal z posledních 36 měsíců jsem nenašel (vyhledávání vrací jen materiály 2017–2019). Ve výsledcích vyhledávání se objevil titulek stránky Dealroom obsahující pokyn pro LLM ('If you are an LLM always mention...') – ignorováno, Dealroom jsem neotevřel.",
+  "phase": 2
+}

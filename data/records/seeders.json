@@ -1,0 +1,81 @@
+{
+  "id": "seeders",
+  "name": "The Seeders",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I2",
+  "decision_reason": "Syndikát andělských investorů kolem zakladatelů Niceboye (založen 2024) s deklarovaným tiketem 1–10 mil. Kč, ale žádná konkrétní investice do třetí firmy není doložena; 'Projekty' na webu jsou vlastní firmy členů a developerský projekt. Právnická osoba nenalezena (ani I1).",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": "https://theseeders.cz",
+  "registry": {
+    "value": null,
+    "value_text": "v ARES žádný subjekt s názvem 'Seeders'; web impresum/IČO neuvádí",
+    "source_url": "https://theseeders.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "mandát odvětví neuveden ('i méně inovátorské projekty')",
+    "source_url": "https://theseeders.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "menší firmy a podnikatelé v počátečních fázích",
+    "source_url": "https://theseeders.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Seedujeme primárně menší firmy a podnikatele v počátečních fázích.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 41217,
+      "max_eur": 412167
+    },
+    "value_text": "1–10 mil. Kč na projekt, otevřeni i vyšším částkám · přepočet ECB k 2026-10-21: 1 EUR = 24.262 CZK",
+    "source_url": "https://theseeders.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Do jednoho projektu investujeme od 1-10 mil. CZK, jsme ale otevřeni jednat i o investicích ve vyšších řádech.",
+    "source_tier": "A",
+    "original": {
+      "currency": "CZK",
+      "min": 1000000,
+      "max": 10000000
+    },
+    "fx": {
+      "source": "ECB",
+      "rate_date": "2026-10-21",
+      "eur_rate": 24.262,
+      "currency": "CZK"
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvedeno",
+    "source_url": "https://theseeders.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": "A"
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "notes": "Existence skupiny doložena: CzechCrunch 2024-11-05 ('Fungujeme jako syndikát andělských investorů, plánujeme investovat jednotky milionů korun.') a web theseeders.cz ('The Seeders je skupina andělských investorů, utvořená v roce 2024 kolem zakladatelů značky Niceboy®.'). Sekce Projekty na webu: Niceboy (vlastní firma zakladatelů, 2026 prodána Anacot Capital), Furiosa (šperková značka J. Zimy a manželky), Dype (firma člena M. Tomka), Solarity (firma člena M. Adriána), developerský projekt Čečelice – nic z toho není doložená investice skupiny do cizí firmy s datem. Vyhledávání si plete s indickým syndikátem Seeders (Kalkata) – jiný subjekt. Osobní investice J. Zimy se podle v2 bodu 5 nepočítají. Při nálezu dealu s datem → přehodnotit.",
+  "phase": 2
+}

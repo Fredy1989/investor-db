@@ -1,0 +1,82 @@
+{
+  "id": "doublespeed",
+  "name": "Double Speed rizikový fond",
+  "legal_name": "Double Speed rizikový fond, otevřený podílový fond, Partners investiční společnost, a.s.",
+  "decision": "exclude",
+  "exclusion_rule": "E5",
+  "decision_reason": "Retailový pákový podílový fond, který investuje do globálně diverzifikovaného portfolia akcií velkých (kotovaných) společností s pákou; neinvestuje do soukromých firem ani startupů. Slovo 'rizikový' znamená rizikovost, ne rizikový kapitál.",
+  "investor_type": null,
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://doublespeed.cz/",
+  "registry": {
+    "value": "75164078",
+    "value_text": "IČO 75164078 (podílový fond), Türkova 2319/5b, Chodov, Praha 4, vznik 2023-03-30; správce Partners investiční společnost, a.s., IČO 24716006",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75164078",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "75164078",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [],
+    "value_text": "globální akcie velkých společností (kotované), ne startupy",
+    "source_url": "https://doublespeed.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": "Fond investuje do širokého, globálně diverzifikovaného portfolia akcií velkých a silných společností",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [],
+    "value_text": "nerelevantní, kotované akcie",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "nerelevantní",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "nehledáno, subjekt vyřazen",
+    "source_url": null,
+    "source_date": "undated",
+    "accessed": "2026-10-22",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "Double Speed rizikový fond, otevřený podílový fond",
+      "original": null,
+      "size_eur": null,
+      "vintage": 2023,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75164078",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75164078"
+      },
+      "manager": "Partners investiční společnost, a.s. (IČO 24716006)",
+      "source_url": "https://doublespeed.cz/",
+      "quote": "Fond spravuje Partners investiční společnost, a.s."
+    }
+  ],
+  "investment_evidence": [],
+  "notes": "Web uvádí i páku: 'Fond může využít páku (až dvojnásobek navíc)'. Hlavní portfolio manažer Martin Mašát. ISIN CZ0008477635. Správce Partners investiční společnost, a.s. ověřen v ARES (IČO 24716006, Türkova 2319/5b, Praha 4). investor_type = null, protože nejde o investora do soukromých firem.",
+  "phase": 2
+}

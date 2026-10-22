@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+limerock,decision,wrong,exclude E6 (inactive) — případně out_of_scope; hlavní důvod je neaktivita,https://sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/limerock-fund-manager-kapitalova-investicia,The fund's investment period ran from 2014 to 2016,"Slovenský tým (jen kancelář Bratislava) → out_of_scope je obhajitelné, ale nenašel jsem žádnou investici za 36 měsíců; všechny portfolio firmy na webu jsou 'Exited'. Vhodnější E6 / inactive."
+limerock,investor_type,wrong,"název: Limerock Advisory, s.r.o. / Limerock Fund Manager (ne 'Limerock Ventures'); typ vc, SK ok",https://www.limerock.sk/main,Business registration ID: 46 092 897,"Typ vc a země SK sedí; web je poradenská firma (transaction advisory), která spravovala JEREMIE Co-Investment Fund (EIF). Název entity v záznamu nesedí."
+limerock,registry,ok,,https://www.limerock.sk/main,Business registration ID: 46 092 897,"Patří Limerock Advisory, s.r.o., Planét 5, Bratislava."
+limerock,sectors,ok,,https://www.limerock.sk/main,Industrial Tech and other B2B businesses,industry + saas_b2b odpovídá; zdroj zmiňuje i health-tech program (Center for Innovative Healthcare).
+limerock,stages,ok,,https://www.limerock.sk/main,Late Seed & Series A rounds,Sedí.
+limerock,ticket,null_missed,"max 2,75 mil. EUR na firmu (JEREMIE fond)",https://superscout.co/investor/limerock-fund-manager,,Jen tier C agregátor + historický fond 2014–2016; na limerock.sk tiket není.
+limerock,capital,null_missed,"12,0 mil. EUR (basis previous_fund_size, fond 2014–2016)",https://sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/limerock-fund-manager-kapitalova-investicia,,Částka 12 mil. EUR je ve výsledcích vyhledávání ze sih.sk/EIF; na stažené stránce sih.sk jsem ji doslova nenašel. Údaj je zastaralý (2014).
+limerock,investment_evidence,null_ok,,,,Ve 2 vyhledáváních žádný deal 2023+ nenalezen; podporuje E6.
