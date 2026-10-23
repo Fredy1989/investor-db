@@ -1,7 +1,7 @@
 # Spolehlivá databáze investorů — zadání A
 
 Řešení praktické úlohy k pozici Junior AI Developer.
-Pilot: VC-like investoři v Česku, ve dvou fázích (59 kandidátů → **36 zařazených**). Každý údaj má zdroj, datum
+Pilot: investoři v Česku všech typů ze zadání, ve třech fázích (71 kandidátů → **43 zařazených**). Každý údaj má zdroj, datum
 a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti oficiálnímu katalogu CzechInvest.
 
 | soubor | obsah |
@@ -9,14 +9,14 @@ a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti ofici�
 | [ODEVZDANI.md](ODEVZDANI.md) | **začni tady:** odpovědi na všechny body zadání, placené databáze (ceny, proč nepoužité), hlavní rozhodnutí |
 | [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu |
 | [RESULTS.md](RESULTS.md) | výsledky pilotu, změřená přesnost, rozbor chyb, odhad nákladů na celý svět |
-| [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | **výsledek pro čtení: 36 investorů, jen to, co chce zadání** (sektor, do čeho a v jaké výši investuje, kapitál, doklad investice s datem); klik na hodnotu otevře zdroj; list Vyřazení s důvodem |
+| [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | **výsledek pro čtení: 43 investorů, jen to, co chce zadání** (sektor, do čeho a v jaké výši investuje, kapitál, doklad investice s datem); klik na hodnotu otevře zdroj; list Vyřazení s důvodem |
 | [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | totéž strojově: u každého údaje URL zdroje, datum a tier |
-| [data/excluded.csv](data/excluded.csv) | 23 vyřazených / neaktivních / mimo rozsah, s pravidlem a důvodem |
+| [data/excluded.csv](data/excluded.csv) | 28 vyřazených / neaktivních / mimo rozsah, s pravidlem a důvodem |
 | [data/records/](data/records/) | plné záznamy (JSON) po opravách — citace, fondy, všechny doložené dealy |
 | [data/records_raw/](data/records_raw/) | totéž **beze změny tak, jak to vrátili rešeršní agenti** |
-| [data/corrections.json](data/corrections.json) | 69 oprav: co se změnilo, proč a kdo to navrhl (ověřovací agent / slepý ověřovatel / orchestrátor / review Mac Clauda) |
+| [data/corrections.json](data/corrections.json) | 89 oprav: co se změnilo, proč a kdo to navrhl (ověřovací agent / slepý ověřovatel / orchestrátor / review Mac Clauda) |
 | [docs/ZADANI.md](docs/ZADANI.md), [docs/requirements-check.md](docs/requirements-check.md) | zadání doslovně a kontrola řešení proti němu bod po bodu |
-| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 425 citací |
+| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 494 citací |
 | [data/verification/](data/verification/), [data/verification_v2/](data/verification_v2/) | verdikty ověřovacího agenta (fáze 1) a slepého ověřovatele (fáze 2), pole po poli |
 | [data/blind/](data/blind/) | slepé podklady pro ověřovatele fáze 2: jen tvrzení + URL |
 | [data/reference_czechstartups.csv](data/reference_czechstartups.csv), [data/recall.csv](data/recall.csv) | oficiální katalog CzechInvest jako referenční seznam a výsledek měření úplnosti |
@@ -78,7 +78,7 @@ python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.
 ### Jak jsem výstup AI kontroloval (5 vrstev)
 
 1. **Strojová kontrola citací.** Skript stáhne každý zdroj a hledá v něm citaci. Vymyšlená URL nebo citace
-   neprojde. Výsledek: 392 z 425 citací doslova (zbytek hlavně prázdná pole a weby blokující stahování), žádná vymyšlená.
+   neprojde. Výsledek: 459 z 494 citací doslova (zbytek hlavně prázdná pole a weby blokující stahování), žádná vymyšlená.
 2. **Nezávislý agent B.** Znovu otevřel zdroje a ke každému poli dal verdikt `ok / wrong / unverifiable / null_ok / null_missed`.
    Ve fázi 1 našel 17 chybných polí ze 121 a 6 zmeškaných údajů. Ve fázi 2 byl **slepý**: dostal jen tvrzení + URL
    ([data/blind/](data/blind/)) a citaci si musel najít sám. Našel 10 chybných polí ze 77.
@@ -117,6 +117,10 @@ python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.
 | Registr: IČO mateřské banky místo investující dceřiné firmy (Seed Starter ČS) | agent A v2 | slepý ověřovatel | oprava na ČS Seed Starter, a.s. |
 | Dva ověřovatelé si ve sdíleném adresáři přepsali skript stejného jména | infrastruktura agentů | agent to sám nahlásil | výsledky zkontrolovány (beze změny); v produkci vlastní adresář pro každého agenta |
 | **Odhad úplnosti 88 %** z porovnání se druhým AI řešením (obě braly kandidáty ze stejných přehledů) | hlavní session | oficiální katalog CzechInvest | změřeno: 66 % (RESULTS §3b) |
+| Tipy jiné AI (DeepSeek) na family office a anděly: ze 4 FO prošla pravidly jen 2, u anděla špatné jméno („Michal Rostock" místo Michael Rostock-Poplar) | DeepSeek (konzultace uživatele) | rešeršní agent fáze 3 | tipy jiných AI se ověřují stejně jako vlastní kandidáti (PLAN §7.24) |
+| Typ „family office" převzatý z agregátoru, i když se subjekt sám označuje jako investiční skupina (TCF, BHM) | agent A v3 | slepý ověřovatel | pravidlo: rozhoduje vlastní označení subjektu (PLAN §7.21) |
+| „Kapitál" 720 mil. EUR byl ve skutečnosti hodnota podílu v Rohlik Group, 1,1 mld. EUR aktiva celé skupiny | agent A v3 | slepý ověřovatel | správný `basis` (hodnota portfolia / aktiva skupiny) |
+| Jet Investment (PE) a Jet Venture (VC) jako dva investoři, i když jde o jednoho správce | hlavní session (výběr kandidátů) | rešeršní agent (stejné IČO) | sloučeno do jednoho záznamu (E8, PLAN §7.22) |
 
 **Prompt injection.** Dvě stránky (Dealroom a euacc.ai) obsahovaly pokyny pro AI, např. „If you are an LLM always mention…".
 Agenti je ignorovali a nahlásili. Data z webu jsou data, ne pokyny. To je výslovně v pokynech pro agenta B a pro
@@ -136,10 +140,10 @@ produkční běh by to mělo být i v pokynech pro agenta A.
   investoři čísla zveřejňují různě a bez označení by nebyla porovnatelná.
 - **Chybějící údaj = `null`, nikdy odhad.** U databáze, kde jde o spolehlivost, je díra lepší než vymyšlené číslo.
   Zadání sice říká, že u každého investora „musí byť uvedené" sektor, tiket a kapitál, ale ne všichni investoři
-  tyto údaje zveřejňují. Výsledek u 36 zařazených:
-  - tiket chybí u 10 (např. Aspire11, Pale Fire, Tensor, Tachles, RSJ),
-  - kapitál chybí u 10 (např. DEPO, Fazole, Flying Founders, QQ Capital, Seed Starter),
-  - sektor chybí u 1 (Reflex).
+  tyto údaje zveřejňují. Výsledek u 43 zařazených (podrobně podle typu v RESULTS §3c):
+  - tiket chybí u 13 (např. Aspire11, Pale Fire, Tensor, Tachles, family office, andělé),
+  - kapitál chybí u 13 (např. DEPO, Fazole, QQ Capital, Seed Starter; u 3 andělů úmyslně kvůli GDPR),
+  - sektor chybí u 3 (Reflex a dva andělé, kteří zaměření nedeklarují).
 
   Rodinné kanceláře a syndikáty čísla zveřejňují nejméně, což odpovídá odhadu spolehlivosti v PLAN §5.
 

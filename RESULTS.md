@@ -221,6 +221,69 @@ který viděl jen tvrzení + URL ([data/blind/](data/blind/)) a citaci si musel 
 - Spotřeba na kandidáta je podobná jako ve fázi 1 (~48 tis.). Odhad nákladů v §5 platí.
 - **Podíl zařazených z nekurátorovaného vstupu je 15/30 = 50 %.** To přesně odpovídá předpokladu 50 % v odhadu nákladů (§5).
 
+## 3c. Fáze 3: private equity, family office a jednotliví andělé
+
+Fáze 1–2 ověřily pravidla jen na VC-like investorech. Fáze 3 je ověřila na zbylých typech ze zadání:
+13 kandidátů, [pokyny v3](docs/prompt-research-agent-v3.md) (pravidla pro PE, FO a anděly včetně GDPR) a slepý ověřovatel.
+
+### Výsledek
+
+| typ | kandidáti | zařazeno | vyřazeno / neaktivní |
+|---|---|---|---|
+| private equity | Jet Investment, ARX Equity Partners, Benson Oak (+ Genesis z fáze 1) | **Jet Investment, ARX, Genesis** | Benson Oak: poslední investice 2011 (E6) |
+| family office | TCF Capital, BHM Group, J&T Family Office, Marperger | **TCF, BHM** (oba jako `private_investor`, PLAN §7.21) | J&T FO: správa majetku, sám neinvestuje (I4); Marperger: poslední deal 2019 (E6) |
+| jednotliví andělé | Hlavenka, Obluk, Dendis, Najvárek, Rostock-Poplar | **Jiří Hlavenka, Miloš Dendis, Michael Rostock-Poplar** | Obluk, Najvárek: méně než 2 doložené osobní investice (I3) |
+
+**Celkem v databázi: 43 investorů** (fáze 1: 22 vč. Genesis, fáze 2: 15 bez Jet Venture, fáze 3: 7 nových + Jet Investment
+sloučen s Jet Venture). Složení:
+
+| typ | počet |
+|---|---|
+| VC fond | 25 |
+| soukromý investor / investiční skupina | 5 |
+| korporátní VC | 4 |
+| private equity | 3 |
+| anděl (fyzická osoba) | 3 |
+| family office | 2 |
+| andělský syndikát | 1 |
+
+### Přesnost surového výstupu v3 (slepý ověřovatel, `measure.py` část F)
+
+- **Rozhodnutí zařadit / vyřadit: 7/7 zařazených a 5/5 vyřazených správně (100 %).**
+- **Přesnost polí 25/27 = 93 %.**
+- Přesnost záznamu je jen 5/7 = 71 %, ale obě chyby jsou **typ family office × soukromý investor** (TCF, BHM).
+  Nejde o fakta, ale o nejasnou hranici v plánu, kterou fáze 3 odhalila a PLAN §7.21 ji upřesnil.
+- Kapitál: TCF uvádí „720 mil. EUR", ale je to hodnota podílu v Rohlik Group, ne kapitál k investování.
+  BHM uvádí „1,1 mld. EUR", ale jsou to aktiva celé skupiny. Obojí označeno správným `basis`.
+
+### Ověření odhadu spolehlivosti z plánu (pokrytí polí podle typu, `build.py`)
+
+| typ | počet | sektory | tiket | kapitál |
+|---|---|---|---|---|
+| VC fond | 25 | 96 % | 84 % | 84 % |
+| soukromý investor | 5 | 100 % | 60 % | 100 % |
+| korporátní VC | 4 | 100 % | 75 % | 25 % |
+| private equity | 3 | 100 % | 67 % | 100 % |
+| anděl | 3 | 33 % | 33 % | 0 % (úmyslně, GDPR) |
+| family office | 2 | 100 % | 0 % | 0 % |
+
+- **Odhad z PLAN §5 se potvrdil:** VC a PE zveřejňují tiket i kapitál nejčastěji, family office a andělé skoro nikdy.
+- U PE je kapitál vždy známý (velikost fondu je veřejná), tiket ne. Fondy uvádějí hodnotu cílových firem, ne vlastní vklad.
+- Korporátní VC zveřejňují kapitál jen výjimečně (rozhoduje o něm mateřská firma).
+- U andělů je kapitál prázdný úmyslně: je to osobní majetek. Zjišťovat ho by bylo proti GDPR a pro zadání zbytečné.
+
+### Náklady fáze 3
+
+| | tokeny | volání nástrojů | čas agentů |
+|---|---|---|---|
+| rešerše (3 agenti, 12 kandidátů) | 537 tis. | 185 | 28 min |
+| slepé ověření (3 agenti) | 407 tis. | 119 | 15 min |
+| **na kandidáta** | **~79 tis.** | **~25** | **~3,6 min** |
+
+PE, FO a andělé stojí **~1,6× víc než VC** (~79 tis. vs. ~50 tis. tokenů). Mají méně veřejných zdrojů a víc slepých
+uliček, např. neexistující „TCF Capital" v rejstříku nebo deal pod jiným jménem vozidla. Odhad nákladů pro celý rozsah
+(§5) s tím počítá jen částečně, proto je horní hranice 125 tis. EUR realističtější než dolní.
+
 ## 4. Kolik stál pilot
 
 Naměřeno ze statistik agentů:

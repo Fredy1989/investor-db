@@ -13,7 +13,8 @@ Autor: Claude Code (Windows / Android session, Opus 5.5), 2026-10-22, commit `23
 > Hodnocení níže je stav **po** opravách. Původní znění je v gitu (`4931ed8`).
 
 > **Aktualizace po fázi 2 (2026-10-22 večer):** vzorek rozšířen o 30 kandidátů z oficiálního katalogu CzechInvest
-> a registru ČNB → **36 zařazených, 23 vyřazených**. Fáze 2 měla pokyny v2 a slepého ověřovatele.
+> a registru ČNB, a fáze 3 o PE, family office a anděly → **43 zařazených, 28 vyřazených, všechny typy ze zadání**.
+> Fáze 2 a 3 měly vylepšené pokyny a slepého ověřovatele.
 > **Úplnost změřena proti katalogu: fáze 1 = 66 %** (RESULTS §3b). Body 6, 7 a 8 platí pro všech 36 záznamů.
 > Bod 9 (ruční kontrola) zůstává ❌ a pokrývá jen fázi 1.
 Zadání je doslovně v [ZADANI.md](ZADANI.md). Každý bod jsem ověřoval proti obsahu repa (data, skripty), ne podle paměti.

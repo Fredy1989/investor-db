@@ -12,7 +12,7 @@ Stav k 2026-10-22.
 | odkaz na veřejný repozitář na GitHubu | ⏳ před odesláním (repo je zatím soukromé) | — |
 | **plán** | ✅ | [PLAN.md](PLAN.md) |
 | **data ze vzorku se zdrojem u každého údaje** | ✅ | [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) (pro čtení), [data/investors_cz_vc.csv](data/investors_cz_vc.csv) a [data/records/](data/records/) (zdroj, datum, citace u každého údaje) |
-| **výsledek měření přesnosti** | ✅ AI ověření / ⏳ ruční část | [RESULTS.md §3, §3b](RESULTS.md), [data/accuracy.csv](data/accuracy.csv) |
+| **výsledek měření přesnosti** | ✅ AI ověření / ⏳ ruční část | [RESULTS.md §3, §3b, §3c](RESULTS.md), [data/accuracy.csv](data/accuracy.csv) |
 | kód s průběžnou historií commitů | ✅ | [src/](src/), `git log` (18+ commitů po krocích) |
 | `ai-log/`: export konverzací s Claude Code | ⏳ export na konci | [ai-log/](ai-log/) |
 | README: jak se pracovalo s AI, pokyny agentům, kontrola výstupu, kde se AI mýlila | ✅ | [README.md](README.md), [docs/](docs/) |
@@ -44,7 +44,7 @@ a má to doložené**. Podrobně v [PLAN.md §1–2](PLAN.md).
   - E8 duplicita.
 - **Typy:** VC, private equity, korporátní VC, státní VC, family office, anděl, andělský syndikát, velký soukromý investor.
 
-Pravidla se v praxi osvědčila: vyřadila 23 z 59 kandidátů, mezi nimi crowdfundingové platformy, neexistující subjekt,
+Pravidla se v praxi osvědčila: vyřadila 28 ze 71 kandidátů, mezi nimi crowdfundingové platformy, neexistující subjekt,
 fond, který nikdy neinvestoval, a akciový fond se slovem „rizikový" v názvu. Odhalila i ~20 tis. vázaných zástupců
 z registru ČNB, které jiná AI doporučovala jako „investory". Jsou to ale prodejci investičních produktů, ne investoři.
 
@@ -75,18 +75,23 @@ Podrobně v [PLAN.md §5](PLAN.md):
 | velcí soukromí investoři | 1–3 tis. | střední | vlastní odhad (bez přímého zdroje) |
 | **celkem** | **30–50 tis.**, jádro VC/PE/CVC 12–16 tis. | | |
 
-Pilot odhad spolehlivosti zpřesnil. Tiket je veřejný u ~72 % a kapitál u ~72 % zařazených. Family office a syndikáty je
-zveřejňují nejméně. Rozhodnutí „je to investor" je spolehlivé (94–100 %), nejslabší je velikost kapitálu.
+Pilot odhad spolehlivosti **na datech potvrdil** (RESULTS §3c): VC fondy zveřejňují tiket u 84 % a kapitál u 84 %,
+PE kapitál vždy, ale tiket jen u 67 %, family office ani jedno, u andělů se kapitál úmyslně nezjišťuje (GDPR).
+Rozhodnutí „je to investor" je spolehlivé (94–100 %), nejslabší je velikost kapitálu.
 
 ### 4. Ověření na menší vzorce
 
-**VC-like investoři v Česku**, ve dvou fázích ([RESULTS.md](RESULTS.md)):
+**Investoři v Česku, ve třech fázích** ([RESULTS.md](RESULTS.md)). VC fondy podle návrhu v zadání, pak doplněné ostatní typy:
 
 | | kandidáti | zařazeno | vyřazeno |
 |---|---|---|---|
-| fáze 1: kandidáti z médií a přehledů | 29 | 21 | 8 |
-| fáze 2: oficiální katalog CzechInvest, registr ČNB, druhé řešení | 30 | 15 | 15 |
-| **celkem** | **59** | **36** | **23** |
+| fáze 1: VC, kandidáti z médií a přehledů | 29 | 22 | 7 |
+| fáze 2: VC, oficiální katalog CzechInvest, registr ČNB, druhé řešení | 30 | 14 | 16 |
+| fáze 3: private equity, family office, jednotliví andělé | 12 | 7 | 5 |
+| **celkem** | **71** | **43** | **28** |
+
+Složení databáze: 25 VC fondů, 5 soukromých investorů / investičních skupin, 4 korporátní VC, 3 private equity,
+3 andělé (fyzické osoby), 2 family office, 1 andělský syndikát. **Zastoupeny jsou všechny typy ze zadání.**
 
 Výsledek je v [Databaze_investoru.xlsx](data/Databaze_investoru.xlsx). Jeden řádek = jeden investor:
 sektor, do čeho investuje, typická výše investice, celkový kapitál a doklad investice (firma + datum).
@@ -94,7 +99,7 @@ sektor, do čeho investuje, typická výše investice, celkový kapitál a dokla
 
 ### 5. U každého záznamu zdroj a datum, které dokládají, že subjekt investuje
 
-✅ Všech 36 zařazených má **poslední doloženou investici s datem** (všechny po 2023-10-22) a odkazem na článek nebo
+✅ Všech 43 zařazených má **poslední doloženou investici s datem** (všechny po 2023-10-22) a odkazem na článek nebo
 tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použít k **nalezení** dealu, ne k jeho **doložení**.
 
 ### 6. Přesnost na ručně ověřené vzorce
@@ -103,6 +108,7 @@ tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použ
 |---|---|---|
 | A: fáze 1, surový výstup AI | ověřovací AI agent (viděl citace) | záznam **87 %**, údaje **86 %** |
 | E: fáze 2, surový výstup AI (pokyny v2) | **slepý** AI ověřovatel | záznam **81 %**, údaje **87 %** |
+| F: fáze 3 (PE, FO, andělé, pokyny v3) | **slepý** AI ověřovatel | rozhodnutí **100 %**, údaje **93 %** (chyby jen v typu FO × soukromý investor) |
 | B: finální data po opravách | **člověk**, náhodný vzorek 6 investorů × 5 údajů | ⏳ vyplňuje se |
 | C: shoda AI ověřovatele s člověkem | | ⏳ z téhož listu |
 | úplnost proti oficiálnímu katalogu | skript | fáze 1 našla **66 %** investorů z katalogu |
@@ -174,7 +180,8 @@ Pro tuto úlohu ne.
 | rozhodnutí | proč |
 |---|---|
 | **vzorek = VC-like investoři v Česku** | zadání to navrhuje; český trh je dost malý na ruční kontrolu a znám ho |
-| **ostatní typy (PE, family office, jednotliví andělé) jen v plánu, ne ve vzorku** | zadání chce plán pro celou databázi, ale ověření „na menší vzorce, např. VC fondech v jedné zemi"; pravidla pro ostatní typy jsou napsaná, na datech zatím neotestovaná (2 FO a 1 andělský syndikát se do vzorku dostaly přirozeně) |
+| **nejdřív VC (fáze 1–2), pak doplňkový vzorek ostatních typů (fáze 3)** | zadání navrhuje ověřit plán na VC fondech v jedné zemi; databáze má ale obsahovat všechny typy, proto fáze 3 ověřila pravidla i na PE, family office a jednotlivých andělech |
+| **andělé jen s veřejnou profesní prezentací, bez osobního majetku** | jsou to fyzické osoby (GDPR): ukládá se jen jméno, zaměření a doložené investice, kapitál se úmyslně nezjišťuje |
 | **chybějící údaj = prázdné pole, nikdy odhad** | spolehlivost je hlavní požadavek; vymyšlené číslo vypadá jako fakt |
 | **investor = doložená investice za 36 měsíců** | „každý záznam musí být skutečný investor": tvrzení na webu nestačí, musí být vidět skutečná investice |
 | **u každého údaje doslovná citace, kterou kontroluje stroj** | AI agenti umí vymýšlet zdroje; citace se dá automaticky ověřit |
@@ -186,6 +193,6 @@ Pro tuto úlohu ne.
 ## Co v řešení chybí
 
 - **Ruční kontrola člověkem** (měření B a C): list je připravený, vyplňuje se.
-- **Ostatní typy investorů na datech** (PE, family office, jednotliví andělé): jen v plánu.
+- Ostatní typy (PE, family office, andělé) jsou ověřené jen na malém vzorku (12 kandidátů). Pro spolehlivé statistiky po typech by byl potřeba větší.
 - **Export konverzace do `ai-log/`** a **zveřejnění repozitáře**: poslední kroky před odesláním.
 - Hraniční případy k ručnímu dořešení: NEWTON University Angels, Longevitytech.fund, a u KAYA, Miton a J&T, která právnická osoba je správce.

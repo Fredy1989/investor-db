@@ -196,3 +196,16 @@ Pilot (viz [RESULTS.md](RESULTS.md)) ukázal, co v plánu chybělo nebo bylo šp
     v registru fondů ČNB jsou jen zdroj kandidátů, ne důkaz.
 20. **Agenti sdílejí pracovní adresář** (scratchpad). Dva ověřovatelé si navzájem přepsali skript se stejným názvem.
     Výsledky se nepoškodily (zkontrolováno), ale v produkci má každý agent dostat vlastní adresář.
+
+21. **Family office × soukromý investor (po fázi 3):** rozhoduje, **jak se subjekt sám označuje** na svém webu
+    a v tiskových zprávách. Označení třetích stran (agregátory, žebříčky) nestačí. „Investiční skupina" zakladatele je
+    `private_investor` (TCF Capital, BHM Group, Pale Fire), „family office" je jen ten, kdo se tak sám prezentuje
+    (QQ Capital, Aternus). Ve fázi 3 to byla jediná opakovaná chyba (2 ze 2 chyb typu).
+22. **Jeden správce = jeden záznam, i když má víc strategií (E8).** Jet Investment (PE) a jeho VC fond Jet Venture 1
+    mají stejné IČO, proto vznikl jeden záznam se dvěma fondy a dealy z obou strategií.
+23. **Andělé a GDPR:** zařazeni jen ti, kdo se jako investoři veřejně prezentují. Ukládá se jen jméno, zaměření
+    a doložené investice. Kapitál (osobní majetek) se úmyslně nezjišťuje. Andělé, kteří investují přes vlastní vozidlo
+    (Dendis Capital), mají v `registry` IČO vozidla. Anděl bez 2 doložených investic (I3) je vyřazen, i když je známý (Obluk, Najvárek).
+24. **Tipy od jiných AI je nutné ověřit stejně jako vlastní kandidáty.** Ze 4 family office navržených DeepSeekem
+    prošla pravidly jen 2. J&T Family Office je služba správy majetku (I4), Marperger je neaktivní. U anděla
+    „Michal Rostock" bylo jméno špatně (správně Michael Rostock-Poplar).
