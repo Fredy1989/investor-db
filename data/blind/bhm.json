@@ -1,0 +1,58 @@
+{
+  "id": "bhm",
+  "name": "BHM Group",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.bhmgroup.eu/news/bhm-group-posiluje-globalni-ambice-reinsberg-group-akvizici-rein-medical"
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://www.bhmgroup.eu"
+    },
+    "registry": {
+      "value": "02865998",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02865998"
+    },
+    "sectors": {
+      "value": [
+        "health",
+        "energy_climate",
+        "deeptech",
+        "industry"
+      ],
+      "source_url": "https://www.bhmgroup.eu/o-nas"
+    },
+    "stages": {
+      "value": [
+        "buyout",
+        "growth"
+      ],
+      "source_url": null,
+      "derived_from": "investment_evidence"
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": 1100000000,
+        "basis": "own_balance_sheet"
+      },
+      "source_url": "https://www.bhmgroup.eu/",
+      "original": {
+        "currency": "EUR",
+        "amount": 1100000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Rein Medical GmbH (DE)",
+      "date": "2026-02-02",
+      "round": "akvizice přes Reinsberg Group",
+      "source_url": "https://www.bhmgroup.eu/news/bhm-group-posiluje-globalni-ambice-reinsberg-group-akvizici-rein-medical"
+    }
+  }
+}

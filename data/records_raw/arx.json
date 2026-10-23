@@ -1,0 +1,128 @@
+{
+  "id": "arx",
+  "name": "ARX Equity Partners",
+  "legal_name": "Arx Equity Partners s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Pražský PE správce (lower mid-market, nástupnické transakce, MBO/MBI, růstový kapitál) s pátým fondem ARX CE V (první close 78 mil. EUR, cíl 100 mil. EUR, 10/2024); v roce 2026 doložené investice HLB PROXY (CZ), Direct4me a Medicofit (SI).",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.arxequity.com/",
+  "registry": {
+    "value": "64943356",
+    "value_text": "IČO 64943356",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64943356",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"64943356\",\"obchodniJmeno\":\"Arx Equity Partners s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry",
+      "health",
+      "consumer"
+    ],
+    "value_text": "primárně B2B firmy ve výrobě a podnikových službách; navíc zdravotnictví, vzdělávání a lifestyle služby (business services/vzdělávání v taxonomii nejsou; lifestyle = consumer)",
+    "source_url": "https://www.arxequity.com/arx-ce-v-holds-first-close-of-fifth-fund-ahead-of-e100-million-target/",
+    "source_date": "2024-10-22",
+    "accessed": "2026-10-23",
+    "quote": "The sector strategy of the Fund will be consistent with ARX’s successful track-record, with a primary focus on B2B businesses operating in areas such as manufacturing and business services.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "buyout",
+      "growth"
+    ],
+    "value_text": "nástupnické odkupy, MBO/MBI, odprodeje dceřiných firem a růstový kapitál (working-with-arx)",
+    "source_url": "https://www.arxequity.com/about-arx/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Our firm also provides financing to entrepreneurially-minded managers in order to fund management buy-out and management buy-in (MBO & MBI) transactions.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Tiket neuveden; cílové firmy v hodnotě typicky 10–50 mil. EUR, EBITDA min. 1 mil. EUR (hodnota firmy, ne tiket – nedopočítáno)",
+    "source_url": "https://www.arxequity.com/working-with-arx/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Medium-sized companies typically valued between € 10 million and € 50 million.",
+    "source_tier": "A"
+  },
+  "capital": {
+    "value": {
+      "eur": 100000000,
+      "basis": "target_fund_size"
+    },
+    "value_text": "ARX CE V: cíl 100 mil. EUR, první close s upsanými 78 mil. EUR (10/2024); celkem přes 300 mil. EUR ve 4 předchozích fondech",
+    "source_url": "https://www.arxequity.com/arx-ce-v-holds-first-close-of-fifth-fund-ahead-of-e100-million-target/",
+    "source_date": "2024-10-22",
+    "accessed": "2026-10-23",
+    "quote": "The Fund, which has a target of €100 million, will continue to execute ARX’s value creation strategy of investing in lower mid-cap SMEs in selected Central European countries",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 100000000
+    }
+  },
+  "funds": [
+    {
+      "name": "ARX CE V",
+      "size_eur": 78000000,
+      "size_basis": "first_close_commitments",
+      "target_eur": 100000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 78000000
+      },
+      "vintage": 2024,
+      "domicile": null,
+      "source_url": "https://www.arxequity.com/arx-ce-v-holds-first-close-of-fifth-fund-ahead-of-e100-million-target/",
+      "quote": "is pleased to announce the first close of its fifth fund, ARX CE V (the “Fund”), with total subscribed commitments of €78 million."
+    },
+    {
+      "name": "ARX CEE IV",
+      "size_eur": null,
+      "target_eur": 100000000,
+      "original": null,
+      "vintage": 2016,
+      "domicile": null,
+      "source_url": "https://www.arxequity.com/arx-cee-iv-holds-first-close-towards-e-100-million-target-supported-by-the-eu-cosme-programme/",
+      "quote": "is pleased to announce the first closing of its fourth fund, ARX CEE IV (the “Fund”), at € 54 million, with total subscribed commitments of € 66 million."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Medicofit, fizioterapija d.o.o. (Slovinsko)",
+      "date": "2026-08-26",
+      "round": "majoritní podíl",
+      "source_url": "https://www.arxequity.com/arx-equity-partners-acquires-majority-stake-in-medicofit-slovenias-leading-private-physiotherapy-provider/",
+      "source_date": "2026-08-26",
+      "quote": "today announced the acquisition of a majority stake in Medicofit, fizioterapija d.o.o.",
+      "source_tier": "A"
+    },
+    {
+      "company": "Direct4me, d.o.o. (Slovinsko)",
+      "date": "2026-03-16",
+      "round": "lead investor (růstový kapitál)",
+      "source_url": "https://www.arxequity.com/arx-equity-partners-invests-in-direct4me/",
+      "source_date": "2026-03-17",
+      "quote": "ARX Equity Partners (“ARX”) has become a lead investor in Direct4me, d.o.o.",
+      "source_tier": "A"
+    },
+    {
+      "company": "PROXY Holding a.s. (HLB PROXY, Česko)",
+      "date": "2026-01-30",
+      "round": "majoritní podíl (platforma)",
+      "source_url": "https://www.arxequity.com/arx-equity-partners-acquires-majority-stake-in-hlb-proxy/",
+      "source_date": "2026-01-30",
+      "quote": "ARX Equity Partners has acquired a majority stake in PROXY Holding a.s., the holding company of PROXY, a.s. and PROXY – AUDIT, s.r.o.",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Všechny tři důkazy I2 jsou z webu investora (tier A, datované tiskové zprávy); nezávislé mediální potvrzení (tier B) jsem nenašel – vyhledávání vrátilo jen web ARX. Český tým: sídlo Praha (web 'Headquartered in Prague', kontakt 28. října 12, Praha 1, shodné s ARES), pobočka i v Polsku. Domicil fondů ARX CE V / CEE IV neuveden – nevyplněno. ARX CEE IV: Unquote (cca 2017, datum na stránce nenalezeno) uvádí 'attracted €95m', finální close nedoložen, proto size_eur null. Konečnou velikost ARX CE V (po 10/2024) jsem nenašel; capital = cíl 100 mil. EUR. V ARES je i 'ARX Equity Co-Invest a.s.' (IČO 19161239, vznik 2023-03-20, stejná adresa) – pravděpodobně koinvestiční vehikl, vztah neověřen. Pozor: www.arx.cz je nesouvisející účetní firma. Ticket = null (web uvádí jen hodnotu cílových firem 10–50 mil. EUR). Dřívější deal Phobs (Chorvatsko, 2025-05-05, se Sandberg Capital) jen z výpisu na webu, detail jsem neotevíral.",
+  "phase": 3
+}

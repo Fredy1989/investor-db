@@ -1,0 +1,103 @@
+{
+  "id": "bensonoak",
+  "name": "Benson Oak Capital",
+  "legal_name": "Benson Oak Capital Coöperatief U.A. (fond, NL); poradce Benson Oak (Praha) – právnickou osobu jsem jednoznačně nespároval",
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "Pražský buy-out a growth equity investor (AVG, ETA, Bochemie, Click Insurance); poslední doložená investice je Click Insurance (08/2011) a web se neaktualizuje od 2012. Žádná PE investice po 2023-10-22 nedoložena.",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "http://bensonoakcapital.com/",
+  "registry": {
+    "value": "41190106",
+    "value_text": "IČO 41190106",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/41190106",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"41190106\",\"obchodniJmeno\":\"Benson Oak, spol. s r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "bez sektorového omezení – firmy v ČR a SR s domácím/mezinárodním růstovým potenciálem",
+    "source_url": "http://bensonoakcapital.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "We invest in companies which demonstrate significant domestic and/or international growth potential",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "buyout",
+      "growth"
+    ],
+    "value_text": "buy-out a growth equity",
+    "source_url": "http://bensonoakcapital.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Benson Oak is the exclusive advisor to Benson Oak Capital Cooperatif U.A., a buy-out and growth equity firm investing into leading businesses based in the Czech Republic and Slovakia.",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 5000000,
+      "max_eur": 15000000
+    },
+    "value_text": "typicky 5–15 mil. EUR (web pravděpodobně neaktualizovaný od ~2012)",
+    "source_url": "http://bensonoakcapital.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "with transaction sizes typically between €5 and €15 million though our flexible approach allows us to invest more or less",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "min": 5000000,
+      "max": 15000000
+    }
+  },
+  "capital": {
+    "value": null,
+    "value_text": "nezjištěno – web neuvádí velikost fondu",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [
+    {
+      "name": "Benson Oak Capital Coöperatief U.A.",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": "NL",
+      "source_url": "http://bensonoakcapital.com/",
+      "quote": "Benson Oak is the exclusive advisor to Benson Oak Capital Cooperatif U.A."
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "Click Insurance, a.s. (Klikpojisteni.cz)",
+      "date": "2011-08",
+      "round": "investice (detail neuveden)",
+      "source_url": "http://bensonoakcapital.com/current-portfolio/click-insurance",
+      "source_date": "undated",
+      "quote": "Investment Completed: August 2011",
+      "source_tier": "A"
+    },
+    {
+      "company": "ETA a.s. + Plastkov",
+      "date": "2007-06-13",
+      "round": "buyout 100 %",
+      "source_url": "https://www.novinky.cz/clanek/ekonomika-firmu-eta-koupila-spolecnost-benson-oak-40161625",
+      "source_date": "2007-06-13",
+      "quote": "Investiční firma Benson Oak Capital koupila stoprocentní akciový podíl ve výrobci elektrospotřebičů ETA a její dceřiné firmě Plastkov.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Hledal jsem PE investice Benson Oak 2023–2026 (web, CZ média, obecné vyhledávání) – nic nenalezeno; web bensonoakcapital.com má poslední tiskovou zprávu z 1. 2. 2012. Agregátory (CB Insights, privateequitylist) uvádějí nekonzistentní data (privateequitylist dokonce Izrael) – nepoužito. Unquote 'Benson Oak fully exits Klikpojisteni.cz' (2020) jsem neotevřel (paywall); exit by nebyl investicí. Registr: v ARES je 'Benson Oak, spol. s r.o.' (IČO 41190106, vznik 1991, NACE 70200 poradenství, Dykova 50/20, Praha 10), ale web uvádí adresu Rašínovo nábřeží 78, Praha 2 – vazbu na poradce Benson Oak Capital jsem NEOVĚŘIL (rok vzniku 1991 sedí s CzechCrunch 'Benson Oak vznikla v roce 1991'). Fond je nizozemské družstvo (U.A.), registr NL neověřen. Zvlášť existuje Benson Oak Ventures (VC: B2C, Digital SMB, Web3; kanceláře Tel Aviv / Praha / Londýn / NY; fond 100 mil. USD ohlášen 2018 dle CzechCrunch https://cc.cz/cesky-benson-oak-spousti-investicni-fond-ktery-vlozi-pres-2-miliardy-kc-do-kryptomenovych-startupu/) – jiný typ (vc), sídlo týmu zřejmě Izrael; do tohoto PE záznamu nezahrnuto a jeho aktivitu v okně 36 měsíců jsem neověřoval – případně samostatný kandidát (pozor na out_of_scope kvůli sídlu týmu).",
+  "phase": 3
+}

@@ -1,0 +1,45 @@
+{
+  "id": "obluk",
+  "name": "Karel Obluk",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "I3",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": null
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": null,
+      "source_url": null
+    },
+    "stages": {
+      "value": null,
+      "source_url": null
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

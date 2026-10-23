@@ -1,0 +1,64 @@
+{
+  "id": "jetinvest",
+  "name": "Jet Investment (private equity)",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.jetinvestment.cz/novinky/jet-investment-rozsiruje-nas-chleb-o-ostravskou-pekarnu-pekari-a-spol"
+    },
+    "investor_type": {
+      "value": "pe",
+      "country": "CZ",
+      "website": "https://www.jetinvestment.cz/private-equity"
+    },
+    "registry": {
+      "value": "03890333",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333"
+    },
+    "sectors": {
+      "value": [
+        "industry",
+        "energy_climate",
+        "health",
+        "consumer"
+      ],
+      "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/"
+    },
+    "stages": {
+      "value": [
+        "buyout"
+      ],
+      "source_url": "https://cc.cz/novy-fond-jet-4-chce-ozivit-stredoevropsky-prumysl-investorum-nabizi-primy-vstup-od-10-milionu/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 10000000,
+        "max_eur": 60000000
+      },
+      "source_url": "https://cc.cz/novy-fond-jet-4-chce-ozivit-stredoevropsky-prumysl-investorum-nabizi-primy-vstup-od-10-milionu/",
+      "original": {
+        "currency": "EUR",
+        "min": 10000000,
+        "max": 60000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 300000000,
+        "basis": "target_fund_size"
+      },
+      "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/",
+      "original": {
+        "currency": "EUR",
+        "amount": 300000000
+      }
+    },
+    "investment_evidence": {
+      "company": "PEKAŘI a spol. (Ostrava), add-on ke skupině Náš Chléb",
+      "date": "2026-09-11",
+      "round": "akvizice 100% podílu, fond Jet 3",
+      "source_url": "https://www.jetinvestment.cz/novinky/jet-investment-rozsiruje-nas-chleb-o-ostravskou-pekarnu-pekari-a-spol"
+    }
+  }
+}

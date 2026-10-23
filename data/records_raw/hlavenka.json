@@ -1,0 +1,111 @@
+{
+  "id": "hlavenka",
+  "name": "Jiří Hlavenka",
+  "legal_name": null,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Veřejně se prezentující andělský investor (první investor Kiwi.com, Jinej fond s J. Slámou). V okně 36 měsíců doložené investice: Elredo (10/2026) a FaceUp (05/2026) jmenovitě osobně, navíc TasteTown (04/2025) a HTG Medical (07/2026) přes Jinej fond.",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": "https://www.jinejfond.cz/",
+  "registry": {
+    "value": null,
+    "value_text": "fyzická osoba – registr se neuvádí; Jinej fond nemá na webu IČO ani právní formu, investiční vozidlo neověřeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "deklarovaný sektorový mandát nenalezen (Jinej fond: inovativní firmy, projekty a startupy); ze dealů nezobecňováno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "startupy ve fázi nápadu nebo raného prototypu (rozhovor 2021)",
+    "source_url": "https://sj.news/plechovka-fazoli-denne-za-18-50-to-je-pravy-bootstrapping-rika-zkuseny-investor-jiri-hlavenka/",
+    "source_date": "2021-07-05",
+    "accessed": "2026-10-23",
+    "quote": "startupy ve fázi nápadu nebo raného prototypu",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": null,
+      "max_eur": null
+    },
+    "value_text": "Jinej fond může začínat i s 0,5 mil. Kč (2020); max neuvedeno",
+    "source_url": "https://cc.cz/jinej-fond-dvou-podnikatelskych-generaci-jiri-hlavenka-a-jan-slama-startuji-spolecne-investice-do-zacinajicich-startupu/",
+    "source_date": "2020-11-25",
+    "accessed": "2026-10-23",
+    "quote": "Můžeme ale začínat s docela malými penězi, klidně půl milionem korun.",
+    "source_tier": "B",
+    "original": {
+      "currency": "CZK",
+      "min": 500000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvádí se – osobní údaj",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Elredo",
+      "date": "2026-10-01",
+      "round": "kolo vedené JIC Ventures; Hlavenka se připojil",
+      "source_url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/",
+      "source_date": "2026-10-01",
+      "quote": "ke kterému se připojil známý podnikatel a investor Jiří Hlavenka, investiční program SIC a švédští Bond Ventures.",
+      "source_tier": "B"
+    },
+    {
+      "company": "FaceUp",
+      "date": "2026-05-19",
+      "round": "nové kolo; Hlavenka jako stávající investor",
+      "source_url": "https://cc.cz/byl-to-studentsky-projekt-ted-uz-ma-hodnotu-pres-pul-miliardy-nabidky-na-odkup-odmitame-hlasi-cesi/",
+      "source_date": "2026-05-19",
+      "quote": "Do investice se pak zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital.",
+      "source_tier": "B"
+    },
+    {
+      "company": "TasteTown",
+      "date": "2025-04-15",
+      "round": "10 mil. Kč přes Jinej fond (Hlavenka + J. Sláma)",
+      "source_url": "https://cc.cz/aplikace-laka-na-slevy-v-restauracich-nabizi-treba-kavu-ve-starbucksu-za-korunu-od-investoru-ma-miliony/",
+      "source_date": "2025-04-15",
+      "quote": "Jinej fond dvojice podnikatelů Jiřího Hlavenky a Jana Slámy do TasteTownu vložil deset milionů korun",
+      "source_tier": "B"
+    },
+    {
+      "company": "HTG Medical",
+      "date": "2026-07-14",
+      "round": "druhá část pre-seed kola 450 000 EUR; Jinej fond jako stávající investor",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/",
+      "source_date": "2026-07-14",
+      "quote": "stávající investoři Jinej fond a Dendis Capital",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "GDPR (v3 bod 5): uloženy jen profesní investiční údaje; kapitál neuváděn (osobní údaj). Investuje osobně, přes Jinej fond (společně s J. Slámou) a je členem klubu Garage Angels (v DB jako garageangels); Jinej fond ani Garage Angels nejsou jeho výhradní vozidlo, proto záznam osoby, ne E8. Starší dealy mimo okno: Dishboard (cc.cz 2023-10-16, těsně před 2023-10-22), Myco 2022, Kiwi.com. Nejisté: zda TasteTown/HTG (Jinej fond) počítat jako jeho osobní investice; i bez nich splňuje I3 (Elredo + FaceUp, oba po 2023-10-22). Tiket je z roku 2020 a platí pro Jinej fond. Lupa (VR Life, 2026-02-23) ho uvádí jen v seznamu členů Garage Angels, ne jako investora konkrétního kola.",
+  "phase": 3
+}

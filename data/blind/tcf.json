@@ -1,0 +1,64 @@
+{
+  "id": "tcf",
+  "name": "TCF Capital",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://forbes.cz/po-pilulce-a-macromu-jde-o-dalsi-akvizici-cupr-s-tpag-odkoupili-topfer-babywelt-nemeckeho-vyrobce-kojenecke-vyzivy/"
+    },
+    "investor_type": {
+      "value": "family_office",
+      "country": "CZ",
+      "website": "https://tcfcap.com"
+    },
+    "registry": {
+      "value": "09000909",
+      "source_url": "https://tcfcap.com/legal"
+    },
+    "sectors": {
+      "value": [
+        "consumer",
+        "ecommerce",
+        "industry"
+      ],
+      "source_url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky"
+    },
+    "stages": {
+      "value": [
+        "growth",
+        "buyout"
+      ],
+      "source_url": "https://tcfcap.com/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 30000000,
+        "max_eur": 50000000
+      },
+      "source_url": "https://cc.cz/tomas-cupr-spousti-investicni-skupinu-jeji-hodnota-diky-rohliku-prekracuje-17-miliard-a-ma-rychle-rust/",
+      "original": {
+        "currency": "EUR",
+        "min": 30000000,
+        "max": 50000000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": 720000000,
+        "basis": "portfolio_value"
+      },
+      "source_url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+      "original": {
+        "currency": "EUR",
+        "amount": 720000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Töpfer Babywelt GmbH (DE)",
+      "date": "2025-05-12",
+      "round": "akvizice společně s TPAG",
+      "source_url": "https://forbes.cz/po-pilulce-a-macromu-jde-o-dalsi-akvizici-cupr-s-tpag-odkoupili-topfer-babywelt-nemeckeho-vyrobce-kojenecke-vyzivy/"
+    }
+  }
+}

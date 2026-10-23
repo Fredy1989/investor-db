@@ -1,0 +1,45 @@
+{
+  "id": "jtfo",
+  "name": "J&T Family Office",
+  "claims": {
+    "decision": {
+      "value": "exclude",
+      "exclusion_rule": "I4",
+      "source_url": null
+    },
+    "investor_type": {
+      "value": null,
+      "country": "CZ",
+      "website": null
+    },
+    "registry": {
+      "value": "03667529",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03667529"
+    },
+    "sectors": {
+      "value": [],
+      "source_url": "https://www.banky.cz/banky/jt-banka/"
+    },
+    "stages": {
+      "value": null,
+      "source_url": null
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": null,
+      "date": null,
+      "round": null,
+      "source_url": null
+    }
+  }
+}

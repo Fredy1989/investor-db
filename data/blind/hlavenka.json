@@ -1,0 +1,55 @@
+{
+  "id": "hlavenka",
+  "name": "Jiří Hlavenka",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": "https://www.jinejfond.cz/"
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": null,
+      "source_url": null
+    },
+    "stages": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "source_url": "https://sj.news/plechovka-fazoli-denne-za-18-50-to-je-pravy-bootstrapping-rika-zkuseny-investor-jiri-hlavenka/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": null,
+        "max_eur": null
+      },
+      "source_url": "https://cc.cz/jinej-fond-dvou-podnikatelskych-generaci-jiri-hlavenka-a-jan-slama-startuji-spolecne-investice-do-zacinajicich-startupu/",
+      "original": {
+        "currency": "CZK",
+        "min": 500000
+      }
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "Elredo",
+      "date": "2026-10-01",
+      "round": "kolo vedené JIC Ventures; Hlavenka se připojil",
+      "source_url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/"
+    }
+  }
+}

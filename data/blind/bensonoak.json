@@ -1,0 +1,55 @@
+{
+  "id": "bensonoak",
+  "name": "Benson Oak Capital",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "http://bensonoakcapital.com/current-portfolio/click-insurance"
+    },
+    "investor_type": {
+      "value": "pe",
+      "country": "CZ",
+      "website": "http://bensonoakcapital.com/"
+    },
+    "registry": {
+      "value": "41190106",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/41190106"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "http://bensonoakcapital.com/"
+    },
+    "stages": {
+      "value": [
+        "buyout",
+        "growth"
+      ],
+      "source_url": "http://bensonoakcapital.com/"
+    },
+    "ticket": {
+      "value": {
+        "min_eur": 5000000,
+        "max_eur": 15000000
+      },
+      "source_url": "http://bensonoakcapital.com/",
+      "original": {
+        "currency": "EUR",
+        "min": 5000000,
+        "max": 15000000
+      }
+    },
+    "capital": {
+      "value": null,
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "Click Insurance, a.s. (Klikpojisteni.cz)",
+      "date": "2011-08",
+      "round": "investice (detail neuveden)",
+      "source_url": "http://bensonoakcapital.com/current-portfolio/click-insurance"
+    }
+  }
+}

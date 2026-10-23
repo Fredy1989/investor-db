@@ -84,7 +84,8 @@ def main():
     print(f"   zmeškané údaje (null, ale veřejně existují):  {fields['null_missed']}"
           f"/{fields['null_ok'] + fields['null_missed']}")
 
-    rows += phase2(decisions_all=raw_decisions())
+    rows += phase_blind(raw_decisions(), raw_phases(), 2, "E")
+    rows += phase_blind(raw_decisions(), raw_phases(), 3, "F")
 
     # B) + C) ruční kontrola
     manual = [r for r in read_csv(DATA / "manual_check.csv") if (r.get("human_verdict") or "").strip()]
@@ -126,21 +127,33 @@ def main():
         w.writerows(rows)
 
 
-def phase2(decisions_all: dict) -> list[dict]:
-    """E) Fáze 2: pokyny v2, ověřeno SLEPÝM ověřovatelem (viděl jen tvrzení + URL)."""
+def raw_phases() -> dict:
+    out = {}
+    for p in (DATA / "records_raw").glob("*.json"):
+        with open(p, encoding="utf-8") as f:
+            r = json.load(f)
+        out[r["id"]] = r.get("phase") or 1
+    return out
+
+
+def phase_blind(decisions_all: dict, phases: dict, phase: int, label: str) -> list[dict]:
+    """E/F) Fáze 2 a 3: ověřeno SLEPÝM ověřovatelem (viděl jen tvrzení + URL)."""
     v = {}
     for p in sorted((DATA / "verification_v2").glob("*.csv")):
         for row in read_csv(p):
             v[(row["id"].strip(), norm_field(row["claim"]))] = row["verdict"].strip().lower()
     if not v:
         return []
+    v = {k: val for k, val in v.items() if phases.get(k[0]) == phase}
     ids = {rid for rid, _ in v}
+    if not ids:
+        return []
     inc = [rid for rid in ids if decisions_all.get(rid) == "include"]
     print(f"\nE) Fáze 2 (pokyny v2), slepý ověřovatel ({len(ids)} záznamů, zařazeno {len(inc)})")
     rows = []
     for field in FIELDS:
         c = Counter(val for (rid, f), val in v.items() if f == field and rid in inc)
-        rows.append({"measure": "E_phase2_raw_by_blind_verifier", "field": field, **{k: c[k] for k in
+        rows.append({"measure": f"{label}_phase{phase}_raw_by_blind_verifier", "field": field, **{k: c[k] for k in
                      ("ok", "wrong", "unverifiable", "null_ok", "null_missed")}, "precision": pct(precision(c))})
         print(f"   {field:<20} {c['ok']:>3} {c['wrong']:>5} {c['unverifiable']:>5} {c['null_ok']:>7} "
               f"{c['null_missed']:>9} {pct(precision(c)):>9}")

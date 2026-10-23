@@ -1,0 +1,49 @@
+{
+  "id": "marperger",
+  "name": "Marperger Group",
+  "claims": {
+    "decision": {
+      "value": "inactive",
+      "exclusion_rule": "E6",
+      "source_url": "https://www.euwid-paper.com/news/companies/marperger-group-buys-baden-board/"
+    },
+    "investor_type": {
+      "value": "pe",
+      "country": "CZ",
+      "website": "https://www.marperger.com"
+    },
+    "registry": {
+      "value": "03458237",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03458237"
+    },
+    "sectors": {
+      "value": [
+        "generalist"
+      ],
+      "source_url": "https://www.marperger.com/"
+    },
+    "stages": {
+      "value": [
+        "buyout"
+      ],
+      "source_url": "https://www.marperger.com/"
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "Baden Board (DE)",
+      "date": "2019-09-01",
+      "round": "akvizice přes Baden Board Holding (mimo okno 36 měsíců)",
+      "source_url": "https://www.euwid-paper.com/news/companies/marperger-group-buys-baden-board/"
+    }
+  }
+}

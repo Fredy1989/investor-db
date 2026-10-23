@@ -1,0 +1,64 @@
+{
+  "id": "jtfo",
+  "name": "J&T Family Office",
+  "legal_name": "J&T Family Office, a.s.",
+  "decision": "exclude",
+  "exclusion_rule": "I4",
+  "decision_reason": "Family Office od J&T je služba správy rodinného majetku pro klienty privátního bankovnictví J&T Banky; vlastní přímá investice do soukromé firmy nenalezena. Investiční platformou skupiny je J&T ARCH Investments, ne tento subjekt.",
+  "investor_type": null,
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": null,
+  "registry": {
+    "value": "03667529",
+    "value_text": "IČO 03667529, J&T Family Office, a.s., Malostranské nábřeží 563/3, Praha 1, vznik 2014-12-23; předmět podnikání: zprostředkování, správa nemovitostí, poradenství, administrativní služby, služby pro svěřenské fondy",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03667529",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"03667529\",\"obchodniJmeno\":\"J&T Family Office, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [],
+    "value_text": "správa rodinného majetku (služba), ne přímé investice",
+    "source_url": "https://www.banky.cz/banky/jt-banka/",
+    "source_date": "2024-04-08",
+    "accessed": "2026-10-23",
+    "quote": "Zajímavou je i Family Office od J&T , která se soustředí na výše již zmíněnou správu rodinného majetku.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": null,
+    "value_text": "nerelevantní, subjekt vyřazen",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "nerelevantní, subjekt vyřazen",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "nehledáno, subjekt vyřazen",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "notes": "Hledáno: 'J&T Family Office' + akvizice/investoval/podíl/přímé investice; žádný deal nenalezen. jtbank.cz/family-office vrací 404; popis služby jen z banky.cz (tier B, publikováno 2024-04-08, aktualizováno 2026-01-22). Předmět podnikání v obchodním rejstříku (ARES VR) odpovídá servisní společnosti, ne investičnímu vozidlu. Možný samostatný kandidát: J&T ARCH Investments (přímé podíly, např. Moneta, agroskupina), není v DB; J&T Ventures už v DB je (jtventures). Pravidlo v3 bod 3: správa majetku bez vlastních přímých investic = I4.",
+  "phase": 3
+}

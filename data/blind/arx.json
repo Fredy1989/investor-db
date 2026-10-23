@@ -1,0 +1,56 @@
+{
+  "id": "arx",
+  "name": "ARX Equity Partners",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.arxequity.com/arx-equity-partners-acquires-majority-stake-in-medicofit-slovenias-leading-private-physiotherapy-provider/"
+    },
+    "investor_type": {
+      "value": "pe",
+      "country": "CZ",
+      "website": "https://www.arxequity.com/"
+    },
+    "registry": {
+      "value": "64943356",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64943356"
+    },
+    "sectors": {
+      "value": [
+        "industry",
+        "health",
+        "consumer"
+      ],
+      "source_url": "https://www.arxequity.com/arx-ce-v-holds-first-close-of-fifth-fund-ahead-of-e100-million-target/"
+    },
+    "stages": {
+      "value": [
+        "buyout",
+        "growth"
+      ],
+      "source_url": "https://www.arxequity.com/about-arx/"
+    },
+    "ticket": {
+      "value": null,
+      "source_url": "https://www.arxequity.com/working-with-arx/"
+    },
+    "capital": {
+      "value": {
+        "eur": 100000000,
+        "basis": "target_fund_size"
+      },
+      "source_url": "https://www.arxequity.com/arx-ce-v-holds-first-close-of-fifth-fund-ahead-of-e100-million-target/",
+      "original": {
+        "currency": "EUR",
+        "amount": 100000000
+      }
+    },
+    "investment_evidence": {
+      "company": "Medicofit, fizioterapija d.o.o. (Slovinsko)",
+      "date": "2026-08-26",
+      "round": "majoritní podíl",
+      "source_url": "https://www.arxequity.com/arx-equity-partners-acquires-majority-stake-in-medicofit-slovenias-leading-private-physiotherapy-provider/"
+    }
+  }
+}

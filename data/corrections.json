@@ -909,5 +909,23 @@
     "reason": "Presto Tech Horizons 150 mil. EUR je cíl fondu, uzavření nedoloženo (Mac review + kontrola zjednodušené tabulky)",
     "proposed_by": "mac_claude_review",
     "decided_by": "orchestrator"
+  },
+  {
+    "id": "genesis",
+    "op": "set",
+    "path": "decision",
+    "value": "include",
+    "reason": "fáze 3 rozšířila rozsah vzorku na PE; Genesis splňuje I1–I4 (ověřeno agentem B ve fázi 1)",
+    "proposed_by": "orchestrator",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "genesis",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": null,
+    "reason": "viz výše",
+    "proposed_by": "orchestrator",
+    "decided_by": "orchestrator"
   }
 ]

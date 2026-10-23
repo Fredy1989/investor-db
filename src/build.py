@@ -92,6 +92,18 @@ def main():
     ticket = sum(1 for r in inc if r["ticket_min_eur"] != "" or r["ticket_max_eur"] != "") / n if n else 0
     print(f"  pokrytí {'ticket (min/max)':<16} {ticket:.0%}")
 
+    # pokrytí podle typu: ověřuje odhad spolehlivosti z PLAN §5 (FO a andělé zveřejňují nejméně)
+    print("  pokrytí podle typu (počet | sektory | tiket | kapitál):")
+    by_type = {}
+    for r in inc:
+        by_type.setdefault(r["investor_type"], []).append(r)
+    for t, rs in sorted(by_type.items(), key=lambda kv: -len(kv[1])):
+        k = len(rs)
+        tick = sum(1 for r in rs if r["ticket_min_eur"] != "" or r["ticket_max_eur"] != "") / k
+        cap = sum(1 for r in rs if r["capital_eur"] != "") / k
+        sec = sum(1 for r in rs if r["sectors"]) / k
+        print(f"    {t:<18} {k:>3} | {sec:>4.0%} | {tick:>4.0%} | {cap:>4.0%}")
+
     # aktuálnost: věcné údaje se mění (nový fond, jiný tiket) → stáří zdroje je součást spolehlivosti
     print("  aktuálnost zdroje (≤ 24 m / 24–36 m / > 36 m = zastaralé / nedatováno):")
     for col in ["sectors", "stages", "ticket", "capital"]:

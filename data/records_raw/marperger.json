@@ -1,0 +1,78 @@
+{
+  "id": "marperger",
+  "name": "Marperger Group",
+  "legal_name": "Marperger s.r.o.",
+  "decision": "inactive",
+  "exclusion_rule": "E6",
+  "decision_reason": "Subjekt existuje (Marperger s.r.o., Plzeň) a deklaruje PE investice do středních firem ve zvláštních situacích, ale jediná dohledatelná investice je Baden Board (DE) z 09/2019; od 2023-10-22 žádná doložená investice.",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Plzeň",
+  "website": "https://www.marperger.com",
+  "registry": {
+    "value": "03458237",
+    "value_text": "IČO 03458237, Marperger s.r.o., Guldenerova 907/43, Plzeň, vznik 2014-10-12 (ARES; shodně patička webu)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03458237",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"03458237\",\"obchodniJmeno\":\"Marperger s.r.o.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "value_text": "různá odvětví, střední firmy s tržbami 20–200 mil. EUR; i reality a oportunistická aktiva",
+    "source_url": "https://www.marperger.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "The MARPERGER Group, a special situation investment boutique, carries out PE-investments in various industries, particularly in midsized companies ranging EUR 20m to EUR 200m revenues.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "buyout"
+    ],
+    "value_text": "special situations: carve-outy, restrukturalizace, rozvoj podvýkonných firem",
+    "source_url": "https://www.marperger.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Specialised in carve-outs, development of underperforming entities, restructuring cases, and balance sheet optimisation",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Web uvádí jen velikost cílových firem (tržby 20–200 mil. EUR), ne tiket; tiket neodvozován.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "Neuvádí se; web uvádí 'Secrecy' jako jednu z hodnot.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Baden Board (DE)",
+      "date": "2019-09-01",
+      "round": "akvizice přes Baden Board Holding (mimo okno 36 měsíců)",
+      "source_url": "https://www.euwid-paper.com/news/companies/marperger-group-buys-baden-board/",
+      "source_date": "2019-09-18",
+      "quote": "Czech Marperger Group snaps up Baden Board",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Kandidát z DeepSeek jako family office: subjekt existuje, sídlo Plzeň potvrzeno. Web se popisuje jako 'INDEPENDENT Industry Holding' a 'special situation investment boutique', která provádí 'PE-investments', zároveň 'As a family business'; proto typ pe (rodinně vlastněný special-situations investor), alternativně family_office. Hledáno: Marperger + akvizice/Übernahme/acquisition 2024–2026, Ferstl; v okně nenalezeno nic. Web nemá portfolio ani novinky a podle webu investice probíhají přes lokální entity, takže novější dealy mohou být neveřejné. EUWID článek je za paywallem (viditelný titulek a perex; datum 1. 9. = den prodeje podle perexu). MarketScreener (tier C) jen popis. Na otevřených stránkách nebyly nalezeny instrukce pro AI.",
+  "phase": 3
+}

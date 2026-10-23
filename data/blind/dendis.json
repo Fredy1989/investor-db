@@ -1,0 +1,47 @@
+{
+  "id": "dendis",
+  "name": "Miloš Dendis",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": null
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": [
+        "health"
+      ],
+      "source_url": "https://www.businessinfo.cz/clanky/angel-investor-milos-dendis-okno-prilezitosti-tu-nebude-vecne-mame-par-desitek-let/"
+    },
+    "stages": {
+      "value": null,
+      "source_url": null
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "HTG Medical",
+      "date": "2026-07-14",
+      "round": "druhá část pre-seed kola 450 000 EUR; Dendis Capital jako stávající investor",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/"
+    }
+  }
+}

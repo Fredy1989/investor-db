@@ -1,0 +1,120 @@
+{
+  "id": "tcf",
+  "name": "TCF Capital",
+  "legal_name": "TCF-Cap Services s.r.o. (provozovatel webu); investiční vozidlo např. Growth Expert s.r.o.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Investiční skupina rodiny Tomáše Čupra (název = Tomáš Čupr Family), která sama přímo investuje do soukromých firem: Eco-Stations (07/2024), Pilulka (úvěr s opcí na kontrolu přes Growth Expert, 2024), Macromo (04/2025, většina), Töpfer Babywelt (05/2025, akvizice s TPAG).",
+  "investor_type": "family_office",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://tcfcap.com",
+  "registry": {
+    "value": "09000909",
+    "value_text": "IČO 09000909, TCF-Cap Services s.r.o., Na Příkopě 392/9, Praha 1 (správce osobních údajů webu tcfcap.com); ARES potvrzuje název a sídlo",
+    "source_url": "https://tcfcap.com/legal",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Společnost TCF-Cap Services s.r.o., se sídlem Na Příkopě 392/9, 110 00 Praha 1, IČO: 090 00 909",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "consumer",
+      "ecommerce",
+      "industry"
+    ],
+    "value_text": "výroba a zpracování rychloobrátkového zboží, e-commerce, logistika, automatizace a skladování; web dnes navíc zmiňuje technologie a dlouhověkost",
+    "source_url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+    "source_date": "2024-07-26",
+    "accessed": "2026-10-23",
+    "quote": "Působí na českém trhu a v regionu střední a západní Evropy, především ve výrobě a zpracování rychloobrátkového zboží, e-commerce, logistice, automatizace a skladování.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "growth",
+      "buyout"
+    ],
+    "value_text": "růstové investice; cílí na majoritu nebo silnou governance pozici",
+    "source_url": "https://tcfcap.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Cílíme na majoritu nebo na silnou governance pozici",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 30000000,
+      "max_eur": 50000000
+    },
+    "value_text": "kolem 30 až 50 mil. EUR (deklarovaný záměr při založení 06/2023; doložené dealy Eco-Stations a Macromo byly menší)",
+    "source_url": "https://cc.cz/tomas-cupr-spousti-investicni-skupinu-jeji-hodnota-diky-rohliku-prekracuje-17-miliard-a-ma-rychle-rust/",
+    "source_date": "2023-06-27",
+    "accessed": "2026-10-23",
+    "quote": "Jednak se chce zaměřit na růstové investice o velikosti kolem 30 až 50 milionů eur (700 milionů až 1,2 miliardy korun)",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "min": 30000000,
+      "max": 50000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 720000000,
+      "basis": "portfolio_value"
+    },
+    "value_text": "portfolio v hodnotě 720 mil. EUR (hlavně podíl v Rohlik Group; nejde o volný kapitál)",
+    "source_url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+    "source_date": "2024-07-26",
+    "accessed": "2026-10-23",
+    "quote": "Společnost spravuje portfolio v hodnotě 720 milionů eur, asi 18 miliard korun",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "amount": 720000000
+    }
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Töpfer Babywelt GmbH (DE)",
+      "date": "2025-05-12",
+      "round": "akvizice společně s TPAG",
+      "source_url": "https://forbes.cz/po-pilulce-a-macromu-jde-o-dalsi-akvizici-cupr-s-tpag-odkoupili-topfer-babywelt-nemeckeho-vyrobce-kojenecke-vyzivy/",
+      "source_date": "2025-05-12",
+      "quote": "Investiční skupina TCF Capital Tomáše Čupra spolu s firmou TPAG oznámily akvizici německého výrobce kojenecké biovýživy Töpfer Babywelt GmbH.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Macromo",
+      "date": "2025-04-09",
+      "round": "většinový podíl (finanční podmínky nezveřejněny)",
+      "source_url": "https://finex.cz/zakladatel-rohliku-ovladl-nadejny-cesky-startup-co-bude-s-pilulkou/",
+      "source_date": "2025-04-15",
+      "quote": "Partnerství mezi Macromo a TCF Capital je strategickým spojenectvím, nikoli pouze finanční transakcí",
+      "source_tier": "B"
+    },
+    {
+      "company": "Pilulka Lékárny",
+      "date": "2024-09-16",
+      "round": "úvěr s opcí na kontrolní podíl (přes Growth Expert s.r.o.), souhlas ÚOHS",
+      "source_url": "https://cc.cz/tomas-cupr-ma-zelenou-k-prevzeti-pilulky-musime-ji-peclive-zanalyzovat-rika-sef-jeho-fondu/",
+      "source_date": "2024-09-16",
+      "quote": "aby společnost Growth Expert patřící do jeho investiční společnosti TCF Capital získala kontrolní podíl ve společnosti Pilulka Lékárny",
+      "source_tier": "B"
+    },
+    {
+      "company": "Eco-Stations",
+      "date": "2024-07-26",
+      "round": "několik desítek mil. Kč za postupně až 30% podíl",
+      "source_url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+      "source_date": "2024-07-26",
+      "quote": "Investiční společnost Tomáš Čupra TCF Capital investovala několik desítek milionů korun do české firmy Eco-Stations, za které získá postupně až třicetiprocentní podíl ve firmě.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "Typ family_office: název 'Tomáš Čupr Family', investuje majetek zakladatele (hlavní aktivum Rohlik Group) a sám přímo do firem. Hraniční s private_investor (srov. Pale Fire Capital), rozhodnutí na koordinátorovi. Registry: právnická osoba 'TCF Capital' v ARES neexistuje; web tcfcap.com provozuje TCF-Cap Services s.r.o. (IČO 09000909), jejímž společníkem je podle ARES VR Bizthusiasm, a.s. (IČO 03307611). Pilulku podle cc.cz drží Growth Expert s.r.o. (IČO 21260834, stejné sídlo Na Příkopě 392/9, ověřeno v ARES), jehož akcionářem je Neovital Holding a.s.; která entita je holdingem skupiny, není veřejně jednoznačně popsáno. Macromo: finex.cz 15. 4. 2025 píše 'minulý týden ve středu', datum 2025-04-09 je odvozené. Uplatnění opce na Pilulku (03/2025) zmiňují jen výsledky vyhledávání, zdroj neotevřen. Ticket 30–50 mil. EUR je deklarovaný záměr z roku 2023, ne doložený tiket. Vestbee/CB Insights (tier C) jen pro nalezení. Na otevřených stránkách nebyly nalezeny instrukce pro AI.",
+  "phase": 3
+}

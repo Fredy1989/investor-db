@@ -1,0 +1,45 @@
+{
+  "id": "rostock",
+  "name": "Michael Rostock-Poplar",
+  "claims": {
+    "decision": {
+      "value": "include",
+      "exclusion_rule": null,
+      "source_url": "https://cc.cz/cesi-meni-zpusob-jak-se-delaji-rozhoduji-v-accenture-ci-wizzairu-od-zdejsich-fondu-ziskali-40-milionu/"
+    },
+    "investor_type": {
+      "value": "angel",
+      "country": "CZ",
+      "website": null
+    },
+    "registry": {
+      "value": null,
+      "source_url": null
+    },
+    "sectors": {
+      "value": null,
+      "source_url": null
+    },
+    "stages": {
+      "value": null,
+      "source_url": null
+    },
+    "ticket": {
+      "value": null,
+      "source_url": null
+    },
+    "capital": {
+      "value": {
+        "eur": null,
+        "basis": null
+      },
+      "source_url": null
+    },
+    "investment_evidence": {
+      "company": "DecisionRules",
+      "date": "2025-05-06",
+      "round": "seed 1,6 mil. EUR vedené Lighthouse Ventures; Rostock-Poplar jako anděl",
+      "source_url": "https://cc.cz/cesi-meni-zpusob-jak-se-delaji-rozhoduji-v-accenture-ci-wizzairu-od-zdejsich-fondu-ziskali-40-milionu/"
+    }
+  }
+}
