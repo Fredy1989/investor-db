@@ -1,0 +1,14 @@
+id,name,type_hint,candidate_source,note
+jetinvest,Jet Investment,pe,znalost trhu + registr ČNB (Jet Venture 1),PE správce; VC rameno Jet Venture 1 už v DB – pozor na E8 (jiný typ = samostatný záznam PE části)
+arx,ARX Equity Partners,pe,znalost trhu,PE pro střední Evropu – ověřit český tým
+bensonoak,Benson Oak Capital,pe,DeepSeek (VŠE práce),PE/growth – ověřit
+genesis,Genesis Capital,pe,fáze 1,už v DB jako out_of_scope – nerešeršuje se znovu; ve fázi 3 se jen mění rozsah
+tcf,TCF Capital,family_office,DeepSeek (komerční databáze FO),neověřený tip
+bhm,BHM Group,family_office,DeepSeek (komerční databáze FO),neověřený tip
+jtfo,J&T Family Office,family_office,DeepSeek (komerční databáze FO),MFO – ověřit přímé investice do firem
+marperger,Marperger Group,family_office,DeepSeek (komerční databáze FO),Plzeň – neověřený tip
+hlavenka,Jiří Hlavenka,angel,Lupa 2026 (investoři VR Life) + DeepSeek,veřejně známý anděl
+obluk,Karel Obluk,angel,Lupa 2026 (investoři VR Life) + DeepSeek,též partner Evolution Equity – pozor na E8
+dendis,Miloš Dendis,angel,Lupa 2026 (investoři VR Life),
+najvarek,Jan Najvárek,angel,Lupa 2026 (investoři VR Life),
+rostock,Michal Rostock,angel,DeepSeek (CBAA),

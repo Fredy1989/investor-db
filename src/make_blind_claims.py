@@ -51,7 +51,7 @@ def main() -> None:
     for p in sorted(RAW.glob("*.json")):
         with open(p, encoding="utf-8") as f:
             rec = json.load(f)
-        if rec.get("phase") != 2:
+        if (rec.get("phase") or 1) < 2:
             continue
         with open(OUT / p.name, "w", encoding="utf-8") as f:
             json.dump(blind(rec), f, ensure_ascii=False, indent=2)
