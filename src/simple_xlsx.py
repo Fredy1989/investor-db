@@ -183,7 +183,7 @@ def glossary(wb, columns: list[str]) -> None:
     ws.append(["Vysvětlivky"])
     ws.cell(1, 1).font = Font(bold=True, size=15)
     section("Co znamená který sloupec", ("Sloupec", "Co znamená", "Příklad"),
-            [(c, *COLUMN_HELP[c]) for c in columns if c in COLUMN_HELP])
+            [(c, *COLUMN_HELP[c]) for c in dict.fromkeys(columns) if c in COLUMN_HELP])
     section("Fáze — v jakém stadiu jsou firmy, do kterých investor investuje",
             ("Fáze", "Co to znamená", "Typická investice"), STAGE_HELP)
     section("Celkový kapitál — co znamená údaj v závorce", ("V závorce", "Co číslo znamená", ""), BASIS_HELP)
