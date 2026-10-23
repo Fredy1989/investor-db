@@ -149,7 +149,7 @@ def phase_blind(decisions_all: dict, phases: dict, phase: int, label: str) -> li
     if not ids:
         return []
     inc = [rid for rid in ids if decisions_all.get(rid) == "include"]
-    print(f"\nE) Fáze 2 (pokyny v2), slepý ověřovatel ({len(ids)} záznamů, zařazeno {len(inc)})")
+    print(f"\n{label}) Fáze {phase} (pokyny v{phase}), slepý ověřovatel ({len(ids)} záznamů, zařazeno {len(inc)})")
     rows = []
     for field in FIELDS:
         c = Counter(val for (rid, f), val in v.items() if f == field and rid in inc)

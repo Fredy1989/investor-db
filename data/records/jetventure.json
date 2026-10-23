@@ -2,8 +2,8 @@
   "id": "jetventure",
   "name": "Jet Ventures (fond Jet Venture 1)",
   "legal_name": "Jet Investment, a.s. (skupina); fond Jet Venture 1 SICAV, a.s.",
-  "decision": "include",
-  "exclusion_rule": null,
+  "decision": "exclude",
+  "exclusion_rule": "E8",
   "decision_reason": "VC rameno brněnské skupiny Jet Investment; fond Jet Venture 1 (cíl 50 mil. EUR) investuje do průmyslových B2B tech startupů; v 08–09/2026 oznámil 4 nové investice (GigaScan, Phantasma Labs, Hermetiq, AppNava), portfolio 11 firem.",
   "investor_type": "vc",
   "country": "CZ",
@@ -147,5 +147,5 @@
   ],
   "notes": "Datum dealů = datum článku CzechCrunch (17. 9. 2026); článek uvádí, že všechny čtyři byly oznámeny 'během posledního měsíce', přesná data jednotlivých oznámení nemám. Registry = Jet Investment, a.s. (IČO 03890333, ARES), protože web VC ramene patří Jet Investment, a.s.; NEOVĚŘIL jsem v ČNB JERRS, zda je Jet Investment, a.s. formálně obhospodařovatelem Jet Venture 1 SICAV (může být samosprávný nebo spravovaný jinou IS). V ARES je i 'Jet Venture 1 fond fondů, otevřený podílový fond' (IČO 75165228, Praha – pravděpodobně feeder přes Conseq) a 'Jet Venture 1 Founders, a.s.' (22558870) – vztah neověřen. Mateřská skupina Jet Investment je jinak PE investor do průmyslu (17 mld. Kč ve 4 FKI dle CzechCrunch); záznam se týká jen VC ramene. Mapování 'pozdějších fázích' na series_a/series_b_plus je moje interpretace. Pozn.: Phantasma Labs má i Lighthouse Seed Fund II (existující záznam lighthouse).",
   "phase": 2,
-  "corrections_applied": 1
+  "corrections_applied": 3
 }

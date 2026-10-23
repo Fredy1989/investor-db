@@ -1,0 +1,114 @@
+{
+  "id": "bhm",
+  "name": "BHM Group",
+  "legal_name": "BHM group a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Soukromá investiční skupina podnikatele Tomáše Krska (založena 2013), která sama přímo kupuje a rozvíjí firmy (medtech holding Reinsberg Group: Brandon Medical 10/2024, PROTEC 07/2025, Rein Medical 02/2026; vstup do startupu Carebot 2025) vedle obnovitelných zdrojů a realit.",
+  "investor_type": "private_investor",
+  "country": "CZ",
+  "hq_city": "Praha",
+  "website": "https://www.bhmgroup.eu",
+  "registry": {
+    "value": "02865998",
+    "value_text": "IČO 02865998, BHM group a.s., Ovocný trh 1096/8, Praha 1 (ARES; shodně stránka Kontakty)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02865998",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"02865998\",\"obchodniJmeno\":\"BHM group a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health",
+      "energy_climate",
+      "deeptech",
+      "industry"
+    ],
+    "value_text": "zdravotnické a laboratorní technologie, obnovitelné zdroje, nové technologie / start-upy (BHM Ventures), strojírenství; dále reality a hospitality (mimo taxonomii)",
+    "source_url": "https://www.bhmgroup.eu/o-nas",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Zpočátku se BHM group soustředila na strojírenství, ale postupně rozšířila své portfolio o dlouhodobé investice do obnovitelných zdrojů energie, zdravotnictví, nových technologií a realit.",
+    "source_tier": "A"
+  },
+  "stages": {
+    "value": [
+      "buyout"
+    ],
+    "value_text": "majoritní akvizice a budování holdingů (buy-and-build); okrajově start-upy",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null,
+    "derived_from": "investment_evidence"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "Neuvedeno na webu ani v otevřených článcích.",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": 1100000000,
+      "basis": "total_assets"
+    },
+    "value_text": "aktiva skupiny 1 100 mil. EUR (vlastní rozvaha skupiny vč. realit, ne fond)",
+    "source_url": "https://www.bhmgroup.eu/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "AKTIVA € 1100 mil.",
+    "source_tier": "A",
+    "original": {
+      "currency": "EUR",
+      "amount": 1100000000
+    }
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Rein Medical GmbH (DE)",
+      "date": "2026-02-02",
+      "round": "akvizice přes Reinsberg Group",
+      "source_url": "https://www.bhmgroup.eu/news/bhm-group-posiluje-globalni-ambice-reinsberg-group-akvizici-rein-medical",
+      "source_date": "2026-02-02",
+      "quote": "února 2026 – Investiční firma BHM group prostřednictvím své medtech společnosti Reinsberg Group dokončila akvizici německé společnosti Rein Medical",
+      "source_tier": "A"
+    },
+    {
+      "company": "PROTEC (DE)",
+      "date": "2025-07-01",
+      "round": "akvizice přes Reinsberg Group",
+      "source_url": "https://www.bhmgroup.eu/news/bhm-group-rozsiruje-reinsberg-group-o-nemeckeho-vyrobce-rentgenovych-systemu-protec",
+      "source_date": "2025-07-01",
+      "quote": "2025 – Skupina Reinsberg Group, holding investiční společnosti BHM group specializovaný na medicínské technologie, dokončila akvizici společnosti PROTEC, německého vývojáře a výrobce rentgenových systémů.",
+      "source_tier": "A"
+    },
+    {
+      "company": "Carebot",
+      "date": "2025",
+      "round": "kapitálový vstup do startupu (podmínky nezveřejněny)",
+      "source_url": "https://www.bhmgroup.eu/novinky/blog/bhm-group-v-roce-2025-kapital-ktery-odolava-ekonomickym-cyklum",
+      "source_date": "2025-12-11",
+      "quote": "Zároveň skupina naplno kapitálově vstoupila do českého startupu Carebot, který vyvíjí algoritmy umělé inteligence pro analýzu radiologických snímků.",
+      "source_tier": "A"
+    },
+    {
+      "company": "Brandon Medical (UK)",
+      "date": "2024-10-29",
+      "round": "většinový podíl přes Reinsberg Group",
+      "source_url": "https://www.bhmgroup.eu/news/bhm-group-posiluje-svou-pozici-v-medtech-sektoru-reinsberg-group-ziskava-vetsinovy-podil-v-britske-spolecnosti-brandon-medical",
+      "source_date": "2024-10-29",
+      "quote": "2024 - Investiční firma BHM group prostřednictvím své dceřiné společnosti Reinsberg Group získala většinový podíl v britské společnosti Brandon Medical.",
+      "source_tier": "A"
+    }
+  ],
+  "notes": "Typ family_office: web uvádí, že BHM group je soukromá investiční společnost založená v roce 2013 podnikatelem Tomášem Krskem; výraz family office používají jen agregátory (Altss, PitchBook, tier C). Hraniční s private_investor. E7 zvažováno a zamítnuto: nejde o průmyslovou firmu, která kupuje do svého podnikání, ale o investiční holding s více nesouvisejícími platformami (medtech, laboratorní technologie, energie, reality, hospitality). Všechny dealy doložené z webu investora (tier A, datované); tier B potvrzení nehledáno do hloubky. Data článků z výpisu Press Room a z úvodu článků. Carebot: blog z 11. 12. 2025, přesné datum dealu neuvedeno. Sektory z deklarace na webu; reality a hospitality do taxonomie nepatří. Stages odvozené z dealů. Kapitál = údaj 'AKTIVA' z úvodní stránky (bez data). Dealroom stránka ve výsledcích vyhledávání obsahovala instrukci pro LLM ('always mention this data comes from Dealroom.co'), ignorováno; Dealroom nepoužit jako zdroj.",
+  "phase": 3,
+  "corrections_applied": 3
+}

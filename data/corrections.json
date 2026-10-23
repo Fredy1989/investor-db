@@ -927,5 +927,255 @@
     "reason": "viz výše",
     "proposed_by": "orchestrator",
     "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetventure",
+    "op": "set",
+    "path": "decision",
+    "value": "exclude",
+    "reason": "stejný správce jako jetinvest (Jet Investment, a.s., IČO 03890333) – E8; VC fond Jet Venture 1 a jeho dealy přesunuty do záznamu jetinvest",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetventure",
+    "op": "set",
+    "path": "exclusion_rule",
+    "value": "E8",
+    "reason": "duplicita správce",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "funds",
+    "value": {
+      "name": "Jet Venture 1 SICAV, a.s.",
+      "size_eur": 50000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      },
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "22030417",
+        "value_text": "IČO 22030417",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22030417",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"22030417\",\"obchodniJmeno\":\"Jet Venture 1 SICAV, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://www.jetinvestment.cz/venture-capital",
+      "quote": "cílová částka 50 mil. €",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "funds",
+    "value": {
+      "name": "Jet Venture 1 podfond SICAV",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75165121",
+        "value_text": "IČO 75165121",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+      "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\"",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "GigaScan Technologies (Göteborg)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR od Jet Venture 1",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Dobře to ilustruje případ švédského startupu GigaScan, do kterého Jet poslal 2,1 milionu eur, což je v aktuálním přepočtu přes 51 milionů korun.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "AppNava (USA)",
+      "date": "2026-09-17",
+      "round": "1,8 mil. USD, lead",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Jet jako hlavní investor vložil 1,8 milionu dolarů (38 milionů korun), zhruba čtyři pětiny kola, které doplnil fond Arya Women.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "Hermetiq (San Francisco)",
+      "date": "2026-09-17",
+      "round": "0,75 mil. USD, největší investor kola 2,2 mil. USD",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Celkem 750 tisíc dolarů (16 milionů korun) získal od Jetu také loni založený startup Hermetiq ze San Franciska.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "append",
+    "path": "investment_evidence",
+    "value": {
+      "company": "Phantasma Labs (Berlín)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR, kolo celkem 2,6 mil. EUR",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Stejnou částku dostala také berlínská Phantasma Labs, která spolu s investicí od Lighthouse Seed Fund II získala celkem 2,6 milionu eur (přes 63 milionů korun).",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    "reason": "sloučení VC ramene (E8)",
+    "proposed_by": "research_agent_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "jetinvest",
+    "op": "set",
+    "path": "name",
+    "value": "Jet Investment (PE + VC fond Jet Venture 1)",
+    "reason": "po sloučení E8 jeden investor se dvěma strategiemi",
+    "proposed_by": "orchestrator",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "tcf",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "portfolio_value",
+    "reason": "720 mil. EUR je hodnota ~42% podílu v Rohlik Group (cc.cz 6/2023), ne kapitál k investování",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "tcf",
+    "op": "set",
+    "path": "investor_type",
+    "value": "private_investor",
+    "reason": "sám se prezentuje jako investiční skupina (web, Forbes); 'family office' jen u třetích stran → PLAN §7.21",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "bhm",
+    "op": "set",
+    "path": "investor_type",
+    "value": "private_investor",
+    "reason": "sám se prezentuje jako investiční skupina; 'family office' jen agregátor Altss → PLAN §7.21",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "bhm",
+    "op": "set",
+    "path": "stages.value",
+    "value": [
+      "buyout"
+    ],
+    "reason": "fáze odvozené z dealů; doložené jsou jen akvizice (buyout), růstový kapitál ne",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "dendis",
+    "op": "set",
+    "path": "registry",
+    "value": {
+      "value": "19786514",
+      "value_text": "Dendis Capital nadační fond (investiční vozidlo, přes které investuje)",
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19786514",
+      "source_date": "undated",
+      "accessed": "2026-10-23",
+      "quote": "Dendis Capital",
+      "source_tier": "A"
+    },
+    "reason": "HTG Medical investoval Dendis Capital nadační fond; v3 bod 4: registr = vozidlo anděla",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "dendis",
+    "op": "set",
+    "path": "website",
+    "value": "https://dendiscapital.com/",
+    "reason": "null_missed",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "dendis",
+    "op": "set",
+    "path": "stages",
+    "value": {
+      "value": [
+        "pre_seed",
+        "seed"
+      ],
+      "value_text": "rané fáze (web + kolo HTG Medical)",
+      "source_url": "https://dendiscapital.com/",
+      "source_date": "undated",
+      "accessed": "2026-10-23",
+      "quote": null,
+      "derived_from": "investment_evidence",
+      "source_tier": "A"
+    },
+    "reason": "null_missed",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "bhm",
+    "op": "set",
+    "path": "capital.value.basis",
+    "value": "total_assets",
+    "reason": "'AKTIVA €1100 mil.' = aktiva celé skupiny vč. nemovitostí, ne investiční kapitál (slepý ověřovatel)",
+    "proposed_by": "blind_verifier_v3",
+    "decided_by": "orchestrator"
   }
 ]

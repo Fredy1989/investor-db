@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+najvarek,decision,ok,,,,"Exclude I3 confirmed: 5 searches found only a Garage Angels investor profile (independent investor, co-founder of ARTIN), no tier A/B documented personal investment. g-angels.cz could not be fetched (redirect loop), so no quote."
+najvarek,investor_type,ok,,,,angel plausible (natural person listed as independent investor on Garage Angels); not verifiable by quote.
+najvarek,registry,null_ok,,,,Natural person; no investment vehicle found.
+najvarek,sectors,null_ok,,,,Not found.
+najvarek,stages,null_ok,,,,Not found.
+najvarek,ticket,null_ok,,,,Not found.
+najvarek,capital,null_ok,,,,Intentionally null (GDPR).
+najvarek,investment_evidence,null_ok,,,,No documented investment found.

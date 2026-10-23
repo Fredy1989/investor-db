@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+jtfo,decision,ok,,https://www.banky.cz/banky/jt-banka/,"Zajímavou je i Family Office od J&T, která se soustředí na výše již zmíněnou správu rodinného majetku.","exclude/I4 obhajitelné: služba správy rodinného majetku (poradenství, cenné papíry), přímé investice do soukromých firem nedoloženy (2 vyhledávání). Přímé investice skupiny J&T jdou přes J&T Arch Investments / J&T Capital Partners, ne přes J&T Family Office, a.s. Podle v3 bodu 3 by šlo i E5. Decision nemá source_url, měl by být uveden."
+jtfo,investor_type,ok,,,,null u vyřazeného záznamu přijatelné; věcně by šlo o family_office (správa majetku). Country CZ sedí (sídlo Praha 1 dle ARES).
+jtfo,registry,ok,,https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03667529,"J&T Family Office, a.s., IČO 03667529, Malostranské nábřeží 563/3, Praha 1, vznik 23.12.2014, aktivní (ARES JSON)",
+jtfo,sectors,ok,,https://www.banky.cz/banky/jt-banka/,"Zajímavou je i Family Office od J&T, která se soustředí na výše již zmíněnou správu rodinného majetku.",Prázdný seznam u vyřazeného neinvestujícího subjektu je konzistentní; zdroj sektory neuvádí.
+jtfo,stages,null_ok,,,,
+jtfo,ticket,null_ok,,,,
+jtfo,capital,null_ok,,,,
+jtfo,investment_evidence,null_ok,,,,"Přímá investice J&T Family Office, a.s. do soukromé firmy nenalezena (2 vyhledávání)."

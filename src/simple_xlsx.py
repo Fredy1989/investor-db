@@ -36,7 +36,8 @@ STAGE_CZ = {"pre_seed": "pre-seed", "seed": "seed", "series_a": "série A", "ser
             "growth": "růstová fáze", "buyout": "buyout"}
 BASIS_CZ = {"latest_fund_size": "poslední fond", "target_fund_size": "cíl fondu", "aum": "spravovaná aktiva",
             "total_across_funds": "součet fondů", "own_balance_sheet": "vlastní kapitál",
-            "portfolio_value": "hodnota portfolia", "previous_fund_size": "předchozí fond"}
+            "portfolio_value": "hodnota portfolia", "previous_fund_size": "předchozí fond",
+            "total_assets": "aktiva celé skupiny"}
 RULE_CZ = {"E1": "crowdfunding / platforma, sám neinvestuje", "E2": "akcelerátor bez investičního vozidla",
            "E3": "jen dluhové financování", "E4": "síť / asociace / poradce, sám neinvestuje",
            "E5": "investuje jen do burzovních akcií nebo realit", "E6": "žádná doložená investice za 3 roky",

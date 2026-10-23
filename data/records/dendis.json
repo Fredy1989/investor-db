@@ -1,0 +1,104 @@
+{
+  "id": "dendis",
+  "name": "Miloš Dendis",
+  "legal_name": null,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Veřejně se prezentující andělský investor (spoluzakladatel GeneProof, člen představenstva CBAA, Garage Angels), investuje přes vlastní investiční vozidlo Dendis Capital. Doložené investice v okně: Carebot (01/2026) a HTG Medical (07/2026, stávající investor z předchozího kola).",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": "https://dendiscapital.com/",
+  "registry": {
+    "value": "19786514",
+    "value_text": "Dendis Capital nadační fond (investiční vozidlo, přes které investuje)",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19786514",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "Dendis Capital",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "health"
+    ],
+    "value_text": "„těžké“ projekty v medtechu a healthtechu",
+    "source_url": "https://www.businessinfo.cz/clanky/angel-investor-milos-dendis-okno-prilezitosti-tu-nebude-vecne-mame-par-desitek-let/",
+    "source_date": "2026-01-07",
+    "accessed": "2026-10-23",
+    "quote": "soustředí se především na „těžké“ projekty v medtechu a healthtechu.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "value_text": "rané fáze (web + kolo HTG Medical)",
+    "source_url": "https://dendiscapital.com/",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": null,
+    "derived_from": "investment_evidence",
+    "source_tier": "A"
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvádí se – osobní údaj",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "Carebot",
+      "date": "2026-01-08",
+      "round": "400 000 EUR, typ kola neuveden; investor Dendis Capital",
+      "source_url": "https://www.lupa.cz/aktuality/ceska-ai-hledajici-s-lekari-rakovinu-ohlasila-novou-investici/",
+      "source_date": "2026-01-08",
+      "quote": "Miloš Dendis uvádí, že Carebot není standardní investicí Dendis Capital.",
+      "source_tier": "B"
+    },
+    {
+      "company": "HTG Medical",
+      "date": "2026-07-14",
+      "round": "druhá část pre-seed kola 450 000 EUR; Dendis Capital jako stávající investor",
+      "source_url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/",
+      "source_date": "2026-07-14",
+      "quote": "stávající investoři Jinej fond a Dendis Capital",
+      "source_tier": "B"
+    }
+  ],
+  "profile_evidence": [
+    {
+      "source_url": "https://www.cbaa.cz/",
+      "source_date": "undated",
+      "quote": "Spoluzakladatel GeneProof, Dendis Capital.",
+      "source_tier": "A"
+    },
+    {
+      "source_url": "https://www.businessinfo.cz/clanky/angel-investor-milos-dendis-okno-prilezitosti-tu-nebude-vecne-mame-par-desitek-let/",
+      "source_date": "2026-01-07",
+      "quote": "Angel investor Miloš Dendis nově sídlí v startupovém hubu JICu.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "GDPR: jen profesní údaje; kapitál, majetek a rodinné údaje záměrně neuloženy (Lupa uvádí vlastnickou strukturu vozidla, nepřevzato). Investice jdou přes Dendis Capital, ne přímo od osoby; podle v3 bod 4 je to jeho investiční vozidlo. K rozhodnutí: vést záznam jako angel (osoba), nebo jako family_office/private_investor za Dendis Capital. Sendance (vestbee 2026-02-16) a VR Life (Lupa 2026-02-23) jsou dealy Garage Angels, kde je Dendis jen citován jako zástupce klubu; nepočítáno jako osobní důkaz. HTG Medical: datum = datum článku Lupa; vestbee.com (2026-07-15) potvrzuje: 'The funding round was backed by Garage Angels, Electron Capital Partners, JIC Ventures, Jinej fond, and Dendis Capital.' businessinfo.cz je převzatý článek z JICmagazínu.",
+  "phase": 3,
+  "corrections_applied": 3
+}

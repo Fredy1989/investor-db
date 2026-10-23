@@ -1,0 +1,92 @@
+{
+  "id": "rostock",
+  "name": "Michael Rostock-Poplar",
+  "legal_name": null,
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Veřejně známý český andělský investor. Doložené investice: UltimateSuite (12/2021, s Tensor Ventures) a DecisionRules (seed 05/2025, uveden jako anděl); splňuje I3 (2 dealy tier B, 1 po 2023-10-22).",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "fyzická osoba – registr se neuvádí; investiční vozidlo nedoloženo",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "deklarovaný mandát nenalezen; ze dvou dealů (B2B software) nezobecňováno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": null,
+    "value_text": "deklarovaná fáze nenalezena",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "nenalezeno (UltimateSuite 19 mil. Kč společně s Tensor Ventures, jeho podíl neuveden)",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvádí se – osobní údaj",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [
+    {
+      "company": "DecisionRules",
+      "date": "2025-05-06",
+      "round": "seed 1,6 mil. EUR vedené Lighthouse Ventures; Rostock-Poplar jako anděl",
+      "source_url": "https://cc.cz/cesi-meni-zpusob-jak-se-delaji-rozhoduji-v-accenture-ci-wizzairu-od-zdejsich-fondu-ziskali-40-milionu/",
+      "source_date": "2025-05-06",
+      "quote": "andělů Oryho Weihse a Michaela Rostocka-Poplara.",
+      "source_tier": "B"
+    },
+    {
+      "company": "DecisionRules",
+      "date": "2025-05-06",
+      "round": "seed 1,6 mil. EUR (druhý zdroj)",
+      "source_url": "https://en.ain.ua/2025/05/06/decisionrules-secures-eur16m/",
+      "source_date": "2025-05-06",
+      "quote": "Czech angel investors Ory Weihs and Michael Rostock-Poplar",
+      "source_tier": "B"
+    },
+    {
+      "company": "UltimateSuite",
+      "date": "2021-12-02",
+      "round": "19 mil. Kč společně s Tensor Ventures (mimo okno 36 měsíců; exit 12/2023)",
+      "source_url": "https://cc.cz/dalsi-exit-ceskeho-startupu-ultimatesuite-hlida-efektivitu-prace-kupuje-jej-americky-gigant/",
+      "source_date": "2023-12-18",
+      "quote": "Před dvěma lety do startupu investoval devatenáct milionů korun český fond Tensor Ventures a investor Michael Rostock-Poplar.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "GDPR: jen profesní údaje. Kandidát zadán jako 'Michal Rostock' (zdroj DeepSeek/CBAA); zdroje používají 'Michael Rostock-Poplar' (cc.cz 2021 jednou i 'Michal Rostock-Poplar'), ověřte totožnost. Členství v CBAA nepotvrzeno (v představenstvu na cbaa.cz není, seznam členů nešel otevřít). UltimateSuite potvrzuje i cc.cz 2021-12-02 ('Investice od tuzemského fondu Tensor Ventures a investora Michaela Rostock-Poplara'). Nordic9 / Tracxn / CB Insights uvádějí další dealy 2023–2025 – agregátory, nepoužity. Forbes.cz má článek o tom, jak vybírá VC fondy (možná investuje i jako LP), text nedostupný. Tensor Ventures i Lighthouse jsou v DB jako fondy; jeho dealy jsou osobní, E8 neplatí.",
+  "phase": 3
+}

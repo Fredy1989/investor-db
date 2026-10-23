@@ -1,0 +1,234 @@
+{
+  "id": "jetinvest",
+  "name": "Jet Investment (PE + VC fond Jet Venture 1)",
+  "legal_name": "Jet Investment, a.s.; fondy Jet 3 SICAV, a.s. a Jet 4 SICAV, a.s.",
+  "decision": "include",
+  "exclusion_rule": null,
+  "decision_reason": "Brněnský PE správce (od 1997) kupující majoritní podíly ve středně velkých středoevropských průmyslových firmách; fond Jet 3 koupil 80 % Náš Chléb (07/2025) a 100 % pekárny PEKAŘI a spol. (09/2026), fond Jet 4 (cíl přes 300 mil. EUR) je otevřený. Samostatný záznam PE části – VC rameno je v záznamu jetventure.",
+  "investor_type": "pe",
+  "country": "CZ",
+  "hq_city": "Brno",
+  "website": "https://www.jetinvestment.cz/private-equity",
+  "registry": {
+    "value": "03890333",
+    "value_text": "IČO 03890333",
+    "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333",
+    "source_date": "undated",
+    "accessed": "2026-10-23",
+    "quote": "\"ico\":\"03890333\",\"obchodniJmeno\":\"Jet Investment, a.s.\"",
+    "source_tier": "A"
+  },
+  "sectors": {
+    "value": [
+      "industry",
+      "energy_climate",
+      "health",
+      "consumer"
+    ],
+    "value_text": "průmyslové a výrobní firmy: strojírenství, energetika, moderní materiály, kvalitní potraviny, zdravotnictví, recyklace, automatizace (mandát fondu Jet 4); consumer = potraviny",
+    "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/",
+    "source_date": "2026-03-31",
+    "accessed": "2026-10-23",
+    "quote": "cílí na průmyslové a výrobní společnosti zaměřené na strojírenství, energetiku, moderní materiály, kvalitní potraviny, zdravotnictví, recyklaci, automatizaci, energetické úspory a další rostoucí odvětví.",
+    "source_tier": "B"
+  },
+  "stages": {
+    "value": [
+      "buyout"
+    ],
+    "value_text": "akvizice (majoritní podíly) středně velkých průmyslových firem; mapování na buyout je interpretace",
+    "source_url": "https://cc.cz/novy-fond-jet-4-chce-ozivit-stredoevropsky-prumysl-investorum-nabizi-primy-vstup-od-10-milionu/",
+    "source_date": "2025-12-10",
+    "accessed": "2026-10-23",
+    "quote": "v nákupu, rozvoji a modernizaci průmyslových podniků ve střední Evropě.",
+    "source_tier": "B"
+  },
+  "ticket": {
+    "value": {
+      "min_eur": 10000000,
+      "max_eur": 60000000
+    },
+    "value_text": "Jet 4: hodnota jedné akvizice 10–60 mil. EUR (hodnota akvizice, ne nutně equity tiket)",
+    "source_url": "https://cc.cz/novy-fond-jet-4-chce-ozivit-stredoevropsky-prumysl-investorum-nabizi-primy-vstup-od-10-milionu/",
+    "source_date": "2025-12-10",
+    "accessed": "2026-10-23",
+    "quote": "Cílem je nakoupit osm až dvanáct podniků, přičemž hodnota jedné akvizice se bude pohybovat v rozmezí deseti až šedesáti milionů eur.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "min": 10000000,
+      "max": 60000000
+    }
+  },
+  "capital": {
+    "value": {
+      "eur": 300000000,
+      "basis": "target_fund_size"
+    },
+    "value_text": "Jet 4: plán získat přes 300 mil. EUR (cíl fundraisingu, ne upsáno); AUM PE fondů vč. co-investorů €530m+ (web)",
+    "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/",
+    "source_date": "2026-03-31",
+    "accessed": "2026-10-23",
+    "quote": "Od institucionálních i individuálních investorů plánuje získat přes 300 milionů eur, tedy přes 7,5 miliardy korun.",
+    "source_tier": "B",
+    "original": {
+      "currency": "EUR",
+      "amount": 300000000
+    }
+  },
+  "funds": [
+    {
+      "name": "Jet 4 SICAV, a.s.",
+      "size_eur": 300000000,
+      "size_basis": "target_fund_size",
+      "original": {
+        "currency": "EUR",
+        "amount": 300000000
+      },
+      "vintage": 2025,
+      "domicile": "CZ",
+      "registry": {
+        "value": "23724111",
+        "value_text": "IČO 23724111",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23724111",
+        "source_date": "undated",
+        "accessed": "2026-10-23",
+        "quote": "\"ico\":\"23724111\",\"obchodniJmeno\":\"Jet 4 SICAV, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/",
+      "quote": "S fondem Jet 4 otevřeným loni v listopadu chce investiční společnost Jet Investment objem skoro zdvojnásobit."
+    },
+    {
+      "name": "Jet 3 SICAV, a.s.",
+      "size_eur": null,
+      "original": null,
+      "vintage": 2022,
+      "domicile": "CZ",
+      "registry": {
+        "value": "14274311",
+        "value_text": "IČO 14274311",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14274311",
+        "source_date": "undated",
+        "accessed": "2026-10-23",
+        "quote": "\"ico\":\"14274311\",\"obchodniJmeno\":\"Jet 3 SICAV, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://forbes.cz/znovu-a-jeste-lepe-faituv-jet-investment-pokracuje-v-jizde-otevira-dalsi-fond/",
+      "quote": "První fond Jet proinvestoval 135 milionů eur, druhý 165 milionů, třetí 185 milionů bez koinvestorů."
+    },
+    {
+      "name": "Jet Venture 1 SICAV, a.s.",
+      "size_eur": 50000000,
+      "original": {
+        "currency": "EUR",
+        "amount": 50000000
+      },
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "22030417",
+        "value_text": "IČO 22030417",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22030417",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"22030417\",\"obchodniJmeno\":\"Jet Venture 1 SICAV, a.s.\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://www.jetinvestment.cz/venture-capital",
+      "quote": "cílová částka 50 mil. €",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    {
+      "name": "Jet Venture 1 podfond SICAV",
+      "size_eur": null,
+      "original": null,
+      "vintage": null,
+      "domicile": "CZ",
+      "registry": {
+        "value": "75165121",
+        "value_text": "IČO 75165121",
+        "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+        "source_date": "undated",
+        "accessed": "2026-10-22",
+        "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\"",
+        "source_tier": "A"
+      },
+      "source_url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/75165121",
+      "quote": "\"ico\":\"75165121\",\"obchodniJmeno\":\"Jet Venture 1 podfond SICAV\"",
+      "strategy": "VC (Jet Venture 1)"
+    }
+  ],
+  "investment_evidence": [
+    {
+      "company": "PEKAŘI a spol. (Ostrava), add-on ke skupině Náš Chléb",
+      "date": "2026-09-11",
+      "round": "akvizice 100% podílu, fond Jet 3",
+      "source_url": "https://www.jetinvestment.cz/novinky/jet-investment-rozsiruje-nas-chleb-o-ostravskou-pekarnu-pekari-a-spol",
+      "source_date": "2026-09-11",
+      "quote": "V ostravské společnosti získává Jet Investment 100% podíl prostřednictvím fondu Jet 3.",
+      "source_tier": "A"
+    },
+    {
+      "company": "PEKAŘI a spol. (Ostrava)",
+      "date": "2026-09-11",
+      "round": "akvizice 100% podílu, fond Jet 3",
+      "source_url": "https://cc.cz/kdyz-si-miliardar-oblibi-dobre-housky-a-chleba-skupina-igora-faita-kupuje-dalsi-pekarnu-ted-v-ostrave/",
+      "source_date": "2026-09-11",
+      "quote": "koupila prostřednictvím fondu Jet 3 stoprocentní podíl v ostravské pekárně Pekaři a spol.",
+      "source_tier": "B"
+    },
+    {
+      "company": "Náš Chléb (holding Pekařství Šumava, Jablonec nad Nisou)",
+      "date": "2025-07-30",
+      "round": "buyout 80% podílu, fond Jet 3 (od Meriton/Miton a zakladatele)",
+      "source_url": "https://cc.cz/strojirny-fotbalovy-klub-a-ted-chleba-miliardar-igor-fait-kupuje-od-mitonu-pekarnu-z-jablonce/",
+      "source_date": "2025-07-30",
+      "quote": "Investiční skupina Jet Investment získá ve společnosti Náš Chléb podíl 80 procent.",
+      "source_tier": "B"
+    },
+    {
+      "company": "GigaScan Technologies (Göteborg)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR od Jet Venture 1",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Dobře to ilustruje případ švédského startupu GigaScan, do kterého Jet poslal 2,1 milionu eur, což je v aktuálním přepočtu přes 51 milionů korun.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    {
+      "company": "AppNava (USA)",
+      "date": "2026-09-17",
+      "round": "1,8 mil. USD, lead",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Jet jako hlavní investor vložil 1,8 milionu dolarů (38 milionů korun), zhruba čtyři pětiny kola, které doplnil fond Arya Women.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    {
+      "company": "Hermetiq (San Francisco)",
+      "date": "2026-09-17",
+      "round": "0,75 mil. USD, největší investor kola 2,2 mil. USD",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Celkem 750 tisíc dolarů (16 milionů korun) získal od Jetu také loni založený startup Hermetiq ze San Franciska.",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    },
+    {
+      "company": "Phantasma Labs (Berlín)",
+      "date": "2026-09-17",
+      "round": "2,1 mil. EUR, kolo celkem 2,6 mil. EUR",
+      "source_url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "source_date": "2026-09-17",
+      "quote": "Stejnou částku dostala také berlínská Phantasma Labs, která spolu s investicí od Lighthouse Seed Fund II získala celkem 2,6 milionu eur (přes 63 milionů korun).",
+      "source_tier": "B",
+      "strategy": "VC (Jet Venture 1)"
+    }
+  ],
+  "notes": "Registry = Jet Investment, a.s. (IČO 03890333) – STEJNÉ IČO jako existující záznam jetventure (VC rameno); podle poznámky v kandidátech jde o samostatný záznam PE části (jiný typ), proto ne E8 – rozhodnutí o sloučení správce × ramena nechávám na koordinátorovi. NEOVĚŘIL jsem v ČNB JERRS, kdo je formálně obhospodařovatelem Jet 3/Jet 4 SICAV. Fondy: web uvádí Jet 1 (2015) 135 mil. €, Jet 2 (2018) 165 mil. €, Jet 3 185 mil. € 'investovaného kapitálu' (Forbes: 'bez koinvestorů') – to je proinvestovaný kapitál, ne upsaná velikost, proto size_eur Jet 3 = null. Rok Jet 3: web uvádí 2024, CzechCrunch 'otevřený v roce 2022' – nesoulad, dávám 2022 (vintage nejisté). Jet 4 otevřen 11/2025 (Forbes 3/2026: 'loni v listopadu'). Jiné zdroje údajně uvádějí horní hranici Jet 4 až 350 mil. EUR (FXStreet, neotevřel jsem). AUM PE fondů '€530m+' (web) a skupina '17 mld. Kč ve čtyřech FKI' (vč. realitního fondu a VC). Datum Náš Chléb = datum článku o dohodě (30. 7. 2025); tisková zpráva Jet z 9/2026 uvádí 'vstoupil v červnu 2025' – drobný nesoulad, transakce podléhala ÚOHS. Ticket = hodnota akvizice dle CzechCrunch, ne equity tiket. Další aktivní portfolio Jet 3: Likov, Fiberpreg, Plastiwell, ZKL Group, REGUTEC, Toboga (data vstupu jsem neověřoval).",
+  "phase": 3,
+  "corrections_applied": 7
+}

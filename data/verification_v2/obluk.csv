@@ -1,0 +1,9 @@
+id,claim,verdict,correct_value,evidence_url,found_quote,comment
+obluk,decision,ok,,,,"Exclude I3 obhajitelné: 2+ vyhledávání nenašla žádnou doloženou osobní investici po 2023-10-22 (jen starší: OpenDNS, Cognitive Security; Garage Angels). Hlavní současná role = partner Evolution Equity Partners (zahraniční VC, kyberbezpečnost) – alternativně by sedělo i 'investuje hlavně jako partner fondu' (v3 bod 4). Decision nemá source_url – doporučuji doplnit."
+obluk,investor_type,ok,,https://cc.cz/v-cesku-chybi-byznysovy-talent-a-globalni-ambice-diky-uspechum-firem-jako-avast-se-to-meni-rika-investor-karel-obluk/,,"Fyzická osoba veřejně prezentovaná jako investor (angel, zakládající člen Garage Angels, CBAA). angel ok; country CZ ok. Soukromé údaje nezjišťovány."
+obluk,registry,null_ok,,,,Fyzická osoba.
+obluk,sectors,null_ok,,,,Vyřazený záznam; zaměření IT/kyberbezpečnost jen přes EEP.
+obluk,stages,null_ok,,,,
+obluk,ticket,null_ok,,,,
+obluk,capital,null_ok,,,,GDPR – osobní majetek se nezjišťuje.
+obluk,investment_evidence,null_ok,,,,Do 2 vyhledávání žádný osobní deal po 2023-10-22 nenalezen.

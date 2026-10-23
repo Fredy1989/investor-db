@@ -1,0 +1,72 @@
+{
+  "id": "najvarek",
+  "name": "Jan Najvárek",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I3",
+  "decision_reason": "Jediný otevřený zdroj (Lupa, 2026-02-23) ho jmenuje v seznamu investorů skupiny Garage Angels, bez konkrétní investice. Žádná doložená osobní investice (tier A/B) nenalezena; jeho firemní aktivity (ARTIN, spin-offy) jsou zakladatelské, ne andělské.",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "fyzická osoba – registr se neuvádí",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvádí se – osobní údaj",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "profile_evidence": [
+    {
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/",
+      "source_date": "2026-02-23",
+      "quote": "Mezi invetsory patří Karel Obluk, Miloš Dendis, Jiří Hlavenka, Jan Najvárek a Jiří Nepala.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "GDPR: jen profesní údaje. Hledáno: 'Jan Najvárek' investor / investoval / Garage Angels / ARTIN. Web g-angels.cz (kde ho výsledky vyhledávání uvádějí jako nezávislého investora) se nepodařilo otevřít (smyčka 301 přesměrování), proto nepoužit. ARTIN Group zakládá vlastní spin-offy (Aiviro, Roboauto, BringAuto); to je zakladatelská / firemní činnost, ne doložená andělská investice osoby. Nejisté i to, zda se jako investor sám veřejně prezentuje (v3 bod 5); kromě nepřístupného webu Garage Angels nenalezeno.",
+  "phase": 3
+}

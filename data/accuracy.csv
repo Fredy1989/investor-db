@@ -15,3 +15,11 @@ E_phase2_raw_by_blind_verifier,stages,13,2,0,1,0,87%
 E_phase2_raw_by_blind_verifier,ticket,7,1,1,6,1,88%
 E_phase2_raw_by_blind_verifier,capital,3,4,3,5,1,43%
 E_phase2_raw_by_blind_verifier,investment_evidence,15,1,0,0,0,94%
+F_phase3_raw_by_blind_verifier,decision,7,0,0,0,0,100%
+F_phase3_raw_by_blind_verifier,investor_type,5,2,0,0,0,71%
+F_phase3_raw_by_blind_verifier,registry,4,0,0,2,1,100%
+F_phase3_raw_by_blind_verifier,sectors,5,0,0,2,0,100%
+F_phase3_raw_by_blind_verifier,stages,4,1,0,1,1,80%
+F_phase3_raw_by_blind_verifier,ticket,2,0,0,4,1,100%
+F_phase3_raw_by_blind_verifier,capital,3,1,0,3,0,75%
+F_phase3_raw_by_blind_verifier,investment_evidence,7,0,0,0,0,100%

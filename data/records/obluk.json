@@ -1,0 +1,84 @@
+{
+  "id": "obluk",
+  "name": "Karel Obluk",
+  "legal_name": null,
+  "decision": "exclude",
+  "exclusion_rule": "I3",
+  "decision_reason": "Veřejně se prezentuje jako anděl (prezident CBAA, člen Garage Angels), ale hlavně investuje jako partner fondu Evolution Equity Partners. Osobní andělské investice sám popisuje jako drobné a příležitostné; žádná jmenovitá osobní investice s datem (tier A/B) nenalezena, natož po 2023-10-22.",
+  "investor_type": "angel",
+  "country": "CZ",
+  "hq_city": null,
+  "website": null,
+  "registry": {
+    "value": null,
+    "value_text": "fyzická osoba – registr se neuvádí; investiční vozidlo nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "sectors": {
+    "value": null,
+    "value_text": "rozhovor 2020 (businessangelseurope.com): technologické startupy, historicky kyberbezpečnost; bez doslovné citace a bez doložených dealů nezařazeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "stages": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "ticket": {
+    "value": null,
+    "value_text": "nenalezeno",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "capital": {
+    "value": {
+      "eur": null,
+      "basis": null
+    },
+    "value_text": "neuvádí se – osobní údaj",
+    "source_url": null,
+    "source_date": null,
+    "accessed": "2026-10-23",
+    "quote": null,
+    "source_tier": null
+  },
+  "funds": [],
+  "investment_evidence": [],
+  "profile_evidence": [
+    {
+      "source_url": "https://cc.cz/spatny-investor-ten-ktery-chce-prilis-velky-podil-varuji-obluk-a-sima-radi-jake-chyby-neopakovat/",
+      "source_date": "2024-10-17",
+      "quote": "občas se drobně podílím i na andělských investicích, většinou do projektů, které mají lokální zaměření.",
+      "source_tier": "B"
+    },
+    {
+      "source_url": "https://www.cbaa.cz/",
+      "source_date": "undated",
+      "quote": "Partner Evolution Equity Partners, ex-CTO AVG Technologies.",
+      "source_tier": "A"
+    },
+    {
+      "source_url": "https://www.lupa.cz/aktuality/cesky-projekt-ziskal-penize-na-prosazovani-virtualni-reality-v-rehabilitaci/",
+      "source_date": "2026-02-23",
+      "quote": "Mezi invetsory patří Karel Obluk, Miloš Dendis, Jiří Hlavenka, Jan Najvárek a Jiří Nepala.",
+      "source_tier": "B"
+    }
+  ],
+  "notes": "GDPR: jen profesní údaje. E8 nepoužito: Evolution Equity Partners v DB (data/records ani records_raw) není a nemá český tým (spíš out_of_scope), takže pravidlo v3 bod 4 ('partner fondu, který už v DB je') formálně neplatí; důvod vyřazení je chybějící doložení osobních investic (I3, zároveň I2). Crunchbase uvádí 2 investice (poslední Localazy seed, bez data) – agregátor nestačí. Lupa (VR Life, 2026-02-23) ho jmenuje jen v seznamu členů Garage Angels, ne jako investora kola. Rozhovor businessangelseurope (2020-12-10) zmiňuje Freedomky jako historickou investici. Pokud se najdou datované osobní dealy (např. přes SPV Garage Angels), lze přehodnotit.",
+  "phase": 3
+}
