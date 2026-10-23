@@ -154,8 +154,8 @@ produkční běh by to mělo být i v pokynech pro agenta A.
 
 ## Co v řešení chybí
 
-- **Ruční kontrola člověkem** (`data/manual_check.csv`, ~45 min) — připravená, čeká na vyplnění. Až bude vyplněná,
-  `python src/measure.py` doplní metriky B a C do výstupu.
+- **Ruční kontrola** proběhla jen na vzorku 6 investorů z fáze 1: 35/35 údajů sedí, shoda s AI ověřovatelem 96 %
+  (RESULTS §3 B, C). Fáze 2 a 3 ověřil slepý AI ověřovatel, ne člověk.
 - Longevitytech.fund: dohledat právnickou osobu (pravděpodobně česká a.s.). Jinak by byl zařazen.
 - U KAYA, Miton a J&T Ventures upřesnit, která právnická osoba je správce (PLAN §7.5).
 - **Úplnost:** fáze 1 našla 66 % investorů z oficiálního katalogu (RESULTS §3b). Fáze 2 chybějící dohledala.

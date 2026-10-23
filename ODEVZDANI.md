@@ -12,7 +12,7 @@ Stav k 2026-10-22.
 | odkaz na veřejný repozitář na GitHubu | ⏳ před odesláním (repo je zatím soukromé) | — |
 | **plán** | ✅ | [PLAN.md](PLAN.md) |
 | **data ze vzorku se zdrojem u každého údaje** | ✅ | [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) (pro čtení), [data/investors_cz_vc.csv](data/investors_cz_vc.csv) a [data/records/](data/records/) (zdroj, datum, citace u každého údaje) |
-| **výsledek měření přesnosti** | ✅ AI ověření / ⏳ ruční část | [RESULTS.md §3, §3b, §3c](RESULTS.md), [data/accuracy.csv](data/accuracy.csv) |
+| **výsledek měření přesnosti** | ✅ (AI ověření + ruční kontrola) | [RESULTS.md §3, §3b, §3c](RESULTS.md), [data/accuracy.csv](data/accuracy.csv) |
 | kód s průběžnou historií commitů | ✅ | [src/](src/), `git log` (18+ commitů po krocích) |
 | `ai-log/`: export konverzací s Claude Code | ⏳ export na konci | [ai-log/](ai-log/) |
 | README: jak se pracovalo s AI, pokyny agentům, kontrola výstupu, kde se AI mýlila | ✅ | [README.md](README.md), [docs/](docs/) |
@@ -109,8 +109,8 @@ tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použ
 | A: fáze 1, surový výstup AI | ověřovací AI agent (viděl citace) | záznam **87 %**, údaje **86 %** |
 | E: fáze 2, surový výstup AI (pokyny v2) | **slepý** AI ověřovatel | záznam **81 %**, údaje **87 %** |
 | F: fáze 3 (PE, FO, andělé, pokyny v3) | **slepý** AI ověřovatel | rozhodnutí **100 %**, údaje **93 %** (chyby jen v typu FO × soukromý investor) |
-| B: finální data po opravách | **člověk**, náhodný vzorek 6 investorů × 5 údajů | ⏳ vyplňuje se |
-| C: shoda AI ověřovatele s člověkem | | ⏳ z téhož listu |
+| **B: finální data po opravách** | **člověk**, náhodný vzorek 6 investorů × 5 údajů | **záznamy 6/6, údaje 35/35 = 100 %** (1 neověřitelný; 95% interval ≈ 91–100 %) |
+| C: shoda AI ověřovatele s člověkem | z téhož listu | **22/23 = 96 %**, tedy AI ověřovatel je pro škálování dost spolehlivý (práh 95 %) |
 | úplnost proti oficiálnímu katalogu | skript | fáze 1 našla **66 %** investorů z katalogu |
 
 Nejčastější chyby AI a jejich náprava: přepočet měn (přesunut z AI do kódu, chyby klesly z 8 na 0), cílová velikost fondu
@@ -192,7 +192,7 @@ Pro tuto úlohu ne.
 
 ## Co v řešení chybí
 
-- **Ruční kontrola člověkem** (měření B a C): list je připravený, vyplňuje se.
+- Ruční kontrola pokrývá jen vzorek z fáze 1 (6 investorů). Fáze 2 a 3 ověřil slepý AI ověřovatel. List „Sporné" zůstal bez vyjádření.
 - Ostatní typy (PE, family office, andělé) jsou ověřené jen na malém vzorku (12 kandidátů). Pro spolehlivé statistiky po typech by byl potřeba větší.
 - **Export konverzace do `ai-log/`** a **zveřejnění repozitáře**: poslední kroky před odesláním.
 - Hraniční případy k ručnímu dořešení: NEWTON University Angels, Longevitytech.fund, a u KAYA, Miton a J&T, která právnická osoba je správce.

@@ -102,13 +102,36 @@ List [data/manual_check.csv](data/manual_check.csv) má 58 řádků:
 U řádků s rozhodnutím je zdůvodnění agenta ve vlastním sloupci `rationale`, odděleně od citace ze zdroje (`quote`).
 Upozornil na to Mac Claude: kontrolor by jinak mohl zdůvodnění agenta považovat za text zdroje.
 
-> **Stav k 2026-10-22: čeká na vyplnění.** Číslo B doplní `python src/measure.py`, jakmile bude vyplněný sloupec
-> `human_verdict`. Ověřovací agent B tohle číslo měřit nemůže, protože opravy sám navrhl.
+**Výsledek (ruční kontrola provedena 2026-10-23, Vitalij Ljubačivskyj):**
+
+Kontrolovalo se 6 investorů (Credo, Impulse, Lighthouse, N1, Tensor, ZAKA) × 5 údajů ze zadání
+(doklad investice, sektor, fáze, výše investice, kapitál). Každý údaj byl porovnán se zdrojem otevřeným proklikem.
+
+| | výsledek |
+|---|---|
+| **přesnost záznamu** (je to aktivní investor, doklad sedí) | **6/6** |
+| **přesnost údajů** | **35/35 = 100 %** |
+| neověřitelné | 1 (tiket Tensoru je „neuvedeno"; ověřit, že veřejně opravdu neexistuje, nešlo) |
+| zmeškané údaje | 0 |
+
+**Jak to číst:**
+- Kontrolují se **finální data po opravách**. Surový výstup AI měl 86 % (A), opravy přes ověřovatele a pravidla ho
+  dotáhly na úroveň, kterou ruční kontrola nerozporovala.
+- Vzorek je malý. Při 35 kontrolách bez chyby je 95% interval spolehlivosti zhruba **91–100 %** („pravidlo tří": 3/35).
+  Na tvrzení „100 %" to nestačí, na tvrzení „přes 90 %" ano.
+- Vzorek je z fáze 1 (losováno předem a zafixováno). Fáze 2 a 3 ověřil jen slepý AI ověřovatel.
+- List „Sporné" (4 hraniční rozhodnutí: Pale Fire, StartupYard, NRF, Genesis) zůstal bez vyjádření a rozhodnutí v nich
+  zůstávají podle pravidel.
 
 ### C) Shoda ověřovacího agenta s člověkem
 
 Počítá se ze stejného listu, z polí, která se po ověření neměnila. Na tomhle čísle stojí škálování: pokud agent B
 souhlasí s člověkem v ≥ 95 % případů, stačí lidsky kontrolovat jen statistický vzorek a sporné body.
+
+**Výsledek: shoda 22/23 = 96 %.** Jediná neshoda: tiket Tensoru. Ověřovatel ho označil „null_ok" (veřejně neexistuje),
+člověk „nejde ověřit". Nejde o rozpor ve faktech, jen o přísnost: člověk nechtěl potvrdit neexistenci údaje.
+→ **Práh 95 % je splněný.** Pro rozšíření na svět tedy stačí AI ověřovatel + lidsky kontrolovaný statistický vzorek
+a sporné případy, jak počítá odhad nákladů v §5.
 
 ### D) Úplnost (recall) — křížově s nezávislým řešením na Macu
 
