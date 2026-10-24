@@ -109,8 +109,6 @@ Kontrolovalo se 6 investorů (Credo, Impulse, Lighthouse, N1, Tensor, ZAKA) × 5
 
 | | výsledek |
 |---|---|
-| | výsledek |
-|---|---|
 | **odpovědí celkem** | **30** (6 investorů × 5 údajů) |
 | **sedí** | **29** |
 | nesedí | 0 |
