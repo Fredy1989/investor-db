@@ -1,190 +1,207 @@
-# Spolehlivá databáze investorů — zadání A
+# Spolehlivá databáze investorů
 
-Řešení praktické úlohy k pozici Junior AI Developer.
-Pilot: investoři v Česku všech typů ze zadání, ve třech fázích (71 kandidátů → **43 zařazených**). Každý údaj má zdroj, datum
-a doslovnou citaci, kterou kontroluje stroj. Úplnost je změřená proti oficiálnímu katalogu CzechInvest.
+Řešení praktické úlohy (zadání A) k pozici Junior AI Developer.
 
-| soubor | obsah |
+Cílem bylo navrhnout, jak sestavit spolehlivou databázi investorů do firem, a ověřit to na menším vzorku.
+Pilot jsem udělal na **investorech v Česku**. Výsledkem je **43 ověřených investorů všech typů ze zadání**.
+U každého údaje je odkaz na veřejný zdroj, ze kterého pochází.
+
+---
+
+## Výsledek v kostce
+
+| | |
 |---|---|
-| [ODEVZDANI.md](ODEVZDANI.md) | **začni tady:** odpovědi na všechny body zadání, placené databáze (ceny, proč nepoužité), hlavní rozhodnutí |
-| [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu |
-| [RESULTS.md](RESULTS.md) | výsledky pilotu, změřená přesnost, rozbor chyb, odhad nákladů na celý svět |
-| [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | **výsledek pro čtení: 43 investorů, jen to, co chce zadání** (sektor, do čeho a v jaké výši investuje, kapitál, doklad investice s datem); klik na hodnotu otevře zdroj; list Vyřazení s důvodem |
-| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | totéž strojově: u každého údaje URL zdroje, datum a tier |
-| [data/excluded.csv](data/excluded.csv) | 28 vyřazených / neaktivních / mimo rozsah, s pravidlem a důvodem |
-| [data/records/](data/records/) | plné záznamy (JSON) po opravách — citace, fondy, všechny doložené dealy |
-| [data/records_raw/](data/records_raw/) | totéž **beze změny tak, jak to vrátili rešeršní agenti** |
-| [data/corrections.json](data/corrections.json) | 89 oprav: co se změnilo, proč a kdo to navrhl (ověřovací agent / slepý ověřovatel / orchestrátor / review Mac Clauda) |
-| [docs/ZADANI.md](docs/ZADANI.md), [docs/requirements-check.md](docs/requirements-check.md) | zadání doslovně a kontrola řešení proti němu bod po bodu |
-| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 494 citací |
-| [data/verification/](data/verification/), [data/verification_v2/](data/verification_v2/) | verdikty ověřovacího agenta (fáze 1) a slepého ověřovatele (fáze 2), pole po poli |
-| [data/blind/](data/blind/) | slepé podklady pro ověřovatele fáze 2: jen tvrzení + URL |
-| [data/reference_czechstartups.csv](data/reference_czechstartups.csv), [data/recall.csv](data/recall.csv) | oficiální katalog CzechInvest jako referenční seznam a výsledek měření úplnosti |
-| [data/manual_check.csv](data/manual_check.csv) | list pro ruční kontrolu (náhodný vzorek + sporné body) |
-| [data/accuracy.csv](data/accuracy.csv) | změřená přesnost |
-| [docs/](docs/) | doslovné pokyny, které dostali agenti |
-| [ai-log/](ai-log/) | export konverzace s Claude Code |
+| **Databáze** | 43 investorů: 25 VC fondů, 5 investičních skupin podnikatelů, 4 korporátní fondy, 3 private equity, 3 andělé, 2 family office, 1 andělský syndikát |
+| **Vyřazeno** | 28 subjektů, které podle pravidel investory nejsou (crowdfunding, sítě, neaktivní fondy, prodejci investic…) |
+| **Přesnost** | ruční kontrola náhodného vzorku: **35 z 35 údajů odpovídá zdroji**; nezávislá AI kontrola surových dat: 86–93 % |
+| **Úplnost** | proti oficiálnímu katalogu CzechInvest; první kolo našlo 66 % investorů, další kola chybějící dohledala |
+| **Odhad pro celý svět** | 30–50 tis. investorů, náklady na první naplnění **≈ 85–125 tis. EUR** |
 
-## Jak to spustit
+**Kde začít:**
+- 📊 [**Databáze investorů (Excel)**](data/Databaze_investoru.xlsx): jeden řádek = jeden investor, klik na hodnotu otevře zdroj
+- 📋 [**ODEVZDANI.md**](ODEVZDANI.md): odpovědi na všechny body zadání, včetně placených databází a jejich cen
+- 📐 [**PLAN.md**](PLAN.md): kdo do databáze patří a kdo ne, jak se to ověřuje, kolik investorů lze získat
+- 📈 [**RESULTS.md**](RESULTS.md): podrobné výsledky, měření přesnosti a odhad nákladů
 
-```bash
-pip install requests beautifulsoup4
-python src/apply_corrections.py   # records_raw + corrections.json → records, přepočet měn kurzem ECB
-python src/check_quotes.py        # stáhne zdroje a ověří citace → data/quote_check.csv
-python src/build.py               # → investors_cz_vc.csv, excluded.csv, pokrytí polí
-python src/measure.py             # → přesnost (A: agent B, B: člověk, C: shoda B × člověk, E: fáze 2 slepě)
-python src/recall.py              # → úplnost vůči katalogu CzechStartups
-python src/simple_xlsx.py databaze  # → „Databáze investorů.xlsx“ (jeden řádek = investor, klik na hodnotu = zdroj)
-python src/simple_xlsx.py kontrola  # → „Ruční kontrola.xlsx“ (6 vylosovaných investorů, políčko u každého údaje)
-python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.csv → src/measure.py
-```
+---
 
-## Jak jsem pracoval s AI
+## Jak jsem postupoval
 
-### Můj postup (vlastními slovy)
+Nejdřív bylo potřeba úplně a do hloubky analyzovat zadání. Použil jsem k tomu **tři AI agenty**:
 
-V první řadě bylo potřeba provést úplnou a hloubkovou analýzu zadání. K tomu jsem použil tři agenty:
+- **Agent 1** (Claude Code na Windows) a **agent 2** (Claude Code na Macu) řešili úlohu každý samostatně a vytvořili vlastní řešení.
+- **Třetího agenta** (konzultace s AI DeepSeek a Gemini) jsem použil pro vlastní průzkum: kde a jak získat
+  data o investorech.
 
-1. **Agent 1** (Claude Code na Windows) a **agent 2** (Claude Code na Macu) pracovali na zadání samostatně, každý
-   vytvořil vlastní řešení.
-2. **Třetího agenta** (konzultace s AI DeepSeek a Gemini) jsem využil k vlastní analýze: zjišťoval jsem, kde a jak
-   lze získat databáze, které jsou ke splnění úlohy potřeba.
+Když první dva agenti skončili, **propojil jsem jejich výstupy přes git**, aby si navzájem viděli výsledky.
+Agent 2 napsal kritické hodnocení řešení agenta 1 a agent 1 na něj odpověděl ([reviews/](reviews/)).
+Pak jsem je nechal pracovat dál samostatně.
 
-Jakmile první a druhý agent měli hotovo, propojil jsem jejich výstupy v gitu, aby se navzájem viděli a mohli číst
-získané informace (druhý agent napsal review prvního řešení, první na něj odpověděl:
-[reviews/](reviews/)). Poté jsem je nechal na úloze dál pracovat samostatně.
+Mezitím jsem s třetím agentem hledal **zdroje dat**:
+- Stáhl jsem exporty z **registru České národní banky** a **katalog investorů portálu CzechStartups** (CzechInvest).
+- Dalším zdrojem by byly **placené databáze** (Apify, Crunchbase, PitchBook…). Jsou ale zpoplatněné a zadání chce
+  jen veřejná data, proto jsem je nepoužil. Ceny a důvody jsou v [ODEVZDANI.md](ODEVZDANI.md#placené-databáze-proč-nejsou-použité-a-kolik-by-stály).
 
-Sám jsem se s třetím agentem zabýval zdroji dat. Na základě získaných informací jsem stáhl exporty z registru ČNB
-a katalog investorů z portálu CzechStartups (CzechInvest). Šlo využít i placené databáze z Apify a podobných serverů,
-ale za poplatek (ceny a důvody v [ODEVZDANI.md](ODEVZDANI.md#placené-databáze-proč-nejsou-použité-a-kolik-by-stály)).
-Využil jsem proto volně přístupná data z internetu, jak zadání požaduje.
+Všechny exporty jsem pak předal agentům k analýze, aby byl výsledek co nejpřesnější. Tak vznikla tři kola pilotu:
 
-Všechny exporty jsem pak předal agentům, aby provedli analýzu všech našich výstupů a výsledek byl co nejpřesnější.
-Z toho vznikly další dvě fáze pilotu: kandidáti z oficiálního katalogu a registru ČNB (fáze 2) a doplnění private equity,
-family office a andělů (fáze 3). Nakonec jsem ručně zkontroloval náhodný vzorek dat (RESULTS §3 B).
+| kolo | co se dělalo | výsledek |
+|---|---|---|
+| 1 | VC fondy z médií a veřejných přehledů | 22 investorů |
+| 2 | kandidáti z oficiálního katalogu CzechInvest a registru ČNB | +14 investorů; zjištění, že první kolo jich třetinu přehlédlo |
+| 3 | doplnění dalších typů ze zadání: private equity, family office, andělé | +7 investorů |
 
-### Rozdělení rolí v řešení agenta 1
+Nakonec jsem **ručně zkontroloval náhodný vzorek**: 6 investorů × 5 údajů, každý proti zdroji.
 
-```
-            ┌──────────────────────────────────────────────┐
-            │ hlavní session Claude Code (orchestrátor)     │
-            │ plán, pravidla, kód, opravy, měření           │
-            └──────┬──────────────────────────────┬────────┘
-   5× paralelně    │                              │   4× paralelně, jiné dávky
-   ┌───────────────▼─────────┐        ┌───────────▼──────────────────┐
-   │ agent A: rešerše         │        │ agent B: ověření               │
-   │ 5–6 kandidátů / agent     │ JSON → │ vidí jen záznamy a pravidla,   │
-   │ každý údaj = URL + citace │        │ ne uvažování agenta A           │
-   └──────────────────────────┘        └──────────────┬─────────────────┘
-              │                                         │
-              ▼                                         ▼
-   src/check_quotes.py (stroj)        corrections.json → člověk: manual_check.csv
-```
+---
 
-- **Já:** viz „Můj postup" výše: analýza zadání, propojení agentů, zdroje dat (ČNB, CzechStartups), rozhodnutí
-  o dalších fázích a ruční kontrola vzorku.
-- **Hlavní session (Claude Code, Opus 5.5):**
-  - napsala plán, schéma a skripty,
-  - rozdělila kandidáty do dávek a spustila agenty,
-  - vyhodnotila jejich výstupy a rozhodla o opravách,
-  - změřila přesnost.
-- **Rešeršní agenti A (5×):** pokyny v [docs/prompt-research-agent.md](docs/prompt-research-agent.md). Hlavní body:
-  - používat jen zdroje, které agent sám otevřel,
-  - u každého údaje URL a **doslovnou citaci**,
-  - chybějící údaj = `null`, tiket a kapitál nikdy neodhadovat,
-  - vyřazení zdůvodnit konkrétním pravidlem.
-- **Ověřovací agenti B (4×):** pokyny v [docs/prompt-verifier-agent.md](docs/prompt-verifier-agent.md).
-  - Cíl je „najít chyby, ne záznamy potvrdit".
-  - Každý agent B dostal jiné dávky, než jaké připravoval kterýkoli agent A. Nikdy tedy nekontroloval vlastní práci.
-  - Do `data/records/` nesměl zapisovat, jen navrhoval opravy.
+## Jak pracovala AI
 
-### Jak jsem výstup AI kontroloval (5 vrstev)
+### Kdo co dělal
 
-1. **Strojová kontrola citací.** Skript stáhne každý zdroj a hledá v něm citaci. Vymyšlená URL nebo citace
-   neprojde. Výsledek: 459 z 494 citací doslova (zbytek hlavně prázdná pole a weby blokující stahování), žádná vymyšlená.
-2. **Nezávislý agent B.** Znovu otevřel zdroje a ke každému poli dal verdikt `ok / wrong / unverifiable / null_ok / null_missed`.
-   Ve fázi 1 našel 17 chybných polí ze 121 a 6 zmeškaných údajů. Ve fázi 2 byl **slepý**: dostal jen tvrzení + URL
-   ([data/blind/](data/blind/)) a citaci si musel najít sám. Našel 10 chybných polí ze 77.
-3. **Auditovatelné opravy.** Opravy se nedělají ručně v datech. Každá je zapsaná v [corrections.json](data/corrections.json)
-   s důvodem a autorem a aplikuje se skriptem na nezměněný výstup agentů v `records_raw/`. V gitu je vidět rozdíl.
-4. **Člověk.** Náhodný vzorek a sporné body v `manual_check.csv`. Ověřovací agent nemůže měřit přesnost dat, která
-   sám opravil. Proto se finální přesnost (B) a důvěryhodnost agenta B (C) měří proti člověku.
-5. **Druhé, nezávislé řešení (Mac Claude).**
-   - Druhá session Claude Code na jiném počítači vyřešila stejné zadání sama, bez přístupu k tomuto repu.
-   - Potom napsala review tohoto řešení a nezávislou kontrolu proti zadání.
-   - Výsledek: [reviews/mac-claude.md](reviews/mac-claude.md) a odpověď na review [reviews/odpoved-android.md](reviews/odpoved-android.md).
-   - Každý nález jsem ověřil proti zdrojům, než jsem ho převzal. Jeden se nepotvrdil: Dealroom u mě vrací 200, ne 403.
-   - Průnik obou řešení zároveň dává odhad úplnosti (RESULTS §3D).
+V řešení agenta 1 pracovalo několik AI agentů s jasně oddělenými rolemi:
+
+- **Hlavní agent** napsal plán, pravidla a programy. Rozdělil práci ostatním a vyhodnocoval jejich výsledky.
+- **Rešeršní agenti** (13 běhů) dohledávali o každém kandidátovi informace na webu. Pravidla:
+  - použít jen stránky, které sami otevřeli,
+  - u každého údaje uvést odkaz a **doslovnou citaci** ze zdroje,
+  - když údaj nenajdou, nechat pole prázdné. **Nikdy nic neodhadovat.**
+- **Ověřovací agenti** (12 běhů) znovu otevřeli zdroje a hledali chyby. Od druhého kola pracovali **naslepo**:
+  dostali jen tvrzení a odkaz, ne citaci rešeršního agenta, takže ji museli najít sami.
+
+Doslovné pokyny, které agenti dostali, jsou ve složce [docs/](docs/).
+
+### Jak jsem kontroloval, že AI nevymýšlí
+
+AI agenti umějí vymyslet zdroj nebo citaci. Proto má kontrola pět vrstev a každou dělá někdo jiný:
+
+1. **Program ověří každou citaci.** Stáhne zdrojovou stránku a hledá v ní citaci. Ze 494 citací nebyla ani jedna vymyšlená.
+2. **Nezávislý ověřovací agent** zkontroluje každý údaj znovu, od druhého kola naslepo.
+3. **Opravy se zapisují, ne přepisují.** Každá ze 89 oprav má důvod a autora. Původní výstup AI zůstává
+   beze změny vedle, takže je vidět, co AI udělala špatně.
+4. **Druhé nezávislé řešení** (agent 2 na Macu) a vzájemná kritika obou řešení.
+5. **Člověk:** ruční kontrola náhodného vzorku. Výsledek: 35 z 35 údajů sedí a ověřovací AI se s člověkem
+   shodla v 96 %. Při rozšíření na celý svět proto stačí lidsky kontrolovat jen vzorek.
 
 ### Kde se AI mýlila
 
-| chyba | kdo | jak se přišlo na to | co jsem změnil |
-|---|---|---|---|
-| **Kandidát „Pointer"** jako crowdfundingová platforma. Žádná taková platforma neexistuje. | **hlavní session (orchestrátor)**, „ze znalosti trhu" | agent A ho nedohledal a vyřadil (I1), agent B to potvrdil | PLAN §7.8: kandidát musí mít zdroj |
-| **NRF** jako státní VC fond. Byl to infrastrukturní fond, který nikdy neinvestoval. | hlavní session | agent A (podle pravidla I4) | dtto |
-| **Pevný kurz 0,92 USD/EUR** v pokynech pro agenty, v rozporu s vlastním plánem | hlavní session | agent B, u 8 polí | přepočet přesunut do kódu ([src/fx.py](src/fx.py), ECB) |
-| Sektory a fáze odvozené ze 2–3 dealů místo z mandátu (Purple, Aspire11, Inven…) | agenti A | agent B | PLAN §7.3: `derived_from` |
-| Nesprávný typ: Pale Fire jako `pe`, i když ho plán sám uvádí jako vzor `private_investor` | agent A | agent B | oprava |
-| Investice připsaná fondu, i když investoval zakladatel osobně (Impulse → Safetica) | agent A | agent B | důkaz odstraněn, zůstal starší deal |
-| Deal doložený jen agregátorem s domyšleným dnem (StartupYard) | agent A | agent B | `inactive` + pravidlo PLAN §7.4 |
-| 3 chyby v mnou napsaném checkeru citací: kódování, mezera před čárkou, cachování výpadků. Vedly by k falešným „not_found". | hlavní session | ruční pohled do stažených stránek | opraveno, viz commity |
-| Agent při jednom hledání na SEC EDGAR poslal v hlavičce User-Agent e-mail uživatele | agent A | agent to sám nahlásil | do pokynů pro agenta B přidán zákaz osobních údajů v požadavcích |
-| **Genesis (PE) zařazen do vzorku, který byl podle vlastního plánu jen pro VC-typy** | hlavní session (přehlédla při kontrole proti zadání) | review Mac Clauda | `out_of_scope`, zařazených 21 |
-| **Kapitál Lighthouse z článku z roku 2019 zapsán jako `undated`**, takže zastaralost nešla poznat | agent A | review Mac Clauda | datum doplněno; nová metrika aktuálnosti (PLAN §7.9) |
-| **Odhad nákladů ze statistik agentů**, které nejsou účtované tokeny (kontext se při každém volání posílá znovu) → 2–3× podhodnoceno | hlavní session | review Mac Clauda | RESULTS §5 přepočten: jádro 35–50 tis., svět 85–125 tis. EUR |
-| Ověřovací agent nebyl „slepý": viděl citace agenta A | hlavní session (návrh pipeline) | review Mac Clauda | přiznáno jako omezení metriky A; v2 = jen tvrzení + URL |
-| IČO Nation 1 odvozené z výsledku vyhledávání, který agent neotevřel | agent A | review Mac Clauda | doloženo adresou v adresáři CVCA |
-| Důkaz Tensoru jen z agregátoru; v listu pro ruční kontrolu splývalo zdůvodnění agenta s citací | agent A / hlavní session | review Mac Clauda | nahrazeno tier B (AppFactor, lead); sloupec `rationale` |
-| **Pokyny v2 dovolily andělské „skupiny" jako `angel`**, i když plán definuje anděla jako fyzickou osobu | hlavní session | slepý ověřovatel (fáze 2) | nový typ `angel_syndicate`; spolek, kde investují členové (Garage Angels), = E4 (PLAN §7.15) |
-| Schéma nemělo `basis` pro cílovou velikost fondu → cíle vykázané jako skutečné fondy (4×) | hlavní session (schéma) | slepý ověřovatel | `target_fund_size` (PLAN §7.17) |
-| Registr: IČO mateřské banky místo investující dceřiné firmy (Seed Starter ČS) | agent A v2 | slepý ověřovatel | oprava na ČS Seed Starter, a.s. |
-| Dva ověřovatelé si ve sdíleném adresáři přepsali skript stejného jména | infrastruktura agentů | agent to sám nahlásil | výsledky zkontrolovány (beze změny); v produkci vlastní adresář pro každého agenta |
-| **Odhad úplnosti 88 %** z porovnání se druhým AI řešením (obě braly kandidáty ze stejných přehledů) | hlavní session | oficiální katalog CzechInvest | změřeno: 66 % (RESULTS §3b) |
-| Tipy jiné AI (DeepSeek) na family office a anděly: ze 4 FO prošla pravidly jen 2, u anděla špatné jméno („Michal Rostock" místo Michael Rostock-Poplar) | DeepSeek (konzultace uživatele) | rešeršní agent fáze 3 | tipy jiných AI se ověřují stejně jako vlastní kandidáti (PLAN §7.24) |
-| Typ „family office" převzatý z agregátoru, i když se subjekt sám označuje jako investiční skupina (TCF, BHM) | agent A v3 | slepý ověřovatel | pravidlo: rozhoduje vlastní označení subjektu (PLAN §7.21) |
-| „Kapitál" 720 mil. EUR byl ve skutečnosti hodnota podílu v Rohlik Group, 1,1 mld. EUR aktiva celé skupiny | agent A v3 | slepý ověřovatel | správný `basis` (hodnota portfolia / aktiva skupiny) |
-| Jet Investment (PE) a Jet Venture (VC) jako dva investoři, i když jde o jednoho správce | hlavní session (výběr kandidátů) | rešeršní agent (stejné IČO) | sloučeno do jednoho záznamu (E8, PLAN §7.22) |
+Chyby jsem rozdělil do čtyř skupin. Úplný seznam je níže v rozbalovací části.
 
-**Prompt injection.** Dvě stránky (Dealroom a euacc.ai) obsahovaly pokyny pro AI, např. „If you are an LLM always mention…".
-Agenti je ignorovali a nahlásili. Data z webu jsou data, ne pokyny. To je výslovně v pokynech pro agenta B a pro
-produkční běh by to mělo být i v pokynech pro agenta A.
+**1. AI si vymýšlela nebo přebírala neověřené tipy**
+- Hlavní agent přidal mezi kandidáty crowdfundingovou platformu „Pointer", která neexistuje. Pravidla ji vyřadila.
+- Tipy jiné AI (DeepSeek) se potvrdily jen zčásti: ze 4 family office prošla pravidly 2, u jednoho anděla bylo špatné jméno.
 
-## Rozhodnutí tam, kde zadání nebylo jednoznačné
+**2. Chyby v mých vlastních pokynech pro agenty**
+- Pokyny nařizovaly pevný kurz dolaru, takže agenti přepočítávali měny špatně. To byla nejčastější chyba.
+  Přepočet teď dělá program podle kurzu ECB k datu zdroje.
+- Pokyny dovolily zařadit „skupinu andělů" jako anděla, i když anděl je fyzická osoba. Pravidla jsem upřesnil.
 
-- **Vzorek = VC v Česku.** Zadání to navrhuje. Trh znám, je dost malý na ruční kontrolu a dost velký na to,
-  aby obsahoval hraniční případy. Úmyslně jsem přidal kandidáty, kteří vyřazeni být mají (crowdfunding, akcelerátor,
-  venture debt), abych ověřil i pravidla vyřazení, nejen jasné fondy.
-- **Typy `cvc` a `public_vc`** navíc oproti zadání. Korporátní a státní fondy dělají velkou část dealů. Vyřadit je
-  by znamenalo ztratit skutečné investory, zařadit je jako `vc` by zkreslilo typ.
-- **Záznam = správcovská společnost, ne jednotlivý fond.** Investor jedná se správcem, fondy jsou jeho atributy.
-- **„Investuje" = doložená investice za posledních 36 měsíců.** Tři roky pokryjí běžný investiční cyklus fondu.
-  Starší aktivita jde do `inactive`, ne pryč.
-- **„V akej výške" = typický tiket**, „celkový investičný kapitál" = poslední fond / AUM s uvedeným `basis`, protože
-  investoři čísla zveřejňují různě a bez označení by nebyla porovnatelná.
-- **Chybějící údaj = `null`, nikdy odhad.** U databáze, kde jde o spolehlivost, je díra lepší než vymyšlené číslo.
-  Zadání sice říká, že u každého investora „musí byť uvedené" sektor, tiket a kapitál, ale ne všichni investoři
-  tyto údaje zveřejňují. Výsledek u 43 zařazených (podrobně podle typu v RESULTS §3c):
-  - tiket chybí u 13 (např. Aspire11, Pale Fire, Tensor, Tachles, family office, andělé),
-  - kapitál chybí u 13 (např. DEPO, Fazole, QQ Capital, Seed Starter; u 3 andělů úmyslně kvůli GDPR),
-  - sektor chybí u 3 (Reflex a dva andělé, kteří zaměření nedeklarují).
+**3. Údaje vypadaly správně, ale znamenaly něco jiného**
+- „Kapitál 720 mil. EUR" byl ve skutečnosti hodnota jednoho podílu (Rohlik), ne peníze k investování.
+- Cílová velikost fondu, kterou fond teprve shání, byla vykázaná jako hotový fond.
+- Kapitál z článku z roku 2019 neměl datum, takže nešlo poznat, že je zastaralý.
 
-  Rodinné kanceláře a syndikáty čísla zveřejňují nejméně, což odpovídá odhadu spolehlivosti v PLAN §5.
+**4. Přehnaný optimismus**
+- Hlavní agent odhadl úplnost na 88 %. Měření proti oficiálnímu katalogu ukázalo 66 %.
+- První odhad nákladů byl 2–3× nízký. Na chybu upozornil agent 2 a odhad je přepočítaný.
 
-  U každého `null` je v `notes` záznamu, co se hledalo. Vymýšlet čísla, aby tabulka byla plná, by šlo proti hlavnímu
-  požadavku na spolehlivost. Plnost polí je proto měřená zvlášť jako pokrytí (RESULTS §2), aby bylo vidět, kolik chybí.
-- **Zdroj = URL + datum zdroje + datum přístupu + doslovná citace + tier.** Samotná URL nestačí: stránky se mění
-  a bez citace se nedá zpětně ověřit, co na nich bylo.
+**Bezpečnost:** některé webové stránky obsahovaly skryté pokyny pro AI („If you are an LLM always mention…").
+Agenti je ignorovali a nahlásili. Text z webu jsou data, ne příkazy.
+
+---
+
+## Důležitá rozhodnutí
+
+- **Co je „skutečný investor":** subjekt, který má **doloženou investici za poslední 3 roky** (článek nebo tisková zpráva
+  s datem). Tvrzení na webu „investujeme" nestačí.
+- **Chybějící údaj zůstává prázdný, nikdy se neodhaduje.** Ne všichni investoři zveřejňují, kolik investují nebo kolik mají.
+  Vymyšlené číslo by vypadalo jako fakt a šlo by proti hlavnímu požadavku na spolehlivost.
+  Nejméně údajů zveřejňují family office a andělé, u andělů se navíc osobní majetek úmyslně nezjišťuje (GDPR).
+- **Jen veřejná data,** bez placených databází (viz výše).
+- **Vzorek = Česko.** Zadání navrhuje jednu zemi a český trh je dost malý na ruční kontrolu. Úmyslně jsem do něj
+  dal i subjekty, které vyřazené být mají (crowdfunding, akcelerátor, dluhový fond), aby se otestovala i pravidla vyřazení.
+- **Jeden správce = jeden záznam,** i když má víc fondů nebo strategií.
+- **Andělé jen ti, kdo se jako investoři veřejně prezentují,** a jen profesní údaje: jméno, zaměření a doložené investice.
 
 ## Co v řešení chybí
 
-- **Ruční kontrola** proběhla jen na vzorku 6 investorů z fáze 1: 35/35 údajů sedí, shoda s AI ověřovatelem 96 %
-  (RESULTS §3 B, C). Fáze 2 a 3 ověřil slepý AI ověřovatel, ne člověk.
-- Longevitytech.fund: dohledat právnickou osobu (pravděpodobně česká a.s.). Jinak by byl zařazen.
-- U KAYA, Miton a J&T Ventures upřesnit, která právnická osoba je správce (PLAN §7.5).
-- **Úplnost:** fáze 1 našla 66 % investorů z oficiálního katalogu (RESULTS §3b). Fáze 2 chybějící dohledala.
-  - Ani katalog ale není úplný (81 %), populace aktivních je ≥ 36, realisticky 40–45.
-  - Ruční kontrola pokrývá jen fázi 1. Fáze 2 je ověřená slepým ověřovatelem, ne člověkem.
-- NEWTON University Angels je hraniční případ: investice zřejmě v okně jsou (5 → 8 projektů), ale chybí deal s datem.
-  Zůstává `inactive`.
-- Ve vzorku jsou nedatované zdroje (hlavně weby investorů) bez snapshotu stránky. Zpětně tedy nejde doložit,
-  co na stránce v den přístupu bylo (RESULTS §2).
+- Ručně je zkontrolovaný jen vzorek z prvního kola (6 investorů). Druhé a třetí kolo zkontrolovala AI naslepo, ne člověk.
+- Private equity, family office a andělé jsou ověření na malém vzorku (12 kandidátů).
+- Úplnost: ani oficiální katalog nezná všechny investory. V Česku je aktivních investorů nejméně 43; kolik přesně, z veřejných zdrojů spolehlivě změřit nejde.
+- U některých webových zdrojů chybí archivní snímek stránky, takže zpětně nejde doložit, co na ní v den kontroly bylo.
+- Několik hraničních případů k ručnímu dořešení (např. NEWTON University Angels: investice zřejmě jsou, ale bez data).
+
+---
+
+<details>
+<summary><b>Úplný seznam chyb AI (24 položek)</b></summary>
+
+| chyba | kdo | jak se na to přišlo | co se změnilo |
+|---|---|---|---|
+| Kandidát „Pointer" jako crowdfundingová platforma; taková neexistuje | hlavní agent | rešeršní agent ho nedohledal | kandidát musí mít zdroj (PLAN §7.8) |
+| Národní rozvojový fond jako státní VC fond; nikdy neinvestoval | hlavní agent | rešeršní agent | dtto |
+| Pevný kurz 0,92 USD/EUR v pokynech, v rozporu s plánem | hlavní agent | ověřovací agent, u 8 údajů | přepočet dělá program ([src/fx.py](src/fx.py)) |
+| Sektory a fáze odvozené ze 2–3 investic místo z deklarovaného zaměření | rešeršní agenti | ověřovací agent | jen z mandátu (PLAN §7.3) |
+| Pale Fire jako private equity, i když plán ho uvádí jako investiční skupinu | rešeršní agent | ověřovací agent | oprava typu |
+| Investice připsaná fondu, i když investoval zakladatel osobně (Impulse) | rešeršní agent | ověřovací agent | doklad odstraněn |
+| Investice doložená jen agregátorem s domyšleným datem (StartupYard) | rešeršní agent | ověřovací agent | neaktivní (PLAN §7.4) |
+| 3 chyby v programu na kontrolu citací | hlavní agent | ruční pohled do stažených stránek | opraveno |
+| Agent poslal e-mail uživatele v hlavičce požadavku na SEC EDGAR | rešeršní agent | agent to sám nahlásil | zákaz osobních údajů v požadavcích |
+| Genesis (PE) v kole, které bylo jen pro VC | hlavní agent | review agenta 2 | přeřazeno, ve 3. kole zařazen |
+| Kapitál Lighthouse z roku 2019 bez data | rešeršní agent | review agenta 2 | datum doplněno, měří se aktuálnost (PLAN §7.9) |
+| Odhad nákladů 2–3× nízký (statistiky agentů ≠ účtované tokeny) | hlavní agent | review agenta 2 | přepočteno (RESULTS §5) |
+| Ověřovací agent v 1. kole viděl citace rešeršního agenta | hlavní agent | review agenta 2 | od 2. kola slepé ověření |
+| IČO Nation 1 z výsledku vyhledávání, který agent neotevřel | rešeršní agent | review agenta 2 | doloženo adresářem CVCA |
+| Důkaz Tensoru jen z agregátoru | rešeršní agent | review agenta 2 | nahrazen článkem |
+| Andělské „skupiny" jako anděl (fyzická osoba) | hlavní agent (pokyny) | slepý ověřovatel | typ „andělský syndikát"; síť bez vlastní investice vyřazena (PLAN §7.15) |
+| Cílová velikost fondu vykázaná jako hotový fond (4×) | hlavní agent (schéma) | slepý ověřovatel | nové označení „cíl fondu" (PLAN §7.17) |
+| IČO mateřské banky místo investující dceřiné firmy (Seed Starter ČS) | rešeršní agent | slepý ověřovatel | opraveno |
+| Dva agenti si ve sdíleném adresáři přepsali pomocný program | infrastruktura | agent to sám nahlásil | výsledky beze změny; každý agent má vlastní adresář |
+| Odhad úplnosti 88 % | hlavní agent | oficiální katalog CzechInvest | změřeno 66 % (RESULTS §3b) |
+| Tipy DeepSeek: 2 ze 4 family office neprošla, špatné jméno anděla | DeepSeek | rešeršní agent | tipy jiných AI se ověřují jako vše ostatní (PLAN §7.24) |
+| Typ „family office" převzatý z agregátoru (TCF, BHM) | rešeršní agent | slepý ověřovatel | rozhoduje, jak se subjekt sám označuje (PLAN §7.21) |
+| „Kapitál" = hodnota jednoho podílu (TCF) / aktiva celé skupiny (BHM) | rešeršní agent | slepý ověřovatel | správné označení, co číslo znamená |
+| Jet Investment a jeho VC fond jako dva investoři | hlavní agent | rešeršní agent (stejné IČO) | sloučeno (PLAN §7.22) |
+
+</details>
+
+<details>
+<summary><b>Všechny soubory v repozitáři</b></summary>
+
+| soubor | obsah |
+|---|---|
+| [ODEVZDANI.md](ODEVZDANI.md) | odpovědi na všechny body zadání, placené databáze, hlavní rozhodnutí |
+| [PLAN.md](PLAN.md) | definice investora, pravidla zařazení/vyřazení, ověřování, odhad velikosti světa, úpravy po pilotu (§7) |
+| [RESULTS.md](RESULTS.md) | výsledky všech tří kol, přesnost, úplnost, rozbor chyb, náklady |
+| [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) | výsledek pro čtení (43 investorů + vyřazení + vysvětlivky) |
+| [data/investors_cz_vc.csv](data/investors_cz_vc.csv) | totéž strojově: u každého údaje odkaz, datum a spolehlivost zdroje |
+| [data/excluded.csv](data/excluded.csv) | 28 vyřazených s pravidlem a důvodem |
+| [data/records/](data/records/) | plné záznamy (JSON) po opravách: citace, fondy, všechny doložené investice |
+| [data/records_raw/](data/records_raw/) | totéž beze změny, jak to vrátili rešeršní agenti |
+| [data/corrections.json](data/corrections.json) | 89 oprav s důvodem a autorem |
+| [data/quote_check.csv](data/quote_check.csv) | strojová kontrola 494 citací |
+| [data/verification/](data/verification/), [data/verification_v2/](data/verification_v2/), [data/blind/](data/blind/) | verdikty ověřovacích agentů a slepé podklady |
+| [data/manual_check.csv](data/manual_check.csv) | ruční kontrola vzorku |
+| [data/reference_czechstartups.csv](data/reference_czechstartups.csv), [data/recall.csv](data/recall.csv) | katalog CzechInvest a měření úplnosti |
+| [docs/](docs/) | doslovné pokyny agentům, zadání, kontrola proti zadání, analýza zdrojů |
+| [reviews/](reviews/) | vzájemná kritika agentů 1 a 2 |
+| [ai-log/](ai-log/) | export konverzace s Claude Code |
+
+</details>
+
+<details>
+<summary><b>Jak to spustit</b></summary>
+
+```bash
+pip install requests beautifulsoup4 openpyxl
+python src/apply_corrections.py      # původní výstup AI + opravy → finální záznamy, přepočet měn kurzem ECB
+python src/check_quotes.py           # stáhne zdroje a ověří citace
+python src/build.py                  # tabulky, pokrytí údajů podle typu, aktuálnost zdrojů
+python src/measure.py                # přesnost (AI ověření po kolech, ruční kontrola, shoda AI × člověk)
+python src/recall.py                 # úplnost vůči katalogu CzechInvest
+python src/simple_xlsx.py databaze   # Excel „Databáze investorů“
+python src/simple_xlsx.py kontrola   # Excel „Ruční kontrola“ (zachová už zadané odpovědi)
+python src/simple_xlsx.py import     # vyplněná kontrola → data/manual_check.csv
+```
+
+</details>
