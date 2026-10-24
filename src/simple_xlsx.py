@@ -10,6 +10,7 @@ u každého záznamu zdroj a datum, které dokládají, že subjekt investuje.
 Každá hodnota je odkaz na svůj zdroj (klik otevře stránku). Plné záznamy se citacemi zůstávají v data/records/.
 """
 import csv
+import json
 import sys
 from pathlib import Path
 
@@ -24,6 +25,10 @@ from records import ROOT, load_records
 DESKTOP = Path.home() / "Desktop"
 DB_XLSX = DESKTOP / "Databáze investorů.xlsx"
 CHECK_XLSX = DESKTOP / "Ruční kontrola.xlsx"
+CHECK2_XLSX = DESKTOP / "Ruční kontrola 2.xlsx"
+# Vzorek 2: vylosováno 2026-10-24 (random.Random(20261024).sample(21 zařazených z kol 2–3, 6)) – záznamy, kterých se
+# netýkalo žádné review navíc (vzorek 1 náhodou prošel i review Mac Clauda, viz reviews/mac-claude-2.md).
+SAMPLE2 = ["arx", "bhm", "flyingfounders", "hlavenka", "jic", "soulmates"]
 MANUAL_CSV = ROOT / "data" / "manual_check.csv"
 
 TYPE_CZ = {"vc": "VC fond", "pe": "private equity", "cvc": "korporátní VC", "public_vc": "státní VC",
@@ -245,7 +250,7 @@ CHECK_FIELDS = [("Doklad, že investuje", None), ("Sektor", "sectors"), ("Fáze"
                 ("Výše investice", "ticket"), ("Celkový kapitál", "capital")]
 
 
-def kontrola() -> None:
+def kontrola(sample: list[str] = PINNED_SAMPLE, path: Path = CHECK_XLSX, disputed_sheet: bool = True) -> None:
     recs = {r["id"]: r for r in load_records()}
     wb = Workbook()
     ws = wb.active
@@ -257,7 +262,7 @@ def kontrola() -> None:
     dv = DataValidation(type="list", formula1='"' + ",".join(CHECK) + '"', allow_blank=True)
     ws.add_data_validation(dv)
     done = saved_answers()
-    for row, rid in enumerate(PINNED_SAMPLE, 2):
+    for row, rid in enumerate(sample, 2):
         r = recs[rid]
         put(ws, row, 1, r["name"])
         for i, (_, key) in enumerate(CHECK_FIELDS):
@@ -267,12 +272,14 @@ def kontrola() -> None:
         put(ws, row, 12, next((c for (i_, _), (_, c) in done.items() if i_ == rid and c), ""), None, YOU)
         ws.row_dimensions[row].height = 48
 
-    sp = wb.create_sheet("Sporné")
-    header(sp, [("Subjekt", 26), ("Naše rozhodnutí", 34), ("Proč", 70), ("Souhlasíš?", 13), ("Poznámka", 30)])
-    sdv = DataValidation(type="list", formula1='"' + ",".join(CHECK) + '"', allow_blank=True)
-    sp.add_data_validation(sdv)
-    with open(MANUAL_CSV, encoding="utf-8-sig", newline="") as f:
-        disputed = list(dict.fromkeys(r["id"] for r in csv.DictReader(f) if r["group"] == "2_disputed"))
+    sp = wb.create_sheet("Sporné") if disputed_sheet else None
+    disputed = []
+    if sp:
+        header(sp, [("Subjekt", 26), ("Naše rozhodnutí", 34), ("Proč", 70), ("Souhlasíš?", 13), ("Poznámka", 30)])
+        sdv = DataValidation(type="list", formula1='"' + ",".join(CHECK) + '"', allow_blank=True)
+        sp.add_data_validation(sdv)
+        with open(MANUAL_CSV, encoding="utf-8-sig", newline="") as f:
+            disputed = list(dict.fromkeys(r["id"] for r in csv.DictReader(f) if r["group"] == "2_disputed"))
     for row, rid in enumerate(disputed, 2):
         r = recs[rid]
         rule = r.get("exclusion_rule") or ""
@@ -297,13 +304,49 @@ def kontrola() -> None:
         "   nesedí = zdroj říká něco jiného (u „neuvedeno“: údaj veřejně existuje) → do Poznámky napiš co",
         "   nejde ověřit = stránka nejde otevřít nebo tam údaj není",
         "Částky: stačí, když sedí částka a měna ve zdroji; přepočet na EUR dělá kód.",
-        "List „Sporné“: hraniční rozhodnutí — souhlasíš s tím, jak jsme je zařadili?",
-        "Hotovo → ulož a řekni Claudovi (načte: python src/simple_xlsx.py import).",
+        *(["List „Sporné“: hraniční rozhodnutí — souhlasíš s tím, jak jsme je zařadili?"] if disputed_sheet else []),
+        "Hotovo → ulož a řekni Claudovi.",
     ]:
         info.append([line])
     info.column_dimensions["A"].width = 110
-    wb.save(CHECK_XLSX)
-    print(f"uloženo: {CHECK_XLSX}")
+    wb.save(path)
+    print(f"uloženo: {path}")
+
+
+def add_sample2_rows() -> None:
+    """Přidá do data/manual_check.csv řádky vzorku 2 (skupina 4_random_sample_2), pokud tam ještě nejsou."""
+    with open(MANUAL_CSV, encoding="utf-8-sig", newline="") as f:
+        rows = list(csv.DictReader(f))
+    if not any(r["group"] == "4_random_sample_2" for r in rows):
+        recs = {r["id"]: r for r in load_records()}
+        rows += sample2_rows(recs, list(rows[0].keys()))
+    # verdikty slepého AI ověřovatele (fáze 2–3) pro měření shody AI × člověk; opravená pole se ze shody vynechají
+    with open(ROOT / "data" / "corrections.json", encoding="utf-8") as f:
+        corrected = {(c["id"], c["path"].split(".")[0]) for c in json.load(f)}
+    for r in rows:
+        if r["group"] != "4_random_sample_2":
+            continue
+        vpath = ROOT / "data" / "verification_v2" / f"{r['id']}.csv"
+        with open(vpath, encoding="utf-8-sig", newline="") as f:
+            blind = {v["claim"].strip(): v["verdict"].strip().lower() for v in csv.DictReader(f)}
+        r["agent_b_verdict"] = blind.get(r["field"], "")
+        r["corrected_after_b"] = "yes" if (r["id"], r["field"]) in corrected else ""
+    with open(MANUAL_CSV, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+
+
+def sample2_rows(recs: dict, columns: list[str]) -> list[dict]:
+    from make_manual_sheet import fact_row
+    rows = []
+    for rid in SAMPLE2:
+        for field in ["decision", "sectors", "stages", "ticket", "capital", "investment_evidence"]:
+            fr = fact_row(recs[rid], field)
+            rows.append({**{k: "" for k in columns}, "group": "4_random_sample_2", "id": rid,
+                         "name": recs[rid]["name"], "field": field, "value": fr["value"],
+                         "source_url": fr["source_url"], "quote": fr["quote"], "rationale": fr.get("rationale", "")})
+    return rows
 
 
 ANSWER_OF = {"ok": "sedí", "null_ok": "sedí", "wrong": "nesedí", "null_missed": "nesedí",
@@ -333,8 +376,8 @@ def to_verdict(answer: str, empty: bool) -> str:
     raise ValueError(f"neznámá odpověď: {answer}")
 
 
-def import_() -> None:
-    wb = load_workbook(CHECK_XLSX, data_only=True)
+def import_(path: Path = CHECK_XLSX) -> None:
+    wb = load_workbook(path, data_only=True)
     recs = {r["id"]: r for r in load_records()}
     by_name = {r["name"]: rid for rid, r in recs.items()}
     answers = {}  # (id, field) -> (verdict, comment)
@@ -347,7 +390,7 @@ def import_() -> None:
             v = to_verdict(answer, value == NONE)
             for field in (["decision", "investment_evidence"] if key is None else [key]):
                 answers[(rid, field)] = (v, row[11] or "")
-    for row in wb["Sporné"].iter_rows(min_row=2, values_only=True):
+    for row in (wb["Sporné"].iter_rows(min_row=2, values_only=True) if "Sporné" in wb.sheetnames else []):
         rid = by_name.get(row[0])
         if rid:
             v = to_verdict(row[3], False)
@@ -369,4 +412,6 @@ def import_() -> None:
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    {"databaze": databaze, "kontrola": kontrola, "import": import_}.get(cmd, lambda: sys.exit(__doc__))()
+    {"databaze": databaze, "kontrola": kontrola, "import": import_,
+     "kontrola2": lambda: (add_sample2_rows(), kontrola(SAMPLE2, CHECK2_XLSX, disputed_sheet=False)),
+     "import2": lambda: import_(CHECK2_XLSX)}.get(cmd, lambda: sys.exit(__doc__))()

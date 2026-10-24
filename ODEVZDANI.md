@@ -1,7 +1,7 @@
 # Odevzdání: souhrn odpovědí na zadání A
 
 Tento dokument odpovídá bod po bodu na všechny požadavky z e-mailu. U každého je odkaz, kde je odpověď podrobně.
-Stav k 2026-10-22.
+Stav k 2026-10-24.
 
 ---
 
@@ -13,7 +13,7 @@ Stav k 2026-10-22.
 | **plán** | ✅ | [PLAN.md](PLAN.md) |
 | **data ze vzorku se zdrojem u každého údaje** | ✅ | [data/Databaze_investoru.xlsx](data/Databaze_investoru.xlsx) (pro čtení), [data/investors_cz_vc.csv](data/investors_cz_vc.csv) a [data/records/](data/records/) (zdroj, datum, citace u každého údaje) |
 | **výsledek měření přesnosti** | ✅ (AI ověření + ruční kontrola) | [RESULTS.md §3, §3b, §3c](RESULTS.md), [data/accuracy.csv](data/accuracy.csv) |
-| kód s průběžnou historií commitů | ✅ | [src/](src/), `git log` (18+ commitů po krocích) |
+| kód s průběžnou historií commitů | ✅ | [src/](src/), `git log` (30+ commitů po krocích) |
 | `ai-log/`: export konverzací s Claude Code | ⏳ export na konci | [ai-log/](ai-log/) |
 | README: jak se pracovalo s AI, pokyny agentům, kontrola výstupu, kde se AI mýlila | ✅ | [README.md](README.md), [docs/](docs/) |
 | nejasnosti rozhodnout a zdůvodnit | ✅ | README „Rozhodnutí…", níže |
@@ -53,9 +53,9 @@ z registru ČNB, které jiná AI doporučovala jako „investory". Jsou to ale p
 Pět vrstev, každou dělá někdo jiný, aby se chyby nesčítaly ([PLAN.md §4](PLAN.md), [README](README.md)):
 
 1. **Rešeršní AI agent**: ke každému údaji URL, datum a **doslovnou citaci** ze zdroje. Chybějící údaj = prázdné pole, nikdy odhad.
-2. **Strojová kontrola citací**: skript stáhne každý zdroj a hledá v něm citaci. Výsledek: 392 ze 425 doslova, **žádná vymyšlená URL ani citace**.
+2. **Strojová kontrola citací**: skript stáhne každý zdroj a hledá v něm citaci. Výsledek: 459 ze 494 doslova, **žádná vymyšlená URL ani citace**.
 3. **Nezávislý ověřovací agent**: ve fázi 2 **slepý**, vidí jen tvrzení + URL a citaci si musí najít sám.
-4. **Auditovatelné opravy**: 70 oprav v [corrections.json](data/corrections.json), u každé důvod a autor návrhu.
+4. **Auditovatelné opravy**: 89 oprav v [corrections.json](data/corrections.json), u každé důvod a autor návrhu.
    Původní výstup AI zůstává beze změny v [records_raw/](data/records_raw/).
 5. **Člověk**: ruční kontrola náhodného vzorku ([data/manual_check.csv](data/manual_check.csv), viz bod 6).
 
@@ -109,8 +109,8 @@ tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použ
 | A: fáze 1, surový výstup AI | ověřovací AI agent (viděl citace) | záznam **87 %**, údaje **86 %** |
 | E: fáze 2, surový výstup AI (pokyny v2) | **slepý** AI ověřovatel | záznam **81 %**, údaje **87 %** |
 | F: fáze 3 (PE, FO, andělé, pokyny v3) | **slepý** AI ověřovatel | rozhodnutí **100 %**, údaje **93 %** (chyby jen v typu FO × soukromý investor) |
-| **B: finální data po opravách** | **člověk**, náhodný vzorek 6 investorů × 5 údajů | **záznamy 6/6, údaje 35/35 = 100 %** (1 neověřitelný; 95% interval ≈ 91–100 %) |
-| C: shoda AI ověřovatele s člověkem | z téhož listu | **22/23 = 96 %**, tedy AI ověřovatel je pro škálování dost spolehlivý (práh 95 %) |
+| **B: finální data po opravách** | **člověk**, náhodný vzorek 6 investorů × 5 údajů | **29 z 30 sedí, 0 chyb**, 1 nešlo ověřit (95% interval ≈ 90–100 %); druhý, čistý vzorek z kol 2–3 připraven |
+| C: shoda AI ověřovatele s člověkem | z téhož listu | **16/17 = 94 %**; ve faktech žádná neshoda (jediný rozdíl = přísnost u neuvedeného tiketu) |
 | úplnost proti oficiálnímu katalogu | skript | fáze 1 našla **66 %** investorů z katalogu |
 
 Nejčastější chyby AI a jejich náprava: přepočet měn (přesunut z AI do kódu, chyby klesly z 8 na 0), cílová velikost fondu
@@ -118,7 +118,7 @@ vykázaná jako skutečná, sektory domyšlené z několika dealů. Rozbor je v 
 
 ### 7. Odhad nákladů na rozšíření na celý svět
 
-Z naměřené spotřeby pilotu: ~50 tis. tokenů a ~20 volání nástrojů na kandidáta, polovina kandidátů projde pravidly.
+Z naměřené spotřeby pilotu: ~50 tis. tokenů (statistika agenta) a ~20 volání nástrojů na kandidáta, polovina kandidátů projde pravidly. Účtovaných tokenů je víc, protože agent posílá kontext opakovaně; cena na kandidáta ($0,55–0,95) je proto přepočtená v RESULTS §5.
 Podrobně v [RESULTS.md §5](RESULTS.md).
 
 | | jádro VC / PE / korporátní VC | celý rozsah vč. FO a andělů |

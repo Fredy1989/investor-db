@@ -92,21 +92,25 @@ def main():
     if not manual:
         print("\nB) Ruční kontrola: data/manual_check.csv zatím nemá vyplněný sloupec human_verdict.")
     else:
-        sample = [r for r in manual if r["group"] == "1_random_sample"]
-        c = Counter(r["human_verdict"].strip().lower() for r in sample)
-        recs = {}
-        for r in sample:
-            if r["field"] in ("decision", "investor_type"):
-                recs.setdefault(r["id"], []).append(r["human_verdict"].strip().lower() == "ok")
-        rec_ok = sum(all(v) for v in recs.values())
-        print(f"\nB) Finální data, ruční kontrola člověkem (náhodný vzorek {len(recs)} záznamů, {len(sample)} polí)")
-        print(f"   přesnost záznamu: {rec_ok}/{len(recs)}")
-        print(f"   přesnost polí:    {c['ok']}/{c['ok'] + c['wrong']} = {pct(precision(c))}   "
-              f"(neověřitelné {c['unverifiable']}, zmeškané {c['null_missed']})")
-        rows.append({"measure": "B_final_by_human", "field": "all", **{k: c[k] for k in
-                     ("ok", "wrong", "unverifiable", "null_ok", "null_missed")}, "precision": pct(precision(c))})
+        # V Excelu je „Doklad, že investuje“ JEDNA odpověď, která se zapisuje do `decision` i `investment_evidence`.
+        # Počítat ji dvakrát by nafouklo počet kontrol → údaje se počítají bez řádku `decision`.
+        for group, label in (("1_random_sample", "vzorek 1 (kolo 1)"), ("4_random_sample_2", "vzorek 2 (kola 2–3)")):
+            sample = [r for r in manual if r["group"] == group]
+            if not sample:
+                continue
+            answers = [r for r in sample if r["field"] != "decision"]
+            c = Counter(r["human_verdict"].strip().lower() for r in answers)
+            recs = {r["id"]: r["human_verdict"].strip().lower() for r in sample if r["field"] == "decision"}
+            rec_ok = sum(v == "ok" for v in recs.values())
+            print(f"\nB) Finální data, ruční kontrola člověkem – {label}: {len(recs)} investorů, {len(answers)} odpovědí")
+            print(f"   investor doložen (doklad investice sedí): {rec_ok}/{len(recs)}")
+            print(f"   údaje: sedí {c['ok'] + c['null_ok']}, nesedí {c['wrong'] + c['null_missed']}, "
+                  f"nejde ověřit {c['unverifiable']} → přesnost {pct(precision(c))}")
+            rows.append({"measure": f"B_final_by_human_{group}", "field": "all", **{k: c[k] for k in
+                         ("ok", "wrong", "unverifiable", "null_ok", "null_missed")}, "precision": pct(precision(c))})
 
-        same = [r for r in manual if not r.get("corrected_after_b") and r.get("agent_b_verdict")]
+        same = [r for r in manual if not r.get("corrected_after_b") and r.get("agent_b_verdict")
+                and r["field"] != "decision" and r["group"] != "2_disputed"]
         agree = sum(1 for r in same if r["agent_b_verdict"].strip().lower() == r["human_verdict"].strip().lower())
         if same:
             print(f"\nC) Shoda agent B × člověk na neopravených polích: {agree}/{len(same)} = {agree / len(same):.0%}")

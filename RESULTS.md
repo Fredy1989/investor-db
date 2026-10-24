@@ -109,17 +109,28 @@ Kontrolovalo se 6 investorů (Credo, Impulse, Lighthouse, N1, Tensor, ZAKA) × 5
 
 | | výsledek |
 |---|---|
-| **přesnost záznamu** (je to aktivní investor, doklad sedí) | **6/6** |
-| **přesnost údajů** | **35/35 = 100 %** |
-| neověřitelné | 1 (tiket Tensoru je „neuvedeno"; ověřit, že veřejně opravdu neexistuje, nešlo) |
-| zmeškané údaje | 0 |
+| | výsledek |
+|---|---|
+| **odpovědí celkem** | **30** (6 investorů × 5 údajů) |
+| **sedí** | **29** |
+| nesedí | 0 |
+| nejde ověřit | 1 (tiket Tensoru je „neuvedeno"; nešlo ověřit, že veřejně opravdu neexistuje) |
+| investor doložen (doklad investice sedí) | 6/6 |
+
+*Oprava 2026-10-24:* dříve tu stálo „35/35". Odpověď „Doklad, že investuje" se v programu počítala dvakrát
+(jako rozhodnutí o zařazení i jako doklad investice). Upozornil na to Mac Claude ve 2. review; výpočet je opravený.
 
 **Jak to číst:**
 - Kontrolují se **finální data po opravách**. Surový výstup AI měl 86 % (A), opravy přes ověřovatele a pravidla ho
   dotáhly na úroveň, kterou ruční kontrola nerozporovala.
-- Vzorek je malý. Při 35 kontrolách bez chyby je 95% interval spolehlivosti zhruba **91–100 %** („pravidlo tří": 3/35).
-  Na tvrzení „100 %" to nestačí, na tvrzení „přes 90 %" ano.
-- Vzorek je z fáze 1 (losováno předem a zafixováno). Fáze 2 a 3 ověřil jen slepý AI ověřovatel.
+- Vzorek je malý. Při 29 ověřitelných údajích bez chyby je 95% interval spolehlivosti zhruba **90–100 %**
+  („pravidlo tří": 3/29). Na tvrzení „100 %" to nestačí, na tvrzení „kolem 90 % a víc" ano.
+- **Vzorek 1 není úplně „čistý".** Byl vylosovaný předem, ale Mac Claude ve svém 1. review náhodou kontroloval právě
+  tyto investory (Credo, Lighthouse, N1, Tensor, ZAKA) a jeho nálezy se opravily. Člověk tak kontroloval záznamy, které
+  prošly kontrolou navíc. Výsledek proto platí pro takto dvakrát zkontrolovaná data, ne nutně pro typický záznam.
+- **Proto vzorek 2:** 6 dalších investorů vylosovaných z kol 2–3 (ARX, BHM, Flying Founders, Jiří Hlavenka, JIC Ventures,
+  Soulmates), kterých se žádné review navíc netýkalo. Prošli jen běžným postupem. List: „Ruční kontrola 2.xlsx".
+  **Stav: čeká na vyplnění.**
 - List „Sporné" (4 hraniční rozhodnutí: Pale Fire, StartupYard, NRF, Genesis) zůstal bez vyjádření a rozhodnutí v nich
   zůstávají podle pravidel.
 
@@ -128,10 +139,13 @@ Kontrolovalo se 6 investorů (Credo, Impulse, Lighthouse, N1, Tensor, ZAKA) × 5
 Počítá se ze stejného listu, z polí, která se po ověření neměnila. Na tomhle čísle stojí škálování: pokud agent B
 souhlasí s člověkem v ≥ 95 % případů, stačí lidsky kontrolovat jen statistický vzorek a sporné body.
 
-**Výsledek: shoda 22/23 = 96 %.** Jediná neshoda: tiket Tensoru. Ověřovatel ho označil „null_ok" (veřejně neexistuje),
-člověk „nejde ověřit". Nejde o rozpor ve faktech, jen o přísnost: člověk nechtěl potvrdit neexistenci údaje.
-→ **Práh 95 % je splněný.** Pro rozšíření na svět tedy stačí AI ověřovatel + lidsky kontrolovaný statistický vzorek
-a sporné případy, jak počítá odhad nákladů v §5.
+**Výsledek (vzorek 1): shoda 16/17 = 94 %.** Jediná neshoda: tiket Tensoru. Ověřovatel ho označil „null_ok" (veřejně
+neexistuje), člověk „nejde ověřit". Nejde o rozpor ve faktech, jen o přísnost: člověk nechtěl potvrdit, že údaj neexistuje.
+*(Dříve „22/23 = 96 %", také se dvakrát počítala odpověď u dokladu investice.)*
+
+- Ve faktech se AI ověřovatel s člověkem neshodl ani jednou. Přesná shoda je 94 %, těsně pod prahem 95 %.
+- 17 porovnání je na pevný závěr málo. Vzorek 2 přidá dalších ~30 porovnání se **slepým** ověřovatelem.
+- Pro odhad nákladů (§5) z toho plyne: lidská kontrola vzorku a sporných případů je nutná. Počítá s ní a nespoléhá jen na AI.
 
 ### D) Úplnost (recall) — křížově s nezávislým řešením na Macu
 

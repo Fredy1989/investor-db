@@ -14,8 +14,8 @@ U každého údaje je odkaz na veřejný zdroj, ze kterého pochází.
 |---|---|
 | **Databáze** | 43 investorů: 25 VC fondů, 5 investičních skupin podnikatelů, 4 korporátní fondy, 3 private equity, 3 andělé, 2 family office, 1 andělský syndikát |
 | **Vyřazeno** | 28 subjektů, které podle pravidel investory nejsou (crowdfunding, sítě, neaktivní fondy, prodejci investic…) |
-| **Přesnost** | ruční kontrola náhodného vzorku: **35 z 35 údajů odpovídá zdroji**; nezávislá AI kontrola surových dat: 86–93 % |
-| **Úplnost** | proti oficiálnímu katalogu CzechInvest; první kolo našlo 66 % investorů, další kola chybějící dohledala |
+| **Přesnost** | ruční kontrola náhodného vzorku: **29 z 30 údajů odpovídá zdroji, 0 chyb** (1 nešlo ověřit); nezávislá AI kontrola surových dat: 86–93 % |
+| **Úplnost** | všech 30 investorů z oficiálního katalogu CzechInvest, kteří prošli pravidly, je v databázi. Katalog ale 13 z našich 43 investorů nezná, takže skutečnou úplnost lze odhadnout jen zdola |
 | **Odhad pro celý svět** | 30–50 tis. investorů, náklady na první naplnění **≈ 85–125 tis. EUR** |
 
 **Kde začít:**
@@ -31,6 +31,8 @@ U každého údaje je odkaz na veřejný zdroj, ze kterého pochází.
 Nejdřív bylo potřeba úplně a do hloubky analyzovat zadání. Použil jsem k tomu **tři AI agenty**:
 
 - **Agent 1** (Claude Code na Windows) a **agent 2** (Claude Code na Macu) řešili úlohu každý samostatně a vytvořili vlastní řešení.
+  **Odevzdané řešení je řešení agenta 1.** Agent 2 sloužil jako nezávislá kontrola: jeho kritika je v [reviews/](reviews/)
+  a zjištění jsou zapracovaná (viz „Kde se AI mýlila").
 - **Třetího agenta** (konzultace s AI DeepSeek a Gemini) jsem použil pro vlastní průzkum: kde a jak získat
   data o investorech.
 
@@ -80,8 +82,9 @@ AI agenti umějí vymyslet zdroj nebo citaci. Proto má kontrola pět vrstev a k
 3. **Opravy se zapisují, ne přepisují.** Každá ze 89 oprav má důvod a autora. Původní výstup AI zůstává
    beze změny vedle, takže je vidět, co AI udělala špatně.
 4. **Druhé nezávislé řešení** (agent 2 na Macu) a vzájemná kritika obou řešení.
-5. **Člověk:** ruční kontrola náhodného vzorku. Výsledek: 35 z 35 údajů sedí a ověřovací AI se s člověkem
-   shodla v 96 %. Při rozšíření na celý svět proto stačí lidsky kontrolovat jen vzorek.
+5. **Člověk:** ruční kontrola náhodného vzorku. Výsledek: 29 z 30 údajů sedí, 0 chyb, 1 nešlo ověřit.
+   Ověřovací AI se s člověkem shodla v 16 ze 17 případů (94 %); jediný rozdíl byl v přísnosti, ne ve faktech.
+   Druhý, nezávislý vzorek z dalších kol je připravený k ruční kontrole.
 
 ### Kde se AI mýlila
 
@@ -121,8 +124,8 @@ Deloitte, Global Corporate Venturing a EBAN (podrobně v [PLAN.md §5](PLAN.md))
   na webu za $10 / 1 000 dotazů podle ceníku Anthropic. U private equity, family office a andělů je to asi 1,6× dráž,
   protože o nich je méně veřejných informací.
 - Pravidly projde **zhruba polovina kandidátů**. Na 30–50 tisíc investorů je tedy potřeba prověřit 60–100 tisíc kandidátů.
-- Člověk kontroluje jen **náhodný vzorek a sporné případy**. Víc není potřeba, protože ověřovací AI se s člověkem
-  shodla v 96 %.
+- Člověk kontroluje jen **náhodný vzorek a sporné případy**. Ověřovací AI se s člověkem ve faktech neshodla ani jednou
+  (shoda 94 %), takže kontrolovat lidsky všechno není potřeba, ale vzorek ano.
 
 | položka | jádro (VC, PE, korporátní fondy) | celý rozsah vč. family office a andělů |
 |---|---|---|
