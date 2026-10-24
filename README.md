@@ -41,7 +41,29 @@ python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.
 
 ## Jak jsem pracoval s AI
 
-### Rozdělení rolí
+### Můj postup (vlastními slovy)
+
+V první řadě bylo potřeba provést úplnou a hloubkovou analýzu zadání. K tomu jsem použil tři agenty:
+
+1. **Agent 1** (Claude Code na Windows) a **agent 2** (Claude Code na Macu) pracovali na zadání samostatně, každý
+   vytvořil vlastní řešení.
+2. **Třetího agenta** (konzultace s AI DeepSeek a Gemini) jsem využil k vlastní analýze: zjišťoval jsem, kde a jak
+   lze získat databáze, které jsou ke splnění úlohy potřeba.
+
+Jakmile první a druhý agent měli hotovo, propojil jsem jejich výstupy v gitu, aby se navzájem viděli a mohli číst
+získané informace (druhý agent napsal review prvního řešení, první na něj odpověděl:
+[reviews/](reviews/)). Poté jsem je nechal na úloze dál pracovat samostatně.
+
+Sám jsem se s třetím agentem zabýval zdroji dat. Na základě získaných informací jsem stáhl exporty z registru ČNB
+a katalog investorů z portálu CzechStartups (CzechInvest). Šlo využít i placené databáze z Apify a podobných serverů,
+ale za poplatek (ceny a důvody v [ODEVZDANI.md](ODEVZDANI.md#placené-databáze-proč-nejsou-použité-a-kolik-by-stály)).
+Využil jsem proto volně přístupná data z internetu, jak zadání požaduje.
+
+Všechny exporty jsem pak předal agentům, aby provedli analýzu všech našich výstupů a výsledek byl co nejpřesnější.
+Z toho vznikly další dvě fáze pilotu: kandidáti z oficiálního katalogu a registru ČNB (fáze 2) a doplnění private equity,
+family office a andělů (fáze 3). Nakonec jsem ručně zkontroloval náhodný vzorek dat (RESULTS §3 B).
+
+### Rozdělení rolí v řešení agenta 1
 
 ```
             ┌──────────────────────────────────────────────┐
@@ -59,7 +81,8 @@ python src/simple_xlsx.py import    # vyplněná kontrola → data/manual_check.
    src/check_quotes.py (stroj)        corrections.json → člověk: manual_check.csv
 ```
 
-- **Já:** výběr zadání a jazyka, zadání úlohy hlavní session, kontrola výstupů, ruční kontrola vzorku (`manual_check.csv`).
+- **Já:** viz „Můj postup" výše: analýza zadání, propojení agentů, zdroje dat (ČNB, CzechStartups), rozhodnutí
+  o dalších fázích a ruční kontrola vzorku.
 - **Hlavní session (Claude Code, Opus 5.5):**
   - napsala plán, schéma a skripty,
   - rozdělila kandidáty do dávek a spustila agenty,
