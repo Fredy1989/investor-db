@@ -110,6 +110,45 @@ Agenti je ignorovali a nahlásili. Text z webu jsou data, ne příkazy.
 
 ---
 
+## Odhad nákladů na rozšíření na celý svět
+
+**Kolik investorů jde z veřejných zdrojů získat:** přibližně **30–50 tisíc** po celém světě, z toho jádro
+(VC fondy, private equity, korporátní fondy) 12–16 tisíc. Odhad vychází z veřejných statistik: NVCA, Preqin,
+Deloitte, Global Corporate Venturing a EBAN (podrobně v [PLAN.md §5](PLAN.md)).
+
+**Z čeho vychází cena:** z toho, co pilot skutečně spotřeboval.
+- Ověřit jednoho kandidáta stojí AI práci za **$0,55–0,95**. Je v tom rešerše, nezávislé ověření a ~8 vyhledávání
+  na webu za $10 / 1 000 dotazů podle ceníku Anthropic. U private equity, family office a andělů je to asi 1,6× dráž,
+  protože o nich je méně veřejných informací.
+- Pravidly projde **zhruba polovina kandidátů**. Na 30–50 tisíc investorů je tedy potřeba prověřit 60–100 tisíc kandidátů.
+- Člověk kontroluje jen **náhodný vzorek a sporné případy**. Víc není potřeba, protože ověřovací AI se s člověkem
+  shodla v 96 %.
+
+| položka | jádro (VC, PE, korporátní fondy) | celý rozsah vč. family office a andělů |
+|---|---|---|
+| počet kandidátů k prověření | ~30 tisíc | ~100 tisíc |
+| práce AI + vyhledávání | 15–25 tis. EUR | 49–85 tis. EUR |
+| lidská kontrola vzorku a sporných případů | ~9 tis. EUR | ~24 tis. EUR |
+| vývoj (fronta úloh, napojení registrů, hlídání chyb) | 10–15 tis. EUR | 10–15 tis. EUR |
+| **první naplnění databáze celkem** | **≈ 35–50 tis. EUR** | **≈ 85–125 tis. EUR** |
+| průběžná aktualizace (nové fondy, neaktivní investoři) | ≈ 40 % prvního naplnění ročně | |
+| doba zpracování (20 agentů souběžně) | ~3 dny | ~10 dní |
+
+**Placené databáze jako alternativa:** celou databázi Apify (~10 tisíc investičních firem) lze koupit za ~$420.
+Ušetřila by ale jen hledání kandidátů, ne ověření, protože údaje v ní nemají doložený zdroj. PitchBook nebo Preqin
+stojí $12–80 tisíc ročně a jejich data nesmí být zveřejněna. Smysl dávají jen jako levný seznam kandidátů.
+
+**Co cenu sníží nejvíc:**
+- začít strojově čitelnými registry (americká SEC, evropský registr ESMA, národní regulátoři jako ČNB),
+- levný model na předfiltrování zjevných nesmyslů,
+- lidskou kontrolu nasadit jen tam, kde se AI neshodne.
+
+**Rizika odhadu:** v zemích mimo latinku (Čína, Japonsko, Blízký východ) bude přesnost nižší a kontrola dražší.
+Některé weby blokují stahování. Andělé jsou fyzické osoby, takže jejich sběr potřebuje právní posouzení (GDPR).
+Podrobný výpočet je v [RESULTS.md §5](RESULTS.md).
+
+---
+
 ## Důležitá rozhodnutí
 
 - **Co je „skutečný investor":** subjekt, který má **doloženou investici za poslední 3 roky** (článek nebo tisková zpráva
