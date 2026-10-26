@@ -111,7 +111,7 @@ tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použ
 | F: fáze 3 (PE, FO, andělé, pokyny v3) | **slepý** AI ověřovatel | rozhodnutí **100 %**, údaje **93 %** (chyby jen v typu FO × soukromý investor) |
 | **B: finální data po opravách** | **člověk**, 2 náhodné vzorky po 6 investorech × 5 údajů | vzorek 1: **29/30 sedí, 0 chyb**; vzorek 2 (čistý, kola 2–3): **20 sedí, 2 nesedí, 1 chyběl** (91 %); **dohromady 49/51 = 96 %** |
 | C: shoda AI ověřovatele s člověkem | z týchž listů | vzorek 1: věcně 16/16; **vzorek 2 (slepý ověřovatel): věcně 18/21 = 86 %**, tedy člověk našel 3 chyby, které AI přehlédla. Lidská kontrola vzorku je proto nutná |
-| úplnost proti oficiálnímu katalogu | skript | fáze 1 našla **66 %** investorů z katalogu |
+| úplnost proti oficiálnímu katalogu | skript | první kolo našlo **66 %** investorů z katalogu; po všech kolech je v databázi **všech 30** investorů z katalogu CzechInvest, kteří prošli pravidly. Katalog ale **13 ze 43** našich investorů nezná, takže úplnost jde odhadnout jen zdola |
 
 Nejčastější chyby AI a jejich náprava: přepočet měn (přesunut z AI do kódu, chyby klesly z 8 na 0), cílová velikost fondu
 vykázaná jako skutečná, sektory domyšlené z několika dealů. Rozbor je v [RESULTS.md §3](RESULTS.md).
@@ -192,7 +192,7 @@ Pro tuto úlohu ne.
 
 ## Co v řešení chybí
 
-- Ruční kontrola pokrývá jen vzorek z fáze 1 (6 investorů). Fáze 2 a 3 ověřil slepý AI ověřovatel. List „Sporné" zůstal bez vyjádření.
+- Ručně je zkontrolováno 12 ze 43 investorů ve dvou náhodných vzorcích. Zbytek ověřila AI, u které ruční kontrola ukázala zhruba 1 přehlédnutou chybu na 10 údajů. List „Sporné" (4 hraniční rozhodnutí) zůstal bez vyjádření.
 - Ostatní typy (PE, family office, andělé) jsou ověřené jen na malém vzorku (12 kandidátů). Pro spolehlivé statistiky po typech by byl potřeba větší.
 - **Export konverzace do `ai-log/`** a **zveřejnění repozitáře**: poslední kroky před odesláním.
 - Hraniční případy k ručnímu dořešení: NEWTON University Angels, Longevitytech.fund, a u KAYA, Miton a J&T, která právnická osoba je správce.
