@@ -109,17 +109,29 @@ def main():
             rows.append({"measure": f"B_final_by_human_{group}", "field": "all", **{k: c[k] for k in
                          ("ok", "wrong", "unverifiable", "null_ok", "null_missed")}, "precision": pct(precision(c))})
 
-        same = [r for r in manual if not r.get("corrected_after_b") and r.get("agent_b_verdict")
-                and r["field"] != "decision" and r["group"] != "2_disputed"]
-        agree = sum(1 for r in same if r["agent_b_verdict"].strip().lower() == r["human_verdict"].strip().lower())
-        if same:
-            print(f"\nC) Shoda agent B × člověk na neopravených polích: {agree}/{len(same)} = {agree / len(same):.0%}")
+        # Věcný verdikt: null_ok/null_missed znamenají totéž co ok/wrong (údaj prázdný správně / chybí).
+        # „nejde ověřit“ není věcný verdikt – shoda se proto vykazuje i bez těchto případů.
+        fact_of = {"ok": "ok", "null_ok": "ok", "wrong": "wrong", "null_missed": "wrong"}
+        for group, label in (("1_random_sample", "vzorek 1, ověřovatel v1 (viděl citace)"),
+                             ("4_random_sample_2", "vzorek 2, slepý ověřovatel")):
+            same = [r for r in manual if r["group"] == group and not r.get("corrected_after_b")
+                    and r.get("agent_b_verdict") and r["field"] != "decision"]
+            if not same:
+                continue
+            ai = lambda r: r["agent_b_verdict"].strip().lower()
+            hu = lambda r: r["human_verdict"].strip().lower()
+            exact = sum(ai(r) == hu(r) for r in same)
+            both = [r for r in same if ai(r) in fact_of and hu(r) in fact_of]
+            fagree = sum(fact_of[ai(r)] == fact_of[hu(r)] for r in both)
+            print(f"\nC) Shoda AI ověřovatel × člověk – {label}: přesná {exact}/{len(same)} = {exact / len(same):.0%}; "
+                  f"věcná (bez „nejde ověřit“) {fagree}/{len(both)} = {fagree / len(both):.0%}")
             for r in same:
-                if r["agent_b_verdict"].strip().lower() != r["human_verdict"].strip().lower():
-                    print(f"   neshoda: {r['id']}.{r['field']}: B={r['agent_b_verdict']} člověk={r['human_verdict']}"
+                if ai(r) != hu(r):
+                    kind = "VĚCNÁ" if r in both and fact_of[ai(r)] != fact_of[hu(r)] else "nejde ověřit"
+                    print(f"   neshoda ({kind}): {r['id']}.{r['field']}: AI={ai(r)} člověk={hu(r)}"
                           f" – {r.get('human_comment', '')}")
 
-        disputed = [r for r in manual if r["group"] != "1_random_sample"]
+        disputed = [r for r in manual if r["group"] in ("2_disputed", "3_quote_unconfirmed") and r.get("human_verdict")]
         if disputed:
             print("\n   Sporné body a nepotvrzené citace (rozhodnutí člověka):")
             for r in disputed:

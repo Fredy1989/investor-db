@@ -380,6 +380,11 @@ def import_(path: Path = CHECK_XLSX) -> None:
     wb = load_workbook(path, data_only=True)
     recs = {r["id"]: r for r in load_records()}
     by_name = {r["name"]: rid for rid, r in recs.items()}
+    raw_recs = {}
+    for f in (ROOT / "data" / "records_raw").glob("*.json"):
+        with open(f, encoding="utf-8") as fh:
+            r = json.load(fh)
+        raw_recs[r["id"]] = r
     answers = {}  # (id, field) -> (verdict, comment)
     for row in wb["Kontrola"].iter_rows(min_row=2, values_only=True):
         rid = by_name.get(row[0])
@@ -387,6 +392,15 @@ def import_(path: Path = CHECK_XLSX) -> None:
             continue
         for i, (_, key) in enumerate(CHECK_FIELDS):
             value, answer = row[1 + 2 * i], row[2 + 2 * i]
+            generated = (deal(recs[rid]) if key is None else fact(recs[rid], key))[0]
+            if str(answer or "").strip().lower() == "sedí" and value != generated:
+                # člověk do kolonky vepsal vlastní hodnotu → údaj v databázi chyběl / nesedí, i když zvolil „sedí“.
+                # Zda byl údaj prázdný, rozhoduje původní výstup AI (records_raw) – data mohla být mezitím opravena.
+                raw = raw_recs.get(rid) or recs[rid]
+                v = "null_missed" if (deal(raw) if key is None else fact(raw, key))[0] == NONE else "wrong"
+                for field in (["decision", "investment_evidence"] if key is None else [key]):
+                    answers[(rid, field)] = (v, f"člověk uvádí: {value}")
+                continue
             v = to_verdict(answer, value == NONE)
             for field in (["decision", "investment_evidence"] if key is None else [key]):
                 answers[(rid, field)] = (v, row[11] or "")

@@ -109,8 +109,8 @@ tiskovou zprávu (tier A/B). Agregátory (Crunchbase, Dealroom…) se smí použ
 | A: fáze 1, surový výstup AI | ověřovací AI agent (viděl citace) | záznam **87 %**, údaje **86 %** |
 | E: fáze 2, surový výstup AI (pokyny v2) | **slepý** AI ověřovatel | záznam **81 %**, údaje **87 %** |
 | F: fáze 3 (PE, FO, andělé, pokyny v3) | **slepý** AI ověřovatel | rozhodnutí **100 %**, údaje **93 %** (chyby jen v typu FO × soukromý investor) |
-| **B: finální data po opravách** | **člověk**, náhodný vzorek 6 investorů × 5 údajů | **29 z 30 sedí, 0 chyb**, 1 nešlo ověřit (95% interval ≈ 90–100 %); druhý, čistý vzorek z kol 2–3 připraven |
-| C: shoda AI ověřovatele s člověkem | z téhož listu | **16/17 = 94 %**; ve faktech žádná neshoda (jediný rozdíl = přísnost u neuvedeného tiketu) |
+| **B: finální data po opravách** | **člověk**, 2 náhodné vzorky po 6 investorech × 5 údajů | vzorek 1: **29/30 sedí, 0 chyb**; vzorek 2 (čistý, kola 2–3): **20 sedí, 2 nesedí, 1 chyběl** (91 %); **dohromady 49/51 = 96 %** |
+| C: shoda AI ověřovatele s člověkem | z týchž listů | vzorek 1: věcně 16/16; **vzorek 2 (slepý ověřovatel): věcně 18/21 = 86 %**, tedy člověk našel 3 chyby, které AI přehlédla. Lidská kontrola vzorku je proto nutná |
 | úplnost proti oficiálnímu katalogu | skript | fáze 1 našla **66 %** investorů z katalogu |
 
 Nejčastější chyby AI a jejich náprava: přepočet měn (přesunut z AI do kódu, chyby klesly z 8 na 0), cílová velikost fondu

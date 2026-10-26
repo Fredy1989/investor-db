@@ -128,7 +128,23 @@ Kontrolovalo se 6 investorů (Credo, Impulse, Lighthouse, N1, Tensor, ZAKA) × 5
   prošly kontrolou navíc. Výsledek proto platí pro takto dvakrát zkontrolovaná data, ne nutně pro typický záznam.
 - **Proto vzorek 2:** 6 dalších investorů vylosovaných z kol 2–3 (ARX, BHM, Flying Founders, Jiří Hlavenka, JIC Ventures,
   Soulmates), kterých se žádné review navíc netýkalo. Prošli jen běžným postupem. List: „Ruční kontrola 2.xlsx".
-  **Stav: čeká na vyplnění.**
+  **Vyplněno 2026-10-24 (Vitalij):**
+
+| vzorek 2 (kola 2–3) | výsledek |
+|---|---|
+| odpovědí | 30 (6 investorů × 5 údajů) |
+| **sedí** | **20** |
+| **nesedí** | **2**: Flying Founders fáze (chyběl buyout), Flying Founders výše investice (zdroje si odporují: web €100–500k, katalog CzechInvest €100–600k) |
+| **údaj chyběl** | **1**: Jiří Hlavenka sektor (AI nechala prázdné, člověk ho dohledal: B2B software / AI) |
+| nejde ověřit | 7 (hlavně „neuvedeno" u tiketu a kapitálu, kde nejde potvrdit, že údaj veřejně neexistuje; u Flying Founders i doklad investice, protože jde o oznámení prodávajícího na jeho blogu) |
+| **přesnost údajů** | **20/22 = 91 %** |
+
+**Oba vzorky dohromady: 49 z 51 ověřitelných údajů sedí (96 %), 1 údaj chyběl, 8 nešlo ověřit.**
+Nalezené chyby jsou opravené (`corrections.json`, `proposed_by: manual_check_vitalij`). U Flying Founders zůstává
+tiket z jejich webu (primární zdroj) a rozpor se zdrojem CzechInvest je uvedený v textu údaje.
+
+**Co vzorek 2 ukázal:** vzorek 1 vyšel 100 %, protože prošel kontrolou navíc. Na „čistých" záznamech je přesnost
+91 %, což odpovídá AI ověření (86–93 %). Bez nezávislé kontroly navíc tedy databáze obsahuje zhruba 1 chybu na 10 údajů.
 - List „Sporné" (4 hraniční rozhodnutí: Pale Fire, StartupYard, NRF, Genesis) zůstal bez vyjádření a rozhodnutí v nich
   zůstávají podle pravidel.
 
@@ -141,9 +157,18 @@ souhlasí s člověkem v ≥ 95 % případů, stačí lidsky kontrolovat jen sta
 neexistuje), člověk „nejde ověřit". Nejde o rozpor ve faktech, jen o přísnost: člověk nechtěl potvrdit, že údaj neexistuje.
 *(Dříve „22/23 = 96 %", také se dvakrát počítala odpověď u dokladu investice.)*
 
-- Ve faktech se AI ověřovatel s člověkem neshodl ani jednou. Přesná shoda je 94 %, těsně pod prahem 95 %.
-- 17 porovnání je na pevný závěr málo. Vzorek 2 přidá dalších ~30 porovnání se **slepým** ověřovatelem.
-- Pro odhad nákladů (§5) z toho plyne: lidská kontrola vzorku a sporných případů je nutná. Počítá s ní a nespoléhá jen na AI.
+- Ve vzorku 1 se AI ověřovatel s člověkem ve faktech neshodl ani jednou.
+
+**Výsledek (vzorek 2, slepý ověřovatel): věcná shoda 18/21 = 86 %** (přesná 19/28 = 68 %, rozdíl tvoří odpovědi „nejde ověřit").
+Ve třech případech člověk našel chybu, kterou slepý AI ověřovatel přehlédl:
+- chybějící „buyout" ve fázích Flying Founders,
+- rozpor zdrojů u jejich tiketu,
+- sektor Jiřího Hlavenky, který AI nechala prázdný.
+
+**Závěr pro škálování (§5):** AI ověřovatel nedosahuje prahu 95 %. Na 6 „čistých" investorech přehlédl 3 problémy.
+Lidská kontrola proto nemůže být jen symbolická. Odhad nákladů s ní počítá (stratifikovaný vzorek + všechny sporné
+případy), ale **spíš u horní hranice**: ruční vzorek by měl být větší, nebo by měla přibýt druhá nezávislá AI kontrola
+u polí, kde AI chybuje nejčastěji (fáze a sektory odvozené z dealů, tiket při rozporu zdrojů).
 
 ### D) Úplnost (recall) — křížově s nezávislým řešením na Macu
 

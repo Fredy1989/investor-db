@@ -19,13 +19,17 @@
     "source_tier": null
   },
   "sectors": {
-    "value": null,
-    "value_text": "deklarovaný sektorový mandát nenalezen (Jinej fond: inovativní firmy, projekty a startupy); ze dealů nezobecňováno",
-    "source_url": null,
-    "source_date": null,
-    "accessed": "2026-10-23",
+    "value": [
+      "saas_b2b",
+      "ai"
+    ],
+    "value_text": "B2B software / AI – doplněno při ruční kontrole (Vitalij); odpovídá jeho doloženým investicím (Elredo, FaceUp)",
+    "source_url": "https://cc.cz/",
+    "source_date": "undated",
+    "accessed": "2026-10-24",
     "quote": null,
-    "source_tier": null
+    "derived_from": "investment_evidence",
+    "source_tier": "B"
   },
   "stages": {
     "value": [
@@ -113,5 +117,6 @@
     }
   ],
   "notes": "GDPR (v3 bod 5): uloženy jen profesní investiční údaje; kapitál neuváděn (osobní údaj). Investuje osobně, přes Jinej fond (společně s J. Slámou) a je členem klubu Garage Angels (v DB jako garageangels); Jinej fond ani Garage Angels nejsou jeho výhradní vozidlo, proto záznam osoby, ne E8. Starší dealy mimo okno: Dishboard (cc.cz 2023-10-16, těsně před 2023-10-22), Myco 2022, Kiwi.com. Nejisté: zda TasteTown/HTG (Jinej fond) počítat jako jeho osobní investice; i bez nich splňuje I3 (Elredo + FaceUp, oba po 2023-10-22). Tiket je z roku 2020 a platí pro Jinej fond. Lupa (VR Life, 2026-02-23) ho uvádí jen v seznamu členů Garage Angels, ne jako investora konkrétního kola.",
-  "phase": 3
+  "phase": 3,
+  "corrections_applied": 1
 }

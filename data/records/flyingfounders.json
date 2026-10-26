@@ -31,7 +31,8 @@
   },
   "stages": {
     "value": [
-      "growth"
+      "growth",
+      "buyout"
     ],
     "value_text": "růstový kapitál / odkup podílů ve firmách s trakcí (ARR €100k–€2m); konkrétní fáze nedeklarována",
     "source_url": "https://czechstartups.gov.cz/?investori=flying-founders",
@@ -92,5 +93,5 @@
   ],
   "notes": "Typ: CzechStartups ho nazývá 'investiční fond', ale jde o s.r.o. dvou podnikatelů (společníci Trantor, s.r.o. – SK a Onsight Partners s.r.o. – CZ dle ARES VR) investující vlastní kapitál bez externích LP – zvoleno private_investor; alternativně vc. country = CZ podle české s.r.o. a jednatele; zakladatelé jsou Slováci (Truban je slovenský poslanec) – skutečné sídlo týmu nejisté. Datum Tolgee = datum článku (Caplight uvádí 8/2024). Tiny Empires je newsletter/mediální byznys, zdroj je vlastní příspěvek prodávané firmy (tier B s výhradou). Web uvádí ve 'portfoliu' i dřívější firmy zakladatelů (Websupport, Billdu, ROI Hunter, Nicereply, Outfindo) – ty nejsou investicemi vozidla. Kapitál nezveřejněn. Žádné instrukce pro AI nenalezeny.",
   "phase": 2,
-  "corrections_applied": 1
+  "corrections_applied": 2
 }

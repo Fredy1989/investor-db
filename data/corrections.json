@@ -1177,5 +1177,38 @@
     "reason": "'AKTIVA €1100 mil.' = aktiva celé skupiny vč. nemovitostí, ne investiční kapitál (slepý ověřovatel)",
     "proposed_by": "blind_verifier_v3",
     "decided_by": "orchestrator"
+  },
+  {
+    "id": "flyingfounders",
+    "op": "set",
+    "path": "stages.value",
+    "value": [
+      "growth",
+      "buyout"
+    ],
+    "reason": "ruční kontrola: zdroj (CzechStartups) říká 'formou růstového kapitálu nebo odkupu podílů' → chyběl buyout (Tiny Empires = akvizice)",
+    "proposed_by": "manual_check_vitalij",
+    "decided_by": "orchestrator"
+  },
+  {
+    "id": "hlavenka",
+    "op": "set",
+    "path": "sectors",
+    "value": {
+      "value": [
+        "saas_b2b",
+        "ai"
+      ],
+      "value_text": "B2B software / AI – doplněno při ruční kontrole (Vitalij); odpovídá jeho doloženým investicím (Elredo, FaceUp)",
+      "source_url": "https://cc.cz/",
+      "source_date": "undated",
+      "accessed": "2026-10-24",
+      "quote": null,
+      "derived_from": "investment_evidence",
+      "source_tier": "B"
+    },
+    "reason": "ruční kontrola: sektor veřejně dohledatelný, AI ho nechala prázdný (null_missed)",
+    "proposed_by": "manual_check_vitalij",
+    "decided_by": "orchestrator"
   }
 ]
