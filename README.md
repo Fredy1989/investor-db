@@ -10,13 +10,19 @@ U každého údaje je odkaz na veřejný zdroj, ze kterého pochází.
 
 ## Výsledek v kostce
 
-| | |
+| oblast | výsledek |
 |---|---|
 | **Databáze** | 43 investorů: 25 VC fondů, 5 investičních skupin podnikatelů, 4 korporátní fondy, 3 private equity, 3 andělé, 2 family office, 1 andělský syndikát |
 | **Vyřazeno** | 28 subjektů, které podle pravidel investory nejsou (crowdfunding, sítě, neaktivní fondy, prodejci investic…) |
 | **Přesnost** | ruční kontrola dvou náhodných vzorků (12 investorů): **49 z 51 ověřitelných údajů odpovídá zdroji (96 %)**; na „čistém“ vzorku 91 %; nezávislá AI kontrola surových dat: 86–93 % |
 | **Úplnost** | všech 30 investorů z oficiálního katalogu CzechInvest, kteří prošli pravidly, je v databázi. Katalog ale 13 z našich 43 investorů nezná, takže skutečnou úplnost lze odhadnout jen zdola |
 | **Odhad pro celý svět** | 30–50 tis. investorů, náklady na první naplnění **≈ 85–125 tis. EUR** |
+
+**Kde začít:**
+- 📊 [**Databáze investorů (Excel)**](data/Databaze_investoru.xlsx): jeden řádek = jeden investor, klik na hodnotu otevře zdroj
+- 📋 [**ODEVZDANI.md**](ODEVZDANI.md): odpovědi na všechny body zadání, včetně placených databází a jejich cen
+- 📐 [**PLAN.md**](PLAN.md): kdo do databáze patří a kdo ne, jak se to ověřuje, kolik investorů lze získat
+- 📈 [**RESULTS.md**](RESULTS.md): podrobné výsledky, měření přesnosti a odhad nákladů
 
 ### Ukázka databáze (10 ze 43 investorů)
 
@@ -35,11 +41,6 @@ Každá hodnota je odkaz na zdroj, ze kterého pochází. Celá databáze je v [
 | [QQ Capital](https://www.qq.capital/) | family office | [B2B software](https://www.qq.capital/) | [seed, série A, série B+, růstová fáze](https://www.qq.capital/) | neuvedeno | neuvedeno | [Navigara (6. 3. 2026)](https://pulse2.com/navigara-2-5-million-raised-for-engineering-performance-measurement-platform/amp/) |
 | [Lumus Investment](https://www.lumusinvestment.com/) | andělský syndikát | [bez omezení oboru](https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/) | [pre-seed, seed](https://cc.cz/jak-prilakat-k-investovani-do-startupu-vice-zen-ctyri-slovenky-sdruzuji-uz-250-andelskych-investorek-z-celeho-regionu/) | neuvedeno | neuvedeno | [Kardi AI (28. 4. 2025)](https://tech.eu/2025/04/28/czech-medtech-kardi-ai-raises-1-1m-to-expand-heart-monitoring-tech/) |
 
-**Kde začít:**
-- 📊 [**Databáze investorů (Excel)**](data/Databaze_investoru.xlsx): jeden řádek = jeden investor, klik na hodnotu otevře zdroj
-- 📋 [**ODEVZDANI.md**](ODEVZDANI.md): odpovědi na všechny body zadání, včetně placených databází a jejich cen
-- 📐 [**PLAN.md**](PLAN.md): kdo do databáze patří a kdo ne, jak se to ověřuje, kolik investorů lze získat
-- 📈 [**RESULTS.md**](RESULTS.md): podrobné výsledky, měření přesnosti a odhad nákladů
 
 ---
 
@@ -70,7 +71,8 @@ Všechny exporty jsem pak předal agentům k analýze, aby byl výsledek co nejp
 | 2 | kandidáti z oficiálního katalogu CzechInvest a registru ČNB | +14 investorů; zjištění, že první kolo jich třetinu přehlédlo |
 | 3 | doplnění dalších typů ze zadání: private equity, family office, andělé | +7 investorů |
 
-Nakonec jsem **ručně zkontroloval náhodný vzorek**: 6 investorů × 5 údajů, každý proti zdroji.
+Nakonec jsem **ručně zkontroloval dva náhodné vzorky** po 6 investorech (každý údaj proti zdroji). Ve druhém jsem
+našel 3 chyby, které AI kontrola přehlédla, a jsou opravené.
 
 ---
 
